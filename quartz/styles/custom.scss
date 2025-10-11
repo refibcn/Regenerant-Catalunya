@@ -772,19 +772,19 @@ article[data-slug="index"] {
     
     @media (min-width: 768px) {
       // Push image beyond the normal margin
-      margin-right: -4rem;
-      margin-left: 2rem;
+      margin-right: -8rem;
+      margin-left: 3rem;
     }
     
     img {
-      width: 120%;
-      max-width: 120%;
+      width: 135%;
+      max-width: 135%;
       border-radius: 0;
       object-fit: cover;
-      transform: rotate(2deg);
+      transform: rotate(-2deg);
       
       @media (min-width: 768px) {
-        transform: rotate(3deg);
+        transform: rotate(-4deg);
       }
     }
   }
