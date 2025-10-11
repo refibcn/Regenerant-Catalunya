@@ -651,6 +651,15 @@ html {
 }
 
 // ============================================
+// LINK PREVIEW POPOVERS (Green Borders)
+// ============================================
+
+.popover > .popover-inner {
+  border: 2px solid var(--green-dark) !important;
+  box-shadow: 6px 6px 36px 0 rgba(33, 64, 51, 0.25);
+}
+
+// ============================================
 // UTILITY: Sidebar Toggle (Frontmatter-based)
 // ============================================
 
