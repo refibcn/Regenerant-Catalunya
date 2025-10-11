@@ -517,17 +517,18 @@ button,
 // ============================================
 
 footer {
-  // Container matching top bar style
+  // Container matching top bar style with proper alignment
+  max-width: 750px;
+  margin: 4rem auto 0.5rem; // Top margin for spacing, bottom margin matches top bar's top margin
+  padding: 3rem 2rem;
   border: 2px solid var(--green-dark);
-  border-bottom: 3px solid var(--green-dark); // Thicker bottom like top bar has thicker top
-  border-top: 3px solid var(--green-dark);
-  padding: 2rem 1rem;
-  margin: 4rem -1rem 0;
+  border-bottom: 2px solid var(--green-dark);
+  border-top: 2px solid var(--green-dark);
   background: var(--light);
+  box-sizing: border-box;
   
-  @media (min-width: 640px) {
-    padding: 3rem 2rem;
-    margin: 4rem -2rem 0;
+  @media (max-width: 639px) {
+    padding: 2rem 1rem;
   }
   
   // Logo container
@@ -539,6 +540,8 @@ footer {
       height: 6rem;
       width: 6rem;
       display: inline-block;
+      opacity: 1; // Ensure full opacity
+      filter: none; // Remove any filters
     }
   }
   
@@ -550,7 +553,7 @@ footer {
     ul {
       display: flex;
       justify-content: center;
-      gap: 1rem;
+      gap: 1.5rem;
       flex-wrap: wrap;
       list-style: none;
       padding: 0;
@@ -562,7 +565,7 @@ footer {
     }
     
     a {
-      color: var(--green-medium);
+      color: var(--green-dark); // Darker green for links
       text-decoration: none;
       font-weight: 500;
       
@@ -576,14 +579,15 @@ footer {
   .footer-copyright {
     text-align: center;
     font-size: 0.875rem;
-    color: var(--gray);
+    color: var(--green-dark); // Darker green for copyright text
     
     p {
       margin: 0;
+      color: var(--green-dark);
     }
     
     a {
-      color: var(--green-medium);
+      color: var(--green-dark); // Darker green for links
       text-decoration: none;
       font-weight: 500;
       
