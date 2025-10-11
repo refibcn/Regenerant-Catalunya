@@ -14,6 +14,12 @@
   --brand-forest: #214033;
   --brand-navy: #092045;
   --brand-sand: #E6DFD7;
+  
+  // Green variants for monochromatic scheme (harmonious progression)
+  --green-dark: #214033;      // Forest green (main) - existing brand color
+  --green-medium: #3A6655;    // Medium green (links) - 35% lightness
+  --green-light: #568F79;     // Light green (hover states) - 50% lightness
+  --green-highlight: rgba(33, 64, 51, 0.15);  // Transparent green for backgrounds
 }
 
 // ============================================
@@ -68,7 +74,7 @@ header {
   max-width: 750px;
   margin-top: 0.5rem;
   border: 2px solid var(--brand-forest);
-  border-top: 3px solid var(--brand-forest);
+  border-top: 2px solid var(--brand-forest);
   padding: 0.75rem 1rem;
   display: flex;
   align-items: center;
@@ -90,7 +96,7 @@ header .page-title {
     border-bottom: none;
     
     &:hover {
-      color: var(--brand-purple);
+      color: var(--green-light);
     }
   }
 }
@@ -218,22 +224,22 @@ ul, ol {
 // ============================================
 
 a {
-  color: var(--brand-purple);
+  color: var(--green-medium);
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: all 0.2s ease;
   
   &:hover {
-    color: var(--brand-orange);
-    border-bottom-color: var(--brand-orange);
+    color: var(--green-light);
+    border-bottom-color: var(--green-light);
   }
   
   &:visited {
-    color: var(--brand-purple-light);
+    color: var(--green-dark);
   }
   
   &:focus-visible {
-    outline: 2px solid var(--brand-purple);
+    outline: 2px solid var(--green-medium);
     outline-offset: 2px;
   }
 }
@@ -355,17 +361,17 @@ code {
 button,
 .button,
 .button-primary {
-  background: var(--brand-purple);
+  background: var(--green-dark);
   color: var(--light);
   padding: 0.75rem 1.5rem;
-  border: 1px solid var(--brand-purple);
+  border: 1px solid var(--green-dark);
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
   
   &:hover {
-    background: var(--brand-orange);
-    border-color: var(--brand-orange);
+    background: var(--green-medium);
+    border-color: var(--green-medium);
     transform: translateY(-1px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
@@ -380,7 +386,7 @@ button,
 // ============================================
 
 .breadcrumbs {
-  color: var(--brand-purple);
+  color: var(--green-dark);
   opacity: 0.85;
   font-size: 0.875rem;
   
@@ -388,7 +394,7 @@ button,
     border-bottom: none;
     
     &:hover {
-      color: var(--brand-orange);
+      color: var(--green-light);
     }
   }
 }
@@ -399,18 +405,18 @@ button,
 
 .tags {
   a {
-    background: rgba(107, 78, 163, 0.1);
-    color: var(--brand-purple);
+    background: var(--green-highlight);
+    color: var(--green-dark);
     padding: 0.25rem 0.75rem;
-    border: 1px solid var(--brand-purple);
-    border-bottom: 1px solid var(--brand-purple);
+    border: 1px solid var(--green-dark);
+    border-bottom: 1px solid var(--green-dark);
     font-size: 0.875rem;
     transition: all 0.2s ease;
     
     &:hover {
-      background: var(--brand-purple);
+      background: var(--green-dark);
       color: var(--light);
-      border-color: var(--brand-purple);
+      border-color: var(--green-dark);
     }
   }
 }
@@ -431,8 +437,8 @@ button,
     transition: all 0.2s ease;
     
     &:focus {
-      border-color: var(--brand-purple);
-      box-shadow: 0 0 0 3px rgba(107, 78, 163, 0.1);
+      border-color: var(--green-medium);
+      box-shadow: 0 0 0 3px var(--green-highlight);
       outline: none;
     }
   }
@@ -451,7 +457,7 @@ button,
     transition: all 0.2s ease;
     
     &:hover {
-      background: rgba(107, 78, 163, 0.05);
+      background: var(--green-highlight);
     }
   }
 }
@@ -485,7 +491,7 @@ button,
   margin-top: 2rem;
   
   h3 {
-    color: var(--brand-purple);
+    color: var(--green-dark);
   }
 }
 
@@ -514,12 +520,22 @@ footer {
   border-top: 3px solid var(--brand-forest);
   padding-top: 2rem;
   margin-top: 4rem;
+  margin-bottom: 2rem;
+  
+  ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
   
   a {
-    color: var(--brand-purple);
+    color: var(--green-medium);
+    font-weight: 500;
     
     &:hover {
-      color: var(--brand-orange);
+      color: var(--green-light);
     }
   }
 }
