@@ -1,40 +1,117 @@
 @use "../../styles/variables.scss" as *;
 
+// ============================================
+// Folder Listing Container - Polished Design
+// ============================================
+.page-listing {
+  border: 2px solid var(--section-accent, var(--green-dark));
+  padding: 1.5rem 1.5rem;
+  margin: 2rem 0 0.5rem 0;
+  background: var(--light);
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  @media (min-width: 640px) {
+    padding: 1.75rem 2rem;
+  }
+  
+  // Folder count text - smaller, subtle
+  & > p {
+    font-size: 0.85rem;
+    color: var(--gray);
+    margin: 0 0 1rem 0;
+    font-weight: 500;
+  }
+}
+
 ul.section-ul {
   list-style: none;
-  margin-top: 2em;
+  margin-top: 0;
   padding-left: 0;
 }
 
 li.section-li {
-  margin-bottom: 1em;
+  margin-bottom: 0.85rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--lightgray);
+  
+  &:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
 
   & > .section {
     display: grid;
-    grid-template-columns: fit-content(8em) 3fr 1fr;
+    grid-template-columns: 1fr auto;
+    gap: 1rem;
+    align-items: start;
 
     @media all and ($mobile) {
+      grid-template-columns: 1fr;
+      
       & > .tags {
         display: none;
       }
     }
 
-    & > .desc > h3 > a {
-      background-color: transparent;
+    & > .desc {
+      & > h3 {
+        margin: 0 0 0.15rem 0;
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.3;
+        
+        & > a {
+          background-color: transparent;
+          color: var(--section-accent-light, var(--green-medium));
+          text-decoration: none;
+          
+          &:hover {
+            color: var(--section-accent-lighter, var(--green-light));
+          }
+        }
+      }
+      
+      & > p {
+        margin: 0;
+        font-size: 0.9rem;
+        color: var(--gray);
+        line-height: 1.4;
+      }
     }
 
     & .meta {
-      margin: 0 1em 0 0;
+      margin: 0;
+      font-size: 0.85rem;
       opacity: 0.6;
+      white-space: nowrap;
+      
+      @media all and ($mobile) {
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+      }
+    }
+    
+    & > .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
     }
   }
 }
 
 // modifications in popover context
 .popover .section {
-  grid-template-columns: fit-content(8em) 1fr !important;
+  grid-template-columns: 1fr !important;
 
   & > .tags {
+    display: none;
+  }
+  
+  & .meta {
     display: none;
   }
 }

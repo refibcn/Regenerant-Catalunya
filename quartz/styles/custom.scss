@@ -731,7 +731,7 @@ button,
 footer {
   // Container matching top bar style with proper alignment
   max-width: 750px;
-  margin: 4rem auto 0.5rem; // Top margin for spacing, bottom margin matches top bar's top margin
+  margin: 2rem auto 0.5rem; // Closer to content, bottom margin matches top bar's top margin
   padding: 3rem 2rem;
   border: 2px solid var(--green-dark);
   border-bottom: 2px solid var(--green-dark);
