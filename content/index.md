@@ -68,36 +68,32 @@ description: "A collaborative funding round uniting Catalan initiatives with mat
   </div>
 </div>
 
-<div class="section-standard">
-  <div class="section-content-wide">
-    <h2 class="section-title">Who's Participating</h2>
-    
-    <div class="two-col-grid">
-      <div>
-        <p style="font-weight: 600; margin-bottom: 0.25rem;">🌍 Local Partners</p>
-        <p style="color: var(--darkgray); margin-top: 0.25rem;">Seed the pool with their own contributions.</p>
-        <div class="logo-grid">
-          <img src="/static/local-partner-m.png" alt="Miceli Social" />
-          <img src="/static/local-partner-f.png" alt="La Fundició" />
-        </div>
-      </div>
-      
-      <div>
-        <p style="font-weight: 600; margin-bottom: 0.25rem;">💶 Global Sponsors</p>
-        <p style="color: var(--darkgray); margin-top: 0.25rem;">Match local funds to multiply impact.</p>
-        <div class="logo-grid">
-          <img src="/static/global-sponsor-g.png" alt="Gitcoin" />
-          <img src="/static/global-sponsor-celo.png" alt="Celo" />
-          <img src="/static/global-sponsor-eth.png" alt="Ethereum Foundation" />
-        </div>
+## Who's Participating
+
+<div class="section-content-wide">
+  <div class="two-col-grid">
+    <div>
+      <p style="font-weight: 600; margin-bottom: 0.25rem;">🌍 Local Partners</p>
+      <p style="color: var(--darkgray); margin-top: 0.25rem;">Seed the pool with their own contributions.</p>
+      <div class="logo-grid">
+        <img src="/static/local-partner-m.png" alt="Miceli Social" />
+        <img src="/static/local-partner-f.png" alt="La Fundició" />
       </div>
     </div>
-    
-    <div style="margin-top: 3rem;">
-      <p style="font-weight: 600; margin-bottom: 0.25rem;">🌱 Regenerative Projects</p>
-      <p style="color: var(--darkgray); margin-top: 0.25rem;">Frontline initiatives who receive direct support.</p>
-      <p style="color: var(--gray); font-style: italic; margin-top: 0.25rem;">To be announced soon!</p>
+    <div>
+      <p style="font-weight: 600; margin-bottom: 0.25rem;">💶 Global Sponsors</p>
+      <p style="color: var(--darkgray); margin-top: 0.25rem;">Match local funds to multiply impact.</p>
+      <div class="logo-grid">
+        <img src="/static/global-sponsor-g.png" alt="Gitcoin" />
+        <img src="/static/global-sponsor-celo.png" alt="Celo" />
+        <img src="/static/global-sponsor-eth.png" alt="Ethereum Foundation" />
+      </div>
     </div>
+  </div>
+  <div style="margin-top: 3rem;">
+    <p style="font-weight: 600; margin-bottom: 0.25rem;">🌱 Regenerative Projects</p>
+    <p style="color: var(--darkgray); margin-top: 0.25rem;">Frontline initiatives who receive direct support.</p>
+    <p style="color: var(--gray); font-style: italic; margin-top: 0.25rem;">To be announced soon!</p>
   </div>
 </div>
 
