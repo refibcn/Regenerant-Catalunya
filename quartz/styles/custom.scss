@@ -66,12 +66,13 @@ body {
 header {
   position: fixed;
   top: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 1.5rem;
+  right: 1.5rem;
+  transform: none;
   z-index: 100;
   background-color: var(--light);
-  width: calc(100% - 4rem);
-  max-width: 750px;
+  width: auto;
+  max-width: none;
   margin-top: 0.5rem;
   border: 2px solid var(--brand-forest);
   border-top: 2px solid var(--brand-forest);
@@ -229,8 +230,8 @@ header .search button p {
     .nav-links {
       position: absolute;
       top: 100%;
-      left: 0;
-      right: 0;
+      left: 1.5rem;
+      right: 1.5rem;
       flex-direction: column;
       background: var(--light);
       border: 2px solid var(--green-dark);
