@@ -30,7 +30,7 @@
 // ============================================
 
 body {
-  padding-top: 50px; // Account for fixed header
+  padding-top: 60px; // Account for fixed header
   background-color: var(--light);
   font-size: 1.125rem;
   line-height: 1.7;
@@ -38,6 +38,19 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
+}
+
+// PAGE-LEVEL WIDTH CONSTRAINTS
+.page {
+  max-width: 750px !important;
+  margin: 0 auto !important;
+  padding: 0 2rem !important;
+}
+
+#quartz-body {
+  max-width: 750px !important;
+  margin: 0 auto !important;
+  padding: 0 2rem !important;
 }
 
 // ============================================
@@ -51,7 +64,7 @@ header {
   transform: translateX(-50%);
   z-index: 100;
   background-color: var(--light);
-  width: calc(100% - 2rem);
+  width: calc(100% - 4rem);
   max-width: 750px;
   margin-top: 0.5rem;
   border: 2px solid var(--brand-forest);
@@ -150,8 +163,8 @@ header .search button p {
   width: 100%;
   max-width: 750px;
   margin: 0 auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0;
+  padding-right: 0;
   padding-top: 1rem;
   padding-bottom: 2rem;
   box-sizing: border-box;
