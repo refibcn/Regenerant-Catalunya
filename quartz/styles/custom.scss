@@ -688,6 +688,7 @@ body.show-sidebars {
 
 // Hide header anchor links on index page only
 article[data-slug="index"] {
+  // Hide all anchor-related elements
   .anchor-icon,
   a.internal.alias,
   a.internal,
@@ -698,6 +699,11 @@ article[data-slug="index"] {
   h5 a,
   h6 a {
     display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+    pointer-events: none !important;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -705,13 +711,23 @@ article[data-slug="index"] {
     &::after {
       display: none !important;
       content: none !important;
+      visibility: hidden !important;
     }
     
     // Remove pointer cursor on headers
     cursor: default !important;
     
-    svg {
+    // Hide all child links and SVGs
+    a,
+    svg,
+    .anchor,
+    [class*="anchor"] {
       display: none !important;
+      visibility: hidden !important;
+      opacity: 0 !important;
+      width: 0 !important;
+      height: 0 !important;
+      pointer-events: none !important;
     }
   }
   
