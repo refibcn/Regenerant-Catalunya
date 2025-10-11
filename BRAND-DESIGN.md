@@ -37,23 +37,40 @@ Warm Sand:     #E6DFD7  /* Background */
 Midnight Navy: #092045  /* Text, contrast */
 ```
 
-### Brand Accent Colors
+### Monochromatic Green Palette (Primary UI)
+
+The site uses a harmonious monochromatic green color scheme for all interactive elements and UI:
+
 ```css
-Activist Purple:      #6B4EA3  /* Primary links, institutional */
-Purple Light:         #8B6EC3  /* Hover states, visited links */
+Green Dark:      #214033  /* Main text, buttons, primary UI - Forest green */
+Green Medium:    #3A6655  /* Links, interactive elements - 35% lightness */
+Green Light:     #568F79  /* Hover states, accents - 50% lightness */
+Green Highlight: rgba(33, 64, 51, 0.15)  /* Transparent backgrounds */
+```
+
+**Rationale:** This creates a cohesive, sleek appearance while maintaining the regenerative, earth-connected brand identity.
+
+### Brand Accent Colors (Callouts Only)
+
+```css
+Activist Purple:      #6B4EA3  /* Note/info callouts */
+Purple Light:         #8B6EC3  /* Purple accents */
 Purple Accent:        #9B7ED3  /* Dark mode accent */
 
-Regenerative Orange:  #E67E50  /* Hover, energy, warmth */
-Orange Light:         #F49870  /* Light accents */
+Regenerative Orange:  #E67E50  /* Warning/caution callouts */
+Orange Light:         #F49870  /* Orange accents */
 Orange Accent:        #FFB090  /* Dark mode accent */
 ```
 
+**Note:** Purple and orange are reserved for callout accents only, maintaining visual hierarchy while keeping the main interface monochromatic.
+
 ### Functional Colors
-- **Links (default):** Purple `#6B4EA3`
-- **Links (hover):** Orange `#E67E50`
-- **Links (visited):** Light Purple `#8B6EC3`
-- **Highlights:** Purple wash `rgba(107, 78, 163, 0.15)`
-- **Selection:** Purple `rgba(107, 78, 163, 0.25)`
+- **Links (default):** Green Medium `#3A6655`
+- **Links (hover):** Green Light `#568F79`
+- **Links (visited):** Green Dark `#214033`
+- **Highlights:** Green wash `rgba(33, 64, 51, 0.15)`
+- **Buttons:** Green Dark `#214033` → Green Medium on hover
+- **Tags:** Green Dark `#214033` with Green Highlight background
 
 ### Dark Mode Palette
 ```css
@@ -68,14 +85,14 @@ Orange:        #FFB090  /* Lighter for readability */
 
 ## Typography
 
-Inspired by [Clyde Built Radio](https://www.clydebuiltradio.com/)'s brutalist aesthetic.
+Unified, harmonious font family for maximum readability and sleek design.
 
 ### Font Stack
-- **Headers:** Space Grotesk (700 Bold, 600 Semi-bold) - Geometric, brutalist sans-serif with industrial feel
-- **Body:** Inter (400 Regular, 500 Medium) - Clean, highly readable
+- **Headers:** Inter (700 Bold, 600 Semi-bold) - Clean, unified with body text
+- **Body:** Inter (400 Regular, 500 Medium) - Highly readable, professional
 - **Code:** IBM Plex Mono - Brutalist monospace font
 
-**Space Grotesk** is an open-source geometric sans-serif that captures the minimalist, editorial aesthetic of brutalist web design. Its clean letterforms with straight edges complement the no-border-radius design perfectly.
+**Inter** is used throughout for a cohesive, harmonious reading experience. Its excellent readability at all sizes and professional appearance make it perfect for documentation and knowledge bases.
 
 ### Type Scale
 ```css
