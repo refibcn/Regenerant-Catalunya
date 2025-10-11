@@ -32,8 +32,8 @@ ul.section-ul {
 }
 
 li.section-li {
-  margin-bottom: 0.85rem;
-  padding-bottom: 0.85rem;
+  margin-bottom: 0.7rem;
+  padding-bottom: 0.7rem;
   border-bottom: 1px solid var(--lightgray);
   
   &:last-child {
@@ -58,10 +58,10 @@ li.section-li {
 
     & > .desc {
       & > h3 {
-        margin: 0 0 0.15rem 0;
+        margin: 0 0 0.1rem 0;
         font-size: 1rem;
         font-weight: 600;
-        line-height: 1.3;
+        line-height: 1.2;
         
         & > a {
           background-color: transparent;
@@ -78,7 +78,7 @@ li.section-li {
         margin: 0;
         font-size: 0.9rem;
         color: var(--gray);
-        line-height: 1.4;
+        line-height: 1.3;
       }
     }
 
