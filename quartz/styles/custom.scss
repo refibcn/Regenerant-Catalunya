@@ -565,12 +565,12 @@ footer {
     }
     
     a {
-      color: var(--green-dark); // Darker green for links
+      color: var(--green-dark) !important; // Darker green #214033
       text-decoration: none;
       font-weight: 500;
       
       &:hover {
-        color: var(--green-light);
+        color: var(--green-light) !important;
       }
     }
   }
@@ -579,20 +579,20 @@ footer {
   .footer-copyright {
     text-align: center;
     font-size: 0.875rem;
-    color: var(--green-dark); // Darker green for copyright text
+    color: var(--green-dark) !important; // Darker green #214033
     
     p {
       margin: 0;
-      color: var(--green-dark);
+      color: var(--green-dark) !important;
     }
     
     a {
-      color: var(--green-dark); // Darker green for links
+      color: var(--green-dark) !important; // Darker green #214033
       text-decoration: none;
       font-weight: 500;
       
       &:hover {
-        color: var(--green-light);
+        color: var(--green-light) !important;
       }
     }
   }
