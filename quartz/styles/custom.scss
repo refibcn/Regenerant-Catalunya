@@ -520,7 +520,7 @@ footer {
   border-top: 3px solid var(--brand-forest);
   padding-top: 2rem;
   margin-top: 4rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   
   ul {
     display: flex;
@@ -839,6 +839,11 @@ article[data-slug="index"] {
   // Remove extra top margin on section titles within containers
   .section-title {
     margin-top: 0;
+  }
+  
+  // Last section container should have no bottom margin
+  &:last-of-type {
+    margin-bottom: 0;
   }
 }
 
