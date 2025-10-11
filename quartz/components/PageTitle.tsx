@@ -4,8 +4,15 @@ import { classNames } from "../util/lang"
 import { i18n } from "../i18n"
 
 const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzComponentProps) => {
-  const title = cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title
-  const baseDir = pathToRoot(fileData.slug!)
+  const slug = fileData.slug || ""
+  const isRegenerant = slug.startsWith("regenerant-catalunya")
+  
+  // Show section-specific title
+  const title = isRegenerant ? "Regenerant Catalunya" : (cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title)
+  
+  // Link to section home or site root
+  const baseDir = isRegenerant ? "/regenerant-catalunya" : "/"
+  
   return (
     <h2 class={classNames(displayClass, "page-title")}>
       <a href={baseDir}>{title}</a>

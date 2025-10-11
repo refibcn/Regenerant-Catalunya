@@ -18,7 +18,6 @@ export default (() => {
             <span></span>
           </button>
           <ul class="nav-links">
-            <li><a href="/regenerant-catalunya">Home</a></li>
             <li><a href="/regenerant-catalunya/about">About</a></li>
             <li><a href="/regenerant-catalunya/program">Program</a></li>
             <li><a href="/regenerant-catalunya/projects">Projects</a></li>
@@ -39,7 +38,6 @@ export default (() => {
           <span></span>
         </button>
         <ul class="nav-links">
-          <li><a href="/">Home</a></li>
           <li><a href="/refibcn/about">About</a></li>
           <li><a href="/refibcn/events">Events</a></li>
           <li><a href="/refibcn/ecosystem">Ecosystem</a></li>
