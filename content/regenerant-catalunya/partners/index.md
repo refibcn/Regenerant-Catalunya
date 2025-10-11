@@ -90,7 +90,7 @@ This collaboration embodies the **cosmo-local** approach: knowledge and resource
 
 ### Learn More
 
-- [About the Program](/regenerant/about) - What is Regenerant Catalunya
-- [Participating Projects](/regenerant/projects) - Who we're supporting
-- [Program Details](/regenerant/program) - How the round works
+- [About the Program](/regenerant-catalunya/about) - What is Regenerant Catalunya
+- [Participating Projects](/regenerant-catalunya/projects) - Who we're supporting
+- [Program Details](/regenerant-catalunya/program) - How the round works
 

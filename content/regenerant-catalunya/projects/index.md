@@ -81,7 +81,7 @@ The project scope reflects a broad regeneration definition: from ecological rest
 
 ### Learn More
 
-- [About the Program](/regenerant/about) - What is Regenerant Catalunya
-- [Program Details](/regenerant/program) - How the round works
-- [Partners & Stakeholders](/regenerant/partners) - Who's making this possible
+- [About the Program](/regenerant-catalunya/about) - What is Regenerant Catalunya
+- [Program Details](/regenerant-catalunya/program) - How the round works
+- [Partners & Stakeholders](/regenerant-catalunya/partners) - Who's making this possible
 

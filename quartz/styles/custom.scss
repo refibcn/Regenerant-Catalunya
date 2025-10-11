@@ -34,7 +34,7 @@
 
 // Regenerant Catalunya - Green accent
 .navigation.regenerant,
-article[data-slug^="regenerant"] {
+article[data-slug^="regenerant-catalunya"] {
   --section-accent: var(--green-dark);
   --section-accent-light: var(--green-medium);
   --section-accent-lighter: var(--green-light);
@@ -68,7 +68,7 @@ article[data-slug^="refibcn"] {
 }
 
 // Apply section accent colors to content
-article[data-slug^="regenerant"],
+article[data-slug^="regenerant-catalunya"],
 article[data-slug^="refibcn"] {
   a {
     color: var(--section-accent-light);
