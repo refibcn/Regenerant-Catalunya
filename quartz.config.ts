@@ -8,8 +8,8 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "Regenerant Catalunya",
+    pageTitleSuffix: " | GG24",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -23,32 +23,32 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Sora",
+        body: "Inter",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#E6DFD7",           // warm sand background
+          lightgray: "#D8D0C8",        // slightly darker
+          gray: "#8F9A9E",             // subtle gray
+          darkgray: "#214033",         // forest green
+          dark: "#092045",             // midnight navy
+          secondary: "#6B4EA3",        // activist purple
+          tertiary: "#E67E50",         // regenerative orange
+          highlight: "rgba(107, 78, 163, 0.15)",
+          textHighlight: "#FFB09055",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#0F1A1A",            // very dark forest
+          lightgray: "#1A2828",        // light surface
+          gray: "#6B7F7F",             // muted gray
+          darkgray: "#B8C5C5",         // light gray
+          dark: "#E6DFD7",             // warm sand text
+          secondary: "#9B7ED3",        // lighter purple
+          tertiary: "#FFB090",         // lighter orange
+          highlight: "rgba(155, 126, 211, 0.15)",
+          textHighlight: "#FFB09033",
         },
       },
     },
