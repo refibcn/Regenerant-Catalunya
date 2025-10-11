@@ -22,11 +22,11 @@ const config: QuartzConfig = {
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
-      typography: {
-        header: "Sora",
-        body: "Inter",
-        code: "JetBrains Mono",
-      },
+    typography: {
+      header: "Space Grotesk",
+      body: "Inter",
+      code: "IBM Plex Mono",
+    },
       colors: {
         lightMode: {
           light: "#E6DFD7",           // warm sand background
