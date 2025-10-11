@@ -781,11 +781,6 @@ article[data-slug="index"] {
       max-width: 135%;
       border-radius: 0;
       object-fit: cover;
-      transform: rotate(-2deg);
-      
-      @media (min-width: 768px) {
-        transform: rotate(-4deg);
-      }
     }
   }
   
