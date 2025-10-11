@@ -47,13 +47,13 @@ body {
 header {
   position: fixed;
   top: 0;
-  left: 0;
-  right: 0;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 100;
   background-color: var(--light);
-  width: 100%;
+  width: calc(100% - 2rem);
   max-width: 750px;
-  margin: 0.5rem auto 0;
+  margin-top: 0.5rem;
   border: 2px solid var(--brand-forest);
   border-top: 3px solid var(--brand-forest);
   padding: 0.75rem 1rem;
@@ -61,6 +61,7 @@ header {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+  box-sizing: border-box;
 }
 
 // Page title in header
@@ -147,10 +148,10 @@ header .search button p {
 .center {
   grid-column: 1 / 4 !important;
   width: 100%;
-  max-width: 900px;
+  max-width: 750px;
   margin: 0 auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   padding-top: 1rem;
   padding-bottom: 2rem;
   box-sizing: border-box;
