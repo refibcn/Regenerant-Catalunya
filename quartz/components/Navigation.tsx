@@ -13,8 +13,10 @@ export default (() => {
         </button>
         <ul class="nav-links">
           <li><a href="/">Home</a></li>
-          <li><a href="/master-document">About</a></li>
+          <li><a href="/about">About</a></li>
           <li><a href="/program">Program</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/partners">Partners</a></li>
           <li><a href="/updates">Updates</a></li>
           <li><a href="mailto:hola@refibcn.cat">Contact</a></li>
         </ul>
