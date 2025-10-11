@@ -204,3 +204,5 @@ baseUrl: "regenerant.refibcn.cat"
 **Last Updated:** October 11, 2025  
 **Status:** Ready to deploy! Just follow Step 1-4 above.
 
+
+
