@@ -1,15 +1,25 @@
 # ReFi BCN Brand Design - Regenerant Catalunya
+## Toolkit Style (Local ReFi Inspired)
 
 **Implementation Date:** October 11, 2025  
+**Last Updated:** October 11, 2025 (Toolkit Style)  
 **Status:** ✅ Complete  
 **Repository:** https://github.com/refibcn/Regenerant-Catalunya.git
 
 ---
 
-## Brand Identity
+## Design Philosophy
 
 ### Mission
-Bold yet elegant knowledge base for the Regenerant Catalunya GG24 program, balancing institutional professionalism with activist energy.
+Editorial, graphic-forward knowledge base for the Regenerant Catalunya GG24 program with bold visual hierarchy and clean, focused content presentation.
+
+### Inspiration
+Based on the Local ReFi Toolkit design system:
+- Fixed top navigation bar
+- Straight edges (no border-radius)
+- Bold graphic lines (2-3px borders)
+- Hidden sidebars for focused reading
+- Strong typographic hierarchy
 
 ### Target Audiences
 - General public and ReFi newcomers
@@ -80,11 +90,40 @@ Small/Meta: 0.875rem (14px), Medium,   opacity: 0.8
 
 ---
 
+## Key Features (Toolkit Style)
+
+### 1. Fixed Top Bar
+- Position: Fixed at top of viewport
+- Max-width: 900px, centered
+- Border: 2-3px solid forest green
+- Contains: Site title, Search, Dark mode toggle
+- Background: Warm sand
+- Z-index: 100
+
+### 2. Hidden Sidebars by Default
+- Both left and right sidebars hidden
+- Content centered at 900px max-width
+- Clean, focused reading experience
+- Optional: Can be enabled per-page via frontmatter
+
+### 3. Straight Edges Everywhere
+- **Border-radius: 0px on ALL elements**
+- No rounded corners anywhere
+- Clean, editorial aesthetic
+- Graphic, print-inspired design
+
+### 4. Bold Graphic Lines
+- Top bar: 2-3px forest green border
+- Section dividers: 3px forest green
+- Callouts: 2px forest green + 4px color accent
+- Tables: 2px borders
+- Blockquotes: 4px orange left border
+
 ## Visual Elements
 
 ### Cards & Containers
-- Border: `1px solid rgba(33, 64, 51, 0.15)`
-- Border radius: `8px`
+- Border: `2px solid #214033` (forest green)
+- Border radius: `0` (completely straight)
 - Padding: `1.5rem`
 - Hover effect: Subtle lift with shadow `0 4px 12px rgba(33, 64, 51, 0.08)`
 
@@ -163,62 +202,76 @@ Small/Meta: 0.875rem (14px), Medium,   opacity: 0.8
 
 ---
 
-## Design Principles
+## Design Principles (Toolkit Style)
 
-1. **Bold but Breathable**
-   - Strong, confident colors
-   - Ample whitespace for readability
-   - Clear visual hierarchy
+1. **Editorial + Graphic**
+   - Print-inspired layout with straight edges
+   - Bold graphic lines define visual hierarchy
+   - Clean, focused content presentation
+   - No decorative elements (no border-radius)
 
-2. **Institutional + Activist**
+2. **Focused Reading Experience**
+   - Hidden sidebars eliminate distractions
+   - Content centered at optimal reading width (900px)
+   - Fixed top bar provides persistent navigation
+   - Clear typographic hierarchy guides attention
+
+3. **Bold Visual Hierarchy**
+   - 2-3px borders create strong structure
+   - Forest green for structural elements
+   - Purple/orange for interactive states
+   - Color-coded accents for content types
+
+4. **Institutional + Activist**
    - Professional enough for funders
    - Energetic enough to inspire action
    - Credible yet approachable
+   - Strong brand presence
 
-3. **Accessible**
+5. **Accessible**
    - WCAG AA compliant contrast ratios
    - Clear focus states for keyboard navigation
    - Readable font sizes and line heights
+   - Smooth scrolling and animations
 
-4. **Performance**
+6. **Performance**
    - Google Fonts CDN for optimal loading
-   - Minimal custom CSS
-   - Efficient animations
-
-5. **Cohesive**
-   - Consistent color usage across all elements
-   - Typography system scales proportionally
-   - Visual elements follow unified design language
+   - Clean, efficient CSS (no bloat)
+   - Fast page loads with minimal overhead
 
 ---
 
 ## Implementation
 
-### Files Modified
-1. **`quartz.config.ts`** - Color palette, typography, page title
-2. **`quartz.layout.ts`** - Branded footer links
-3. **`quartz/styles/custom.scss`** - Comprehensive component styling
+### Files Modified (Toolkit Style)
+1. **`quartz.config.ts`** - Color palette, typography (Sora + Inter), page title
+2. **`quartz.layout.ts`** - Moved components to header, emptied sidebars, branded footer
+3. **`quartz/styles/custom.scss`** - Complete rewrite with toolkit style (600+ lines)
 
 ### Features Styled
+- ✅ Fixed top navigation bar
+- ✅ Hidden sidebars (left + right)
+- ✅ Centered content layout (900px max-width)
+- ✅ NO border-radius anywhere (straight edges)
+- ✅ Bold graphic lines (2-3px borders)
 - ✅ Typography (body, headings, code)
-- ✅ Links (all states)
-- ✅ Callouts (all types)
-- ✅ Cards and containers
-- ✅ Buttons
-- ✅ Explorer sidebar
-- ✅ Table of contents
+- ✅ Links (purple → orange hover)
+- ✅ Callouts with bold borders + color accents
+- ✅ Buttons (purple → orange transform)
 - ✅ Breadcrumbs
-- ✅ Search interface
-- ✅ Graph view
-- ✅ Tags
-- ✅ Backlinks
-- ✅ Tables
-- ✅ Blockquotes
-- ✅ Code blocks
-- ✅ Horizontal rules
+- ✅ Search interface (fixed positioning)
+- ✅ Graph view (purple nodes, orange links)
+- ✅ Tags (bordered badges)
+- ✅ Backlinks (bold top border)
+- ✅ Tables (2px borders, all edges)
+- ✅ Blockquotes (4px orange accent)
+- ✅ Code blocks (2px borders)
+- ✅ Horizontal rules (3px forest green)
+- ✅ Content meta (bordered)
+- ✅ Footer (bold top border)
 - ✅ Dark mode adjustments
 - ✅ Responsive typography
-- ✅ Focus states
+- ✅ Focus states (accessibility)
 
 ---
 
@@ -287,25 +340,54 @@ Small/Meta: 0.875rem (14px), Medium,   opacity: 0.8
 
 ---
 
+## Sidebar Toggle Feature
+
+### Overview
+Sidebars are hidden by default for a focused reading experience. They can be enabled per-page using frontmatter.
+
+### Implementation Status
+**CSS Ready:** ✅ Styles prepared in `custom.scss`  
+**JS Component:** ⏳ Needs implementation (optional)
+
+### How It Works (When Implemented)
+
+**Add to page frontmatter:**
+```yaml
+---
+title: Page Title
+showSidebars: true
+---
+```
+
+**CSS will handle:**
+- Shows left sidebar (Explorer) and right sidebar (TOC)
+- Adjusts grid layout to 320px-auto-320px
+- Applies borders to visible sidebars
+
+**Current Workaround:**
+Pages without this feature will have clean, centered content by default.
+
+---
+
 ## Future Enhancements
 
 ### Potential Additions
+- [ ] Frontmatter sidebar toggle JS component
 - [ ] Custom favicon with brand colors
 - [ ] Social media preview images
 - [ ] SVG logo for header
 - [ ] Self-hosted fonts (Inter + JetBrains Mono)
-- [ ] Lucide icons integration
 - [ ] Custom 404 page
 - [ ] Print stylesheet
-- [ ] Enhanced animations
+- [ ] Enhanced micro-animations
 
 ### Advanced Styling
-- [ ] Landing page hero section
-- [ ] Featured content cards
+- [ ] Landing page with graphic cards
+- [ ] Featured content sections
 - [ ] Timeline components
 - [ ] Profile cards for team members
-- [ ] Custom navigation menu
-- [ ] Footer enhancement
+- [ ] Custom navigation links in header
+- [ ] Footer enhancement with social links
 
 ---
 
