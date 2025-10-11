@@ -820,6 +820,28 @@ article[data-slug="index"] {
   }
 }
 
+// Section containers with borders (for alternating visual rhythm)
+.section-container {
+  border: 2px solid var(--green-dark);
+  padding: 3rem 1rem;
+  margin: 3rem -1rem;
+  
+  @media (min-width: 640px) {
+    padding: 3rem 2rem;
+    margin: 3rem -2rem;
+  }
+  
+  // Variant with background for alternating sections
+  &.section-container-tinted {
+    background: var(--green-highlight);
+  }
+  
+  // Remove extra top margin on section titles within containers
+  .section-title {
+    margin-top: 0;
+  }
+}
+
 // Standard section spacing
 .section-standard {
   padding: 3rem 0;
