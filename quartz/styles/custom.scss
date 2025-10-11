@@ -123,6 +123,8 @@ header .search button,
 header .darkmode {
   width: 2rem;
   height: 2rem;
+  min-width: 2rem;
+  min-height: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -134,11 +136,14 @@ header .darkmode {
   padding: 0;
   margin: 0;
   font-weight: normal;
+  line-height: 1;
+  box-sizing: border-box;
   
   svg {
     width: 1rem;
     height: 1rem;
     display: block;
+    margin: auto;
   }
 }
 
