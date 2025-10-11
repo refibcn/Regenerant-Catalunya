@@ -3,19 +3,12 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { classNames } from "../util/lang"
 import { i18n } from "../i18n"
 
-const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzComponentProps) => {
-  const slug = fileData.slug || ""
-  const isRegenerant = slug.startsWith("regenerant-catalunya")
-  
-  // Show section-specific title
-  const title = isRegenerant ? "Regenerant Catalunya" : (cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title)
-  
-  // Link to section home or site root
-  const baseDir = isRegenerant ? "/regenerant-catalunya" : "/"
+const PageTitle: QuartzComponent = ({ cfg, displayClass }: QuartzComponentProps) => {
+  const title = "Regenerant Catalunya"
   
   return (
     <h2 class={classNames(displayClass, "page-title")}>
-      <a href={baseDir}>{title}</a>
+      <a href="/">{title}</a>
     </h2>
   )
 }

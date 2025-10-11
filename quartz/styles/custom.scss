@@ -12,83 +12,54 @@
   --brand-orange: #E67E50;
   --brand-orange-light: #F49870;
   --brand-forest: #214033;
-  --brand-navy: #092045;
   --brand-sand: #E6DFD7;
   
-  // Green variants for monochromatic scheme (harmonious progression)
-  --green-dark: #214033;      // Forest green (main) - existing brand color
-  --green-medium: #3A6655;    // Medium green (links) - 35% lightness
-  --green-light: #568F79;     // Light green (hover states) - 50% lightness
+  // Green color scheme (primary)
+  --green-dark: #214033;      // Forest green (main)
+  --green-medium: #3A6655;    // Medium green (links)
+  --green-light: #568F79;     // Light green (hover states)
   --green-highlight: rgba(33, 64, 51, 0.15);  // Transparent green for backgrounds
-  
-  // Blue variants for ReFi BCN section
-  --blue-dark: #092045;       // Dark navy (main)
-  --blue-medium: #1A3A6B;     // Medium blue (links)
-  --blue-light: #2E5491;      // Light blue (hover states)
-  --blue-highlight: rgba(9, 32, 69, 0.15);  // Transparent blue for backgrounds
 }
 
 // ============================================
-// SECTION-SPECIFIC COLOR VARIABLES
+// GLOBAL ACCENT COLORS
 // ============================================
 
-// Regenerant Catalunya - Green accent
-.navigation.regenerant,
-article[data-slug^="regenerant-catalunya"] {
-  --section-accent: var(--green-dark);
-  --section-accent-light: var(--green-medium);
-  --section-accent-lighter: var(--green-light);
-  --section-highlight: var(--green-highlight);
-}
-
-// ReFi BCN - Blue accent
-.navigation.refibcn,
-article[data-slug^="refibcn"] {
-  --section-accent: var(--blue-dark);
-  --section-accent-light: var(--blue-medium);
-  --section-accent-lighter: var(--blue-light);
-  --section-highlight: var(--blue-highlight);
-}
-
-// Apply section accent colors to navigation
-.navigation.regenerant,
-.navigation.refibcn {
-  border-color: var(--section-accent);
+.navigation {
+  border-color: var(--green-dark);
   
   a:hover {
-    color: var(--section-accent-lighter) !important;
+    color: var(--green-light) !important;
   }
   
   button {
-    border-color: var(--section-accent);
+    border-color: var(--green-dark);
     &:hover {
-      background: var(--section-accent);
+      background: var(--green-dark);
     }
   }
 }
 
-// Apply section accent colors to content
-article[data-slug^="regenerant-catalunya"],
-article[data-slug^="refibcn"] {
+article {
   a {
-    color: var(--section-accent-light);
+    color: var(--green-medium);
     &:hover {
-      color: var(--section-accent-lighter);
+      color: var(--green-light);
     }
   }
   
   .cta-button {
     background: var(--light);
-    color: var(--section-accent) !important;
-    border: 2px solid var(--section-accent);
+    color: var(--green-dark) !important;
+    border: 2px solid var(--green-dark);
     
     &:hover {
-      background: var(--section-accent);
+      background: var(--green-dark);
       color: var(--light) !important;
     }
     
     &:visited {
-      color: var(--section-accent) !important;
+      color: var(--green-dark) !important;
     }
     
     &:visited:hover {
@@ -101,11 +72,11 @@ article[data-slug^="refibcn"] {
   }
   
   .section-container {
-    border-color: var(--section-accent);
+    border-color: var(--green-dark);
   }
   
   .popover > .popover-inner {
-    border-color: var(--section-accent) !important;
+    border-color: var(--green-dark) !important;
   }
 }
 
@@ -1278,307 +1249,3 @@ article[data-slug="index"] {
   margin: 0 auto;
 }
 
-// ============================================
-// REFI BCN SPECIFIC STYLES
-// ============================================
-
-// Main landing page styles
-.main-landing {
-  max-width: 750px;
-  margin: 0 auto;
-  padding: 4rem 2rem;
-  
-  @media (max-width: 639px) {
-    padding: 3rem 1rem;
-  }
-  
-  .landing-header {
-    margin-bottom: 4rem;
-  }
-  
-  .landing-sections {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
-    margin-bottom: 3rem;
-    
-    @media (min-width: 640px) {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 2.5rem;
-    }
-  }
-  
-  .section-card {
-    display: block;
-    padding: 2.5rem 2rem;
-    border: 2px solid var(--darkgray);
-    text-decoration: none;
-    transition: all 0.2s ease;
-    
-    &:hover {
-      transform: translateY(-4px);
-      box-shadow: 6px 6px 24px rgba(0, 0, 0, 0.1);
-    }
-    
-    h2 {
-      margin: 0 0 1rem 0;
-      color: var(--darkgray);
-    }
-    
-    p {
-      margin: 0 0 1.5rem 0;
-      color: var(--gray);
-      line-height: 1.6;
-    }
-    
-    .card-link {
-      font-weight: 600;
-      color: var(--darkgray);
-    }
-    
-    &.regenerant-card {
-      border-color: var(--green-dark);
-      
-      .card-link {
-        color: var(--green-dark);
-      }
-      
-      &:hover {
-        border-color: var(--green-medium);
-        .card-link {
-          color: var(--green-medium);
-        }
-      }
-    }
-    
-    &.refibcn-card {
-      border-color: var(--blue-dark);
-      
-      .card-link {
-        color: var(--blue-dark);
-      }
-      
-      &:hover {
-        border-color: var(--blue-medium);
-        .card-link {
-          color: var(--blue-medium);
-        }
-      }
-    }
-  }
-}
-
-// ReFi BCN Hero Section
-.hero-section-refibcn {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2.5rem;
-  align-items: start;
-  margin: 4rem 0;
-  
-  @media (min-width: 768px) {
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    align-items: center;
-  }
-  
-  .hero-content-refibcn {
-    h1 {
-      font-size: 2.5rem;
-      line-height: 1.2;
-      margin-bottom: 2rem;
-      color: var(--darkgray);
-      
-      @media (min-width: 640px) {
-        font-size: 3.5rem;
-      }
-    }
-    
-    h2 {
-      font-size: 2rem;
-      line-height: 1.3;
-      margin-bottom: 1.5rem;
-      color: var(--darkgray);
-      
-      @media (min-width: 640px) {
-        font-size: 2.5rem;
-      }
-    }
-    
-    p {
-      font-size: 1.125rem;
-      line-height: 1.7;
-      color: var(--darkgray);
-      margin-bottom: 1rem;
-      
-      @media (min-width: 640px) {
-        font-size: 1.25rem;
-      }
-    }
-  }
-  
-  .hero-text-refibcn {
-    font-size: 1.125rem;
-    line-height: 1.7;
-    color: var(--darkgray);
-    margin-bottom: 2.5rem;
-    
-    @media (min-width: 640px) {
-      font-size: 1.25rem;
-    }
-  }
-  
-  .hero-image-refibcn {
-    img {
-      width: 100%;
-      max-width: 100%;
-      height: auto;
-      display: block;
-    }
-  }
-  
-  &.ecosystem-section {
-    margin: 5rem 0;
-  }
-}
-
-// Feature Grid (What We Do)
-.feature-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2.5rem;
-  margin: 3rem 0 5rem;
-  
-  @media (min-width: 640px) {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3rem;
-  }
-  
-  @media (min-width: 1024px) {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3.5rem;
-  }
-  
-  .feature-item {
-    dt {
-      font-weight: 600;
-      font-size: 1.125rem;
-      margin-bottom: 0.75rem;
-      color: var(--darkgray);
-    }
-    
-    dd {
-      margin: 0;
-      color: var(--gray);
-      line-height: 1.6;
-    }
-  }
-}
-
-// Callout Section (Regenerant Catalunya highlight)
-.callout-section {
-  background: var(--section-highlight);
-  padding: 3rem 2rem;
-  margin: 4rem -2rem;
-  border: 2px solid var(--section-accent);
-  text-align: center;
-  
-  @media (min-width: 640px) {
-    padding: 4rem 3rem;
-  }
-  
-  h2 {
-    margin-top: 0;
-  }
-  
-  p {
-    max-width: 48rem;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1.125rem;
-    line-height: 1.7;
-  }
-}
-
-// Event Grid (Past Events)
-.event-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 3rem;
-  margin: 3rem 0 5rem;
-  
-  @media (min-width: 640px) {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3.5rem;
-  }
-  
-  .event-item {
-    img {
-      width: 100%;
-      aspect-ratio: 16 / 9;
-      object-fit: cover;
-      margin-bottom: 1.5rem;
-    }
-    
-    h3 {
-      font-size: 1.25rem;
-      margin: 0 0 1rem 0;
-      color: var(--darkgray);
-    }
-    
-    p {
-      margin: 0;
-      color: var(--gray);
-      line-height: 1.6;
-    }
-  }
-}
-
-// Team Grid (About Us)
-.team-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 4rem;
-  margin: 3rem 0 5rem;
-  
-  @media (min-width: 640px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-  @media (min-width: 1024px) {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  
-  .team-member {
-    text-align: center;
-    
-    img {
-      width: 15rem;
-      height: 15rem;
-      object-fit: cover;
-      margin: 0 auto 1.5rem;
-      display: block;
-    }
-    
-    .member-name {
-      font-weight: 600;
-      font-size: 1.125rem;
-      margin: 0 0 0.75rem 0;
-      
-      a {
-        text-decoration: none;
-        
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-    }
-    
-    .member-bio {
-      font-size: 0.875rem;
-      color: var(--gray);
-      line-height: 1.6;
-      margin: 0;
-    }
-  }
-}

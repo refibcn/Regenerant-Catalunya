@@ -4,7 +4,7 @@
 // Folder Listing Container - Polished Design
 // ============================================
 .page-listing {
-  border: 2px solid var(--section-accent, var(--green-dark));
+  border: 2px solid var(--green-dark);
   padding: 1.5rem 1.5rem;
   margin: 2rem 0 0.5rem 0;
   background: var(--light);
@@ -65,11 +65,11 @@ li.section-li {
         
         & > a {
           background-color: transparent;
-          color: var(--section-accent-light, var(--green-medium));
+          color: var(--green-medium);
           text-decoration: none;
           
           &:hover {
-            color: var(--section-accent-lighter, var(--green-light));
+            color: var(--green-light);
           }
         }
       }

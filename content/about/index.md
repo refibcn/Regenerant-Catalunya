@@ -41,8 +41,8 @@ Both the funding pool *and* the activities of Regenerant Catalunya emerged throu
 
 ### Learn More
 
-- [Program Details](/regenerant-catalunya/program) - How the round works
-- [Participating Projects](/regenerant-catalunya/projects) - Who we're supporting
-- [Partners & Stakeholders](/regenerant-catalunya/partners) - Who's making this possible
-- [Master Document](/regenerant-catalunya/master-document) - Comprehensive program documentation
+- [Program Details](/program) - How the round works
+- [Participating Projects](/projects) - Who we're supporting
+- [Partners & Stakeholders](/partners) - Who's making this possible
+- [Master Document](/master-document) - Comprehensive program documentation
 
