@@ -127,19 +127,26 @@ header .darkmode {
   align-items: center;
   justify-content: center;
   background: none;
-  border: 1px solid var(--brand-forest);
+  border: 2px solid var(--green-dark);
   cursor: pointer;
-  color: var(--brand-forest);
+  color: var(--green-dark);
   transition: all 0.2s ease;
   padding: 0;
   margin: 0;
+  font-weight: normal;
+  
+  svg {
+    width: 1rem;
+    height: 1rem;
+    display: block;
+  }
 }
 
 header .search button:hover,
 header .darkmode:hover {
-  background: var(--brand-purple);
+  background: var(--green-dark);
   color: var(--light);
-  border-color: var(--brand-purple);
+  border-color: var(--green-dark);
 }
 
 // Hide search button text
