@@ -13,17 +13,24 @@ export default ((opts?: Options) => {
     const links = opts?.links ?? []
     return (
       <footer class={`${displayClass ?? ""}`}>
-        <p>
-          {i18n(cfg.locale).components.footer.createdWith}{" "}
-          <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
-        </p>
-        <ul>
-          {Object.entries(links).map(([text, link]) => (
-            <li>
-              <a href={link}>{text}</a>
-            </li>
-          ))}
-        </ul>
+        <div class="footer-logo">
+          <img src="/static/ReFiBCN.png" alt="ReFi Barcelona" />
+        </div>
+        <div class="footer-links">
+          <ul>
+            {Object.entries(links).map(([text, link]) => (
+              <li>
+                <a href={link}>{text}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div class="footer-copyright">
+          <p>
+            {i18n(cfg.locale).components.footer.createdWith}{" "}
+            <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
+          </p>
+        </div>
       </footer>
     )
   }

@@ -513,29 +513,83 @@ button,
 }
 
 // ============================================
-// FOOTER
+// FOOTER - Matching Top Bar Style
 // ============================================
 
 footer {
-  border-top: 3px solid var(--brand-forest);
-  padding-top: 2rem;
-  margin-top: 4rem;
-  margin-bottom: 0;
+  // Container matching top bar style
+  border: 2px solid var(--green-dark);
+  border-bottom: 3px solid var(--green-dark); // Thicker bottom like top bar has thicker top
+  border-top: 3px solid var(--green-dark);
+  padding: 2rem 1rem;
+  margin: 4rem -1rem 0;
+  background: var(--light);
   
-  ul {
-    display: flex;
-    gap: 1rem;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  @media (min-width: 640px) {
+    padding: 3rem 2rem;
+    margin: 4rem -2rem 0;
   }
   
-  a {
-    color: var(--green-medium);
-    font-weight: 500;
+  // Logo container
+  .footer-logo {
+    text-align: center;
+    margin-bottom: 1.5rem;
     
-    &:hover {
-      color: var(--green-light);
+    img {
+      height: 6rem;
+      width: 6rem;
+      display: inline-block;
+    }
+  }
+  
+  // Links section
+  .footer-links {
+    text-align: center;
+    margin-bottom: 1rem;
+    
+    ul {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    li {
+      margin: 0;
+    }
+    
+    a {
+      color: var(--green-medium);
+      text-decoration: none;
+      font-weight: 500;
+      
+      &:hover {
+        color: var(--green-light);
+      }
+    }
+  }
+  
+  // Copyright section
+  .footer-copyright {
+    text-align: center;
+    font-size: 0.875rem;
+    color: var(--gray);
+    
+    p {
+      margin: 0;
+    }
+    
+    a {
+      color: var(--green-medium);
+      text-decoration: none;
+      font-weight: 500;
+      
+      &:hover {
+        color: var(--green-light);
+      }
     }
   }
 }
