@@ -1,7 +1,7 @@
 # Custom Domain Setup Guide
-## regenerant.refibcn.cat with Cloudflare
+## regenerant-catalunya.refibcn.cat with Cloudflare
 
-**Domain:** regenerant.refibcn.cat  
+**Domain:** regenerant-catalunya.refibcn.cat  
 **DNS Provider:** Cloudflare  
 **Repository:** https://github.com/refibcn/Regenerant-Catalunya
 
@@ -26,7 +26,7 @@
 
 ```
 Type:    CNAME
-Name:    regenerant
+Name:    regenerant-catalunya
 Target:  refibcn.github.io
 Proxy:   ⚠️ DNS only (gray cloud, NOT proxied)
 TTL:     Auto
@@ -36,7 +36,7 @@ TTL:     Auto
 
 **Screenshot of what to add:**
 - Type: CNAME
-- Name: regenerant
+- Name: regenerant-catalunya
 - Target: refibcn.github.io
 - Proxy status: DNS only (click the cloud to toggle)
 
@@ -55,7 +55,7 @@ This commits the CNAME file and updated config.
    https://github.com/refibcn/Regenerant-Catalunya/settings/pages
 
 2. **Under "Custom domain":**
-   - Enter: `regenerant.refibcn.cat`
+   - Enter: `regenerant-catalunya.refibcn.cat`
    - Click **Save**
 
 3. **Wait for DNS check:**
@@ -78,7 +78,7 @@ This commits the CNAME file and updated config.
 ## 🌐 Your Site URLs
 
 **After setup completes:**
-- **Primary URL:** https://regenerant.refibcn.cat
+- **Primary URL:** https://regenerant-catalunya.refibcn.cat
 - **Fallback URL:** https://refibcn.github.io/Regenerant-Catalunya/ (will redirect)
 
 ---
@@ -111,7 +111,7 @@ This commits the CNAME file and updated config.
 **Symptoms:** Domain doesn't resolve
 
 **Solution:**
-1. Check DNS with: `dig regenerant.refibcn.cat`
+1. Check DNS with: `dig regenerant-catalunya.refibcn.cat`
 2. Should show CNAME pointing to `refibcn.github.io`
 3. If not, verify Cloudflare DNS record
 4. Wait longer for DNS propagation
@@ -143,10 +143,10 @@ This commits the CNAME file and updated config.
 ### What the CNAME Record Does
 
 ```
-regenerant.refibcn.cat → refibcn.github.io → GitHub Pages → Your Site
+regenerant-catalunya.refibcn.cat → refibcn.github.io → GitHub Pages → Your Site
 ```
 
-The CNAME record tells DNS servers that `regenerant.refibcn.cat` should resolve to GitHub's servers.
+The CNAME record tells DNS servers that `regenerant-catalunya.refibcn.cat` should resolve to GitHub's servers.
 
 ### Why "DNS Only" (Gray Cloud)?
 
@@ -175,17 +175,17 @@ The CNAME record tells DNS servers that `regenerant.refibcn.cat` should resolve 
 
 ```bash
 # Check CNAME record
-dig regenerant.refibcn.cat CNAME
+dig regenerant-catalunya.refibcn.cat CNAME
 
 # Should show:
-# regenerant.refibcn.cat. 300 IN CNAME refibcn.github.io.
+# regenerant-catalunya.refibcn.cat. 300 IN CNAME refibcn.github.io.
 ```
 
 ### Check SSL Certificate
 
 ```bash
 # Check HTTPS
-curl -I https://regenerant.refibcn.cat
+curl -I https://regenerant-catalunya.refibcn.cat
 
 # Should show:
 # HTTP/2 200
@@ -194,8 +194,8 @@ curl -I https://regenerant.refibcn.cat
 
 ### Online Tools
 
-- **DNS Checker:** https://dnschecker.org/#CNAME/regenerant.refibcn.cat
-- **SSL Checker:** https://www.ssllabs.com/ssltest/analyze.html?d=regenerant.refibcn.cat
+- **DNS Checker:** https://dnschecker.org/#CNAME/regenerant-catalunya.refibcn.cat
+- **SSL Checker:** https://www.ssllabs.com/ssltest/analyze.html?d=regenerant-catalunya.refibcn.cat
 
 ---
 
@@ -215,7 +215,7 @@ Your custom domain will automatically update within 2-3 minutes!
 **Note:** You mentioned `refibcn.cat/regenerant-catalunya` but GitHub Pages doesn't support custom paths with custom domains.
 
 **Options:**
-1. ✅ **Subdomain** (current setup): `regenerant.refibcn.cat`
+1. ✅ **Subdomain** (current setup): `regenerant-catalunya.refibcn.cat`
 2. ⚠️ **Apex domain**: `refibcn.cat` (entire domain points to this site)
 3. ❌ **Path**: `refibcn.cat/regenerant-catalunya` (not supported with custom domain)
 
@@ -238,7 +238,7 @@ If you want a path-based URL, you must use the GitHub Pages default:
 - [ ] Configure custom domain in GitHub Pages settings
 - [ ] Wait for DNS check to pass
 - [ ] Enable "Enforce HTTPS" after certificate provisions
-- [ ] Test site at https://regenerant.refibcn.cat
+- [ ] Test site at https://regenerant-catalunya.refibcn.cat
 
 ---
 
@@ -257,5 +257,5 @@ If you want a path-based URL, you must use the GitHub Pages default:
 - Total: ~30-60 minutes for everything to work
 
 **Last Updated:** October 11, 2025  
-**Domain:** regenerant.refibcn.cat
+**Domain:** regenerant-catalunya.refibcn.cat
 
