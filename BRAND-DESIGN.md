@@ -68,10 +68,14 @@ Orange:        #FFB090  /* Lighter for readability */
 
 ## Typography
 
+Inspired by [Clyde Built Radio](https://www.clydebuiltradio.com/)'s brutalist aesthetic.
+
 ### Font Stack
-- **Headers:** Sora (700 Bold, 600 Semi-bold) - Geometric, distinctive, authoritative
-- **Body:** Inter (400 Regular, 500 Medium) - Professional, highly readable
-- **Code:** JetBrains Mono - Developer-friendly, stylish
+- **Headers:** Space Grotesk (700 Bold, 600 Semi-bold) - Geometric, brutalist sans-serif with industrial feel
+- **Body:** Inter (400 Regular, 500 Medium) - Clean, highly readable
+- **Code:** IBM Plex Mono - Brutalist monospace font
+
+**Space Grotesk** is an open-source geometric sans-serif that captures the minimalist, editorial aesthetic of brutalist web design. Its clean letterforms with straight edges complement the no-border-radius design perfectly.
 
 ### Type Scale
 ```css
