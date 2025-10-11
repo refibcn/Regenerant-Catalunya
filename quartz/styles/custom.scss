@@ -30,13 +30,14 @@
 // ============================================
 
 body {
-  padding-top: 70px; // Account for fixed header
+  padding-top: 50px; // Account for fixed header
   background-color: var(--light);
   font-size: 1.125rem;
   line-height: 1.7;
   font-feature-settings: "kern" 1, "liga" 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
 }
 
 // ============================================
@@ -51,7 +52,7 @@ header {
   z-index: 100;
   background-color: var(--light);
   width: 100%;
-  max-width: 900px;
+  max-width: 750px;
   margin: 0.5rem auto 0;
   border: 2px solid var(--brand-forest);
   border-top: 3px solid var(--brand-forest);
@@ -148,7 +149,10 @@ header .search button p {
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
-  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
   box-sizing: border-box;
 }
 
@@ -159,23 +163,40 @@ header .search button p {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: -0.02em;
-  margin-top: 1.5em;
+  margin-top: 2em;
   margin-bottom: 0.75em;
 }
 
 h1 {
   font-size: 2.5rem;
   letter-spacing: -0.03em;
+  margin-top: 1em;
 }
 
 h2 {
   font-size: 2rem;
   letter-spacing: -0.02em;
+  margin-top: 1.75em;
 }
 
 h3 {
   font-size: 1.5rem;
   font-weight: 600;
+  margin-top: 1.5em;
+}
+
+// Paragraphs and content spacing
+p {
+  margin-bottom: 1.25rem;
+}
+
+ul, ol {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
 }
 
 // ============================================
@@ -386,8 +407,8 @@ button,
 
 #search-container {
   z-index: 101 !important;
-  top: 70px !important;
-  max-height: calc(100vh - 70px) !important;
+  top: 50px !important;
+  max-height: calc(100vh - 50px) !important;
   position: fixed !important;
   
   input[type="text"] {
@@ -404,7 +425,7 @@ button,
 }
 
 #search-space {
-  max-height: calc(100vh - 5rem) !important;
+  max-height: calc(100vh - 4rem) !important;
 }
 
 #results-container {
@@ -550,7 +571,7 @@ body[saved-theme="dark"] {
 @media (max-width: 800px) {
   body {
     font-size: 1rem;
-    padding-top: 65px;
+    padding-top: 55px;
   }
   
   header {
@@ -571,7 +592,10 @@ body[saved-theme="dark"] {
   }
   
   .center {
-    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
   }
 }
 
