@@ -1,0 +1,124 @@
+---
+description: Program execution operations timeline and team coordination
+globs: **/CRITICAL*.md,**/Program Execution*.md
+---
+
+# Execution & Operations
+
+## Current Status (Oct 8, 2025)
+**Phase 2: Program Design** - 75% complete, 6 days to launch
+⚠️ **CRITICAL WEEK IN PROGRESS** - Oct 9 starts Day 1 of final push
+
+## Team Roles & This Week's Priorities
+
+### Luiz Fernando - Strategy Lead (20h/week)
+**This Week (Oct 9-13):**
+- **Oct 9:** Safe Multisig setup 🔴 CRITICAL (blocks everything)
+- **Oct 9-10:** Global partner written confirmations
+- **Oct 11:** Partnership agreements finalization
+- Ongoing: Comprehensive timeline document
+
+### Giulio Quarta - Operations Lead (25h/week)
+**This Week (Oct 9-13):**
+- **Oct 9:** Project #12 finalization 🔴 CRITICAL
+- **Oct 10:** €10k application submission 🔴 CRITICAL
+- **Oct 10:** Entity naming confirmation with Mariló 🔴 CRITICAL
+- **Oct 10:** WhatsApp groups creation (2 groups)
+- **Oct 11-12:** Gitcoin registration (12 projects) 🔴 CRITICAL
+- **Oct 13:** €5k on-ramped 🔴 CRITICAL
+**Note:** Oct 14-16 partially occupied with Cycles meetings
+
+### Andrea Farias - Communications Lead (20h/week)
+**This Week (Oct 9-13):**
+- **Oct 9:** Simple Notion one-pagers creation
+- **Oct 9-13:** Marketing materials development 🔴 CRITICAL
+- **Oct 11-13:** Launch communications preparation
+
+## Program Timeline
+
+### Phase 3: Launch (Oct 14-28) 🚀 6 DAYS AWAY
+- Gitcoin Grants Round 24 donation window
+- Target: €5,000+ community donations, 100+ donors
+- Daily operations: metrics, support, optimization
+- **Oct 28:** Voting closes, results expected
+- **By Oct 31:** All local funds (€11k) on-chain for matching eligibility 🔴 CRITICAL
+
+### Phase 4: Execution (Nov 2025 - Mar 2026)
+- **Nov 9-10:** Kick-off workshop (2 days)
+- **Nov 15-21:** Phase 1 distributions (~50% of pool)
+- **Dec-Feb:** Monthly capacity-building workshops (Web3, Impact, Governance)
+- **Jan-Feb:** Phase 2 distributions (rewards for continued engagement)
+
+### Phase 5: Evaluation (Dec 2025 - Jan 2026)
+- Overlaps with Phase 4
+- Comprehensive final report Jan 2026
+- Open-source knowledge products
+
+## Meeting Structure (Starting Oct 20)
+
+**Weekly Internal:**
+- Day: Thursdays
+- Attendees: Luiz, Giulio, Andrea
+- Focus: GG24 program exclusively
+- Start: Week of Oct 20
+
+**Biweekly Partners:**
+- Frequency: Every 2 weeks  
+- Attendees: + Oriol (Miceli) + Mariló (La Fundició)
+- Start: Late October (to be scheduled via WhatsApp)
+- Focus: Strategic decisions, evaluation, governance
+
+**Pre-Oct 20:**
+- Ad-hoc coordination as needed
+- Focus on critical week (Oct 9-14)
+
+## Operational Infrastructure
+
+**Project Management:**
+- WhatsApp groups (2 minimum) - primary coordination
+- Minimal Notion one-pagers - documentation only
+- NOT using: Complex databases
+
+**Communication:**
+- Internal: WhatsApp ops group
+- Projects: WhatsApp community group
+- External: Email, social media
+
+**Technical Systems:**
+- Safe Multisig (Celo) - Treasury
+- Karma GAP - Impact reporting
+- Gitcoin - Donation platform
+
+## Emergency Protocols
+
+**Team Member Unavailable:**
+- Luiz → Giulio assumes strategic coordination
+- Giulio → Andrea assumes operations
+- Andrea → Luiz assumes communications
+
+**Decision-Making:**
+- Daily Ops: Giulio
+- Technical: Luiz + mentors
+- Financial: Luiz + multisig co-signers
+- Strategic: Full team + advisory council
+- Emergency: Any member can escalate
+
+## Critical Deadlines ⚠️ IN PROGRESS
+
+**This Week (CRITICAL):**
+- **TOMORROW Oct 9:** Safe Multisig (Luiz) + Project #12 (Giulio) 🔴 BLOCKS EVERYTHING
+- **Oct 10:** €10k application + Entity naming + Funding methodology 🔴 HIGH PRIORITY
+- **Oct 11-12:** Gitcoin registration (12 projects) 🔴 CRITICAL
+- **Oct 13:** €5k on-ramped + Marketing ready 🔴 CRITICAL
+- **Oct 14: LAUNCH DAY** 🚀
+
+**This Month:**
+- Oct 28: Gitcoin voting closes
+- **End Oct: All local funds (€11k) on-chain** 🔴 CRITICAL for global matching
+
+**Reference Documents:**
+- [CRITICAL WEEK Action Plan](content/updates/CRITICAL%20WEEK%20-%20Oct%209-14%20Action%20Plan.md) - Day-by-day tasks
+- [UPDATES - Oct 7 Ops Sync](content/updates/UPDATES%20-%20Oct%207%20Ops%20Sync%20Decisions.md) - Latest operational decisions
+- [Program Execution Plan](content/program/execution/index.md) - Full 5-phase timeline
+- [Missing Points Analysis](content/internal/Missing%20Points%20Analysis%20-%20October%202025.md) - Gap analysis
+- 🔗 [Notion Project Page](https://www.notion.so/Regenerant-Catalunya-GG24-21c6ed0845cb805088e6c743b4ed53dc) - Operational workspace

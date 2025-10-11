@@ -1,0 +1,98 @@
+---
+description: Financial management treasury and funding flows for Regenerant Catalunya
+globs: **/UPDATES*.md,**/Missing*.md
+---
+
+# Financial Management
+
+## Funding Pool: ~€30,000
+
+### Local Contributions: €11,000 (37%)
+**Miceli Social: €6,000**
+- Status: Compromiso drafted, needs editing
+- Owner: Giulio finalizing
+
+**La Fundició/Keras Buti: €5,000**
+- Process: Giulio freelance invoice → B2B crypto → multisig
+- Timeline: Complete by Oct 13
+- Status: Process confirmed viable
+
+### Global Matching: ~$20,000 (63%)
+- Celo Public Goods, Gitcoin, Ethereum Foundation
+- Response expected: **October 28**
+- Funds available: Mid-late October
+- **CRITICAL:** Local funds must be on-chain by **end of October**
+
+## Safe Multisig Wallet
+
+**Network:** Celo  
+**Signers (5):**
+- Luiz Fernando (ReFi BCN)
+- Giulio Quarta (ReFi BCN)
+- Miceli Social representative
+- La Fundició representative
+- [1 advisor - TBD]
+
+**Threshold:** 3 of 5 signatures  
+**Setup Owner:** Luiz  
+**Setup Deadline:** **October 9, 2025** 🔴 CRITICAL  
+**Status:** Not yet created - BLOCKS ALL FINANCIAL FLOWS
+
+**Wallet Address:** [To be added once created]
+
+## Fund Flow Process
+
+**Local Funds On-Ramping:**
+1. **Miceli €6k:** Receive via compromiso → convert to crypto → multisig
+2. **La Fundició €5k:** Giulio invoice → personal donation → B2B conversion → multisig
+
+**Global Matching:** 
+- Gitcoin/partners verify local funds on-chain
+- Once confirmed, global matching distributed
+- Total pool available for distributions
+
+## Distribution Methodology (Under Refinement)
+
+**Two-Phase Approach (~50%/~50%):**
+
+**Phase 1: Initial (November)**
+- Based on impact evaluation scores
+- Minimum €1,000 per project
+- QF results + evaluation weighting
+
+**Phase 2: Follow-up (Jan-Feb 2026)**
+- Continued engagement rewards
+- Web3 tool adoption
+- Impact reporting quality
+
+**Decision Status:** Exact percentages TBD with partners (meeting Oct 10 or weekly meetings starting Oct 20)
+
+## Critical Financial Deadlines
+
+**October 2025:**
+- **Oct 9:** Safe Multisig setup 🔴
+- **Oct 13:** €5k on-ramped 🔴
+- **Oct 28:** Gitcoin voting closes
+- **End Oct:** Local funds MUST be on-chain 🔴
+- **Late Oct:** Global matching distributed
+
+**November 2025:**
+- Early Nov: Phase 1 distribution planning
+- Mid Nov: Phase 1 distributions to projects
+
+## Entity Naming (Pending)
+- **Preference:** La Fundició (better credibility)
+- **Status:** Giulio confirming with Mariló
+- **Decision needed:** Oct 9-10
+- **Interim use:** "La Fundició / Keras Buti"
+
+## Financial Compliance
+- Giulio €5k: Tax manageable within freelance regime
+- Proper documentation for all flows
+- Agreements required with Miceli & La Fundició
+
+**Reference Documents:**
+- [UPDATES - Oct 7 Ops Sync](content/updates/UPDATES%20-%20Oct%207%20Ops%20Sync%20Decisions.md) - Financial decisions (Section 3)
+- [CRITICAL WEEK Action Plan](content/updates/CRITICAL%20WEEK%20-%20Oct%209-14%20Action%20Plan.md) - Financial milestones
+- [Program Execution Plan](content/program/execution/index.md) - Budget and fund flows
+- 🔗 [Notion Master Doc](https://www.notion.so/REGENERANT-CATALUNYA-GG24-MASTER-DOC-26c6ed0845cb80a29615cc480f969597) - Full financial breakdown

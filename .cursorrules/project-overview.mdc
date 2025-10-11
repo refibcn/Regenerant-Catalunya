@@ -1,0 +1,110 @@
+---
+alwaysApply: true
+description: Regenerant Catalunya GG24 regenerative finance program overview
+---
+
+# Regenerant Catalunya GG24 - Project Overview
+
+## Project Context
+**Regenerant Catalunya** is a pioneering participatory funding round launching October 14-28, 2025 during Gitcoin Grants Round 24. It demonstrates how local knowledge integrates with global Web3 infrastructure for bioregional regeneration.
+
+## Key Facts
+- **Total Funding Pool:** ~€30,000 (€11k local + ~$20k global matching)
+- **Projects Funded:** 12 carefully curated regenerative projects across Catalonia
+- **Local Partners:** Miceli Social (€6k), La Fundició/Keras Buti (€5k)
+- **Global Partners:** Gitcoin, Celo Public Goods, Ethereum Foundation, Regen Coordination
+- **Launch Date:** October 14, 2025
+- **Current Phase:** Phase 2 - Program Design (75% complete, 6 days to launch)
+- **TODAY:** October 8, 2025 - Critical Week in Progress ⚠️
+
+## Core Team (ReFi Barcelona)
+- **Luiz Fernando Segala Gomes:** Strategy Lead (20h/week) - Finance, global partnerships, treasury
+- **Giulio Quarta:** Operations Lead (25h/week) - Local partnerships, community, project support
+- **Andrea Farias:** Communications Lead (20h/week) - Program design, communications, workshops
+
+## Primary Documentation
+
+**Notion Resources (Source of Truth):**
+- 🔗 [Master Document on Notion](https://www.notion.so/REGENERANT-CATALUNYA-GG24-MASTER-DOC-26c6ed0845cb80a29615cc480f969597) - Complete program overview
+- 🔗 [Project Page on Notion](https://www.notion.so/Regenerant-Catalunya-GG24-21c6ed0845cb805088e6c743b4ed53dc) - Main project workspace
+- 🔗 [Application Form](https://www.notion.so/26b6ed0845cb8059ad40de78fb40108d) - Local Funding Programs
+
+**Website Content (This Repository):**
+- [Homepage](content/index.md) - Master document (published version)
+- [Program Design](content/program/design/index.md) - Detailed strategic framework  
+- [Program Execution](content/program/execution/index.md) - Operational framework
+- [Database Documentation](content/database/index.md) - CSV and Notion database guides
+
+**Current Status & Actions (CHECK THESE FIRST):**
+- [UPDATES - Oct 7 Ops Sync](content/updates/UPDATES%20-%20Oct%207%20Ops%20Sync%20Decisions.md) - **Latest decisions and priorities**
+- [ANALYSIS SUMMARY](content/internal/ANALYSIS%20SUMMARY%20-%20Start%20Here.md) - Current status overview
+- [Missing Points Analysis](content/internal/Missing%20Points%20Analysis%20-%20October%202025.md) - Gaps and action items
+- [CRITICAL WEEK Action Plan](content/updates/CRITICAL%20WEEK%20-%20Oct%209-14%20Action%20Plan.md) - Day-by-day launch prep
+
+**Implementation Tools:**
+- [CSV Database](content/database/Regenerant%20Catalunya%20GG24%20-%20Database.csv) - All 53 tasks (use selectively per Oct 7 decision)
+- [CSV Import Guide](content/database/CSV%20Database%20-%20Import%20Guide.md) - How to use the database
+
+## Key Decisions (Oct 7, 2025) - CURRENT APPROACH
+- **Communication:** WhatsApp groups (2 minimum) + minimal Notion one-pagers (NOT complex databases)
+- **Entity Name:** La Fundació preferred (pending Mariló confirmation)
+- **Financial Deadline:** Local funds must be on-chain by end of October for global matching
+- **Meetings:** Weekly internal Thursdays (start Oct 20), biweekly with partners
+- **€10k Application:** HIGH PRIORITY due Oct 10 (Giulio)
+
+## Critical Priorities This Week (Oct 8-13) ⚠️ IN PROGRESS
+**TOMORROW (Oct 9) - DAY 1:**
+1. Safe Multisig setup (Luiz) 🔴 BLOCKS EVERYTHING
+2. Project #12 finalization (Giulio) 🔴 CRITICAL  
+
+**Oct 10 - DAY 2:**
+3. €10k application submission (Giulio) 🔴 HIGH PRIORITY
+4. Entity naming confirmation with Mariló (Giulio) 🔴 CRITICAL
+5. Funds allocation methodology decision (All + partners) 🔴 CRITICAL
+
+**Oct 11-12 - DAY 3-4:**
+6. Gitcoin registration - all 12 projects (Giulio) 🔴 CRITICAL
+
+**Oct 13 - DAY 5:**
+7. €5k on-ramped to multisig (Giulio) 🔴 CRITICAL
+8. Marketing materials ready (Andrea) 🔴 CRITICAL
+
+**Oct 14 - LAUNCH DAY 🚀**
+
+## Program Phases
+- **Phase 1:** Stakeholder Alignment ✅ (July-Aug 2025) - COMPLETED
+- **Phase 2:** Program Design 🔄 (Sep-Oct 14) - IN PROGRESS (75% complete)
+- **Phase 3:** Round Launch & Donations 🚀 (Oct 14-28) - UPCOMING (6 days away)
+- **Phase 4:** Program Execution 📋 (Nov 2025-Mar 2026) - PLANNED
+- **Phase 5:** Evaluation & Synthesis 📊 (Dec 2025-Jan 2026) - PLANNED
+
+## When Working in This Repository
+
+**This is a Quartz Website Repository for:**
+- Publishing program documentation publicly
+- Maintaining database guides and operational docs
+- Sharing program updates and analysis
+
+**Repository Workflow:**
+1. Edit content files in `content/` folder
+2. Preview locally: `npx quartz build --serve`
+3. Sync to GitHub: `npx quartz sync`
+4. Deploy to hosting platform (GitHub Pages/Cloudflare/Netlify)
+
+**Always check FIRST:**
+1. [UPDATES - Oct 7 Ops Sync](content/updates/UPDATES%20-%20Oct%207%20Ops%20Sync%20Decisions.md) for latest decisions
+2. [ANALYSIS SUMMARY](content/internal/ANALYSIS%20SUMMARY%20-%20Start%20Here.md) for current status
+3. [CRITICAL WEEK Action Plan](content/updates/CRITICAL%20WEEK%20-%20Oct%209-14%20Action%20Plan.md) for daily tasks
+4. Check Notion for source content: [Master Doc](https://www.notion.so/REGENERANT-CATALUNYA-GG24-MASTER-DOC-26c6ed0845cb80a29615cc480f969597)
+
+**Content Management:**
+- **Source of Truth:** Notion (linked above)
+- **Published Version:** This Quartz website
+- **Workflow:** Update Notion → Sync to website when ready to publish
+
+**Critical Deadlines:**
+- Oct 9: Safe Multisig (blocks everything) 🔴
+- Oct 10: €10k application + entity naming 🔴
+- Oct 13: €5k on-chain 🔴
+- Oct 14: LAUNCH DAY 🚀
+- End Oct: All local funds on-chain (for global matching) 🔴

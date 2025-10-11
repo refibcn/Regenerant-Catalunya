@@ -1,0 +1,59 @@
+---
+description: Communication strategy and tooling approach for Regenerant Catalunya
+globs: **/UPDATES*.md,**/Missing*.md,**/CRITICAL*.md
+---
+
+# Communications & Tooling Strategy (Oct 7 Decisions)
+
+## WhatsApp Groups - PRIMARY COORDINATION ✅
+
+**Group 1: Projects Community**
+- All 12 participating projects + ReFi BCN team
+- Purpose: Project coordination, support, community building
+- Use for: Quick updates, questions, informal sharing
+
+**Group 2: Partners/Council**  
+- Oriol (Miceli), Mariló (La Fundició), ReFi BCN team, advisors
+- Purpose: Strategic decisions, partner coordination
+- Use for: Decision-making, evaluation, governance
+
+## Notion - MINIMAL APPROACH ✅
+
+**What to DO:**
+- ✅ Create simple one-pager documents only
+- ✅ Use like Google Docs (document-focused)
+- ✅ Email-based access (no complex onboarding)
+- ✅ Easy migration to Flowershow for public publishing
+
+**What NOT to do:**
+- ❌ NO comprehensive 53-entry databases
+- ❌ NO complex project management systems
+- ❌ NO overwhelming workflows
+
+**Recommended One-Pagers:**
+1. Program Overview
+2. For Projects - Getting Started Guide
+3. For Projects - Impact Reporting Template
+4. Partner Coordination Notes
+5. Workshop Materials (one page per workshop)
+
+## Other Tools
+
+- **Gitcoin:** Donation window Oct 14-28, register all 12 projects by Oct 11-12
+- **Karma GAP:** On-chain impact reporting, setup after Nov 9-10 workshop
+- **Safe Multisig:** Treasury management on Celo (Luiz setup by Oct 9)
+
+## Communication Principles
+1. **Familiar over Novel:** Use tools people already know
+2. **Simple over Comprehensive:** Don't overcomplicate
+3. **Accessible over Sophisticated:** Easy entry, low barriers
+4. **Sustainable over Perfect:** Choose maintainable approaches
+
+## Meeting Structure (Starting Oct 20)
+- **Weekly Internal:** Thursdays, ReFi BCN team, focus on GG24
+- **Biweekly Partners:** With Oriol and Mariló
+
+**Reference Documents:**
+- [UPDATES - Oct 7 Ops Sync](content/updates/UPDATES%20-%20Oct%207%20Ops%20Sync%20Decisions.md) - Communication Tools section
+- [Notion Sync Guide](content/updates/Notion%20Sync%20-%20What%20to%20Update.md) - What to update in Notion
+- 🔗 [Notion Project Page](https://www.notion.so/Regenerant-Catalunya-GG24-21c6ed0845cb805088e6c743b4ed53dc) - Main workspace

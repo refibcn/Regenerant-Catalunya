@@ -1,0 +1,101 @@
+---
+description: Program design framework and methodology for Regenerant Catalunya
+globs: **/Program Design.md,**/Master Document.md
+---
+
+# Program Design Framework
+
+## Core Design Principles
+
+### Network-Driven Approach
+- Build within existing trusted ecosystems (Miceli Social, La Fundició)
+- Don't impose external solutions, introduce gradually
+- Leverage established relationships
+- Enable organic spread through trust networks
+
+### Cosmo-Local Integration
+- Global resources + local knowledge
+- Traditional Catalan cooperative values + Web3 tools
+- Create templates for global adaptation while serving local needs
+
+### Depth Over Breadth
+- 12 carefully curated projects (not 50+)
+- Comprehensive support: funding + capacity building + mentorship
+- Generate visible success stories
+
+## Project Portfolio (12 Projects)
+
+### Rural/Environmental (Miceli - 6 projects)
+1. **Regeneració.XYZ** - Creative regenerative narratives
+2. **Resilience Earth** - Digital river stewardship (blockchain + AI)
+3. **De Bat a Bat** - Community health in nature
+4. **Chapter#2** - Regenerative storytelling in schools
+5. **Anigami** - Regenerative tourism
+6. **Mixité** - Rural housing policies
+
+### Urban/Social (La Fundició - 5 projects)
+7. **Laurel 31** - Textile sustainability
+8. **La Marmita** - Community food systems
+9. **Les Juntes** - Cooperative housing
+10. **La Suculenta** - Food sovereignty + inclusion
+11. **La Granja del Tilo** - Agroecology
+
+### Cross-Cutting (ReFi BCN - 1 project)
+12. **[TBD]** - Fundació Emprius, Arran de Terra, or Decolonizing Permaculture
+
+## Funding Architecture
+
+**Total:** ~€30,000 (€11k local + ~$20k global)
+
+**Two-Phase Distribution (under development):**
+- **Phase 1:** ~50% based on impact evaluation
+- **Phase 2:** ~50% based on continued engagement + Web3 adoption
+- **Minimum:** €1,000 per project guaranteed
+
+## Technology Stack
+
+**Required (All Projects):**
+- Karma GAP - Impact reporting
+- Celo Wallets - Fund management
+- Safe Multisig - Treasury
+
+**Optional Innovation:**
+- Silvi, Hypercerts, Gainforest, Sarafu Network, Kokonut Network
+
+**Program Management:**
+- WhatsApp (primary coordination)
+- Minimal Notion one-pagers (documentation)
+
+## Impact Measurement
+
+**Adapted from Regen Coordination GG23** ($96k to 50 projects)
+
+**Evaluation Criteria:**
+- Ecological Impact: 25%
+- Social Impact: 25%
+- Economic Impact: 20%
+- Network Effects: 15%
+- Web3 Integration: 15%
+
+**Three-Tier Process:**
+1. Structured Reporting (Projects via Karma GAP)
+2. Council Evaluation (Advisors review)
+3. Allocation Determination (Program team)
+
+## Capacity Building
+
+**4 Workshop Series:**
+1. Web3 Fundamentals
+2. Impact Measurement & On-Chain Reporting
+3. Collaborative Governance
+4. Future Funding Strategies
+
+**Timeline:**
+- Kick-off: Nov 9-10, 2025 (2 days)
+- Monthly: Dec, Jan, Feb
+
+**Reference Documents:**
+- [Program Design (Full)](content/program/design/index.md) - Complete design framework
+- [Program Design Summary](content/program/design/summary.md) - Quick overview
+- [Program Execution Plan](content/program/execution/index.md) - Operational details
+- 🔗 [Notion Master Doc](https://www.notion.so/REGENERANT-CATALUNYA-GG24-MASTER-DOC-26c6ed0845cb80a29615cc480f969597) - Source of truth
