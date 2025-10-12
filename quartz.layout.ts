@@ -8,13 +8,11 @@ export const sharedPageComponents: SharedLayout = {
     Component.PageTitle(),
     Component.Navigation(),
     Component.Search(),
-    Component.Darkmode(),
   ],
   afterBody: [],
   footer: Component.Footer({
     links: {
       "ReFi Barcelona": "https://refibcn.cat",
-      "Regen Coordination": "https://regen.build",
       "GitHub": "https://github.com/refibcn/Regenerant-Catalunya",
     },
   }),

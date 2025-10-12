@@ -12,12 +12,10 @@ export default (() => {
           <span></span>
         </button>
         <ul class="nav-links">
-          <li><a href="/about">About</a></li>
           <li><a href="/program">Program</a></li>
-          <li><a href="/projects">Projects</a></li>
           <li><a href="/partners">Partners</a></li>
-          <li><a href="/updates">Updates</a></li>
-          <li><a href="mailto:hola@refibcn.cat">Contact</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/contact">Contact</a></li>
         </ul>
       </nav>
     )
