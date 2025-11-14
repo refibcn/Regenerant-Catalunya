@@ -1,61 +1,76 @@
 ---
-title: "Regenerant Catalunya - Program"
-description: "A participatory funding round bridging local regenerative work with global Web3 infrastructure"
+title: "Regenerant Catalunya - Programa"
+description: "Una ronda de finançament participatiu que connecta el treball regeneratiu local amb la infraestructura Web3 global"
 ---
 
 # Regenerant Catalunya
 
-**Regenerant Catalunya** is a pioneering participatory funding round that demonstrates how **local knowledge can integrate with global Web3 infrastructure** to create a replicable model for bioregional regeneration. Through collaboration between established Catalan partners ([Miceli Social](https://miceli.social/), [La Fundició](https://lafundicio.net/)/[Keras Buti](https://kerasbuti.org/)) and global Web3 funders (Gitcoin, Celo, Ethereum Foundation), we're channeling **€30,000 into 10-12 carefully curated regenerative projects** across Catalonia.
+**Regenerant Catalunya** és una ronda de finançament participatiu pionera que demostra com el **coneixement local pot integrar-se amb la infraestructura Web3 global** per crear un model replicable de regeneració bioregional. Mitjançant la col·laboració entre socis catalans establerts ([Miceli Social](https://miceli.social/), [La Fundició](https://lafundicio.net/)/[Keras Buti](https://kerasbuti.org/)) i finançadors Web3 globals (Gitcoin, Celo, Ethereum Foundation), estem canalitzant **€29.200 a 10-12 projectes regeneratius seleccionats** arreu de Catalunya.
 
-## What Makes It Unique
+## Què el fa únic
 
-Rather than imposing external blockchain solutions, we **build within trusted ecosystems**, empowering exemplary projects to generate visible success stories that inspire wider adoption of regenerative finance mechanisms. Each project receives funding plus capacity-building in Web3 tools, creating ongoing infrastructure for bioregional regeneration.
+En lloc d'imposar solucions blockchain externes, **construïm dins d'ecosistemes de confiança**, empoderant projectes exemplars per generar històries d'èxit visibles que inspiren l'adopció més àmplia de mecanismes de finances regeneratives. Cada projecte rep finançament a més de formació en eines Web3, creant infraestructura continuada per a la regeneració bioregional.
 
-## Timeline
+## Cronograma
 
-**Launch:** October 14-28, 2025 during Gitcoin Grants Round 24, followed by comprehensive capacity-building and impact measurement through proven methodologies adapted from Regen Coordination's successful GG23 round.
+**Llançament:** Darrera setmana d'octubre de 2025, seguit de formació integral i mesura d'impacte mitjançant metodologies provades adaptades de la ronda exitosa GG23 de Regen Coordination.
 
-## Vision
+**Fases del Programa:**
+- **Fase 1 (nov-des 2025):** Assignació Base — mínim €1.000 per projecte (vinculat als requisits mínims de participació), fins a €1.500 per projecte (basat en avaluació simplificada d'impacte)
+- **Fase 2 (gen-feb 2026):** Governança Col·lectiva a Nivell de Xarxa — €1.000 per projecte assignat a fons a nivell de xarxa per a governança col·lectiva utilitzant eines Web3
 
-This isn't just about funding projects—it's about **building the infrastructure for ongoing bioregional regeneration** while creating open-source knowledge products that can be adapted globally. The combination of traditional cooperative values with cutting-edge Web3 tools positions Regenerant Catalunya as a **bridge between worlds**, proving blockchain technology can serve real community needs rather than speculation.
+## Visió
+
+Això no és només sobre finançar projectes — es tracta de **construir la infraestructura per a la regeneració bioregional continuada** mentre creem productes de coneixement de codi obert que es poden adaptar globalment. La combinació de valors cooperatius tradicionals amb eines Web3 d'avantguarda posiciona Regenerant Catalunya com un **pont entre mons**, provant que la tecnologia blockchain pot servir necessitats comunitàries reals en lloc de l'especulació.
 
 ---
 
-## A Participatory Funding Round for Regeneration in Catalonia
+## Una Ronda de Finançament Participatiu per a la Regeneració a Catalunya
 
 *Ronda de Finançament Participatiu Bioregional a Catalunya*
 
-**Regenerant Catalunya** is an upcoming participatory funding round dedicated to channeling resources into projects that are regenerating life in the Catalan bioregion. From conserving and restoring natural ecosystems like the Fluvià River basin to developing community infrastructure in L'Hospitalet de Llobregat — Catalonia's second most populous municipality and one of Europe's most densely populated cities — this initiative aims to **support on-the-ground regenerative work** across the region.
+**Regenerant Catalunya** és una ronda de finançament participatiu dedicada a canalitzar recursos cap a projectes que estan regenerant la vida a la bioregió catalana. Des de conservar i restaurar ecosistemes naturals com la conca del riu Fluvià fins a desenvolupar infraestructures comunitàries a L'Hospitalet de Llobregat — el segon municipi més poblat de Catalunya i una de les ciutats més densament poblades d'Europa — aquesta iniciativa pretén **donar suport al treball regeneratiu sobre el terreny** arreu de la regió.
 
-The program is led by **ReFi Barcelona** as a bridge between local needs and global support, providing selected local projects with funding **matched by global Web3 partners**. In return, these projects will **experiment with novel technologies and financial tools** (e.g. blockchain-based community funding, digital impact tracking) that could open new income streams and improve their long-term impact.
+El programa està liderat per **ReFi Barcelona** com a pont entre les necessitats locals i el suport global, proporcionant a projectes locals seleccionats finançament **igualat per socis Web3 globals**. A canvi, aquests projectes **experimentaran amb tecnologies i eines financeres noves** (per exemple, finançament comunitari basat en blockchain, seguiment d'impacte digital) que podrien obrir noves fonts d'ingressos i millorar el seu impacte a llarg termini.
 
-Both the funding pool *and* the activities of Regenerant Catalunya emerged through a mediation of local and global interests. Established Catalan regenerative networks like **Miceli Social** and **La Fundició** have together committed around **€11,000**, an amount that will be **matched by global sponsors** including Gitcoin, Celo, and the Ethereum Foundation – bringing the total pool to nearly **€30,000**, which will be used to directly support 10-12 regenerative projects in Catalonia.
-
----
-
-## Get Involved
-
-*If you are a funder or technical partner interested in supporting the regeneration of the Catalan bioregion, we invite you to **[contact us](/contact)** to explore how you can contribute to the matching pool or support the educational and technical activities. This round is only the beginning — the first of many initiatives to empower bioregional regeneration in Catalonia — and we look forward to collaborating with all those aligned on this long-term journey.*
+Tant el fons de finançament *com* les activitats de Regenerant Catalunya han sorgit mitjançant una mediació d'interessos locals i globals. Xarxes regeneratives catalanes establertes com **Miceli Social** i **La Fundició** han compromès conjuntament al voltant de **€11.000**, que s'està igualant amb fins a $20.000 **per patrocinadors globals a través del Localism Fund** — portant el fons total a **€29.200**, que s'utilitzarà per donar suport directament a 10-12 projectes regeneratius a Catalunya.
 
 ---
 
-## Learn More
+## Implica't
 
-- [Participating Projects](/projects) - Who we're supporting
-- [Partners & Stakeholders](/partners) - Who's making this possible
-- [Master Document](/master-document) - Comprehensive program documentation
+*Si ets un finançador o soci tècnic interessat en donar suport a la regeneració de la bioregió catalana, t'invitem a **[contactar-nos](/ca/program/contact)** per explorar com pots contribuir al fons d'igualació o donar suport a les activitats educatives i tècniques. Aquesta ronda és només el començament — la primera de moltes iniciatives per empoderar la regeneració bioregional a Catalunya — i esperem col·laborar amb tots els que estiguin alineats en aquest viatge a llarg termini.*
 
 ---
 
-## Program Details
+## Més Informació
 
-### [Program Design](design/)
-Design documentation and planning for the program.
+- [Partners i Projectes](/ca/program/partners-projects) - Socis i projectes participants
+- [Document Mestre](/ca/master-document) - Documentació completa del programa
 
-- [Program Design Overview](design/index.md)
-- [Design Summary](design/summary.md)
+---
 
-### [Program Execution](execution/)
-Execution plans and operational documentation.
+## Detalls del Programa
 
-- [Program Execution Plan](execution/index.md)
+### [Cronograma del Programa](timeline/)
+Cronograma complet amb fites clau i horari de tallers.
+
+### [Disseny del Programa](design/)
+Documentació de disseny i planificació del programa.
+
+- [Visió General del Disseny del Programa](design/index.md)
+- [Resum del Disseny](design/summary.md)
+
+### [Execució del Programa](execution/)
+Plans d'execució i documentació operativa.
+
+- [Pla d'Execució del Programa](execution/index.md)
+
+### [Guia de Projectes](project-guidebook/)
+Guia completa per a projectes participants que cobreix els requisits de la Fase 1, configuració de Karma, guia de cartera i horari de tallers.
+
+### [Guia de Xarxa](network-guidebook/)
+Guia per a la governança a nivell de xarxa que cobreix l'estructura de finançament de la Fase 2, eines de governança Web3 i processos de presa de decisions col·lectives.
+
+### [Recursos](resources/)
+Enllaços a totes les guies, documentació d'eines, materials de tallers i canals de suport.

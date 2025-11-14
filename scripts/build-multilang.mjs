@@ -4,8 +4,8 @@
  * Multi-language build script for Regenerant Catalunya Website
  * 
  * This script builds the Quartz site 3 times with different locales:
- * - ca-ES (Catalan) -> public/ (default)
- * - en-US (English) -> public/en/
+ * - en-US (English) -> public/ (default)
+ * - ca-ES (Catalan) -> public/ca/
  * - es-ES (Spanish) -> public/es/
  * 
  * Then merges static assets and ensures proper structure.
@@ -21,15 +21,16 @@ const __dirname = dirname(__filename)
 const rootDir = join(__dirname, "..")
 
 const LOCALES = [
-  { code: "ca-ES", prefix: "ca", isDefault: true },
-  { code: "en-US", prefix: "en", isDefault: false },
+  { code: "en-US", prefix: "en", isDefault: true },
+  { code: "ca-ES", prefix: "ca", isDefault: false },
   { code: "es-ES", prefix: "es", isDefault: false },
 ]
 
 function buildForLocale(locale, prefix, isDefault) {
   console.log(`\n🌍 Building for ${locale} (${prefix})...`)
   
-  const contentDir = `content/${prefix}`
+  // English content is at root, other languages are in subdirectories
+  const contentDir = isDefault ? "content" : `content/${prefix}`
   const outputDir = isDefault ? "public" : `public/${prefix}`
   
   try {
@@ -53,26 +54,26 @@ function buildForLocale(locale, prefix, isDefault) {
     throw error
   }
   
-  // If this is the default locale (Catalan), also copy to public/ca/ for consistency
+  // If this is the default locale (English), also copy to public/en/ for consistency
   if (isDefault) {
-    const caOutputDir = "public/ca"
+    const enOutputDir = "public/en"
     if (existsSync("public")) {
-      if (!existsSync(caOutputDir)) {
-        mkdirSync(caOutputDir, { recursive: true })
+      if (!existsSync(enOutputDir)) {
+        mkdirSync(enOutputDir, { recursive: true })
       }
-      // Copy index and other files to public/ca/
-      cpSync("public/index.html", join(caOutputDir, "index.html"), { recursive: true })
+      // Copy index and other files to public/en/
+      cpSync("public/index.html", join(enOutputDir, "index.html"), { recursive: true })
       if (existsSync("public/program")) {
-        cpSync("public/program", join(caOutputDir, "program"), { recursive: true })
+        cpSync("public/program", join(enOutputDir, "program"), { recursive: true })
       }
       if (existsSync("public/partners")) {
-        cpSync("public/partners", join(caOutputDir, "partners"), { recursive: true })
+        cpSync("public/partners", join(enOutputDir, "partners"), { recursive: true })
       }
       if (existsSync("public/projects")) {
-        cpSync("public/projects", join(caOutputDir, "projects"), { recursive: true })
+        cpSync("public/projects", join(enOutputDir, "projects"), { recursive: true })
       }
       if (existsSync("public/contact")) {
-        cpSync("public/contact", join(caOutputDir, "contact"), { recursive: true })
+        cpSync("public/contact", join(enOutputDir, "contact"), { recursive: true })
       }
     }
   }
@@ -111,7 +112,7 @@ function createRootRedirect() {
   
   // Create a simple redirect page at root that detects language
   const redirectHTML = `<!DOCTYPE html>
-<html lang="ca">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -121,12 +122,12 @@ function createRootRedirect() {
     const lang = navigator.language || navigator.userLanguage;
     let redirect = '/';
     
-    if (lang.startsWith('ca')) {
+    if (lang.startsWith('en')) {
       redirect = '/';
+    } else if (lang.startsWith('ca')) {
+      redirect = '/ca/';
     } else if (lang.startsWith('es')) {
       redirect = '/es/';
-    } else if (lang.startsWith('en')) {
-      redirect = '/en/';
     } else {
       redirect = '/';
     }
@@ -176,9 +177,9 @@ async function main() {
   
   console.log("\n✨ Multi-language build complete!")
   console.log("\n📁 Output structure:")
-  console.log("   public/          - Catalan (default)")
-  console.log("   public/ca/       - Catalan (explicit)")
-  console.log("   public/en/       - English")
+  console.log("   public/          - English (default)")
+  console.log("   public/en/       - English (explicit)")
+  console.log("   public/ca/       - Catalan")
   console.log("   public/es/       - Spanish")
   console.log("   public/static/   - Shared static assets")
 }
@@ -187,4 +188,3 @@ main().catch((error) => {
   console.error("❌ Build failed:", error)
   process.exit(1)
 })
-

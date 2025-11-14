@@ -28,9 +28,10 @@ description: "A collaborative funding round uniting Catalan initiatives with mat
       <strong>Regenerant Catalunya</strong> connects these local efforts with global regenerative finance communities — raising funds, testing innovations, and channeling resources directly where they're needed most.
     </p>
     <p class="section-subtitle">
-      💶 Nearly <strong>€30,000</strong> already committed. More funders are welcome.
+      💶 <strong>€29,200</strong> total funding pool committed (€11,000 local + $20,000 global matching). Supporting 10-12 regenerative projects across Catalonia.
     </p>
     <div class="hero-cta" style="margin-top: 2.5rem;">
+      <a href="/program/project-guidebook" class="cta-button" style="margin-right: 1rem;">For Projects</a>
       <a href="#get-involved" class="cta-button">Contribute to regeneration</a>
     </div>
   </div>
@@ -61,7 +62,7 @@ description: "A collaborative funding round uniting Catalan initiatives with mat
       <div class="grid-item">
         <dt>3️⃣ Distribute Resources</dt>
         <dd>
-          Funds are allocated fairly and transparently to selected projects across Catalonia for on-the-ground resilience.
+          Funds are distributed in two phases: Phase 1 (Nov-Dec) provides baseline support (€1,000-€1,500 per project), while Phase 2 (Jan-Feb) enables network-level collective governance.
         </dd>
       </div>
     </dl>
@@ -93,8 +94,8 @@ description: "A collaborative funding round uniting Catalan initiatives with mat
     </div>
     <div style="margin-top: 3rem;">
       <p style="font-weight: 600; margin-bottom: 0.25rem;">🌱 Regenerative Projects</p>
-      <p style="color: var(--darkgray); margin-top: 0.25rem;">Frontline initiatives who receive direct support.</p>
-      <p style="color: var(--gray); font-style: italic; margin-top: 0.25rem;">To be announced soon!</p>
+      <p style="color: var(--darkgray); margin-top: 0.25rem;">10-12 carefully curated projects receiving direct support, capacity-building, and Web3 tool training.</p>
+      <p style="margin-top: 0.5rem;"><a href="/program/partners-projects" style="font-weight: 600;">View participating projects →</a></p>
     </div>
   </div>
 </div>
@@ -121,5 +122,23 @@ description: "A collaborative funding round uniting Catalan initiatives with mat
   <p style="text-align: center; margin-top: 2.5rem;">
     Get in touch at <a href="mailto:hola@ReFiBCN.cat" style="font-weight: 600;">hola@ReFiBCN.cat</a>
   </p>
+  
+  <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--lightgray);">
+    <h3 style="text-align: center; margin-bottom: 1.5rem;">Resources for Participants</h3>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; max-width: 800px; margin: 0 auto;">
+      <div style="text-align: center;">
+        <a href="/program/project-guidebook" style="font-weight: 600; display: block; margin-bottom: 0.5rem;">Project Guidebook</a>
+        <p style="font-size: 0.9rem; color: var(--gray);">Complete guide for participating projects</p>
+      </div>
+      <div style="text-align: center;">
+        <a href="/program/timeline" style="font-weight: 600; display: block; margin-bottom: 0.5rem;">Program Timeline</a>
+        <p style="font-size: 0.9rem; color: var(--gray);">Key milestones and deadlines</p>
+      </div>
+      <div style="text-align: center;">
+        <a href="/resources" style="font-weight: 600; display: block; margin-bottom: 0.5rem;">Resources</a>
+        <p style="font-size: 0.9rem; color: var(--gray);">Tool docs and support</p>
+      </div>
+    </div>
+  </div>
 </div>
 

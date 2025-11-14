@@ -13,9 +13,9 @@
 
 ## 🎯 Executive Summary
 
-**Regenerant Catalunya** is a pioneering participatory funding round that demonstrates how local knowledge integrates with global Web3 infrastructure to create a replicable model for bioregional regeneration. Through collaboration between established Catalan partners ([Miceli Social](https://miceli.social/), [La Fundició](https://lafundicio.net/)/[Keras Buti](https://kerasbuti.org/)) and global Web3 funders (Gitcoin, Celo, Ethereum Foundation), we're channeling **€30,000 into 10-12 carefully curated regenerative projects** across Catalonia.
+**Regenerant Catalunya** is a pioneering participatory funding round that demonstrates how local knowledge integrates with global Web3 infrastructure to create a replicable model for bioregional regeneration. Through collaboration between established Catalan partners ([Miceli Social](https://miceli.social/), [La Fundició](https://lafundicio.net/)/[Keras Buti](https://kerasbuti.org/)) and global Web3 funders (Gitcoin, Celo, Ethereum Foundation), we're channeling **€29,200 into 10-12 carefully curated regenerative projects** across Catalonia.
 
-**Launch Window:** October 14-28, 2025 (Gitcoin Grants Round 24)
+**Launch:** Last week of October 2025
 
 ---
 
@@ -51,10 +51,11 @@ This comprehensive Program Design document covers 10 major sections:
 - Portfolio balance and thematic diversity
 
 ### 5. Funding Architecture
-- €30,000 total: €11k local + ~$20k global matching
-- Two-phase distribution model (~50% initial, ~50% follow-up)
-- Quadratic funding mechanism
-- Minimum €1,000 per project guarantee
+- €29,200 total: €11k local + $20k global matching (via Localism Fund)
+- Two-phase distribution model:
+  - Phase 1 (Nov-Dec 2025): Baseline Allocation — minimum €1,000 per project (tied to minimum participation requirements), up to €1,500 per project (based on simplified impact evaluation)
+  - Phase 2 (Jan-Feb 2026): Network-Level Collective Governance — €1,000 per project allocated to network-level pools (Miceli ~€6k, La Fundició ~€5k)
+- Minimum €1,000 per project guarantee (Phase 1)
 - Mermaid funding flow diagram included
 
 ### 6. Technology Stack
@@ -143,10 +144,11 @@ The full document contains 5 detailed Mermaid diagrams:
 - Advisory council structure established
 
 ### Ready for Launch
-- Phase 2 (Program Design) nearing completion
-- October 14-28 launch during Gitcoin Grants Round 24
+- Phase 2 (Program Design) completed
+- Launch: Last week of October 2025
 - Comprehensive execution plan prepared
 - All stakeholder alignments in place
+- Safe multisig operational: 0x91889ea97FeD05180fb5A70cB9570630f3C0Be77
 
 ---
 

@@ -9,3 +9,8 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+
+# Patch files and temporary files
+*.patch
+*.diff
+custom.css

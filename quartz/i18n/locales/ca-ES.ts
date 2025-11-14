@@ -59,6 +59,10 @@ export default {
     contentMeta: {
       readingTime: ({ minutes }) => `Es llegeix en ${minutes} min`,
     },
+    languageSwitcher: {
+      label: "Idioma",
+      selectLanguage: "Selecciona l'idioma",
+    },
   },
   pages: {
     rss: {

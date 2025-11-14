@@ -8,6 +8,7 @@ export const sharedPageComponents: SharedLayout = {
     Component.PageTitle(),
     Component.Navigation(),
     Component.Search(),
+    Component.LanguageSwitcher(),
   ],
   afterBody: [],
   footer: Component.Footer({
@@ -29,11 +30,13 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.ArticleTitle(),
       condition: (page) => page.fileData.slug !== "index",
     }),
+    Component.TagList(),
+  ],
+  afterBody: [
     Component.ConditionalRender({
       component: Component.ContentMeta(),
       condition: (page) => page.fileData.slug !== "index",
     }),
-    Component.TagList(),
   ],
   left: [],  // Empty - sidebars hidden by default via CSS
   right: [], // Empty - sidebars hidden by default via CSS
@@ -41,7 +44,8 @@ export const defaultContentPageLayout: PageLayout = {
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle()],
+  afterBody: [Component.ContentMeta()],
   left: [],  // Empty - sidebars hidden by default via CSS
   right: [], // Empty - sidebars hidden by default via CSS
 }

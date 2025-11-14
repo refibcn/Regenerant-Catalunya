@@ -16,7 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Upstream sync helper script (`scripts/sync-upstream.mjs`)
 - Comprehensive documentation:
   - TEMPLATE-README.md - Main template documentation
-  - docs/SETUP.md - Detailed setup guide
+  - docs/setup/SETUP.md - Detailed setup guide
   - docs/PACKAGES.md - Complete package catalog
   - docs/UPSTREAM-SYNC.md - Upstream sync guide
   - docs/CONTRIBUTING.md - Contribution guidelines

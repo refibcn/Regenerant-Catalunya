@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "logo": "assets/favicons.png",
+    "title": "Regenerant Catalunya",
+    "links": [
+      { "href": "/program", "name": "Program" },
+      { "href": "/partners", "name": "Partners" },
+      { "href": "/projects", "name": "Projects" },
+      { "href": "/contact", "name": "Contact" }
+    ]
+  }
+}
+
+

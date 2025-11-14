@@ -3,7 +3,7 @@ import { classNames } from "../util/lang"
 import { i18n, ValidLocale } from "../i18n"
 import { FullSlug } from "../util/path"
 
-const SUPPORTED_LOCALES: ValidLocale[] = ["ca-ES", "en-US", "es-ES"]
+const SUPPORTED_LOCALES: ValidLocale[] = ["en-US", "ca-ES", "es-ES"]
 const LOCALE_PREFIXES: Record<ValidLocale, string> = {
   "ca-ES": "ca",
   "en-US": "en",
@@ -31,10 +31,12 @@ function getCurrentLanguage(slug: FullSlug): ValidLocale {
     if (path.startsWith("/ca/") || path === "/ca") return "ca-ES"
     if (path.startsWith("/es/") || path === "/es") return "es-ES"
     if (path.startsWith("/en/") || path === "/en") return "en-US"
+    // Root path defaults to English
+    if (path === "/" || path === "/index.html") return "en-US"
   }
   
-  // Default to Catalan if no language prefix
-  return "ca-ES"
+  // Default to English if no language prefix
+  return "en-US"
 }
 
 function getLanguagePath(slug: FullSlug, targetLocale: ValidLocale): string {
@@ -67,8 +69,8 @@ function getLanguagePath(slug: FullSlug, targetLocale: ValidLocale): string {
   const targetPrefix = LOCALE_PREFIXES[targetLocale]
   const pathWithoutLang = segments.length > 0 ? `/${segments.join("/")}` : ""
   
-  if (targetPrefix === "ca") {
-    // Catalan can be at root or /ca/
+  if (targetPrefix === "en") {
+    // English is at root
     return pathWithoutLang || "/"
   }
   
@@ -79,12 +81,13 @@ function getLanguagePath(slug: FullSlug, targetLocale: ValidLocale): string {
 const LanguageSwitcher: QuartzComponent = ({ displayClass, cfg, fileData }: QuartzComponentProps) => {
   const currentLocale = cfg.locale
   const currentSlug = fileData.slug || ("index" as FullSlug)
-  const langCopy = i18n(currentLocale).components.languageSwitcher
+  const translation = i18n(currentLocale as ValidLocale) || i18n("en-US" as ValidLocale)
+  const langCopy = translation.components.languageSwitcher || { label: "Language", selectLanguage: "Select language" }
   
   // Detect actual current language from slug or config locale
   let actualLang = getCurrentLanguage(currentSlug)
   // If slug doesn't have language info, use config locale
-  if (actualLang === "ca-ES" && currentLocale !== "ca-ES") {
+  if (actualLang === "en-US" && currentLocale !== "en-US") {
     actualLang = currentLocale as ValidLocale
   }
   
@@ -99,10 +102,10 @@ const LanguageSwitcher: QuartzComponent = ({ displayClass, cfg, fileData }: Quar
           // generate better initial paths
           if (currentSlug === "index" && currentLocale === locale) {
             const prefix = LOCALE_PREFIXES[locale]
-            path = prefix === "ca" ? "/" : `/${prefix}/`
+            path = prefix === "en" ? "/" : `/${prefix}/`
           } else if (currentSlug === "index") {
             const prefix = LOCALE_PREFIXES[locale]
-            path = prefix === "ca" ? "/" : `/${prefix}/`
+            path = prefix === "en" ? "/" : `/${prefix}/`
           }
           const localeName = LOCALE_NAMES[locale]
           
@@ -230,10 +233,10 @@ LanguageSwitcher.afterDOMLoaded = `
       const locale = link.getAttribute('data-locale');
       let newPath = '';
       
-      if (locale === 'ca-ES') {
+      if (locale === 'en-US') {
         newPath = pathWithoutLang === '/' ? '/' : pathWithoutLang;
-      } else if (locale === 'en-US') {
-        newPath = '/en' + (pathWithoutLang === '/' ? '' : pathWithoutLang);
+      } else if (locale === 'ca-ES') {
+        newPath = '/ca' + (pathWithoutLang === '/' ? '' : pathWithoutLang);
       } else if (locale === 'es-ES') {
         newPath = '/es' + (pathWithoutLang === '/' ? '' : pathWithoutLang);
       }
@@ -251,4 +254,3 @@ LanguageSwitcher.afterDOMLoaded = `
 `
 
 export default (() => LanguageSwitcher) satisfies QuartzComponentConstructor
-
