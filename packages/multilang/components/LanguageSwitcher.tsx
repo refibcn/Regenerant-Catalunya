@@ -135,9 +135,11 @@ LanguageSwitcher.css = `
   gap: 0.25rem;
   background: var(--action-btn-bg, color-mix(in srgb, var(--light) 95%, rgba(255, 255, 255, 0.6)));
   border: var(--action-btn-border, 1px solid var(--gray));
-  border-radius: 0.375rem;
+  border-radius: 0;
   padding: 0.125rem;
   box-shadow: var(--action-btn-shadow, 0 1px 2px rgba(0, 0, 0, 0.05));
+  height: var(--action-btn-size, 2rem);
+  box-sizing: border-box;
 }
 
 .language-switcher__option {
@@ -151,7 +153,7 @@ LanguageSwitcher.css = `
   font-weight: 500;
   color: var(--darkgray);
   text-decoration: none;
-  border-radius: 0.25rem;
+  border-radius: 0;
   transition: background-color 0.15s ease, color 0.15s ease;
   border: none;
   background: transparent;
@@ -188,6 +190,10 @@ LanguageSwitcher.css = `
 }
 
 @media (max-width: 640px) {
+  .language-switcher__container {
+    height: 1.5rem;
+  }
+  
   .language-switcher__option {
     width: 1.75rem;
     height: 1.5rem;
