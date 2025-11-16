@@ -173,5 +173,4 @@ This collaboration embodies the **cosmo-local** approach: knowledge and resource
 - [About the Program](/program) - What is Regenerant Catalunya
 - [Program Timeline](/program/timeline) - Complete timeline and milestones
 - [Resources](/resources) - Tool documentation and guides
-- [Contact](/program/contact) - Get in touch
 

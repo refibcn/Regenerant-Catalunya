@@ -52,6 +52,7 @@ Complete timeline with:
 #### Web3 Wallets on Celo
 **Recommended (Social Recovery):**
 - **Valora** — [valoraapp.com](https://valoraapp.com/)
+  - **[Guía Completa de Onboarding a Valora](/resources/valora-guide)** — Guía paso a paso para configurar Valora, activar la recuperación social y conectar con Karma GAP usando WalletConnect
 - **Minipay** — Stablecoin-focused wallet with social recovery
 
 **Also Supported:**
@@ -218,7 +219,6 @@ Evaluation framework and criteria:
 - [Home](/)
 - [About the Program](/program)
 - [Partners & Projects](/program/partners-projects)
-- [Contact](/program/contact)
 
 ---
 

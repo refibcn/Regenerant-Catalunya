@@ -10,7 +10,7 @@ description: "Una ronda de finançament participatiu que uneix iniciatives catal
       <strong>Regenerant Catalunya</strong> és una ronda de finançament participatiu que connecta iniciatives catalanes amb contribucions igualades i eines web3 per fer visible i escalable la regeneració.
     </p>
     <div class="hero-cta">
-      <a href="#get-involved" class="cta-button">Contribueix a la regeneració</a>
+      <a href="#get-involved" class="cta-button" style="font-size: 1rem; padding: 0.75rem 1.5rem; display: inline-block;">Contribueix a la regeneració</a>
     </div>
   </div>
   <div class="hero-image">
@@ -31,8 +31,8 @@ description: "Una ronda de finançament participatiu que uneix iniciatives catal
       💶 <strong>€29.200</strong> de fons totals compromesos (€11.000 locals + $20.000 d'igualació global). Donant suport a 10-12 projectes regeneratius arreu de Catalunya.
     </p>
     <div class="hero-cta" style="margin-top: 2.5rem;">
-      <a href="/ca/program/project-guidebook" class="cta-button" style="margin-right: 1rem;">Per a Projectes</a>
-      <a href="#get-involved" class="cta-button">Contribueix a la regeneració</a>
+      <a href="/ca/program/project-guidebook" class="cta-button" style="font-size: 1rem; padding: 0.75rem 1.5rem; display: inline-block; margin-right: 1rem;">Per a Projectes</a>
+      <a href="#get-involved" class="cta-button" style="font-size: 1rem; padding: 0.75rem 1.5rem; display: inline-block;">Contribueix a la regeneració</a>
     </div>
   </div>
 </div>

@@ -39,7 +39,9 @@ Tanto el fondo de financiación *como* las actividades de Regenerant Catalunya h
 
 ## Participa
 
-*Si eres un financiador o socio técnico interesado en apoyar la regeneración de la bioregión catalana, te invitamos a **[contactarnos](/es/program/contact)** para explorar cómo puedes contribuir al fondo de igualación o apoyar las actividades educativas y técnicas. Esta ronda es solo el comienzo — la primera de muchas iniciativas para empoderar la regeneración bioregional en Cataluña — y esperamos colaborar con todos los que estén alineados en este viaje a largo plazo.*
+*Si eres un financiador o socio técnico interesado en apoyar la regeneración de la bioregión catalana, te invitamos a **ponerte en contacto** para explorar cómo puedes contribuir al fondo de igualación o apoyar las actividades educativas y técnicas. Esta ronda es solo el comienzo — la primera de muchas iniciativas para empoderar la regeneración bioregional en Cataluña — y esperamos colaborar con todos los que estén alineados en este viaje a largo plazo.*
+
+**Contacto:** [hola@refibcn.cat](mailto:hola@refibcn.cat)
 
 ---
 

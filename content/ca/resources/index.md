@@ -218,7 +218,6 @@ Marc i criteris d'avaluació:
 - [Inici](/ca/)
 - [Sobre el Programa](/ca/program)
 - [Partners i Projectes](/ca/program/partners-projects)
-- [Contacte](/ca/program/contact)
 
 ---
 

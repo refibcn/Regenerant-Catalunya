@@ -218,7 +218,6 @@ Evaluation framework and criteria:
 - [Home](/)
 - [About the Program](/program)
 - [Partners & Projects](/program/partners-projects)
-- [Contact](/program/contact)
 
 ---
 

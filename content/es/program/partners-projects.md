@@ -173,5 +173,4 @@ Esta colaboración encarna el enfoque **cosmo-local**: el conocimiento y los rec
 - [Sobre el Programa](/es/program) - Qué es Regenerant Catalunya
 - [Cronograma del Programa](/es/program/timeline) - Cronograma completo y hitos
 - [Recursos](/es/resources) - Documentación de herramientas y guías
-- [Contacto](/es/program/contact) - Contáctanos
 
