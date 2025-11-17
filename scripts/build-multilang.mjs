@@ -172,6 +172,12 @@ async function main() {
   // Merge static assets
   mergeStaticAssets()
   
+  // Copy CNAME to root for GitHub Pages
+  if (existsSync("public/static/CNAME")) {
+    cpSync("public/static/CNAME", "public/CNAME")
+    console.log("✅ CNAME file copied to root")
+  }
+  
   // Create root redirect
   createRootRedirect()
   
