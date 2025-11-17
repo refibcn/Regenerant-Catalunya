@@ -63,28 +63,46 @@ Valora es una billetera móvil diseñada específicamente para la red Celo. Es u
 ### Paso 1: Crear una Nueva Billetera
 
 1. Abre la aplicación Valora en tu dispositivo
-2. En la pantalla de bienvenida, toca el botón **"Comenzar"** o **"Crear una nueva cuenta"**
+2. En la pantalla de bienvenida (como se muestra en la captura de pantalla a continuación), toca el botón **"Comenzar"** o **"Crear una nueva cuenta"**
 3. Lee y acepta los términos de servicio y la política de privacidad
+
+![Pantalla de bienvenida de Valora](/static/valora-onboarding/Screenshot_20251117-193709.png)
 
 ### Paso 2: Configurar un PIN de Seguridad
 
-1. Crea un **PIN de 6 dígitos** que utilizarás para acceder a la aplicación
-2. Confirma tu PIN ingresándolo nuevamente
+1. Crea un **PIN de 6 dígitos** que utilizarás para acceder a la aplicación (ver captura de pantalla a continuación)
+2. Confirma tu PIN ingresándolo nuevamente en la siguiente pantalla
 3. **Importante**: Elige un PIN que sea memorable pero no fácil de adivinar. Este PIN será necesario para cada transacción
+
+![Configuración del PIN de seguridad](/static/valora-onboarding/Screenshot_20251117-193738.png)
+
+![Confirmación del PIN](/static/valora-onboarding/Screenshot_20251117-193746.png)
 
 ### Paso 3: Activar Autenticación Biométrica (Opcional pero Recomendado)
 
 1. Si tu dispositivo lo permite, Valora te ofrecerá activar la autenticación biométrica (huella digital o reconocimiento facial)
 2. Activa esta función para mayor seguridad y comodidad
 
+![Opción de autenticación biométrica](/static/valora-onboarding/Screenshot_20251117-193757.png)
+
 ### Paso 4: Guardar tu Frase de Recuperación
 
 **⚠️ CRÍTICO: Este es el paso más importante**
 
-1. Valora te mostrará una **Frase de Recuperación de 12 palabras** (en algunas versiones puede ser de 24 palabras)
-2. **Anota esta frase en un lugar seguro** y nunca la compartas con nadie
-3. Esta frase es esencial para recuperar tu cuenta en caso de pérdida o cambio de dispositivo
-4. Confirma que has guardado la frase correctamente siguiendo las instrucciones de la aplicación
+1. Valora te mostrará primero una advertencia sobre la importancia de guardar tu frase de recuperación (ver primera captura de pantalla)
+2. Luego te mostrará una **Frase de Recuperación de 12 palabras** (en algunas versiones puede ser de 24 palabras) - como se ve en la segunda captura
+3. **Anota esta frase en un lugar seguro** y nunca la compartas con nadie
+4. Esta frase es esencial para recuperar tu cuenta en caso de pérdida o cambio de dispositivo
+5. Deberás verificar que has guardado la frase correctamente seleccionando las palabras en el orden correcto (tercera captura)
+6. Finalmente, confirma que has completado el proceso (cuarta captura)
+
+![Pantalla de advertencia sobre la frase de recuperación](/static/valora-onboarding/Screenshot_20251117-193806.png)
+
+![Visualización de la frase de recuperación](/static/valora-onboarding/Screenshot_20251117-193821.png)
+
+![Verificación de la frase de recuperación](/static/valora-onboarding/Screenshot_20251117-193838.png)
+
+![Confirmación de guardado de la frase](/static/valora-onboarding/Screenshot_20251117-193846.png)
 
 **Consejos para guardar tu frase de recuperación:**
 
@@ -95,9 +113,16 @@ Valora es una billetera móvil diseñada específicamente para la red Celo. Es u
 
 ### Paso 5: Conectar un Número de Teléfono (Opcional)
 
-1. Ingresa tu número de teléfono cuando se te solicite
-2. Verifica el número mediante el código que recibirás por SMS
-3. Conectar tu número de teléfono permite enviar y recibir fondos directamente a números de teléfono de amigos y familiares en Valora
+1. Ingresa tu número de teléfono cuando se te solicite (ver primera captura de pantalla)
+2. Verifica el número mediante el código que recibirás por SMS (segunda captura)
+3. Una vez verificado, recibirás una confirmación (tercera captura)
+4. Conectar tu número de teléfono permite enviar y recibir fondos directamente a números de teléfono de amigos y familiares en Valora
+
+![Pantalla de conexión de número de teléfono](/static/valora-onboarding/Screenshot_20251117-193855.png)
+
+![Verificación del número de teléfono](/static/valora-onboarding/Screenshot_20251117-193907.png)
+
+![Confirmación del número de teléfono](/static/valora-onboarding/Screenshot_20251117-193915.png)
 
 ---
 
@@ -111,10 +136,26 @@ La recuperación social te permite designar contactos de confianza (guardianes) 
 
 ### Cómo Configurar la Recuperación Social
 
-1. En la pantalla principal de Valora, toca el ícono de **"Menú"** (generalmente tres líneas horizontales) en la esquina superior izquierda
-2. Selecciona **"Seguridad y privacidad"** o **"Settings"** (Configuración)
-3. Toca **"Recuperación social"** o **"Social Recovery"**
-4. Sigue las instrucciones para seleccionar y agregar contactos de confianza que te ayudarán a recuperar tu cuenta si pierdes el acceso
+1. En la pantalla principal de Valora (primera captura), toca el ícono de **"Menú"** (generalmente tres líneas horizontales) en la esquina superior izquierda
+2. Selecciona **"Seguridad y privacidad"** o **"Settings"** (Configuración) - segunda captura
+3. Toca **"Recuperación social"** o **"Social Recovery"** - tercera captura
+4. Lee la información sobre cómo funciona la recuperación social (cuarta captura)
+5. Sigue las instrucciones para seleccionar y agregar contactos de confianza que te ayudarán a recuperar tu cuenta si pierdes el acceso (quinta y sexta captura)
+6. Confirma la configuración de tus guardianes (séptima captura)
+
+![Pantalla principal de Valora con menú](/static/valora-onboarding/Screenshot_20251117-193927.png)
+
+![Pantalla de configuración y seguridad](/static/valora-onboarding/Screenshot_20251117-194009.png)
+
+![Pantalla de recuperación social](/static/valora-onboarding/Screenshot_20251117-194017.png)
+
+![Información sobre recuperación social](/static/valora-onboarding/Screenshot_20251117-194048.png)
+
+![Selección de guardianes para recuperación social](/static/valora-onboarding/Screenshot_20251117-194419.png)
+
+![Configuración de guardianes](/static/valora-onboarding/Screenshot_20251117-194427.png)
+
+![Confirmación de guardianes](/static/valora-onboarding/Screenshot_20251117-194608.png)
 
 ### Información Importante sobre Guardianes
 
@@ -143,13 +184,21 @@ Karma GAP es una plataforma de reporte de actividad e impacto on-chain que permi
 ### Método 1: Conectar desde la Aplicación Valora
 
 1. Abre la aplicación Valora en tu dispositivo móvil
-2. Navega hasta la sección **"Descubrir"** en la página de inicio
-3. Desplázate hacia abajo hasta la sección **"Explorar dApps"** y selecciona **"Explorar todas"**
-4. Busca la dApp **"Karma GAP"** utilizando la barra de búsqueda o explorando la lista disponible
+2. Navega hasta la sección **"Descubrir"** en la página de inicio (primera captura)
+3. Desplázate hacia abajo hasta la sección **"Explorar dApps"** y selecciona **"Explorar todas"** (segunda captura)
+4. Busca la dApp **"Karma GAP"** utilizando la barra de búsqueda o explorando la lista disponible (tercera captura)
 5. Selecciona **"Karma GAP"** para acceder a su página dentro de Valora
-6. Dentro de la página de Karma GAP, busca y selecciona la opción para conectar tu billetera
+6. Dentro de la página de Karma GAP, busca y selecciona la opción para conectar tu billetera (cuarta captura muestra la pantalla justo antes de conectar)
 7. Elige **"WalletConnect"** como método de conexión y selecciona Valora de la lista de billeteras disponibles
 8. Valora te pedirá que apruebes la conexión. Revisa los detalles y confirma para establecer la conexión segura
+
+![Pantalla de descubrimiento de dApps en Valora](/static/valora-onboarding/Screenshot_20251117-194653.png)
+
+![Exploración de dApps disponibles](/static/valora-onboarding/Screenshot_20251117-194701.png)
+
+![Búsqueda de Karma GAP](/static/valora-onboarding/Screenshot_20251117-194712.png)
+
+![Última pantalla antes de conectar con Karma GAP](/static/valora-onboarding/this-is-the-last-before-karma-screenshots.jpg)
 
 ### Método 2: Conectar desde el Navegador Web
 
@@ -300,3 +349,4 @@ Siguiendo esta guía, deberías poder:
 Si tienes preguntas o necesitas ayuda adicional, no dudes en contactar al equipo de Regenerant Catalunya en hola@ReFiBCN.cat o consultar los recursos de soporte oficiales de Valora.
 
 **¡Bienvenido al ecosistema Web3 de Regenerant Catalunya!**
+
