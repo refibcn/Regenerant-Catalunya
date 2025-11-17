@@ -2,15 +2,15 @@
 
 /**
  * Multi-language build script template
- * 
+ *
  * This script builds the Quartz site for multiple locales.
  * Configure LOCALES array below with your desired languages.
- * 
+ *
  * Example structure:
  * - en-US (English) -> public/ and public/en/
  * - ca-ES (Catalan) -> public/ca/
  * - es-ES (Spanish) -> public/es/
- * 
+ *
  * Then merges static assets and ensures proper structure.
  */
 
@@ -34,31 +34,28 @@ const LOCALES = [
 
 function buildForLocale(locale, prefix, isDefault) {
   console.log(`\n🌍 Building for ${locale.code} (${prefix})...`)
-  
+
   const contentDir = `content/${prefix}`
   const outputDir = isDefault ? "public" : `public/${prefix}`
-  
+
   try {
     // Build the site with environment variables
-    execSync(
-      `npm run quartz build -- --output ${outputDir} --directory ${contentDir}`,
-      { 
-        cwd: rootDir,
-        stdio: "inherit",
-        env: { 
-          ...process.env, 
-          QUARTZ_LOCALE: locale.code,
-          QUARTZ_CONTENT_DIR: contentDir
-        }
-      }
-    )
-    
+    execSync(`npm run quartz build -- --output ${outputDir} --directory ${contentDir}`, {
+      cwd: rootDir,
+      stdio: "inherit",
+      env: {
+        ...process.env,
+        QUARTZ_LOCALE: locale.code,
+        QUARTZ_CONTENT_DIR: contentDir,
+      },
+    })
+
     console.log(`✅ Built ${locale.code} to ${outputDir}`)
   } catch (error) {
     console.error(`❌ Failed to build ${locale.code}:`, error)
     throw error
   }
-  
+
   // If this is the default locale, also copy to public/{prefix}/ for consistency
   if (isDefault && prefix !== "en") {
     const defaultOutputDir = `public/${prefix}`
@@ -72,7 +69,7 @@ function buildForLocale(locale, prefix, isDefault) {
       }
       // Copy other directories as needed
       const dirsToCopy = ["about", "blog", "events", "ecosystem"]
-      dirsToCopy.forEach(dir => {
+      dirsToCopy.forEach((dir) => {
         if (existsSync(`public/${dir}`)) {
           cpSync(`public/${dir}`, join(defaultOutputDir, dir), { recursive: true })
         }
@@ -83,21 +80,21 @@ function buildForLocale(locale, prefix, isDefault) {
 
 function mergeStaticAssets() {
   console.log("\n📦 Merging static assets...")
-  
+
   // Static assets should be shared across all languages
   // They're already in public/static from the first build
   // Just ensure they're accessible from language subdirectories
-  
-  const staticDirs = LOCALES
-    .filter(locale => !locale.isDefault)
-    .map(locale => `public/${locale.prefix}`)
-  
+
+  const staticDirs = LOCALES.filter((locale) => !locale.isDefault).map(
+    (locale) => `public/${locale.prefix}`,
+  )
+
   // Also add default locale prefix if not "en"
-  const defaultLocale = LOCALES.find(l => l.isDefault)
+  const defaultLocale = LOCALES.find((l) => l.isDefault)
   if (defaultLocale && defaultLocale.prefix !== "en") {
     staticDirs.push(`public/${defaultLocale.prefix}`)
   }
-  
+
   staticDirs.forEach((dir) => {
     if (existsSync(dir) && existsSync("public/static")) {
       // Create symlink or copy static directory
@@ -113,16 +110,16 @@ function mergeStaticAssets() {
       }
     }
   })
-  
+
   console.log("✅ Static assets merged")
 }
 
 function createRootRedirect() {
   console.log("\n🔀 Creating root redirect...")
-  
-  const defaultLocale = LOCALES.find(l => l.isDefault)
+
+  const defaultLocale = LOCALES.find((l) => l.isDefault)
   const defaultPrefix = defaultLocale ? defaultLocale.prefix : "en"
-  
+
   // Create a simple redirect page at root that detects language
   const redirectHTML = `<!DOCTYPE html>
 <html lang="en">
@@ -133,7 +130,7 @@ function createRootRedirect() {
   <script>
     // Detect browser language and redirect
     const lang = navigator.language || navigator.userLanguage;
-    const locales = ${JSON.stringify(LOCALES.map(l => ({ prefix: l.prefix, code: l.code })))};
+    const locales = ${JSON.stringify(LOCALES.map((l) => ({ prefix: l.prefix, code: l.code })))};
     let redirect = '/${defaultPrefix}/';
     
     // Find matching locale
@@ -161,37 +158,37 @@ function createRootRedirect() {
   <p>Redirecting... <a href="/${defaultPrefix}/">Click here if you are not redirected</a></p>
 </body>
 </html>`
-  
+
   writeFileSync(join(rootDir, "public", "index-redirect.html"), redirectHTML)
   console.log("✅ Root redirect created")
 }
 
 async function main() {
   console.log("🚀 Starting multi-language build...\n")
-  
+
   // Clean public directory
   if (existsSync("public")) {
     console.log("🧹 Cleaning public directory...")
     rmSync("public", { recursive: true })
   }
   mkdirSync("public", { recursive: true })
-  
+
   // Build each locale
   for (const locale of LOCALES) {
     buildForLocale(locale, locale.prefix, locale.isDefault)
   }
-  
+
   // Merge static assets
   mergeStaticAssets()
-  
+
   // Create root redirect
   createRootRedirect()
-  
+
   console.log("\n✨ Multi-language build complete!")
   console.log("\n📁 Output structure:")
-  const defaultLocale = LOCALES.find(l => l.isDefault)
-  console.log(`   public/          - ${defaultLocale ? defaultLocale.code : 'Default'} (default)`)
-  LOCALES.forEach(locale => {
+  const defaultLocale = LOCALES.find((l) => l.isDefault)
+  console.log(`   public/          - ${defaultLocale ? defaultLocale.code : "Default"} (default)`)
+  LOCALES.forEach((locale) => {
     if (locale.isDefault && locale.prefix !== "en") {
       console.log(`   public/${locale.prefix}/       - ${locale.code} (explicit)`)
     } else if (!locale.isDefault) {
@@ -205,4 +202,3 @@ main().catch((error) => {
   console.error("❌ Build failed:", error)
   process.exit(1)
 })
-

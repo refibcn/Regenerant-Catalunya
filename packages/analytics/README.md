@@ -41,6 +41,7 @@ analytics: {
 ## How It Works
 
 Plausible Analytics:
+
 - Tracks pageviews automatically
 - No cookies required (GDPR compliant)
 - Lightweight script (~1KB)
@@ -77,4 +78,3 @@ analytics: false
 - No configuration needed beyond domain setup
 - Works automatically after installation
 - Privacy-focused alternative to Google Analytics
-

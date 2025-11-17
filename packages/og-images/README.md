@@ -26,6 +26,7 @@ emitters: [
 ## Usage
 
 OG images are generated automatically for each page during build. They include:
+
 - Page title
 - Site name
 - Branding/styling
@@ -77,6 +78,7 @@ ogImage: false
 ## Recommendation
 
 For most sites, consider:
+
 - Generating OG images only for important pages
 - Using a default OG image for all pages
 - Generating images only in production builds
@@ -86,4 +88,3 @@ To disable OG image generation, comment out the plugin in `quartz.config.ts`:
 ```typescript
 // Plugin.CustomOgImages(), // Disabled for faster builds
 ```
-

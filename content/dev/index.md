@@ -66,7 +66,8 @@ content/
 │       ├── contact.md
 │       └── ...
 └── dev/                       # Development pages
-    └── index.md               # This page
+    ├── index.md               # This page
+    └── hero-variants.md       # Hero section visual variants
 ```
 
 ---
@@ -143,6 +144,7 @@ Each language maintains the same folder structure for consistency.
 ### Navigation Links
 
 All navigation links are language-aware:
+
 - English: `/program`, `/resources`, etc.
 - Catalan: `/ca/program`, `/ca/resources`, etc.
 - Spanish: `/es/program`, `/es/resources`, etc.
@@ -187,6 +189,7 @@ When restructuring, ensure all internal links are updated:
 ### Language Versions
 
 All changes must be applied to:
+
 - English (`content/`)
 - Catalan (`content/ca/`)
 - Spanish (`content/es/`)
@@ -194,6 +197,7 @@ All changes must be applied to:
 ### Navigation Script
 
 The navigation script (`quartz/components/scripts/navigation.inline.ts`) handles:
+
 - Language-aware link prefixes
 - Localhost detection for dev link
 - Active state highlighting
@@ -204,14 +208,14 @@ The navigation script (`quartz/components/scripts/navigation.inline.ts`) handles
 
 ### File Paths
 
-| Page | English | Catalan | Spanish |
-|------|---------|---------|---------|
-| Homepage | `/` | `/ca/` | `/es/` |
-| Program | `/program` | `/ca/program` | `/es/program` |
+| Page                | English                      | Catalan                         | Spanish                         |
+| ------------------- | ---------------------------- | ------------------------------- | ------------------------------- |
+| Homepage            | `/`                          | `/ca/`                          | `/es/`                          |
+| Program             | `/program`                   | `/ca/program`                   | `/es/program`                   |
 | Partners & Projects | `/program/partners-projects` | `/ca/program/partners-projects` | `/es/program/partners-projects` |
-| Tools | `/program/tools` | `/ca/program/tools` | `/es/program/tools` |
-| Resources | `/resources` | `/ca/resources` | `/es/resources` |
-| Contact | `/program/contact` | `/ca/program/contact` | `/es/program/contact` |
+| Tools               | `/program/tools`             | `/ca/program/tools`             | `/es/program/tools`             |
+| Resources           | `/resources`                 | `/ca/resources`                 | `/es/resources`                 |
+| Contact             | `/program/contact`           | `/ca/program/contact`           | `/es/program/contact`           |
 
 ---
 
@@ -221,7 +225,10 @@ The navigation script (`quartz/components/scripts/navigation.inline.ts`) handles
 - **Design Docs**: `/program/design/`
 - **Execution Plans**: `/program/execution/`
 
+## Development Tools
+
+- **Hero Variants**: `/dev/hero-variants` (visual variants of hero section for article preparation)
+
 ---
 
-*This page is only visible when viewing locally (localhost).*
-
+_This page is only visible when viewing locally (localhost)._

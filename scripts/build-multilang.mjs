@@ -2,12 +2,12 @@
 
 /**
  * Multi-language build script for Regenerant Catalunya Website
- * 
+ *
  * This script builds the Quartz site 3 times with different locales:
  * - en-US (English) -> public/ (default)
  * - ca-ES (Catalan) -> public/ca/
  * - es-ES (Spanish) -> public/es/
- * 
+ *
  * Then merges static assets and ensures proper structure.
  */
 
@@ -28,32 +28,29 @@ const LOCALES = [
 
 function buildForLocale(locale, prefix, isDefault) {
   console.log(`\n🌍 Building for ${locale} (${prefix})...`)
-  
+
   // English content is at root, other languages are in subdirectories
   const contentDir = isDefault ? "content" : `content/${prefix}`
   const outputDir = isDefault ? "public" : `public/${prefix}`
-  
+
   try {
     // Build the site with environment variables
-    execSync(
-      `npm run quartz build -- --output ${outputDir} --directory ${contentDir}`,
-      { 
-        cwd: rootDir,
-        stdio: "inherit",
-        env: { 
-          ...process.env, 
-          QUARTZ_LOCALE: locale,
-          QUARTZ_CONTENT_DIR: contentDir
-        }
-      }
-    )
-    
+    execSync(`npm run quartz build -- --output ${outputDir} --directory ${contentDir}`, {
+      cwd: rootDir,
+      stdio: "inherit",
+      env: {
+        ...process.env,
+        QUARTZ_LOCALE: locale,
+        QUARTZ_CONTENT_DIR: contentDir,
+      },
+    })
+
     console.log(`✅ Built ${locale} to ${outputDir}`)
   } catch (error) {
     console.error(`❌ Failed to build ${locale}:`, error)
     throw error
   }
-  
+
   // If this is the default locale (English), also copy to public/en/ for consistency
   if (isDefault) {
     const enOutputDir = "public/en"
@@ -81,11 +78,11 @@ function buildForLocale(locale, prefix, isDefault) {
 
 function mergeStaticAssets() {
   console.log("\n📦 Merging static assets...")
-  
+
   // Static assets should be shared across all languages
   // They're already in public/static from the first build
   // Just ensure they're accessible from language subdirectories
-  
+
   const staticDirs = ["public/ca", "public/es", "public/en"]
   staticDirs.forEach((dir) => {
     if (existsSync(dir) && existsSync("public/static")) {
@@ -103,13 +100,13 @@ function mergeStaticAssets() {
       }
     }
   })
-  
+
   console.log("✅ Static assets merged")
 }
 
 function createRootRedirect() {
   console.log("\n🔀 Creating root redirect...")
-  
+
   // Create a simple redirect page at root that detects language
   const redirectHTML = `<!DOCTYPE html>
 <html lang="en">
@@ -149,38 +146,38 @@ function createRootRedirect() {
   <p>Redirecting... <a href="/">Click here if you are not redirected</a></p>
 </body>
 </html>`
-  
+
   writeFileSync(join(rootDir, "public", "index-redirect.html"), redirectHTML)
   console.log("✅ Root redirect created")
 }
 
 async function main() {
   console.log("🚀 Starting multi-language build...\n")
-  
+
   // Clean public directory
   if (existsSync("public")) {
     console.log("🧹 Cleaning public directory...")
     rmSync("public", { recursive: true })
   }
   mkdirSync("public", { recursive: true })
-  
+
   // Build each locale
   for (const locale of LOCALES) {
     buildForLocale(locale.code, locale.prefix, locale.isDefault)
   }
-  
+
   // Merge static assets
   mergeStaticAssets()
-  
+
   // Copy CNAME to root for GitHub Pages
   if (existsSync("public/static/CNAME")) {
     cpSync("public/static/CNAME", "public/CNAME")
     console.log("✅ CNAME file copied to root")
   }
-  
+
   // Create root redirect
   createRootRedirect()
-  
+
   console.log("\n✨ Multi-language build complete!")
   console.log("\n📁 Output structure:")
   console.log("   public/          - English (default)")

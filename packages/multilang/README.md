@@ -65,6 +65,7 @@ npm run build:multilang
 ```
 
 This will:
+
 1. Build each locale separately
 2. Output to `public/` (default locale) and `public/{prefix}/` (other locales)
 3. Merge static assets
@@ -99,6 +100,7 @@ The LanguageSwitcher supports all locales defined in Quartz's i18n system. See `
 ### Language Detection
 
 The build script creates a root redirect page that:
+
 - Detects browser language
 - Redirects to the appropriate language version
 - Falls back to default locale if no match
@@ -119,4 +121,3 @@ The build script creates a root redirect page that:
 - Each language build uses its own content directory
 - The LanguageSwitcher component requires JavaScript to function
 - Language detection happens client-side for better performance
-

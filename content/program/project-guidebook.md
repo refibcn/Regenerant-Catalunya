@@ -29,6 +29,7 @@ Welcome to **Regenerant Catalunya**! This guidebook provides everything you need
 **Funding Range:** Minimum €1,000 per project, up to €1,500 per project
 
 **Minimum Participation Requirements** (required for €1,000 minimum):
+
 - ✅ Participate in at least **2 workshops**
 - ✅ Open a **Web3 wallet** on Celo
 - ✅ Submit at least **3 past activities** and **3 future plans** to **Karma**
@@ -42,6 +43,7 @@ Welcome to **Regenerant Catalunya**! This guidebook provides everything you need
 ### Phase 2: Network-Level Collective Governance (January–February 2026)
 
 **Funding:** €1,000 per project allocated to network-level pools:
+
 - **Miceli Social network:** ~€6,000 collective pool
 - **La Fundició / Keras Buti network:** ~€5,000 collective pool
 
@@ -56,6 +58,7 @@ Welcome to **Regenerant Catalunya**! This guidebook provides everything you need
 ### 1. Participate in Workshops
 
 **Workshop #1: Introducing Regenerant Catalunya**
+
 - **When:** November 17-21, 2025 (1.5 hours)
 - **Format:** Online
 - **Content:**
@@ -69,6 +72,7 @@ Welcome to **Regenerant Catalunya**! This guidebook provides everything you need
 - **Deliverable:** Open Web3 Wallet
 
 **Workshop #2: Documenting Impact**
+
 - **When:** December 8-14, 2025
 - **Format:** Online
 - **Content:**
@@ -82,6 +86,7 @@ Welcome to **Regenerant Catalunya**! This guidebook provides everything you need
 - **Deliverable:** Open account on Karma
 
 **Office Hours: December 4-19, 2025**
+
 - Support as needed for projects working on their Karma submissions
 - **Deliverable:** Submit activities on Karma (at least 3 past activities and 3 future plans)
 
@@ -90,6 +95,7 @@ Welcome to **Regenerant Catalunya**! This guidebook provides everything you need
 **Why:** You'll need a Web3 wallet to receive funds securely on the Celo blockchain.
 
 **Recommended Options** (social recovery strongly preferred):
+
 - **Valora** — Social recovery, user-friendly mobile wallet
 - **Minipay** — Stablecoin-focused, social recovery
 - **Prosperity Pass** — Social recovery option
@@ -98,11 +104,13 @@ Welcome to **Regenerant Catalunya**! This guidebook provides everything you need
 - **Rainbow** — User-friendly wallet
 
 **Setup Support:**
+
 - Comprehensive onboarding provided in Workshop #1
 - Training on setup, security, backups, and practical use
 - Breakout groups for hands-on support during Workshop #1
 
 **Security Tips:**
+
 - Write down your recovery phrase and store it securely
 - Never share your private keys or recovery phrase
 - Use social recovery wallets when possible (Valora, Minipay)
@@ -116,6 +124,7 @@ Welcome to **Regenerant Catalunya**! This guidebook provides everything you need
 Karma (Grantee Accountability Protocol) is an on-chain platform for transparent impact reporting. It creates a living, public "project resume" that makes your impact visible and verifiable.
 
 **Why Use Karma?**
+
 - Builds your on-chain reputation
 - Makes impact visible to future funders
 - Improves discoverability
@@ -123,16 +132,19 @@ Karma (Grantee Accountability Protocol) is an on-chain platform for transparent 
 - Training and templates provided by ReFi BCN
 
 **What to Submit:**
+
 - **At least 3 past activities** — Document what you've already accomplished
 - **At least 3 future plans** — Share what you plan to do with the funding
 
 **How to Use Karma:**
+
 - Training provided in Workshop #2
 - Templates aligned with Common Approach frameworks
 - Ongoing support through office hours (December 4-19, 2025)
 - Examples of effective Karma usage shared in Workshop #2
 
 **Timeline:**
+
 - Open account: During or after Workshop #2
 - Submit activities: By end of December (with support during office hours)
 
@@ -140,13 +152,13 @@ Karma (Grantee Accountability Protocol) is an on-chain platform for transparent 
 
 ## Workshop Schedule Summary
 
-| Workshop | Date | Duration | Key Deliverable |
-|----------|------|----------|-----------------|
-| **Workshop #1** | Nov 17-21, 2025 | 1.5 hours | Open Web3 Wallet |
-| **Workshop #2** | Dec 8-14, 2025 | TBD | Open Karma account |
-| **Office Hours** | Dec 4-19, 2025 | As needed | Submit Karma activities |
-| **Workshop #4** | Jan 2026 | TBD | Network governance setup |
-| **Workshop #5** | Jan/Feb 2026 | TBD | BioFi vision |
+| Workshop         | Date            | Duration  | Key Deliverable          |
+| ---------------- | --------------- | --------- | ------------------------ |
+| **Workshop #1**  | Nov 17-21, 2025 | 1.5 hours | Open Web3 Wallet         |
+| **Workshop #2**  | Dec 8-14, 2025  | TBD       | Open Karma account       |
+| **Office Hours** | Dec 4-19, 2025  | As needed | Submit Karma activities  |
+| **Workshop #4**  | Jan 2026        | TBD       | Network governance setup |
+| **Workshop #5**  | Jan/Feb 2026    | TBD       | BioFi vision             |
 
 **All workshops are online.** Participants should have laptops or mobile phones. Presentations conducted in **Spanish**.
 
@@ -157,6 +169,7 @@ Karma (Grantee Accountability Protocol) is an on-chain platform for transparent 
 In Phase 2, your network (Miceli Social or La Fundició / Keras Buti) will collectively govern a pool of funds using Web3 tools.
 
 **What to Expect:**
+
 - **Workshop #4 (January 2026):** Learn about advanced Web3 governance tools
   - Gardens (conviction voting)
   - Safe (multisigs)
@@ -166,6 +179,7 @@ In Phase 2, your network (Miceli Social or La Fundició / Keras Buti) will colle
 - **Collective Decision-Making:** Networks decide how to allocate Phase 2 funds together
 
 **Benefits:**
+
 - Learn practical Web3 governance tools
 - Build capacity for future rounds
 - Create portable, verifiable governance structures
@@ -278,5 +292,4 @@ A: Yes, Karma creates a public, on-chain record. This builds your reputation and
 
 **Welcome to Regenerant Catalunya!** We're excited to support your regenerative work and build capacity together. If you have any questions, don't hesitate to reach out.
 
-*Together, let's finance the future we want to see — one bioregion at a time.*
-
+_Together, let's finance the future we want to see — one bioregion at a time._

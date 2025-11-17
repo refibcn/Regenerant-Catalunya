@@ -12,12 +12,14 @@ The template uses a modular package system. You can select which packages to ins
 **Dependencies:** None
 
 Essential Quartz framework setup including:
+
 - Base Quartz framework files
 - Essential components (Navigation, Search, Footer)
 - Basic configuration structure
 - TypeScript configuration
 
 **Files:**
+
 - `packages/core/quartz.config.ts.template`
 - `packages/core/quartz.layout.ts.template`
 
@@ -27,16 +29,19 @@ Essential Quartz framework setup including:
 **Dependencies:** Core
 
 Customizable theme architecture:
+
 - CSS variables system
 - Base styles and typography
 - Responsive design patterns
 - Component styling patterns
 
 **Files:**
+
 - `packages/theme/styles/custom.scss.template`
 - `packages/theme/styles/variables.scss`
 
 **Customization:**
+
 - Edit `quartz/styles/custom.scss` after installation
 - Update CSS variables for colors
 - Modify typography in `quartz.config.ts`
@@ -47,6 +52,7 @@ Customizable theme architecture:
 **Dependencies:** Core
 
 Multi-language support:
+
 - Multi-language build script
 - LanguageSwitcher component
 - i18n translation files
@@ -56,11 +62,13 @@ Multi-language support:
 Select "multilang" during setup.
 
 **Configuration:**
+
 1. Edit `scripts/build-multilang.mjs` to configure locales
 2. Create content directories: `content/en/`, `content/ca/`, etc.
 3. Build with: `npm run build:multilang`
 
 **Files:**
+
 - `packages/multilang/scripts/build-multilang.mjs`
 - `packages/multilang/components/LanguageSwitcher.tsx`
 
@@ -72,6 +80,7 @@ Select "multilang" during setup.
 **Dependencies:** Core
 
 Plausible Analytics integration:
+
 - Privacy-compliant tracking
 - No cookies required
 - GDPR compliant
@@ -81,11 +90,13 @@ Plausible Analytics integration:
 Select "analytics" during setup.
 
 **Configuration:**
+
 1. Sign up at [plausible.io](https://plausible.io)
 2. Add your domain
 3. Analytics works automatically
 
 **Files:**
+
 - `packages/analytics/plausible.ts`
 
 **See:** [packages/analytics/README.md](../packages/analytics/README.md)
@@ -96,6 +107,7 @@ Select "analytics" during setup.
 **Dependencies:** Core, GitHub Repository
 
 Giscus comments system:
+
 - GitHub Discussions integration
 - Light and dark theme support
 - Configurable per-page
@@ -105,11 +117,13 @@ Giscus comments system:
 Select "comments" during setup.
 
 **Configuration:**
+
 1. Enable Discussions in GitHub repository
 2. Visit [giscus.app](https://giscus.app) to configure
 3. Update `quartz.layout.ts` with repo/category IDs
 
 **Files:**
+
 - `packages/comments/components/Comments.tsx`
 - `packages/comments/static/giscus/` (theme files)
 
@@ -121,6 +135,7 @@ Select "comments" during setup.
 **Dependencies:** Core
 
 Custom Open Graph image generation:
+
 - Automatic OG image creation
 - Social media preview support
 - Customizable per-page
@@ -129,15 +144,18 @@ Custom Open Graph image generation:
 Select "og-images" during setup.
 
 **Performance Impact:**
+
 - Small sites (< 50 pages): ~1-2 min additional build time
 - Medium sites (50-200 pages): ~5-10 min additional build time
 - Large sites (> 200 pages): ~15+ min additional build time
 
 **Configuration:**
+
 - Automatically enabled after installation
 - Can be disabled by commenting out plugin in `quartz.config.ts`
 
 **Files:**
+
 - Configuration in `quartz.config.ts`
 
 **See:** [packages/og-images/README.md](../packages/og-images/README.md)
@@ -196,7 +214,7 @@ All packages are compatible with each other. You can install any combination of 
 ## Support
 
 For package-specific questions:
+
 - Check package README in `packages/{package-name}/README.md`
 - See [GitHub Issues](https://github.com/ReFiDAO/quartz-refi-template/issues)
 - Ask in [Discussions](https://github.com/ReFiDAO/quartz-refi-template/discussions)
-

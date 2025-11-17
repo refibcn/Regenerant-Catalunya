@@ -36,13 +36,17 @@ gantt
 ## Phase 1: Program Preparation (October 2025)
 
 ### October 31, 2025 ✅
+
 **Local funds (€11k) secured on-chain**
+
 - Treasury multisig ready to receive funds
 - Local partner commitments confirmed
 - **Status:** Completed
 
 ### Mid-November 2025
+
 **Global matching funds secured on-chain**
+
 - $20,000 from Localism Fund
 - Funds available for distribution
 
@@ -51,7 +55,9 @@ gantt
 ## Phase 2: Program Kickoff & Baseline Allocation (November–December 2025)
 
 ### November 17-21, 2025
+
 **Workshop #1: Introducing Regenerant Catalunya**
+
 - **Format:** Online (1.5 hours)
 - **Language:** Spanish
 - **Content:**
@@ -65,13 +71,17 @@ gantt
 - **Deliverable:** Open Web3 Wallet
 
 ### December 4-19, 2025
+
 **Office Hours for Project Support**
+
 - Support as needed for projects working on Karma submissions
 - Technical assistance and troubleshooting
 - **Deliverable:** Submit activities on Karma (at least 3 past activities and 3 future plans)
 
 ### December 8-14, 2025
+
 **Workshop #2: Documenting Impact**
+
 - **Format:** Online
 - **Language:** Spanish
 - **Content:**
@@ -85,13 +95,16 @@ gantt
 - **Deliverable:** Open account on Karma
 
 ### End of December 2025
+
 **Phase 1 Disbursement**
+
 - **Minimum €1,000 per project** (tied to minimum participation requirements)
 - **Up to €1,500 per project** (based on simplified impact evaluation)
 - Funds distributed to project Web3 wallets on Celo
 - Off-ramp support provided (without legal liabilities)
 
 **Minimum Participation Requirements:**
+
 - ✅ Participate in at least 2 workshops
 - ✅ Open web3 wallet
 - ✅ Submit at least 3 past activities and 3 future plans to Karma
@@ -101,7 +114,9 @@ gantt
 ## Phase 3: Network-Level Collective Governance (January–February 2026)
 
 ### January 2026
+
 **Workshop #4: Advanced Web3 Tools (per network)**
+
 - **Format:** Online, separate sessions for each network
 - **Language:** Spanish
 - **Content:**
@@ -118,7 +133,9 @@ gantt
   - Activate governance of funds
 
 ### January/February 2026
+
 **Workshop #5: BioFi and Beyond**
+
 - **Format:** Online
 - **Language:** Spanish
 - **Content:**
@@ -129,7 +146,9 @@ gantt
 - **Deliverable:** Feedback
 
 ### End of February 2026
+
 **Networks Activate Collective Governance of Phase 2 Funds**
+
 - **Miceli Social network:** ~€6,000 collective pool activated
 - **La Fundició / Keras Buti network:** ~€5,000 collective pool activated
 - Networks collectively govern funds using Web3 governance tools
@@ -140,7 +159,9 @@ gantt
 ## Phase 4: Program Wrap-Up (March 2026)
 
 ### March 2026
+
 **Final Report Published**
+
 - All artifacts published in **Catalan, Spanish, and English**
 - Published at [regenerant.refibcn.cat](https://regenerant.refibcn.cat/)
 - Includes:
@@ -155,18 +176,18 @@ gantt
 
 ## Key Milestones Summary
 
-| Date | Milestone | Status |
-|------|-----------|--------|
-| **Oct 31, 2025** | Local funds (€11k) secured on-chain | ✅ Completed |
-| **Mid-Nov 2025** | Global matching funds secured on-chain | 🔄 In Progress |
-| **Nov 17-21, 2025** | Workshop #1 — Program kickoff | 📅 Upcoming |
-| **Dec 4-19, 2025** | Office hours for project support | 📅 Upcoming |
-| **Dec 8-14, 2025** | Workshop #2 — Impact documentation | 📅 Upcoming |
-| **End Dec 2025** | Phase 1 disbursement | 📅 Upcoming |
-| **Jan 2026** | Workshop #4 — Advanced Web3 tools | 📅 Planned |
-| **Jan/Feb 2026** | Workshop #5 — BioFi and beyond | 📅 Planned |
-| **End Feb 2026** | Networks activate collective governance | 📅 Planned |
-| **Mar 2026** | Final report published | 📅 Planned |
+| Date                | Milestone                               | Status         |
+| ------------------- | --------------------------------------- | -------------- |
+| **Oct 31, 2025**    | Local funds (€11k) secured on-chain     | ✅ Completed   |
+| **Mid-Nov 2025**    | Global matching funds secured on-chain  | 🔄 In Progress |
+| **Nov 17-21, 2025** | Workshop #1 — Program kickoff           | 📅 Upcoming    |
+| **Dec 4-19, 2025**  | Office hours for project support        | 📅 Upcoming    |
+| **Dec 8-14, 2025**  | Workshop #2 — Impact documentation      | 📅 Upcoming    |
+| **End Dec 2025**    | Phase 1 disbursement                    | 📅 Upcoming    |
+| **Jan 2026**        | Workshop #4 — Advanced Web3 tools       | 📅 Planned     |
+| **Jan/Feb 2026**    | Workshop #5 — BioFi and beyond          | 📅 Planned     |
+| **End Feb 2026**    | Networks activate collective governance | 📅 Planned     |
+| **Mar 2026**        | Final report published                  | 📅 Planned     |
 
 ---
 
@@ -219,4 +240,3 @@ graph LR
 ---
 
 **Questions about the timeline?** Contact us at hola@ReFiBCN.cat
-

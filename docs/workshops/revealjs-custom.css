@@ -1,0 +1,335 @@
+/**
+ * Regenerant Catalunya Presentation Theme
+ * Custom CSS for Reveal.js presentations
+ * Matches website visual style: forest green, warm sand, Inter font, straight edges
+ */
+
+/* ============================================
+   COLOR VARIABLES
+   ============================================ */
+:root {
+  --green-dark: #214033;
+  --green-medium: #3a6655;
+  --green-light: #568f79;
+  --green-highlight: rgba(33, 64, 51, 0.15);
+  --warm-sand: #e6dfd7;
+  --purple: #6b4ea3;
+  --purple-light: #8b6ec3;
+  --orange: #e67e50;
+  --orange-light: #f49870;
+  --darkgray: #092045;
+}
+
+/* ============================================
+   GLOBAL STYLES
+   ============================================ */
+.reveal {
+  font-family:
+    "Inter",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: var(--darkgray);
+  background-color: var(--warm-sand);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove all border-radius */
+.reveal *,
+.reveal *::before,
+.reveal *::after {
+  border-radius: 0 !important;
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: var(--green-dark);
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  margin: 0 0 1em 0;
+  text-transform: none;
+}
+
+.reveal h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  border-bottom: 3px solid var(--green-dark);
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+}
+
+.reveal h2 {
+  font-size: 2em;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  border-bottom: 2px solid var(--green-dark);
+  padding-bottom: 0.4em;
+  margin-bottom: 0.8em;
+}
+
+.reveal h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.6em;
+}
+
+.reveal h4 {
+  font-size: 1.25em;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+.reveal p {
+  margin: 0.8em 0;
+  line-height: 1.7;
+}
+
+.reveal strong {
+  font-weight: 600;
+  color: var(--green-dark);
+}
+
+.reveal em {
+  font-style: italic;
+}
+
+/* ============================================
+   LINKS
+   ============================================ */
+.reveal a {
+  color: var(--green-medium);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.reveal a:hover {
+  color: var(--green-light);
+  text-decoration: underline;
+}
+
+.reveal a:visited {
+  color: var(--green-dark);
+}
+
+/* ============================================
+   CODE
+   ============================================ */
+.reveal code {
+  font-family: "IBM Plex Mono", "Courier New", monospace;
+  font-size: 0.85em;
+  background-color: var(--green-highlight);
+  padding: 0.2em 0.4em;
+  border: 1px solid var(--green-dark);
+}
+
+.reveal pre {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 1em auto;
+  padding: 1em;
+  background-color: var(--green-highlight);
+  border: 2px solid var(--green-dark);
+  box-shadow: none;
+  overflow: visible;
+  word-wrap: break-word;
+}
+
+.reveal pre code {
+  display: block;
+  padding: 0;
+  overflow: auto;
+  max-height: 500px;
+  word-wrap: normal;
+  background-color: transparent;
+  border: none;
+  color: var(--darkgray);
+}
+
+/* ============================================
+   LISTS
+   ============================================ */
+.reveal ul,
+.reveal ol {
+  margin: 0.8em 0;
+  padding-left: 1.5em;
+}
+
+.reveal li {
+  margin: 0.4em 0;
+  line-height: 1.7;
+}
+
+.reveal ul li::marker {
+  color: var(--green-dark);
+}
+
+/* ============================================
+   BLOCKQUOTES
+   ============================================ */
+.reveal blockquote {
+  border-left: 4px solid var(--orange);
+  padding-left: 1em;
+  margin: 1em 0;
+  background-color: var(--green-highlight);
+  padding: 1em;
+  border: 2px solid var(--green-dark);
+  border-left: 4px solid var(--orange);
+}
+
+/* ============================================
+   TABLES
+   ============================================ */
+.reveal table {
+  margin: 1em auto;
+  border-collapse: collapse;
+  border: 2px solid var(--green-dark);
+}
+
+.reveal table th,
+.reveal table td {
+  border: 1px solid var(--green-dark);
+  padding: 0.5em 1em;
+  text-align: left;
+}
+
+.reveal table th {
+  background-color: var(--green-dark);
+  color: var(--warm-sand);
+  font-weight: 600;
+}
+
+.reveal table tr:nth-child(even) {
+  background-color: var(--green-highlight);
+}
+
+/* ============================================
+   SLIDE BACKGROUNDS
+   ============================================ */
+.reveal .slides section {
+  text-align: left;
+  padding: 2em;
+  background-color: var(--warm-sand);
+}
+
+.reveal .slides section.title-slide {
+  text-align: center;
+  padding: 3em;
+}
+
+.reveal .slides section.title-slide h1 {
+  border: none;
+  margin-bottom: 0.5em;
+}
+
+.reveal .slides section.title-slide p {
+  font-size: 0.8em;
+  color: var(--green-medium);
+  margin-top: 1em;
+}
+
+/* ============================================
+   CUSTOM SLIDE CLASSES
+   ============================================ */
+.reveal .slides section.section-slide {
+  text-align: center;
+  padding: 3em;
+}
+
+.reveal .slides section.section-slide h2 {
+  border: none;
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.reveal .slides section.two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+}
+
+.reveal .slides section.centered {
+  text-align: center;
+}
+
+.reveal .slides section.centered h1,
+.reveal .slides section.centered h2,
+.reveal .slides section.centered h3 {
+  border: none;
+}
+
+/* ============================================
+   HIGHLIGHT BOXES / CALLOUTS
+   ============================================ */
+.reveal .highlight-box {
+  background-color: var(--green-highlight);
+  border: 2px solid var(--green-dark);
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.reveal .info-box {
+  background-color: rgba(107, 78, 163, 0.15);
+  border: 2px solid var(--green-dark);
+  border-left: 4px solid var(--purple);
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.reveal .warning-box {
+  background-color: rgba(230, 126, 80, 0.15);
+  border: 2px solid var(--green-dark);
+  border-left: 4px solid var(--orange);
+  padding: 1em;
+  margin: 1em 0;
+}
+
+/* ============================================
+   REVEAL.JS CONTROLS & PROGRESS BAR
+   ============================================ */
+.reveal .controls {
+  color: var(--green-dark);
+}
+
+.reveal .controls button {
+  color: var(--green-dark);
+}
+
+.reveal .progress {
+  background: var(--green-highlight);
+  color: var(--green-dark);
+  height: 3px;
+}
+
+.reveal .progress span {
+  background: var(--green-dark);
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+@media print {
+  .reveal .slides section {
+    page-break-after: always;
+  }
+
+  .reveal .slides section:last-child {
+    page-break-after: avoid;
+  }
+}

@@ -19,11 +19,13 @@ test-prototypes/
 ## Quick Start
 
 ### Run Tests
+
 ```bash
 node test-prototypes/test-scripts.js
 ```
 
 ### Generate All Prototypes
+
 ```bash
 node test-prototypes/generate-prototypes.js
 ```
@@ -33,23 +35,28 @@ node test-prototypes/generate-prototypes.js
 ### Pattern Variations
 
 **Halftone Dots:**
+
 - `prototype-dots-{4,8,12,16}px.png` - Different dot sizes
 - `prototype-intensity-{0.3,0.5,0.7,0.9}.png` - Different intensities
 - `prototype-angle-{0,45,90,135}deg.png` - Different angles
 
 **Halftone Lines:**
+
 - `prototype-lines-{2,4,6,8}px.png` - Different line spacing
 
 **Complete Workflow:**
+
 - `prototype-complete-final.png` - Pattern + duotone example
 
 ### Templates
 
 **Social Media:**
+
 - `{instagram,twitter,linkedin,facebook}-{en,es,cat}.png`
 - `{platform}-template.svg` - Editable SVG templates
 
 **Web Banners:**
+
 - `banner-{hero,section,sidebar,mobile}.png`
 - `banner-{type}.webp` - Optimized WebP
 - `banner-{type}.svg` - Scalable SVG
@@ -66,6 +73,7 @@ See `TEST-REPORT.md` for detailed results.
 ## Usage Examples
 
 ### Process Event Photo
+
 ```bash
 # Step 1: Apply halftone pattern
 node scripts/brand-assets/pattern-generation/halftone-dots.js \
@@ -81,6 +89,7 @@ node scripts/brand-assets/image-processing/apply-duotone.js \
 ```
 
 ### Generate Social Media Post
+
 ```bash
 node scripts/brand-assets/template-generation/social-media.js \
   --platform instagram \
@@ -89,6 +98,7 @@ node scripts/brand-assets/template-generation/social-media.js \
 ```
 
 ### Generate Web Banner
+
 ```bash
 node scripts/brand-assets/template-generation/web-banners.js \
   --type hero \
@@ -107,4 +117,3 @@ node scripts/brand-assets/template-generation/web-banners.js \
 
 **Generated:** November 13, 2025  
 **Status:** ✅ Ready for Review
-

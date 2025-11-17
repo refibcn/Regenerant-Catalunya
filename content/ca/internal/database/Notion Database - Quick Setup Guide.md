@@ -9,9 +9,11 @@
 ## ⚡ FASTEST SETUP PATH
 
 ### **Option A: Manual Entry (~3.5 hours)**
+
 Follow the complete guide in `Notion Database - Program Design Planning Execution.md`
 
 ### **Option B: Import from CSV (~1 hour)**
+
 1. I can create a CSV file with all 53 entries
 2. You import to Notion
 3. Configure views and properties
@@ -26,6 +28,7 @@ Follow the complete guide in `Notion Database - Program Design Planning Executio
 If time is constrained, create a **simplified version first** with just critical items:
 
 ### **MVP Properties (6 instead of 12):**
+
 1. Task/Component (Title)
 2. Priority (Select: 🔴 Critical, 🟠 High, 🟡 Medium)
 3. Status (Select: Not Started, In Progress, Completed)
@@ -54,6 +57,7 @@ If time is constrained, create a **simplified version first** with just critical
 15. 🟠 Donor Journey Content - Andrea - Oct 11
 
 ### **MVP Views (2 instead of 6):**
+
 1. **Table View:** All tasks sorted by Due Date
 2. **Board View:** Grouped by Status
 
@@ -66,12 +70,14 @@ Then expand later when you have more time!
 ## 🎯 RECOMMENDED APPROACH
 
 ### **Phase 1: MVP Today (30 min) - October 8**
+
 - Create database with 6 basic properties
 - Add 15 critical entries
 - Create 2 basic views
 - **Result:** Functional tracking for launch week
 
 ### **Phase 2: Full Build This Weekend (3 hours) - October 12-13**
+
 - Add remaining 6 properties
 - Add remaining 38 entries
 - Create 4 additional views
@@ -85,6 +91,7 @@ Then expand later when you have more time!
 ### **Copy-Paste Select Options:**
 
 **Category Options:**
+
 ```
 Program Design
 Stakeholder Mgmt
@@ -97,6 +104,7 @@ Documentation
 ```
 
 **Phase Options:**
+
 ```
 Phase 1: Alignment (Done)
 Phase 2: Design (Current)
@@ -106,6 +114,7 @@ Phase 5: Evaluation
 ```
 
 **Status Options:**
+
 ```
 Not Started
 In Progress
@@ -115,6 +124,7 @@ Completed
 ```
 
 **Priority Options:**
+
 ```
 🔴 Critical
 🟠 High
@@ -123,6 +133,7 @@ Completed
 ```
 
 **Owner Options:**
+
 ```
 Luiz
 Giulio
@@ -132,6 +143,7 @@ Advisory Council
 ```
 
 **Stakeholders Options:**
+
 ```
 ReFi BCN
 Miceli Social
@@ -150,6 +162,7 @@ Regen Coordination
 ## ⚡ SPEED TIPS
 
 ### **Use Notion's Keyboard Shortcuts:**
+
 - `/database` - Create database
 - `/select` - Add select property
 - `Cmd + D` - Duplicate entry (great for similar tasks)
@@ -158,11 +171,13 @@ Regen Coordination
 - `Cmd + Enter` - Open entry as page
 
 ### **Batch Operations:**
+
 - Select multiple entries (click checkboxes)
 - Change properties for all at once
 - Much faster than one-by-one
 
 ### **Templates:**
+
 - Create entry template with common fields pre-filled
 - Use for similar task types
 
@@ -196,12 +211,14 @@ Regen Coordination
 ## 📞 NEED HELP?
 
 **Questions I can answer:**
+
 - "Can you create a CSV file for import?" ✅
 - "Can you generate just the critical entries?" ✅
 - "Can you create different views configurations?" ✅
 - "Can you simplify this further?" ✅
 
 **What I can provide:**
+
 - CSV export for easy import
 - Simplified versions
 - Alternative structures
@@ -212,6 +229,7 @@ Regen Coordination
 ## 💪 YOU'VE GOT THIS!
 
 **Remember:**
+
 - ✅ Start with MVP (30 min)
 - ✅ Expand this weekend (3 hours)
 - ✅ Use daily starting tomorrow
@@ -229,4 +247,3 @@ Regen Coordination
 **Created:** October 8, 2025  
 **For:** Notion Database Rapid Setup  
 **Options:** MVP (30 min) or Full Build (3.5 hours) or CSV Import (1 hour)
-

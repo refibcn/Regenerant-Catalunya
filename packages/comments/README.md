@@ -78,6 +78,7 @@ Edit the Giscus CSS files in `quartz/static/giscus/` to customize the appearance
 ## How It Works
 
 Giscus:
+
 - Uses GitHub Discussions as the backend
 - Requires users to sign in with GitHub
 - Automatically creates discussions for each page
@@ -118,4 +119,3 @@ lang: "en" // or "es", "ca", etc.
 - Discussions are created automatically per page
 - Free and open-source
 - Privacy-friendly (no tracking)
-

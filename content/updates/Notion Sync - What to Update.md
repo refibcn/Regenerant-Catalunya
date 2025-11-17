@@ -10,17 +10,20 @@
 ## 📊 CURRENT STATE COMPARISON
 
 ### Local Files Status:
+
 - ✅ **Master Document (57KB)** - Comprehensive, well-structured
-- ✅ **Program Design (34KB)** - Detailed strategic framework  
+- ✅ **Program Design (34KB)** - Detailed strategic framework
 - ✅ **Program Execution Plan (43KB)** - Operational framework
 - ✅ **Application Form Draft** - Ready for submission
 - ✅ **Notion Summary (6KB)** - Condensed version for Notion
 
 ### Notion Pages Status (from your links):
+
 - 🔗 **Master Doc:** https://www.notion.so/REGENERANT-CATALUNYA-GG24-MASTER-DOC-26c6ed0845cb80a29615cc480f969597
 - 🔗 **Project Page:** https://www.notion.so/Regenerant-Catalunya-GG24-21c6ed0845cb805088e6c743b4ed53dc
 
 **Issue:** Web search results show minimal content captured from Notion, suggesting either:
+
 1. Notion pages need updating with local content
 2. Notion pages are private/not fully accessible to scraping
 3. Content needs to be added to Notion
@@ -30,9 +33,11 @@
 ## 🎯 PRIORITY UPDATES FOR NOTION MASTER DOC
 
 ### SECTION 1: TLDR & Introduction ✅ ALREADY GOOD
+
 **Status:** Content in local master doc is comprehensive  
 **Action:** Verify Notion version matches latest local edits  
 **Key Points to Verify:**
+
 - €30,000 total funding mentioned
 - 10-12 projects specified
 - October 14-28, 2025 dates correct
@@ -43,24 +48,26 @@
 ### SECTION 2: Development Notes & To-Do's ⚠️ NEEDS UPDATE
 
 **Current in Local Master Doc:**
+
 ```markdown
 ## 📝 Development Notes & To-Do's
 
 - **Master Document Completion**
-    - [ ] **Complete ReFi Barcelona project descriptions** (3 projects)
-    - [ ] **Update Safe Multisig details** (currently marked as "TBD")
-    - [ ] **Finalize development notes cleanup**
+  - [ ] **Complete ReFi Barcelona project descriptions** (3 projects)
+  - [ ] **Update Safe Multisig details** (currently marked as "TBD")
+  - [ ] **Finalize development notes cleanup**
 
 - **Round Design & Development**
-    - [ ] **Finalize advisor list** with confirmed participants
-    - [ ] **Define funds allocation methodology**
-    - [ ] **Complete project onboarding process**
-    - [ ] **Finalize partnership agreements**
-    - [ ] **Set up technical infrastructure**
+  - [ ] **Finalize advisor list** with confirmed participants
+  - [ ] **Define funds allocation methodology**
+  - [ ] **Complete project onboarding process**
+  - [ ] **Finalize partnership agreements**
+  - [ ] **Set up technical infrastructure**
 ```
 
 **Recommended Update for Notion:**
 Add a **status dashboard** at the top of Notion page with:
+
 - Current Phase: Phase 2 - Program Design (In Progress)
 - Days to Launch: [Calculate from current date]
 - Progress bars for:
@@ -74,9 +81,11 @@ Add a **status dashboard** at the top of Notion page with:
 ---
 
 ### SECTION 3: Why Now - Contextualization ✅ ALREADY GOOD
+
 **Status:** Excellent contextual framing  
 **Action:** Minor updates only  
 **Suggested Additions:**
+
 - Link to latest Regen Coordination impact numbers (if updated)
 - Add recent Ethereum Localism examples from 2025
 - Update any outdated statistics
@@ -84,9 +93,11 @@ Add a **status dashboard** at the top of Notion page with:
 ---
 
 ### SECTION 4: Introducing Regenerant Catalunya ✅ MOSTLY GOOD
+
 **Status:** Strong narrative and structure  
 **Action:** Update with finalized details  
 **Updates Needed:**
+
 - Confirm exact number: "10-12 projects" → specify "12 projects"
 - Update minimum funding from "minimum €1,000" to exact allocation once decided
 - Add confirmed advisory council members by name
@@ -98,6 +109,7 @@ Add a **status dashboard** at the top of Notion page with:
 **Currently in Local vs. What Should Be in Notion:**
 
 **Local Program Design document has:** (34KB, 893 lines)
+
 - Detailed stakeholder ecosystem map
 - Complete project portfolio descriptions
 - Funding architecture with diagrams
@@ -111,10 +123,12 @@ Add a **status dashboard** at the top of Notion page with:
 At minimum, add these expanded sections or link to full Program Design doc:
 
 **5.1 Stakeholder Ecosystem (ADD TO NOTION)**
+
 ```markdown
 ## Stakeholder Ecosystem Map
 
 ### Local Anchors:
+
 - **Miceli Social** (€6,000 + 6 rural projects)
   - Rural resilience expertise
   - 100+ municipalities network
@@ -123,12 +137,14 @@ At minimum, add these expanded sections or link to full Program Design doc:
   - Xarxa d'Ateneus Cooperatius hub
 
 ### Global Partners:
+
 - **Regen Coordination** - Methodology & coordination
 - **Celo Public Goods** - Funding & blockchain infrastructure
 - **Gitcoin** - Platform & matching funds
 - **Ethereum Foundation** - Localism movement support
 
 ### Advisory Council:
+
 - ✅ Oriol (Miceli Social) - Rural expertise
 - ✅ Mariló (La Fundició) - Urban cooperative economics
 - ⏳ [Additional advisors being confirmed]
@@ -146,23 +162,18 @@ Current Notion likely has partial project descriptions. Add comprehensive sectio
 1. **Regeneració.XYZ** - Communicating Regeneration
    - Creative agency for regenerative narratives through art
    - Web3 Innovation: Bioregional community governance tools
-   
 2. **Resilience Earth & Simbiosi Fluvial** - Digital River Stewardship
    - Bioregional governance cooperative working with 100+ municipalities
    - Web3 Innovation: Blockchain + AI for environmental monitoring
-   
 3. **De Bat a Bat** - Community Health
    - Holistic participatory healthcare rooted in nature
    - Web3 Innovation: Impact tracking for therapeutic programs
-   
 4. **Chapter#2** - Education & Art
    - Regenerative storytelling in schools
    - Web3 Innovation: Educational impact verification
-   
 5. **Anigami** - Regenerative Tourism
    - Tourism models that actively regenerate rural areas
    - Web3 Innovation: Tourist impact measurement and rewards
-   
 6. **Mixité** - Rural Housing
    - Sustainable housing policies and community land stewardship
    - Web3 Innovation: Policy impact tracking and open-source documentation
@@ -172,23 +183,19 @@ Current Notion likely has partial project descriptions. Add comprehensive sectio
 7. **Laurel 31** - Textile Sustainability
    - Environmental sustainability in textile production
    - Web3 Innovation: Supply chain transparency
-   
 8. **La Marmita** - Community Food Systems
    - Low-cost, healthy, ecological meals using thermopol technology
    - Web3 Innovation: Cooperative food system tracking
-   
 9. **Les Juntes** - Cooperative Housing
    - Use-right housing model resisting commodification
    - Web3 Innovation: Collective ownership on-chain registry
-   
 10. **La Suculenta** - Food Sovereignty & Social Inclusion
     - Community dining + training for rights-violated individuals
     - Web3 Innovation: Social impact certification
-    
 11. **La Granja del Tilo** - Agroecology
     - Organic farming and generational renewal
     - Web3 Innovation: Farm-to-table transparency
-    
+
 ### Cross-Cutting Project (ReFi Barcelona Network)
 
 12. **[Project TBD]** - Options:
@@ -202,11 +209,13 @@ Current Notion likely has partial project descriptions. Add comprehensive sectio
 Create a visual diagram or table in Notion showing:
 
 **Required Tools (All Projects):**
+
 - ✅ Karma GAP - Impact reporting & reputation
 - ✅ Celo Wallets - Fund management
 - ✅ Safe Multisig - Treasury management
 
 **Optional Innovation Stack:**
+
 - 🔧 Silvi - Ecosystem restoration tracking
 - 🔧 Hypercerts - Impact certification
 - 🔧 Gainforest - AI forest monitoring
@@ -214,15 +223,18 @@ Create a visual diagram or table in Notion showing:
 - 🔧 Kokonut Network - Agroforestry
 
 **Program Management:**
+
 - 📋 Notion - Public dashboard
 - 💬 WhatsApp - Community coordination
 
 ---
 
 ### SECTION 6: Conclusion ✅ ALREADY GOOD
+
 **Status:** Strong conclusion  
 **Action:** Minor updates only  
 **Suggested Addition:**
+
 - Add specific call-to-action with donation link (once Gitcoin page live)
 - Include "Follow our launch" section with social media links
 
@@ -245,18 +257,21 @@ Add this enhanced team section to Notion:
 ### Core Team - ReFi Barcelona
 
 **Luiz Fernando Segala Gomes** | Founder & Strategy Lead
+
 - ReFi DAO Operations Lead & Regen Coordination Council Member
 - Experience: Gitcoin rounds, ReFi mentorship programs, Web3 capacity building
 - Role: Overall strategy, global partnerships, treasury management, financial oversight
 - Commitment: 20 hours/week
 
 **Giulio Quarta** | Operations & Community Lead
+
 - Director of Commons Agency • Post-capitalist crypto community builder
 - Experience: Project management, community orchestration, stakeholder alignment
 - Role: Daily operations, local partnerships, project support, community coordination
 - Commitment: 25 hours/week
 
 **Andrea Farias** | Program Design & Communications
+
 - Researcher, designer, facilitator specializing in community resilience
 - Experience: Product/program innovation, communications strategy, workshop facilitation
 - Role: Program methodology, communications, educational content, knowledge products
@@ -265,15 +280,18 @@ Add this enhanced team section to Notion:
 ### Advisory Council
 
 **Confirmed Advisors:**
+
 - **Oriol** (Miceli Social) - Rural resilience & municipal collaboration
 - **Mariló** (La Fundició / Keras Buti) - Urban cooperative economics & cultural innovation
 
 **Pending Confirmations:**
+
 - Oscar/Erika - [Role TBD]
 - Clara Gromaches - [Role TBD]
 - Arran de Terra representative - [Selection in progress]
 
 ### Delivery Capabilities Coverage:
+
 ✅ Program Design & Strategy
 ✅ Community Outreach & Engagement
 ✅ Technical Integration (Web3 tools)
@@ -287,11 +305,14 @@ Add this enhanced team section to Notion:
 Current status shows: "Safe Multisig - TBD"
 
 **Update to:**
+
 ```markdown
 ## Mechanisms & Tooling
 
 ### Treasury & Fund Management
+
 **Safe Multisig Wallet:**
+
 - Network: Celo (for local compatibility)
 - Signers: Luiz Fernando, Giulio Quarta, [Miceli rep], [La Fundició rep], [Advisor]
 - Threshold: 3 of 5 signatures required
@@ -300,12 +321,14 @@ Current status shows: "Safe Multisig - TBD"
 
 **Fair Fees:**
 Following Gitcoin's model, small percentage of matching funds covers:
+
 - Operational coordination and program management
 - Technical infrastructure and support
 - Workshop facilitation and educational content
 - Impact reporting and knowledge product creation
 
 ### Impact Reporting Stack
+
 [Rest of section continues as is...]
 ```
 
@@ -321,6 +344,7 @@ Create a visual timeline in Notion using timeline view:
 ## 📅 Program Timeline & Milestones
 
 ### Phase 1: Stakeholder Alignment ✅ COMPLETED
+
 - Duration: July - August 2025
 - Key Achievements:
   - €11,000 local funding secured
@@ -328,6 +352,7 @@ Create a visual timeline in Notion using timeline view:
   - Partnership agreements initiated
 
 ### Phase 2: Program Design 🔄 IN PROGRESS
+
 - Duration: September - October 14, 2025
 - Current Status: 75% complete
 - Key Tasks:
@@ -338,6 +363,7 @@ Create a visual timeline in Notion using timeline view:
 - Deadline: October 14, 2025
 
 ### Phase 3: Round Launch & Donations 🚀 UPCOMING
+
 - Duration: October 14-28, 2025
 - Target: €5,000+ community donations + €30,000 total pool
 - Key Activities:
@@ -347,6 +373,7 @@ Create a visual timeline in Notion using timeline view:
   - Real-time monitoring and optimization
 
 ### Phase 4: Program Execution 📋 PLANNED
+
 - Duration: November 2025 - March 2026
 - Key Activities:
   - Kick-off workshop (November 9-10)
@@ -356,6 +383,7 @@ Create a visual timeline in Notion using timeline view:
   - Impact tracking and reporting
 
 ### Phase 5: Evaluation & Synthesis 📊 PLANNED
+
 - Duration: December 2025 - January 2026
 - Key Deliverables:
   - Comprehensive program report
@@ -372,18 +400,21 @@ Create a section that will be updated during the donation window:
 ## 📊 Live Program Metrics (Updated Daily During GG24)
 
 ### Funding Progress
+
 - Community Donations: €[X] / €5,000 target
 - Unique Donors: [X] / 100 target
 - Total Pool (with matching): €[X] / €30,000 target
 - Progress: [X]%
 
 ### Community Engagement
+
 - Social Media Reach: [X] impressions
 - Website Visitors: [X] unique visitors
 - Media Mentions: [X] articles/features
 - Project Promotion Posts: [X] total
 
 ### Project Activity
+
 - Projects Actively Promoting: [X] / 12
 - Combined Project Reach: [X] followers
 - Supporter Comments: [X] total
@@ -398,24 +429,28 @@ Create a section that will be updated during the donation window:
 ## 🔗 Quick Links & Resources
 
 ### For Donors
+
 - 💰 [Donate on Gitcoin](https://link-to-gitcoin) ← Support Regenerant Catalunya!
 - 📖 [Donor FAQ](#) - Common questions answered
 - 🎥 [Explainer Video](#) - 2-minute program overview
 - 📱 Social Media: [Twitter](#) | [LinkedIn](#) | [Instagram](#)
 
 ### For Projects
+
 - 📋 [Project Dashboard](notion-link) - Track your project status
 - 💬 [WhatsApp Community](link) - Connect with other projects
 - 📚 [Resource Library](notion-link) - Guides and templates
 - 🆘 [Support](mailto:support@refibcn.cat) - Get help 24/7
 
 ### For Partners & Media
+
 - 📄 [Press Kit](link) - Logos, images, press releases
 - 📧 [Media Contact](mailto:media@refibcn.cat)
 - 🤝 [Partnership Opportunities](link)
 - 📊 [Impact Reports](notion-link) - Transparent reporting
 
 ### Documentation
+
 - 📖 [Full Program Design](link-to-local-file)
 - 📋 [Execution Plan](link-to-local-file)
 - 🔬 [Evaluation Methodology](link)
@@ -584,12 +619,14 @@ A: Yes! 4 comprehensive workshops covering Web3 fundamentals, impact measurement
 ## 🔄 ONGOING NOTION MAINTENANCE
 
 ### During Donation Window (Oct 14-28):
+
 - **Daily updates** to live metrics dashboard
 - **Daily posts** about project highlights, donor stories
 - **Real-time** response to questions in comments
 - **Regular** social media share updates
 
 ### Post-Launch (Nov onwards):
+
 - **Weekly** program updates and project progress
 - **Monthly** impact reports and milestone achievements
 - **Quarterly** comprehensive program evaluations
@@ -625,6 +662,7 @@ A: Yes! 4 comprehensive workshops covering Web3 fundamentals, impact measurement
 Use this checklist to track your Notion updates:
 
 ### Content Updates
+
 - [ ] Development Notes & To-Do's section updated with current status
 - [ ] Safe Multisig details added (wallet address, signers, threshold)
 - [ ] Team Experience section expanded with full bios and commitments
@@ -639,6 +677,7 @@ Use this checklist to track your Notion updates:
 - [ ] Live Metrics Dashboard template added (ready for launch)
 
 ### Visual Enhancements
+
 - [ ] Cover image added
 - [ ] Icons added to all major sections
 - [ ] Toggle lists created for long sections
@@ -647,6 +686,7 @@ Use this checklist to track your Notion updates:
 - [ ] Color coding implemented for status indicators
 
 ### Functionality
+
 - [ ] All external links working
 - [ ] All internal page links working
 - [ ] Proper access permissions set (public for master doc)
@@ -655,6 +695,7 @@ Use this checklist to track your Notion updates:
 - [ ] Notion workspace organized with clear navigation
 
 ### Pre-Launch Final Check
+
 - [ ] All dates accurate and consistent
 - [ ] All numbers accurate (funding amounts, project count, etc.)
 - [ ] All partner names spelled correctly
@@ -692,4 +733,3 @@ Use this checklist to track your Notion updates:
 **Created:** October 8, 2025  
 **Purpose:** Ensure Notion master doc fully updated before October 14 launch  
 **Next Action:** Block time for Notion updates October 9-11
-

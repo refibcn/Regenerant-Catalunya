@@ -19,10 +19,10 @@ The core package provides the essential Quartz framework setup and is always inc
 ## Customization
 
 The core package includes a customizable theme system. Colors, fonts, and spacing can be customized in:
+
 - `quartz/styles/custom.scss` (after setup)
 - `quartz/styles/variables.scss` (after setup)
 
 ## Dependencies
 
 This package has no dependencies on other packages. All other packages depend on this core package.
-

@@ -12,4 +12,3 @@ This section contains all database-related documentation for the Regenerant Cata
 
 - [Database CSV](Regenerant%20Catalunya%20GG24%20-%20Database.csv)
 - [Database NOTION CSV](Regenerant%20Catalunya%20GG24%20-%20Database%20NOTION.csv)
-

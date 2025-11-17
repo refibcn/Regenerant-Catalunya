@@ -43,12 +43,14 @@ git push -u origin main
 ### 4. Create v1.0.0 Release
 
 **Option A: Via Git**
+
 ```bash
 git tag -a v1.0.0 -m "Initial template release"
 git push origin v1.0.0
 ```
 
 **Option B: Via GitHub UI**
+
 1. Go to repository → Releases → "Create a new release"
 2. Tag: `v1.0.0`
 3. Title: `v1.0.0 - Initial Template Release`
@@ -58,6 +60,7 @@ git push origin v1.0.0
 ## Verification
 
 After pushing, verify:
+
 - [ ] Repository is public
 - [ ] "Use this template" button appears
 - [ ] All files are visible
@@ -89,4 +92,3 @@ git push -u origin main
 git tag -a v1.0.0 -m "Initial template release"
 git push origin v1.0.0
 ```
-

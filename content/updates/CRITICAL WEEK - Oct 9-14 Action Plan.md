@@ -1,4 +1,5 @@
 # 🚨 REGENERANT CATALUNYA GG24 - CRITICAL WEEK ACTION PLAN
+
 ## October 9-14, 2025 - Launch Preparation
 
 **Status:** 6 Days to Launch  
@@ -9,9 +10,11 @@
 ## 📊 DAILY PROGRESS TRACKER
 
 ### **WEDNESDAY, OCTOBER 9** - Day 1
+
 **Theme:** Foundation & Financial Setup
 
 #### Morning (09:00-13:00)
+
 - [ ] **09:00 - Team Stand-up** (30 min)
   - Review this action plan
   - Assign clear ownership for each task
@@ -22,7 +25,7 @@
   - Add signers: Luiz, Giulio, Miceli rep, La Fundició rep, [1 advisor]
   - Set threshold: 3 of 5 signatures
   - Test with small transaction
-  - Document wallet address: ________________
+  - Document wallet address: **\*\***\_\_\_\_**\*\***
 
 - [ ] **09:30 - [GIULIO] ReFi BCN Project Finalization** (2 hours) ⚠️ CRITICAL
   - DECIDE: Fundació Emprius, Arran de Terra, or Decolonizing Permaculture?
@@ -37,6 +40,7 @@
   - Begin social media graphics templates
 
 #### Afternoon (14:00-18:00)
+
 - [ ] **14:00 - [LUIZ] Global Partner Confirmations** (2 hours)
   - Email Celo Public Goods for written matching confirmation
   - Email Gitcoin for matching pool allocation confirmation
@@ -57,12 +61,14 @@
   - Identify media contact list
 
 #### Evening Wrap-up
+
 - [ ] **17:30 - Team Check-in** (30 min)
   - Progress report
   - Blockers identified?
   - Tomorrow's priorities confirmed
 
 **End of Day 1 Goals:**
+
 - ✅ Safe Multisig wallet operational
 - ✅ ReFi BCN project selected and documented
 - ✅ Marketing materials 30% complete
@@ -71,9 +77,11 @@
 ---
 
 ### **THURSDAY, OCTOBER 10** - Day 2
+
 **Theme:** Decision-Making & Infrastructure
 
 #### Morning (09:00-13:00)
+
 - [ ] **09:00 - Team Stand-up** (15 min)
 
 - [ ] **09:30 - [ALL LEADS] Funds Allocation Decision Meeting** (2 hours) ⚠️ CRITICAL
@@ -95,6 +103,7 @@
   - Establish document library structure
 
 #### Afternoon (14:00-18:00)
+
 - [ ] **14:00 - [LUIZ] Partnership Agreements Drafting** (3 hours)
   - Draft MOU template covering:
     - Funding amount and payment timeline
@@ -122,9 +131,11 @@
   - Create project spotlight graphics (start with 3 projects)
 
 #### Evening Wrap-up
+
 - [ ] **17:30 - Team Check-in** (30 min)
 
 **End of Day 2 Goals:**
+
 - ✅ Funds allocation methodology decided
 - ✅ Notion workspace configured
 - ✅ WhatsApp groups created
@@ -134,9 +145,11 @@
 ---
 
 ### **FRIDAY, OCTOBER 11** - Day 3
+
 **Theme:** Gitcoin Registration & Content Completion
 
 #### Morning (09:00-13:00)
+
 - [ ] **09:00 - Team Stand-up** (15 min)
 
 - [ ] **09:30 - [GIULIO] Gitcoin Platform Registration - Phase 1** (3 hours) ⚠️ CRITICAL
@@ -163,6 +176,7 @@
   - Translate key descriptions to Catalan if needed
 
 #### Afternoon (14:00-18:00)
+
 - [ ] **14:00 - [GIULIO] Gitcoin Platform Registration - Phase 2** (3 hours)
   - Continue registering remaining 6 projects:
     - Laurel 31
@@ -188,12 +202,14 @@
   - Draft blog post for ReFi Barcelona website
 
 #### Evening Wrap-up
+
 - [ ] **17:30 - Team Check-in** (30 min)
 - [ ] **18:00 - [ALL] Weekend Preparation**
   - Identify any Saturday/Sunday work needed
   - Delegate urgent tasks if team unavailable
 
 **End of Day 3 Goals:**
+
 - ✅ All 12 projects registered on Gitcoin
 - ✅ All project descriptions complete
 - ✅ Partnership agreements ready for signature
@@ -202,9 +218,11 @@
 ---
 
 ### **SATURDAY, OCTOBER 12** - Day 4
+
 **Theme:** Testing, Review & Completion
 
 #### Recommended Work (Flexible Hours)
+
 - [ ] **[LUIZ] Global Partner Follow-ups** (2 hours)
   - Follow up on any pending confirmations
   - Ensure all matching funds committed
@@ -228,6 +246,7 @@
   - Update all documentation with final council composition
 
 **End of Day 4 Goals:**
+
 - ✅ All technical systems tested and verified
 - ✅ Marketing materials 90% complete
 - ✅ Advisory council finalized
@@ -236,9 +255,11 @@
 ---
 
 ### **SUNDAY, OCTOBER 13** - Day 5
+
 **Theme:** Final Preparations & Stakeholder Alignment
 
 #### Recommended Work (Flexible Hours)
+
 - [ ] **[ALL] Final Stakeholder Alignment Meeting** (2 hours)
   - **Attendees:** Core team + key partners + advisors
   - **Agenda:**
@@ -271,6 +292,7 @@
   - Prepare for monitoring during launch
 
 **End of Day 5 Goals:**
+
 - ✅ All stakeholders aligned and briefed
 - ✅ All 12 projects know what to expect
 - ✅ Social media scheduled
@@ -280,9 +302,11 @@
 ---
 
 ### **MONDAY, OCTOBER 14** - LAUNCH DAY 🚀
+
 **Theme:** GO LIVE!
 
 #### Pre-Launch (06:00-09:00)
+
 - [ ] **06:00 - [ALL] Pre-Launch Checklist Verification**
   - [ ] All project profiles live and functional on Gitcoin
   - [ ] Matching pool funds confirmed and allocated
@@ -295,6 +319,7 @@
   - [ ] Notion dashboard public
 
 #### Official Launch (09:00)
+
 - [ ] **09:00 - [ANDREA] Public Announcement** ⚠️ CRITICAL
   - [ ] Post official announcement on all social media channels
   - [ ] Send launch email to supporter lists
@@ -317,6 +342,7 @@
   - [ ] Provide real-time support as needed
 
 #### Midday Assessment (12:00)
+
 - [ ] **12:00 - Team Check-in** (30 min)
   - Review launch metrics
   - Assess any technical issues
@@ -324,6 +350,7 @@
   - Adjust strategy if needed
 
 #### Evening Push (18:00)
+
 - [ ] **18:00 - Team Check-in** (30 min)
   - Day 1 performance analysis
   - Identify what worked well
@@ -331,12 +358,14 @@
   - Celebrate launch success! 🎉
 
 #### End of Day Celebration
+
 - [ ] **19:00 - Team Celebration** (optional)
   - You've worked incredibly hard for this moment
   - Take time to acknowledge the achievement
   - Breathe and prepare for the 14-day sprint ahead
 
 **End of Launch Day Goals:**
+
 - ✅ Successful public launch
 - ✅ All stakeholders promoting
 - ✅ No major technical issues
@@ -350,6 +379,7 @@
 ### If Critical Issues Arise:
 
 **Technical Platform Failure:**
+
 1. Immediately notify team in ops WhatsApp
 2. Contact Gitcoin technical support
 3. Communicate transparently with community
@@ -357,11 +387,13 @@
 5. Consider extending donation window
 
 **Team Member Unavailable:**
+
 - **Luiz unavailable:** Giulio assumes strategic coordination
 - **Giulio unavailable:** Andrea assumes operations, Luiz supports
 - **Andrea unavailable:** Luiz assumes communications, Giulio supports
 
 **Partnership Issue:**
+
 - Immediate call with affected partner
 - Understand concern and find solution
 - Document issue and resolution
@@ -369,11 +401,13 @@
 
 **Launch Delay Decision:**
 If by end of Oct 11 you don't have 80%+ completion on critical items:
+
 1. **Option A:** Delay launch to Oct 21 (still within GG24 window)
 2. **Option B:** Launch with reduced scope (fewer projects)
 3. **Option C:** Proceed with known gaps and manage actively
 
 ### Emergency Contacts:
+
 - **Gitcoin Support:** [to be added]
 - **Celo Support:** [to be added]
 - **Karma GAP Support:** [to be added]
@@ -388,6 +422,7 @@ If by end of Oct 11 you don't have 80%+ completion on critical items:
 **Format:** Video call or WhatsApp voice
 
 **Agenda:**
+
 1. **Round-robin updates** (5 min each person):
    - What I completed yesterday
    - What I'm working on today
@@ -410,18 +445,20 @@ If by end of Oct 11 you don't have 80%+ completion on critical items:
 ## ✅ SUCCESS CRITERIA
 
 ### By October 14, 09:00 CET, you should have:
-- [X] Safe Multisig wallet operational with all signers
-- [X] All 12 projects registered on Gitcoin with complete profiles
-- [X] Clear funds allocation methodology decided and documented
-- [X] Technical infrastructure (Notion, WhatsApp, etc.) fully operational
-- [X] Partnership agreements signed or in final signature process
-- [X] Marketing materials complete and campaign launched
-- [X] Advisory council finalized (minimum 2, ideal 5)
-- [X] All projects briefed and ready to promote
-- [X] Emergency protocols in place
-- [X] Team aligned and energized for launch
+
+- [x] Safe Multisig wallet operational with all signers
+- [x] All 12 projects registered on Gitcoin with complete profiles
+- [x] Clear funds allocation methodology decided and documented
+- [x] Technical infrastructure (Notion, WhatsApp, etc.) fully operational
+- [x] Partnership agreements signed or in final signature process
+- [x] Marketing materials complete and campaign launched
+- [x] Advisory council finalized (minimum 2, ideal 5)
+- [x] All projects briefed and ready to promote
+- [x] Emergency protocols in place
+- [x] Team aligned and energized for launch
 
 ### Launch Day Success Indicators:
+
 - Public announcement published by 09:00 CET
 - All partner organizations sharing announcement
 - All 12 projects actively promoting
@@ -437,6 +474,7 @@ If by end of Oct 11 you don't have 80%+ completion on critical items:
 **Remember Why This Matters:**
 
 You're not just launching a funding round. You're:
+
 - **Pioneering** Web3 integration into established cooperative networks
 - **Bridging** traditional Catalan solidarity economy with global innovation
 - **Creating** open-source templates for other bioregions worldwide
@@ -453,18 +491,21 @@ The work is intense this week, but the impact will ripple for years to come.
 ## 📞 COMMUNICATION PROTOCOLS
 
 ### Internal Team Communication:
+
 - **Urgent (< 2 hours):** WhatsApp ops group
 - **Important (same day):** Slack/Email
 - **General updates:** Daily stand-ups
 - **Strategic decisions:** Scheduled meetings
 
 ### Stakeholder Communication:
+
 - **Projects:** WhatsApp community group + email
 - **Partners:** Direct email + calls as needed
 - **Advisors:** Email + monthly meetings
 - **Public:** Social media + website + press
 
 ### Response Time Commitments:
+
 - **Team to team:** < 2 hours during work hours
 - **Team to projects:** < 24 hours
 - **Team to partners:** < 24 hours
@@ -486,7 +527,7 @@ The work is intense this week, but the impact will ripple for years to come.
 
 **YOU'VE GOT THIS! 🌱💚🚀**
 
-The preparation is nearly complete. The projects are ready. The partners are committed. The team is strong. 
+The preparation is nearly complete. The projects are ready. The partners are committed. The team is strong.
 
 Now it's time to execute and launch something truly meaningful.
 
@@ -502,5 +543,4 @@ Let's make Regenerant Catalunya a shining example of how local and global can wo
 
 ---
 
-*Print this document. Check items daily. Stay focused. You've got 6 days to make history in Catalan regenerative finance. Let's do this! 🔥*
-
+_Print this document. Check items daily. Stay focused. You've got 6 days to make history in Catalan regenerative finance. Let's do this! 🔥_

@@ -37,6 +37,7 @@ A la Fase 2 (gener–febrer 2026), les xarxes governen col·lectivament els fons
 ### Eines de Governança
 
 #### Gardens
+
 - **Què és:** Votació per convicció per a finançament i governança comunitària
 - **Casos d'ús:**
   - Plantilla per a projectes i voluntaris
@@ -46,6 +47,7 @@ A la Fase 2 (gener–febrer 2026), les xarxes governen col·lectivament els fons
 - **Formació:** Cobrit al Taller #4 (gener 2026)
 
 #### Contractes Multistakeholder
+
 - **Què és:** Contractes intel·ligents que permeten que múltiples parts interessades participin en la governança
 - **Casos d'ús:**
   - Formalitzar acords de xarxa
@@ -55,6 +57,7 @@ A la Fase 2 (gener–febrer 2026), les xarxes governen col·lectivament els fons
 ### Eines Financeres
 
 #### Safe (Multisigs)
+
 - **Què és:** Cartera multi-signatura per a gestió de fons segura i transparent
 - **Casos d'ús:**
   - Gestió de tresoreria de xarxa
@@ -65,6 +68,7 @@ A la Fase 2 (gener–febrer 2026), les xarxes governen col·lectivament els fons
 - **Formació:** Cobrit al Taller #4 (gener 2026)
 
 #### Sarafu Network
+
 - **Què és:** Plataforma de moneda local i agrupació de compromisos
 - **Casos d'ús:**
   - Crear sistemes de moneda local
@@ -74,6 +78,7 @@ A la Fase 2 (gener–febrer 2026), les xarxes governen col·lectivament els fons
 - **Formació:** Cobrit al Taller #4 (gener 2026)
 
 #### Cycles
+
 - **Què és:** Protocol de compensació obert per a crèdit mutu i economia circular
 - **Casos d'ús:**
   - Habilitar fluxos d'economia circular
@@ -91,12 +96,14 @@ A la Fase 2 (gener–febrer 2026), les xarxes governen col·lectivament els fons
 **Quan:** Gener 2026 (després del Taller #4)
 
 **Propòsit:**
+
 - Revisar l'estructura de finançament de la Fase 2
 - Discutir prioritats i necessitats de la xarxa
 - Explorar quines eines s'ajusten millor al context de la vostra xarxa
 - Començar a planificar l'estructura de governança col·lectiva
 
 **Participants:**
+
 - Tots els projectes de la vostra xarxa (Miceli Social o La Fundició / Keras Buti)
 - Coordinadors de xarxa
 - Equip de suport de ReFi Barcelona
@@ -104,12 +111,14 @@ A la Fase 2 (gener–febrer 2026), les xarxes governen col·lectivament els fons
 ### Pas 2: Selecció i Configuració d'Eines
 
 **Decisions a Prendre:**
+
 - Quines eines de governança utilitzar (Gardens, contractes multistakeholder, etc.)
 - Quines eines financeres utilitzar (Safe, Sarafu, Cycles, etc.)
 - Com estructurar la presa de decisions (llindars de votació, processos de proposta, etc.)
 - Qui serà signant/participant en les estructures de governança
 
 **Suport Disponible:**
+
 - Assistència tècnica de configuració de ReFi Barcelona
 - Formació i documentació per a les eines seleccionades
 - Millors pràctiques d'altres xarxes
@@ -119,12 +128,14 @@ A la Fase 2 (gener–febrer 2026), les xarxes governen col·lectivament els fons
 **Quan:** Final de febrer de 2026
 
 **Activitats:**
+
 - Configurar les eines de governança Web3 seleccionades
 - Transferir els fons de la Fase 2 a les estructures de governança de xarxa
 - Provar processos de governança
 - Fer les primeres decisions col·lectives
 
 **Lliurables:**
+
 - Estructura de governança activa gestionant fons de xarxa
 - Processos de presa de decisions clars documentats
 - Primeres propostes i decisions registrades en cadena
@@ -134,11 +145,13 @@ A la Fase 2 (gener–febrer 2026), les xarxes governen col·lectivament els fons
 ## Cronograma de Tallers
 
 ### Taller #4: Eines Web3 Avançades (per xarxa)
+
 **Quan:** Gener 2026  
 **Format:** En línia, sessions separades per a cada xarxa  
 **Idioma:** Espanyol
 
 **Contingut:**
+
 - Establir expectatives adequades:
   - Xarxes de mida significativa que gestionen recursos
   - Gestionem els nostres recursos junts!
@@ -151,15 +164,18 @@ A la Fase 2 (gener–febrer 2026), les xarxes governen col·lectivament els fons
   - **Cycles** (protocol de compensació obert)
 
 **Lliurables del Projecte:**
+
 - Acordar quins mecanismes utilitzar per gestionar el fons col·lectiu
 - Activar la governança dels fons
 
 ### Taller #5: BioFi i Més Enllà
+
 **Quan:** Gener/febrer 2026  
 **Format:** En línia  
 **Idioma:** Espanyol
 
 **Contingut:**
+
 - Què és BioFi?
 - Visió a llarg termini — com s'ajusta amb el que estem fent
 - Programa com a pilot
@@ -206,12 +222,14 @@ A la Fase 2 (gener–febrer 2026), les xarxes governen col·lectivament els fons
 ### Xarxa Miceli Social (~€6.000)
 
 **Àrees d'Enfocament Potencials:**
+
 - Donar suport a projectes de resistència rural arreu de comarques
 - Finançar iniciatives col·laboratives entre municipis
 - Donar suport a projectes de transició ecològica
 - Construir capacitat per a governança bioregional
 
 **Eines Potencials:**
+
 - **Gardens:** Per votar sobre propostes de projectes i assignació de recursos
 - **Safe:** Per a gestió de tresoreria segura amb múltiples signants
 - **Sarafu:** Per a moneda local que dona suport a fluxos econòmics rurals
@@ -219,12 +237,14 @@ A la Fase 2 (gener–febrer 2026), les xarxes governen col·lectivament els fons
 ### Xarxa La Fundició / Keras Buti (~€5.000)
 
 **Àrees d'Enfocament Potencials:**
+
 - Donar suport a iniciatives cooperatives urbanes
 - Finançar espais comunitàris i projectes culturals
 - Donar suport a projectes de sobirania d'habitatge
 - Construir infraestructura d'economia feminista
 
 **Eines Potencials:**
+
 - **Gardens:** Per a decisions de finançament comunitari
 - **Safe:** Per a gestió de tresoreria transparent
 - **Cycles:** Per a sistemes d'economia circular i crèdit mutu
@@ -290,5 +310,4 @@ La Fase 2 està dissenyada per construir **infraestructura permanent** per a fin
 
 **Junts, construïm la infraestructura per a la regeneració bioregional continuada!**
 
-*Preguntes? Contacta'ns a hola@ReFiBCN.cat*
-
+_Preguntes? Contacta'ns a hola@ReFiBCN.cat_

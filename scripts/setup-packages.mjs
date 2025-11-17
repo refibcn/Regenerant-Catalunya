@@ -2,7 +2,7 @@
 
 /**
  * Package Setup Script
- * 
+ *
  * Interactive script to select and install packages for the Quartz ReFi template.
  * This script:
  * 1. Prompts user to select packages
@@ -130,7 +130,11 @@ async function main() {
     process.exit(0)
   }
 
-  const packagesToInstall = ["core", "theme", ...(Array.isArray(selectedPackages) ? selectedPackages : [selectedPackages])]
+  const packagesToInstall = [
+    "core",
+    "theme",
+    ...(Array.isArray(selectedPackages) ? selectedPackages : [selectedPackages]),
+  ]
 
   console.log("\n📦 Installing packages...")
 
@@ -167,8 +171,14 @@ async function main() {
 
 function installCorePackage(siteName, baseUrl, locale, githubOrg, githubRepo) {
   // Copy template files
-  const configTemplate = readFileSync(join(rootDir, "packages/core/quartz.config.ts.template"), "utf-8")
-  const layoutTemplate = readFileSync(join(rootDir, "packages/core/quartz.layout.ts.template"), "utf-8")
+  const configTemplate = readFileSync(
+    join(rootDir, "packages/core/quartz.config.ts.template"),
+    "utf-8",
+  )
+  const layoutTemplate = readFileSync(
+    join(rootDir, "packages/core/quartz.layout.ts.template"),
+    "utf-8",
+  )
 
   // Replace placeholders
   let config = configTemplate
@@ -249,10 +259,7 @@ function installAnalyticsPackage(pkgDir) {
       provider: "plausible",
     },`
 
-  config = config.replace(
-    /\/\/ ANALYTICS_CONFIG_PLACEHOLDER.*/,
-    analyticsConfig
-  )
+  config = config.replace(/\/\/ ANALYTICS_CONFIG_PLACEHOLDER.*/, analyticsConfig)
 
   writeFileSync(configPath, config)
   console.log("✅ Analytics package installed")
@@ -289,10 +296,7 @@ function installOgImagesPackage() {
 
   const ogImagesPlugin = `      Plugin.CustomOgImages(),`
 
-  config = config.replace(
-    /\/\/ OG_IMAGES_PLACEHOLDER.*/,
-    ogImagesPlugin
-  )
+  config = config.replace(/\/\/ OG_IMAGES_PLACEHOLDER.*/, ogImagesPlugin)
 
   writeFileSync(configPath, config)
   console.log("✅ OG Images package installed")
@@ -305,7 +309,7 @@ function installThemePackage() {
   if (existsSync(themeTemplate)) {
     const stylesDir = join(rootDir, "quartz", "styles")
     if (!existsSync(stylesDir)) mkdirSync(stylesDir, { recursive: true })
-    
+
     // Check if custom.scss already exists
     const customScssPath = join(stylesDir, "custom.scss")
     if (!existsSync(customScssPath)) {
@@ -332,10 +336,7 @@ function updateLayoutForMultilang() {
   // Add LanguageSwitcher to header
   const languageSwitcher = `    Component.LanguageSwitcher(),`
 
-  layout = layout.replace(
-    /\/\/ LANGUAGE_SWITCHER_PLACEHOLDER.*/,
-    languageSwitcher
-  )
+  layout = layout.replace(/\/\/ LANGUAGE_SWITCHER_PLACEHOLDER.*/, languageSwitcher)
 
   writeFileSync(layoutPath, layout)
 }
@@ -356,14 +357,11 @@ function updateLayoutForComments(githubOrg, githubRepo, locale) {
         strict: true,
         reactionsEnabled: true,
         inputPosition: "bottom",
-        lang: "${locale.split('-')[0]}",
+        lang: "${locale.split("-")[0]}",
       },
     }),`
 
-  layout = layout.replace(
-    /\/\/ COMMENTS_PLACEHOLDER.*/,
-    commentsComponent
-  )
+  layout = layout.replace(/\/\/ COMMENTS_PLACEHOLDER.*/, commentsComponent)
 
   writeFileSync(layoutPath, layout)
 }
@@ -384,4 +382,3 @@ main().catch((error) => {
   console.error("❌ Setup failed:", error)
   process.exit(1)
 })
-

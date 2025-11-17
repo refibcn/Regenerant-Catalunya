@@ -6,7 +6,7 @@ name: Sync Upstream
 on:
   schedule:
     # Run weekly on Sunday at midnight UTC
-    - cron: '0 0 * * 0'
+    - cron: "0 0 * * 0"
   workflow_dispatch: # Allow manual trigger
 
 permissions:
@@ -65,7 +65,7 @@ jobs:
           title: "Sync from upstream template"
           body: |
             Automated sync from upstream template repository.
-            
+
             Please review changes before merging.
           commit-message: "Sync from upstream template"
 
@@ -74,4 +74,3 @@ jobs:
         run: |
           echo "Conflicts detected. Manual resolution required."
           # Could create an issue here instead
-

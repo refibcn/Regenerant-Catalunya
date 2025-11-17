@@ -14,7 +14,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       "ReFi Barcelona": "https://refibcn.cat",
-      "GitHub": "https://github.com/refibcn/Regenerant-Catalunya",
+      GitHub: "https://github.com/refibcn/Regenerant-Catalunya",
     },
   }),
 }
@@ -31,21 +31,18 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.TagList(),
-  ],
-  afterBody: [
     Component.ConditionalRender({
       component: Component.ContentMeta(),
       condition: (page) => page.fileData.slug !== "index",
     }),
   ],
-  left: [],  // Empty - sidebars hidden by default via CSS
+  left: [], // Empty - sidebars hidden by default via CSS
   right: [], // Empty - sidebars hidden by default via CSS
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle()],
-  afterBody: [Component.ContentMeta()],
-  left: [],  // Empty - sidebars hidden by default via CSS
+  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  left: [], // Empty - sidebars hidden by default via CSS
   right: [], // Empty - sidebars hidden by default via CSS
 }

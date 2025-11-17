@@ -21,6 +21,14 @@
     "dark": "#214033",
     "light": "#E6DFD7",
     "balance": 0.5
+  },
+  "bayerDither": {
+    "baseColor": "#E6DFD7",
+    "darkColor": "#214033",
+    "midColor": "#E6DFD7",
+    "lightColor": "#E67E50",
+    "darkThreshold": 0.33,
+    "lightThreshold": 0.66,
+    "matrixSize": 4
   }
 }
-

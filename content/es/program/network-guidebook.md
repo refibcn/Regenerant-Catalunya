@@ -37,6 +37,7 @@ En la Fase 2 (enero–febrero 2026), las redes gobiernan colectivamente los fond
 ### Herramientas de Gobernanza
 
 #### Gardens
+
 - **Qué es:** Votación por convicción para financiación y gobernanza comunitaria
 - **Casos de uso:**
   - Plantilla para proyectos y voluntarios
@@ -46,6 +47,7 @@ En la Fase 2 (enero–febrero 2026), las redes gobiernan colectivamente los fond
 - **Formación:** Cubierto en el Taller #4 (enero 2026)
 
 #### Contratos Multistakeholder
+
 - **Qué es:** Contratos inteligentes que permiten que múltiples partes interesadas participen en la gobernanza
 - **Casos de uso:**
   - Formalizar acuerdos de red
@@ -55,6 +57,7 @@ En la Fase 2 (enero–febrero 2026), las redes gobiernan colectivamente los fond
 ### Herramientas Financieras
 
 #### Safe (Multisigs)
+
 - **Qué es:** Cartera multi-firma para gestión de fondos segura y transparente
 - **Casos de uso:**
   - Gestión de tesorería de red
@@ -65,6 +68,7 @@ En la Fase 2 (enero–febrero 2026), las redes gobiernan colectivamente los fond
 - **Formación:** Cubierto en el Taller #4 (enero 2026)
 
 #### Sarafu Network
+
 - **Qué es:** Plataforma de moneda local y agrupación de compromisos
 - **Casos de uso:**
   - Crear sistemas de moneda local
@@ -74,6 +78,7 @@ En la Fase 2 (enero–febrero 2026), las redes gobiernan colectivamente los fond
 - **Formación:** Cubierto en el Taller #4 (enero 2026)
 
 #### Cycles
+
 - **Qué es:** Protocolo de compensación abierto para crédito mutuo y economía circular
 - **Casos de uso:**
   - Habilitar flujos de economía circular
@@ -91,12 +96,14 @@ En la Fase 2 (enero–febrero 2026), las redes gobiernan colectivamente los fond
 **Cuándo:** Enero 2026 (después del Taller #4)
 
 **Propósito:**
+
 - Revisar la estructura de financiación de la Fase 2
 - Discutir prioridades y necesidades de la red
 - Explorar qué herramientas se ajustan mejor al contexto de vuestra red
 - Comenzar a planificar la estructura de gobernanza colectiva
 
 **Participantes:**
+
 - Todos los proyectos de vuestra red (Miceli Social o La Fundició / Keras Buti)
 - Coordinadores de red
 - Equipo de apoyo de ReFi Barcelona
@@ -104,12 +111,14 @@ En la Fase 2 (enero–febrero 2026), las redes gobiernan colectivamente los fond
 ### Paso 2: Selección y Configuración de Herramientas
 
 **Decisiones a Tomar:**
+
 - Qué herramientas de gobernanza utilizar (Gardens, contratos multistakeholder, etc.)
 - Qué herramientas financieras utilizar (Safe, Sarafu, Cycles, etc.)
 - Cómo estructurar la toma de decisiones (umbrales de votación, procesos de propuesta, etc.)
 - Quién será firmante/participante en las estructuras de gobernanza
 
 **Apoyo Disponible:**
+
 - Asistencia técnica de configuración de ReFi Barcelona
 - Formación y documentación para las herramientas seleccionadas
 - Mejores prácticas de otras redes
@@ -119,12 +128,14 @@ En la Fase 2 (enero–febrero 2026), las redes gobiernan colectivamente los fond
 **Cuándo:** Final de febrero de 2026
 
 **Actividades:**
+
 - Configurar las herramientas de gobernanza Web3 seleccionadas
 - Transferir los fondos de la Fase 2 a las estructuras de gobernanza de red
 - Probar procesos de gobernanza
 - Hacer las primeras decisiones colectivas
 
 **Entregables:**
+
 - Estructura de gobernanza activa gestionando fondos de red
 - Procesos de toma de decisiones claros documentados
 - Primeras propuestas y decisiones registradas en cadena
@@ -134,11 +145,13 @@ En la Fase 2 (enero–febrero 2026), las redes gobiernan colectivamente los fond
 ## Cronograma de Talleres
 
 ### Taller #4: Herramientas Web3 Avanzadas (por red)
+
 **Cuándo:** Enero 2026  
 **Formato:** En línea, sesiones separadas para cada red  
 **Idioma:** Español
 
 **Contenido:**
+
 - Establecer expectativas adecuadas:
   - Redes de tamaño significativo que gestionan recursos
   - ¡Gestionemos nuestros recursos juntos!
@@ -151,15 +164,18 @@ En la Fase 2 (enero–febrero 2026), las redes gobiernan colectivamente los fond
   - **Cycles** (protocolo de compensación abierto)
 
 **Entregables del Proyecto:**
+
 - Acordar qué mecanismos utilizar para gestionar el fondo colectivo
 - Activar la gobernanza de los fondos
 
 ### Taller #5: BioFi y Más Allá
+
 **Cuándo:** Enero/febrero 2026  
 **Formato:** En línea  
 **Idioma:** Español
 
 **Contenido:**
+
 - ¿Qué es BioFi?
 - Visión a largo plazo — cómo se ajusta con lo que estamos haciendo
 - Programa como piloto
@@ -206,12 +222,14 @@ En la Fase 2 (enero–febrero 2026), las redes gobiernan colectivamente los fond
 ### Red Miceli Social (~€6.000)
 
 **Áreas de Enfoque Potenciales:**
+
 - Apoyar proyectos de resistencia rural por toda comarcas
 - Financiar iniciativas colaborativas entre municipios
 - Apoyar proyectos de transición ecológica
 - Construir capacidad para gobernanza bioregional
 
 **Herramientas Potenciales:**
+
 - **Gardens:** Para votar sobre propuestas de proyectos y asignación de recursos
 - **Safe:** Para gestión de tesorería segura con múltiples firmantes
 - **Sarafu:** Para moneda local que apoya flujos económicos rurales
@@ -219,12 +237,14 @@ En la Fase 2 (enero–febrero 2026), las redes gobiernan colectivamente los fond
 ### Red La Fundició / Keras Buti (~€5.000)
 
 **Áreas de Enfoque Potenciales:**
+
 - Apoyar iniciativas cooperativas urbanas
 - Financiar espacios comunitarios y proyectos culturales
 - Apoyar proyectos de soberanía de vivienda
 - Construir infraestructura de economía feminista
 
 **Herramientas Potenciales:**
+
 - **Gardens:** Para decisiones de financiación comunitaria
 - **Safe:** Para gestión de tesorería transparente
 - **Cycles:** Para sistemas de economía circular y crédito mutuo
@@ -290,5 +310,4 @@ La Fase 2 está diseñada para construir **infraestructura permanente** para fin
 
 **¡Juntos, construyamos la infraestructura para la regeneración bioregional continua!**
 
-*¿Preguntas? Contáctanos en hola@ReFiBCN.cat*
-
+_¿Preguntas? Contáctanos en hola@ReFiBCN.cat_

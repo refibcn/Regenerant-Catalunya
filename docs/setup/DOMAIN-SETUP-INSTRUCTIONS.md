@@ -3,6 +3,7 @@
 ## Overview
 
 This guide will help you configure `refibcn.cat` to point to your GitHub Pages site, which now has:
+
 - **Root (`refibcn.cat/`)** → ReFi BCN landing page
 - **`refibcn.cat/regenerant-catalunya/`** → Regenerant Catalunya section
 
@@ -28,6 +29,7 @@ This guide will help you configure `refibcn.cat` to point to your GitHub Pages s
 4. ✅ **Check** "Enforce HTTPS" (wait a few minutes for the SSL certificate to provision)
 
 **Important Notes:**
+
 - GitHub will automatically create a `CNAME` file in your repo (already done via code)
 - The site will be available at `refibcn.cat` once DNS is configured
 - Initial deployment takes 1-5 minutes
@@ -36,9 +38,11 @@ This guide will help you configure `refibcn.cat` to point to your GitHub Pages s
 ### Step 3: Wait for Deployment
 
 After saving, you'll see a message like:
+
 > "Your site is ready to be published at https://refibcn.cat"
 
 Once deployed, it will change to:
+
 > "Your site is live at https://refibcn.cat"
 
 **Automatic Rebuilds:**
@@ -62,12 +66,12 @@ Go to **DNS** → **Records** and set up the following:
 
 **Delete any existing records for the root domain (@) first**, then add these 4 A records:
 
-| Type | Name | Content | Proxy Status | TTL |
-|------|------|---------|--------------|-----|
-| A | @ | `185.199.108.153` | DNS only (gray cloud) | Auto |
-| A | @ | `185.199.109.153` | DNS only (gray cloud) | Auto |
-| A | @ | `185.199.110.153` | DNS only (gray cloud) | Auto |
-| A | @ | `185.199.111.153` | DNS only (gray cloud) | Auto |
+| Type | Name | Content           | Proxy Status          | TTL  |
+| ---- | ---- | ----------------- | --------------------- | ---- |
+| A    | @    | `185.199.108.153` | DNS only (gray cloud) | Auto |
+| A    | @    | `185.199.109.153` | DNS only (gray cloud) | Auto |
+| A    | @    | `185.199.110.153` | DNS only (gray cloud) | Auto |
+| A    | @    | `185.199.111.153` | DNS only (gray cloud) | Auto |
 
 **Important:** These are GitHub Pages' official IP addresses.
 
@@ -75,9 +79,9 @@ Go to **DNS** → **Records** and set up the following:
 
 If you prefer CNAME (though A records are more reliable):
 
-| Type | Name | Content | Proxy Status | TTL |
-|------|------|---------|--------------|-----|
-| CNAME | @ | `refibcn.github.io` | DNS only (gray cloud) | Auto |
+| Type  | Name | Content             | Proxy Status          | TTL  |
+| ----- | ---- | ------------------- | --------------------- | ---- |
+| CNAME | @    | `refibcn.github.io` | DNS only (gray cloud) | Auto |
 
 **Note:** Some DNS providers don't support CNAME at the root. Use Option A if this doesn't work.
 
@@ -85,9 +89,9 @@ If you prefer CNAME (though A records are more reliable):
 
 Add a CNAME record for `www` subdomain:
 
-| Type | Name | Content | Proxy Status | TTL |
-|------|------|---------|--------------|-----|
-| CNAME | www | `refibcn.cat` | DNS only (gray cloud) | Auto |
+| Type  | Name | Content       | Proxy Status          | TTL  |
+| ----- | ---- | ------------- | --------------------- | ---- |
+| CNAME | www  | `refibcn.cat` | DNS only (gray cloud) | Auto |
 
 This ensures `www.refibcn.cat` redirects to `refibcn.cat`.
 
@@ -114,6 +118,7 @@ This ensures `www.refibcn.cat` redirects to `refibcn.cat`.
 - ☁️ Gray cloud (DNS only) = Direct connection to GitHub (recommended)
 
 If you want to use Cloudflare's proxy features:
+
 1. Wait until your site is fully working with gray cloud
 2. Then switch to orange cloud if needed
 3. You may need to configure Page Rules for proper SSL
@@ -127,11 +132,13 @@ If you want to use Cloudflare's proxy features:
 DNS changes can take 5 minutes to 24 hours. Usually it's fast (5-30 minutes).
 
 Check DNS propagation:
+
 - **https://dnschecker.org/** - Enter `refibcn.cat` and check A records globally
 
 ### Step 2: Test Your Site
 
 Once DNS is propagated, visit:
+
 - ✅ **https://refibcn.cat/** - Should show ReFi BCN landing page
 - ✅ **https://refibcn.cat/regenerant-catalunya/** - Should show Regenerant Catalunya
 - ✅ **https://refibcn.cat/refibcn/about** - Should show ReFi BCN About page
@@ -140,6 +147,7 @@ Once DNS is propagated, visit:
 ### Step 3: Enable HTTPS in GitHub Pages
 
 After DNS is working:
+
 1. Go back to **GitHub** → **Settings** → **Pages**
 2. ✅ Check **Enforce HTTPS**
 3. Wait 5-10 minutes for SSL certificate to provision
@@ -153,11 +161,13 @@ GitHub will automatically obtain a Let's Encrypt SSL certificate for your domain
 ### Issue: "There isn't a GitHub Pages site here"
 
 **Causes:**
+
 - DNS not propagated yet (wait longer)
 - Wrong DNS records
 - Custom domain not saved in GitHub Pages settings
 
 **Solutions:**
+
 1. Check DNS with `dig refibcn.cat` (should show GitHub IPs)
 2. Verify custom domain is set in GitHub Pages settings
 3. Check CNAME file exists in repo: `quartz/static/CNAME`
@@ -165,11 +175,13 @@ GitHub will automatically obtain a Let's Encrypt SSL certificate for your domain
 ### Issue: SSL Certificate Error
 
 **Causes:**
+
 - HTTPS enforced before DNS propagated
 - Cloudflare SSL mode wrong
 - Certificate not provisioned yet
 
 **Solutions:**
+
 1. Uncheck "Enforce HTTPS" in GitHub Pages temporarily
 2. Ensure Cloudflare SSL mode is **Full (strict)**
 3. Wait 10-15 minutes for certificate provisioning
@@ -178,10 +190,12 @@ GitHub will automatically obtain a Let's Encrypt SSL certificate for your domain
 ### Issue: 404 on Subpages
 
 **Causes:**
+
 - GitHub Pages not rebuilding after changes
 - Navigation links wrong
 
 **Solutions:**
+
 1. Check GitHub Actions: **Actions** tab in repo
 2. Ensure workflow completed successfully
 3. Clear browser cache (Cmd+Shift+R)
@@ -189,10 +203,12 @@ GitHub will automatically obtain a Let's Encrypt SSL certificate for your domain
 ### Issue: Old Content Showing
 
 **Causes:**
+
 - Browser cache
 - Cloudflare cache (if using orange cloud)
 
 **Solutions:**
+
 1. Hard refresh: **Cmd+Shift+R** (Mac) or **Ctrl+Shift+R** (Windows)
 2. Clear Cloudflare cache: **Caching** → **Purge Everything**
 3. Try incognito/private browsing mode
@@ -200,9 +216,11 @@ GitHub will automatically obtain a Let's Encrypt SSL certificate for your domain
 ### Issue: Mixed Content Warnings
 
 **Causes:**
+
 - HTTP resources loaded on HTTPS page
 
 **Solutions:**
+
 1. Ensure all image/asset URLs use HTTPS or relative paths
 2. Check browser console for specific resources
 3. Enable "Automatic HTTPS Rewrites" in Cloudflare
@@ -231,6 +249,7 @@ refibcn.cat/
 ```
 
 **Navigation:**
+
 - ReFi BCN pages show **blue** accent and ReFi BCN nav
 - Regenerant Catalunya pages show **green** accent and Regenerant nav
 - Links automatically work across sections
@@ -249,12 +268,14 @@ refibcn.cat/
 ### Monitoring Deployments
 
 Check deployment status:
+
 - **GitHub repo** → **Actions** tab
 - **GitHub repo** → **Settings** → **Pages**
 
 ### DNS Changes
 
 If you ever need to change domain:
+
 1. Update `quartz/static/CNAME` file
 2. Update `quartz.config.ts` → `baseUrl`
 3. Update custom domain in GitHub Pages settings
@@ -265,6 +286,7 @@ If you ever need to change domain:
 ## Quick Reference
 
 ### GitHub Pages IPs (for A records)
+
 ```
 185.199.108.153
 185.199.109.153
@@ -273,11 +295,13 @@ If you ever need to change domain:
 ```
 
 ### Key Files
+
 - `quartz/static/CNAME` - Contains domain name
 - `quartz.config.ts` - Contains baseUrl configuration
 - `.github/workflows/deploy.yml` - GitHub Actions deployment workflow
 
 ### Support Links
+
 - GitHub Pages: https://docs.github.com/en/pages
 - Cloudflare DNS: https://developers.cloudflare.com/dns/
 - DNS Checker: https://dnschecker.org/
@@ -287,12 +311,14 @@ If you ever need to change domain:
 ## Summary Checklist
 
 ### GitHub Pages
+
 - [ ] Repository Settings → Pages → Source: main branch
 - [ ] Custom domain set to: `refibcn.cat`
 - [ ] Enforce HTTPS enabled (after DNS works)
 - [ ] Deployment successful (check Actions tab)
 
 ### Cloudflare
+
 - [ ] 4 A records pointing to GitHub Pages IPs
 - [ ] DNS only (gray cloud) enabled
 - [ ] SSL/TLS mode: Full (strict)
@@ -300,6 +326,7 @@ If you ever need to change domain:
 - [ ] WWW CNAME record added (optional)
 
 ### Testing
+
 - [ ] `refibcn.cat` loads ReFi BCN landing
 - [ ] `refibcn.cat/regenerant-catalunya` loads Regenerant
 - [ ] HTTPS works without warnings
@@ -309,4 +336,3 @@ If you ever need to change domain:
 ---
 
 **Need help?** Check GitHub Actions logs for build errors, or verify DNS with `dig refibcn.cat` command.
-

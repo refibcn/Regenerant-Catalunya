@@ -23,6 +23,7 @@ git remote -v
 ```
 
 You should see:
+
 - `origin` - Your fork
 - `upstream` - Template repository
 
@@ -39,6 +40,7 @@ node scripts/sync-upstream.mjs
 ```
 
 This script:
+
 - Adds upstream remote if not present
 - Fetches latest changes
 - Shows merge instructions
@@ -126,6 +128,7 @@ pageTitle: "{{SITE_NAME}}",
 ```
 
 Resolution:
+
 ```typescript
 pageTitle: "My Custom Site", // Keep your customization
 ```
@@ -157,6 +160,7 @@ git diff main..upstream/main --stat
 ### Template Releases
 
 Template uses semantic versioning:
+
 - `v1.0.0` - Major release (breaking changes)
 - `v1.1.0` - Minor release (new features)
 - `v1.1.1` - Patch release (bug fixes)
@@ -266,8 +270,8 @@ You can set up automated sync with GitHub Actions:
 name: Sync Upstream
 on:
   schedule:
-    - cron: '0 0 * * 0'  # Weekly on Sunday
-  workflow_dispatch:  # Manual trigger
+    - cron: "0 0 * * 0" # Weekly on Sunday
+  workflow_dispatch: # Manual trigger
 ```
 
 See template for example workflow file.
@@ -277,4 +281,3 @@ See template for example workflow file.
 - Check [GitHub Issues](https://github.com/ReFiDAO/quartz-refi-template/issues)
 - Ask in [Discussions](https://github.com/ReFiDAO/quartz-refi-template/discussions)
 - Review [Quartz Documentation](https://quartz.jzhao.xyz/)
-

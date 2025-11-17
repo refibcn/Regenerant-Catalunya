@@ -9,14 +9,14 @@
    ============================================ */
 :root {
   --green-dark: #214033;
-  --green-medium: #3A6655;
-  --green-light: #568F79;
+  --green-medium: #3a6655;
+  --green-light: #568f79;
   --green-highlight: rgba(33, 64, 51, 0.15);
-  --warm-sand: #E6DFD7;
-  --purple: #6B4EA3;
-  --purple-light: #8B6EC3;
-  --orange: #E67E50;
-  --orange-light: #F49870;
+  --warm-sand: #e6dfd7;
+  --purple: #6b4ea3;
+  --purple-light: #8b6ec3;
+  --orange: #e67e50;
+  --orange-light: #f49870;
   --darkgray: #092045;
 }
 
@@ -24,7 +24,12 @@
    GLOBAL STYLES
    ============================================ */
 .reveal {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family:
+    "Inter",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   font-size: 36px;
   font-weight: 400;
   color: var(--darkgray);
@@ -50,7 +55,7 @@
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   color: var(--green-dark);
   line-height: 1.2;
@@ -126,7 +131,7 @@
    CODE
    ============================================ */
 .reveal code {
-  font-family: 'IBM Plex Mono', 'Courier New', monospace;
+  font-family: "IBM Plex Mono", "Courier New", monospace;
   font-size: 0.85em;
   background-color: var(--green-highlight);
   padding: 0.2em 0.4em;
@@ -345,7 +350,7 @@
     margin: 0 !important;
     padding: 0 !important;
   }
-  
+
   /* Ensure body fills entire page */
   body {
     margin: 0 !important;
@@ -354,7 +359,7 @@
     height: 100vh !important;
     background-color: var(--warm-sand) !important;
   }
-  
+
   .reveal {
     width: 100% !important;
     height: 100% !important;
@@ -362,7 +367,7 @@
     padding: 0 !important;
     background-color: var(--warm-sand) !important;
   }
-  
+
   .reveal .slides {
     position: relative !important;
     width: 100% !important;
@@ -375,7 +380,7 @@
     transform: none !important;
     background-color: var(--warm-sand) !important;
   }
-  
+
   .reveal .slides section {
     position: relative !important;
     page-break-after: always;
@@ -392,19 +397,18 @@
     background-color: var(--warm-sand) !important;
     box-sizing: border-box !important;
   }
-  
+
   .reveal .slides section:last-child {
     page-break-after: avoid;
   }
-  
+
   .reveal .controls,
   .reveal .progress {
     display: none !important;
   }
-  
+
   /* Ensure all elements respect page boundaries */
   * {
     box-sizing: border-box !important;
   }
 }
-

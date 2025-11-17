@@ -23,10 +23,10 @@ Edit CSS variables in `quartz/styles/custom.scss`:
 ```scss
 :root {
   // Primary colors
-  --blue-dark: #092045;       // Dark navy (main)
-  --blue-medium: #1A3A6B;     // Medium blue (links)
-  --blue-light: #2E5491;      // Light blue (hover states)
-  
+  --blue-dark: #092045; // Dark navy (main)
+  --blue-medium: #1a3a6b; // Medium blue (links)
+  --blue-light: #2e5491; // Light blue (hover states)
+
   // Or customize with your own colors
   --primary-color: #your-color;
   --secondary-color: #your-color;
@@ -78,7 +78,7 @@ Use the box pattern for cards and sections:
   border: 2px solid var(--blue-dark);
   padding: 2rem 1.5rem;
   background: var(--light);
-  
+
   &:hover {
     transform: translateY(-2px);
     box-shadow: var(--action-btn-shadow);
@@ -115,4 +115,3 @@ Responsive grid patterns:
 - Responsive design built-in
 - Dark mode support via Quartz theme configuration
 - Mobile-first approach
-

@@ -61,11 +61,12 @@ You need to create a **CNAME record** for the subdomain:
 
 #### CNAME Record for `regenerant.refibcn.cat`
 
-| Type  | Name          | Target                         | Proxy Status | TTL  |
-|-------|---------------|--------------------------------|--------------|------|
-| CNAME | `regenerant`  | `refibcn.github.io`            | Proxied (☁️) | Auto |
+| Type  | Name         | Target              | Proxy Status | TTL  |
+| ----- | ------------ | ------------------- | ------------ | ---- |
+| CNAME | `regenerant` | `refibcn.github.io` | Proxied (☁️) | Auto |
 
 **Steps:**
+
 1. Click **Add record**
 2. **Type**: Select `CNAME`
 3. **Name**: Enter `regenerant` (Cloudflare adds `.refibcn.cat` automatically)
@@ -108,6 +109,7 @@ dig regenerant.refibcn.cat CNAME
 ```
 
 Or use online tools:
+
 - https://dnschecker.org
 - https://www.whatsmydns.net
 
@@ -170,6 +172,7 @@ If needed, you can manually trigger a deployment:
 **Problem**: Site not loading after DNS changes
 
 **Solution**:
+
 1. Wait 10-30 minutes for DNS propagation
 2. Clear browser cache (Cmd/Ctrl + Shift + R)
 3. Try incognito/private browsing mode
@@ -180,6 +183,7 @@ If needed, you can manually trigger a deployment:
 **Problem**: Certificate errors or mixed content warnings
 
 **Solution**:
+
 1. In GitHub Pages settings, uncheck and re-check "Enforce HTTPS"
 2. Wait 5-10 minutes for certificate provisioning
 3. In Cloudflare, verify SSL/TLS mode is set to "Full"
@@ -190,6 +194,7 @@ If needed, you can manually trigger a deployment:
 **Problem**: GitHub Actions workflow fails
 
 **Solution**:
+
 1. Go to **Actions** tab and click the failed workflow
 2. Check error logs
 3. Common issues:
@@ -203,6 +208,7 @@ If needed, you can manually trigger a deployment:
 **Problem**: Pages return 404
 
 **Solution**:
+
 1. Check `quartz.config.ts` baseUrl is correct: `regenerant.refibcn.cat`
 2. Verify CNAME file contains: `regenerant.refibcn.cat`
 3. Rebuild and redeploy
@@ -282,6 +288,7 @@ After deployment, verify:
 ## Quick Reference Commands
 
 ### Local Development
+
 ```bash
 cd "03 Libraries/Regenerant-Catalunya"
 npx quartz build --serve
@@ -289,12 +296,14 @@ npx quartz build --serve
 ```
 
 ### Check DNS
+
 ```bash
 dig regenerant.refibcn.cat CNAME
 nslookup regenerant.refibcn.cat
 ```
 
 ### Deploy Manually (if needed)
+
 ```bash
 git add .
 git commit -m "Deploy changes"
@@ -321,4 +330,3 @@ git push origin main
 6. ✅ **HTTPS enforced** on both GitHub and Cloudflare
 
 Your site will be live at **https://regenerant.refibcn.cat** once DNS propagates!
-

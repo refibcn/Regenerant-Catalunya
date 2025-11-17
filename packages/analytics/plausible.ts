@@ -6,4 +6,3 @@ export const analyticsConfig = {
   // Plausible automatically detects your domain from the baseUrl in quartz.config.ts
   // No additional configuration needed
 }
-

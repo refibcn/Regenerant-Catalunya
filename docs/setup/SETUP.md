@@ -147,6 +147,7 @@ GitHub Actions will automatically build and deploy your site.
 ### Multi-language Setup (if enabled)
 
 1. Create content directories:
+
    ```
    content/
    ├── en/    # English content
@@ -205,4 +206,3 @@ GitHub Actions will automatically build and deploy your site.
 - Check [GitHub Issues](https://github.com/ReFiDAO/quartz-refi-template/issues)
 - Ask in [Discussions](https://github.com/ReFiDAO/quartz-refi-template/discussions)
 - Review [Quartz Documentation](https://quartz.jzhao.xyz/)
-

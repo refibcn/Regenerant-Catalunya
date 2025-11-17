@@ -1,92 +1,91 @@
 # ReFi BCN - Local Funding Programs GG24 Application Form
 
 > Form URL: https://tally.so/r/wd7N7N
-Status: Draft - Not yet submitted
-Date: September 2025
-> 
+> Status: Draft - Not yet submitted
+> Date: September 2025
 
 ---
 
 ## Form Introduction
 
-### *TL;DR — Who should fill this in?*
+### _TL;DR — Who should fill this in?_
 
-*If you're helping lead a local community / ecosystem hub (e.g., ReFi Local Node, Greenpill Chapter, bioregional org, municipal/NGO partnership, university program, or other locally rooted initiative) and want support + funding to run a locally-led Web3-based funding program, please register your interest here.*
+_If you're helping lead a local community / ecosystem hub (e.g., ReFi Local Node, Greenpill Chapter, bioregional org, municipal/NGO partnership, university program, or other locally rooted initiative) and want support + funding to run a locally-led Web3-based funding program, please register your interest here._
 
-*This aims to be a lightweight intake form to gauge the eligibility and readiness of your program for the planned GG24 Local Funding Programs round. You can (and are encouraged to) fill this form even if you might still need more time to raise local matching funds or finalize your program design. In that case, registering now helps us stay connected and support you in building toward future rounds (e.g. GG25 in March 2026), where we expect to have further funding available for local programs.*
+_This aims to be a lightweight intake form to gauge the eligibility and readiness of your program for the planned GG24 Local Funding Programs round. You can (and are encouraged to) fill this form even if you might still need more time to raise local matching funds or finalize your program design. In that case, registering now helps us stay connected and support you in building toward future rounds (e.g. GG25 in March 2026), where we expect to have further funding available for local programs._
 
-***Note: All details here are preliminary pending the Gitcoin GG24 Dedicated Domain vote on 12 Sept 2025. Final round details and parameters will be published immediately after that vote. This form remains the first step to be considered for invitation.***
+**_Note: All details here are preliminary pending the Gitcoin GG24 Dedicated Domain vote on 12 Sept 2025. Final round details and parameters will be published immediately after that vote. This form remains the first step to be considered for invitation._**
 
-### *Context - Ethereum Localism & Regen Coordination?*
+### _Context - Ethereum Localism & Regen Coordination?_
 
-***Ethereum Localism** is a movement of people seeking to embed Ethereum's tools (stablecoins, payments, onchain governance, open data, community grants, impact credits, etc.) into place-based communities and economies. Instead of focusing on speculation, the aim is practical, durable utility—helping neighborhoods, bioregions, campuses, and community hubs use Ethereum to coordinate resources, measure impact, and build resilient local economies. Each local implementation becomes an open-source blueprint that others can use and adapt.*
+**\*Ethereum Localism** is a movement of people seeking to embed Ethereum's tools (stablecoins, payments, onchain governance, open data, community grants, impact credits, etc.) into place-based communities and economies. Instead of focusing on speculation, the aim is practical, durable utility—helping neighborhoods, bioregions, campuses, and community hubs use Ethereum to coordinate resources, measure impact, and build resilient local economies. Each local implementation becomes an open-source blueprint that others can use and adapt.\*
 
-***Regen Coordination** is a global alliance of organizations and networks (including ReFi DAO, Greenpill Network, Bloom Network, BioFi, Ma Earth, AgroforestDAO, and more) dedicated to weaving and connecting these local experiments into a coherent movement. We convene funding rounds, sensemaking processes, and shared toolkits that make decentralized efforts more legible and coordinated. For GG24, Regen Coordination and Open Civics are leading the Local Funding Programs track, ensuring communities receive the guidance, tools, funding and support they need to run credible and impactful local programs—while documenting learnings that feed back into the global ecosystem.*
+**\*Regen Coordination** is a global alliance of organizations and networks (including ReFi DAO, Greenpill Network, Bloom Network, BioFi, Ma Earth, AgroforestDAO, and more) dedicated to weaving and connecting these local experiments into a coherent movement. We convene funding rounds, sensemaking processes, and shared toolkits that make decentralized efforts more legible and coordinated. For GG24, Regen Coordination and Open Civics are leading the Local Funding Programs track, ensuring communities receive the guidance, tools, funding and support they need to run credible and impactful local programs—while documenting learnings that feed back into the global ecosystem.\*
 
-***Learn more:** [**Ethereum Localism x Regen Coordination: Powering Regenerative Local Economies with Web3**](https://blog.refidao.com/ethereum-localism-x-regen-coordination/)*
+**\*Learn more:** [**Ethereum Localism x Regen Coordination: Powering Regenerative Local Economies with Web3**](https://blog.refidao.com/ethereum-localism-x-regen-coordination/)\*
 
 ### **Eligibility & Selection — What we’re looking for 👀**
 
-*The planned **GG24 Local Funding Programs round** will support a small cohort of local hubs that can demonstrate how Ethereum can take root in real communities. While the outcomes we’re seeking are about growing adoption and utilization of Ethereum, local funding programs do not need to limit themselves to only funding Web3-native people or projects.*
+_The planned **GG24 Local Funding Programs round** will support a small cohort of local hubs that can demonstrate how Ethereum can take root in real communities. While the outcomes we’re seeking are about growing adoption and utilization of Ethereum, local funding programs do not need to limit themselves to only funding Web3-native people or projects._
 
-*Depending on your program scope, you might choose to support a local selection of:*
+_Depending on your program scope, you might choose to support a local selection of:_
 
-*🌟 **Regenerative initiatives, NGOs & nonprofits** (ecological, social, cultural)*
+_🌟 **Regenerative initiatives, NGOs & nonprofits** (ecological, social, cultural)_
 
-*🌟 **Regional development or civics** (municipal pilots, community currencies, civic tech)*
+_🌟 **Regional development or civics** (municipal pilots, community currencies, civic tech)_
 
-*🌟 **Learning hubs & educational spaces** (schools, universities, community labs)*
+_🌟 **Learning hubs & educational spaces** (schools, universities, community labs)_
 
-*🌟 **Local developer communities** (hackathons, open-source contributors, Web3 builders)*
+_🌟 **Local developer communities** (hackathons, open-source contributors, Web3 builders)_
 
-*🌟 **Creative & cultural projects** (arts, media, local storytelling, heritage)*
+_🌟 **Creative & cultural projects** (arts, media, local storytelling, heritage)_
 
-*🌟 **Entrepreneurship & local businesses** (incubators, SMEs experimenting with Web3 tools)*
+_🌟 **Entrepreneurship & local businesses** (incubators, SMEs experimenting with Web3 tools)_
 
-*🌟 …and/or **Web3-aligned builders & communities** (ReFi nodes, DAOs, impact networks)*
+_🌟 …and/or **Web3-aligned builders & communities** (ReFi nodes, DAOs, impact networks)_
 
-*What matters most is that your program has a credible design, secures local buy-in and matching funds, and shows a clear pathway to create both real-world impact and meaningful onchain activity.*
+_What matters most is that your program has a credible design, secures local buy-in and matching funds, and shows a clear pathway to create both real-world impact and meaningful onchain activity._
 
-*The following criteria will guide program eligibility and selection:*
+_The following criteria will guide program eligibility and selection:_
 
-***1️⃣ Program Scope & Theory of Change***
+**_1️⃣ Program Scope & Theory of Change_**
 
-- *Clear who/what/why for your program: which activities or projects you’ll fund, who benefits, and what outcomes you seek.*
-- *A scope that is appropriately scaled to the potential size of the funding pool, with matching funds proportional to the number and type of projects you aim to support. For example, a modest pool should not aim to fund hundreds of projects, but could credibly support a targeted set of local initiatives.*
-- *A feasible plan with milestones and the ability to launch by late 2025 (or Jan 2026 latest).*
+- _Clear who/what/why for your program: which activities or projects you’ll fund, who benefits, and what outcomes you seek._
+- _A scope that is appropriately scaled to the potential size of the funding pool, with matching funds proportional to the number and type of projects you aim to support. For example, a modest pool should not aim to fund hundreds of projects, but could credibly support a targeted set of local initiatives._
+- _A feasible plan with milestones and the ability to launch by late 2025 (or Jan 2026 latest)._
 
-***2️⃣ Local Fundraising (Matching on Matching)***
+**_2️⃣ Local Fundraising (Matching on Matching)_**
 
-- *Minimum $5k raised/committed from outside sponsors (e.g. municipalities, NGOs, community partners, etc.).
+- \*Minimum $5k raised/committed from outside sponsors (e.g. municipalities, NGOs, community partners, etc.).
 - More initial funds raised = stronger proposal + more match potential.
 - Target policy (current draft): up to 2× match on your local raise, capped at $20k per program (e.g., raise $10k locally → up to $20k GG24 match = $30k total pool).
-- You may include a [**Fair Fee**](https://gov.gitcoin.co/t/temp-check-fair-fees-for-gg24/) to help cover the ops/admin of your program.*
+- You may include a [**Fair Fee**](https://gov.gitcoin.co/t/temp-check-fair-fees-for-gg24/) to help cover the ops/admin of your program.\*
 
-***3️⃣ Impact Measurement & Onchain Activity***
+**_3️⃣ Impact Measurement & Onchain Activity_**
 
-- *Commitment to credible impact reporting (e.g., via tools like Karma GAP)*
-- *Openness to pilot techniques for regional onchain impact analysis e.g. local web3 adoption, transactions, retention on Web3 rails etc...*
+- _Commitment to credible impact reporting (e.g., via tools like Karma GAP)_
+- _Openness to pilot techniques for regional onchain impact analysis e.g. local web3 adoption, transactions, retention on Web3 rails etc..._
 
-***4️⃣ Team Experience & Delivery Capability***
+**_4️⃣ Team Experience & Delivery Capability_**
 
-- *Ideally anchored by an existing local hub/chapter/coalition with trusted community / ecosystem relationships.
-- Evidence you/your team has the experience, skills and capacity to design and run the local funding program: with appropriate program governance, outreach, partnerships, comms, treasury ops, reporting etc...*
+- \*Ideally anchored by an existing local hub/chapter/coalition with trusted community / ecosystem relationships.
+- Evidence you/your team has the experience, skills and capacity to design and run the local funding program: with appropriate program governance, outreach, partnerships, comms, treasury ops, reporting etc...\*
 
-***❗️Note: It’s completely fine if your program does not yet meet all of the above or is not yet fully developed or scoped — we encourage you to use this form to share where things stand now and thus providing a starting point to help shape how the potential program could be further scoped and developed.***
+**_❗️Note: It’s completely fine if your program does not yet meet all of the above or is not yet fully developed or scoped — we encourage you to use this form to share where things stand now and thus providing a starting point to help shape how the potential program could be further scoped and developed._**
 
-***❗️Note 2: At this stage, you do  need to know exactly what allocation mechanism / tooling you would like to use to run your local program. There are multiple approaches available (e.g., quadratic funding, direct grants, retro, hybrid models), and we will support you in exploring the options, understanding their trade-offs, and selecting the design and tooling that best fits your local context and goals.***
+**_❗️Note 2: At this stage, you do need to know exactly what allocation mechanism / tooling you would like to use to run your local program. There are multiple approaches available (e.g., quadratic funding, direct grants, retro, hybrid models), and we will support you in exploring the options, understanding their trade-offs, and selecting the design and tooling that best fits your local context and goals._**
 
-## ***What happens after you submit this form?***
+## **_What happens after you submit this form?_**
 
-*1. We’ll review interest forms on a rolling basis and provide feedback.*
+_1. We’ll review interest forms on a rolling basis and provide feedback._
 
-*2. You’ll shortly receive the final round brief, dates, and application processes.*
+_2. You’ll shortly receive the final round brief, dates, and application processes._
 
-*3. Formal applications and initial funding round to take place in mid-October during GG24.*
+_3. Formal applications and initial funding round to take place in mid-October during GG24._
 
-*By submitting, you consent to us storing your responses for the purpose of program coordination across ETH FTW, Regen Coordination, and Open Civics. We will not share personal contact details publicly. You may be contacted to clarify details or invited to coordination calls.*
+_By submitting, you consent to us storing your responses for the purpose of program coordination across ETH FTW, Regen Coordination, and Open Civics. We will not share personal contact details publicly. You may be contacted to clarify details or invited to coordination calls._
 
-*Let’s grow 🌱👇*
+_Let’s grow 🌱👇_
 
 ---
 
@@ -120,11 +119,11 @@ ReFi Barcelona • Catalonia, Spain
 
 ## About your potential program 🌱
 
-*Please now provide high-level answers to the following questions to help us understand your potential local program scope and readiness. It’s completely fine if your program is not yet fully developed or scoped — we encourage you to just share where things stand now. This will give us a baseline to understand your starting point and help shape how the potential program could be further scoped and developed.*
+_Please now provide high-level answers to the following questions to help us understand your potential local program scope and readiness. It’s completely fine if your program is not yet fully developed or scoped — we encourage you to just share where things stand now. This will give us a baseline to understand your starting point and help shape how the potential program could be further scoped and developed._
 
 ### Program Scope & Theory of Change
 
-*What is the focus of your local program? (Who/what will you fund, why it matters, and the outcomes you hope to achieve?) How many projects or participants do you anticipate supporting, and how will you ensure the scope is right-sized for the resources you expect to raise?*
+_What is the focus of your local program? (Who/what will you fund, why it matters, and the outcomes you hope to achieve?) How many projects or participants do you anticipate supporting, and how will you ensure the scope is right-sized for the resources you expect to raise?_
 
 **Regenerant Catalunya is a participatory funding round channeling resources into projects regenerating life in the Catalan bioregion. We aim to fund 10-12 projects spanning ecological restoration, community health, education, sustainable tourism, and cooperative housing—from restoring ecosystems like the Fluvià River to strengthening community infrastructure in L'Hospitalet de Llobregat.**
 
@@ -136,7 +135,7 @@ ReFi Barcelona • Catalonia, Spain
 
 ### Program Fundraising
 
-*Who are your likely seeding co-funders (e.g., municipalities, NGOs, regional sponsors, ecosystem partners)? Have you already raised or secured any commitments?Do you plan to include Fair Fees to support program operations?*
+_Who are your likely seeding co-funders (e.g., municipalities, NGOs, regional sponsors, ecosystem partners)? Have you already raised or secured any commitments?Do you plan to include Fair Fees to support program operations?_
 
 **Local co-funders secured: We have confirmed commitments totaling €11,000 from two established Catalan organizations:**
 
@@ -150,7 +149,7 @@ ReFi Barcelona • Catalonia, Spain
 
 ### Impact Measurement
 
-*How might you measure the impact of your program and the projects you support?What kinds of metrics, outcomes, or stories would you aim to track and report on?Are you open to experimenting with Web3-based tools (e.g., Karma GAP for impact reporting or TVF tracking to measure onchain adoption and value flows)?*
+_How might you measure the impact of your program and the projects you support?What kinds of metrics, outcomes, or stories would you aim to track and report on?Are you open to experimenting with Web3-based tools (e.g., Karma GAP for impact reporting or TVF tracking to measure onchain adoption and value flows)?_
 
 **Yes, we are fully committed to experimenting with Web3-based impact measurement tools:**
 
@@ -166,7 +165,7 @@ ReFi Barcelona • Catalonia, Spain
 
 ### Team Experience & Delivery Capability
 
-*What relevant experience do you bring to running a funding program (e.g., governance, outreach, partnerships, treasury ops, reporting)? Who else would likely be on your program ops/delivery team?*
+_What relevant experience do you bring to running a funding program (e.g., governance, outreach, partnerships, treasury ops, reporting)? Who else would likely be on your program ops/delivery team?_
 
 **Lead Team - ReFi Barcelona:**
 
@@ -184,13 +183,13 @@ ReFi Barcelona • Catalonia, Spain
 
 ### Community Reference & Social Proof (optional)
 
-*If your community is less well known to Gitcoin or Regen Coordination ecosystems, please list 1–3 people who could act as high-reputation references for you.*
+_If your community is less well known to Gitcoin or Regen Coordination ecosystems, please list 1–3 people who could act as high-reputation references for you._
 
-- *These should ideally be individuals outside your direct project/team (though they may be ecosystem collaborators).*
-- *They should have established credibility or reputation (e.g., a recognized community leader, academic, funder, NGO partner, or Web3 ecosystem steward).*
-- *Their role would simply be to vouch for your credibility and work, providing verifiable social proof if needed.*
+- _These should ideally be individuals outside your direct project/team (though they may be ecosystem collaborators)._
+- _They should have established credibility or reputation (e.g., a recognized community leader, academic, funder, NGO partner, or Web3 ecosystem steward)._
+- _Their role would simply be to vouch for your credibility and work, providing verifiable social proof if needed._
 
-*Name, Contact Info / Social Media, Relationship to your community*
+_Name, Contact Info / Social Media, Relationship to your community_
 
 **Given our established presence in the ReFi DAO and Regen Coordination ecosystems through Luiz's work, we have good visibility. However, local references can include:**
 

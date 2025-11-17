@@ -20,6 +20,7 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 **Format:** Round (circular or square with rounded elements)
 
 **Requirements:**
+
 - Must work across digital and print applications
 - Scalable for various sizes (from favicon 32x32px to large banners)
 - Must maintain elegance and sophistication
@@ -29,12 +30,14 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 ### Visual Relationship with Future Brand
 
 **Strategic Requirement:**
+
 - Must establish visual relationship with future long-term brand direction
 - Should serve as proof-of-concept for organizational brand
 - Maintain conceptual relationship between event brand and org brand
 - Avoid complete disconnect from strategic branding decisions
 
 **Design Considerations:**
+
 - Consider how logo will evolve with full brand system
 - Ensure logo can adapt to future brand developments
 - Maintain flexibility for future iterations
@@ -42,12 +45,14 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 ### Design Constraints
 
 **Must Avoid:**
+
 - Visual complexity suggesting chaos
 - Overly complicated illustrations
 - Elements requiring complex design skills to maintain
 - Generic environmental movement aesthetics
 
 **Must Include:**
+
 - Elegance and sophistication
 - "Techy fun innovation" element (while maintaining professional credibility)
 - Nature-technology collaboration aesthetic (without cliché)
@@ -60,11 +65,13 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 ### Clear Space Requirements
 
 **Minimum Clear Space:**
+
 - Clear space around logo must equal the height of the logo mark
 - No other elements should intrude into this clear space
 - Maintain clear space on all sides
 
 **Visual Example:**
+
 ```
 [Clear Space = Logo Height]
 ┌─────────────────────────┐
@@ -77,16 +84,19 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 ### Minimum Size Specifications
 
 **Digital Applications:**
+
 - Minimum size: 32x32px (favicon)
 - Recommended minimum: 64x64px (small icons)
 - Optimal sizes: 128x128px, 256x256px, 512x512px
 
 **Print Applications:**
+
 - Minimum size: 0.5 inches (12.7mm) diameter
 - Recommended minimum: 1 inch (25.4mm) diameter
 - Optimal sizes: 2 inches (50.8mm), 3 inches (76.2mm)
 
 **Web Banner Applications:**
+
 - Minimum size: 80x80px
 - Recommended: 120x120px to 200x200px
 - Maximum: Based on banner size and layout
@@ -94,11 +104,13 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 ### Placement Guidelines
 
 **Preferred Placement:**
+
 - Top-left corner (web headers)
 - Center (hero sections, event materials)
 - Bottom-right (some print materials)
 
 **Avoid:**
+
 - Placing logo too close to edges
 - Overlapping with important content
 - Placing on busy backgrounds without proper treatment
@@ -107,16 +119,19 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 ### Background Considerations
 
 **Light Backgrounds:**
+
 - Use full-color logo
 - Ensure sufficient contrast
 - Test readability
 
 **Dark Backgrounds:**
+
 - Use reversed/light version of logo
 - Ensure sufficient contrast
 - Test readability
 
 **Pattern Backgrounds:**
+
 - Use solid color version of logo
 - Ensure logo stands out from pattern
 - May need background treatment behind logo
@@ -130,6 +145,7 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 **Usage:** Primary version for most applications
 
 **Requirements:**
+
 - Uses Regenerant Catalunya distinct highlight color
 - May incorporate halftone pattern elements
 - Must maintain brand color accuracy
@@ -140,6 +156,7 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 **Usage:** Single-color applications, print limitations
 
 **Requirements:**
+
 - Uses Regenerant Catalunya distinct highlight color only
 - Must maintain logo recognition
 - Should work in grayscale applications
@@ -150,6 +167,7 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 **Usage:** Dark backgrounds, special applications
 
 **Requirements:**
+
 - Light/white version for dark backgrounds
 - Must maintain logo recognition
 - Should provide sufficient contrast
@@ -160,6 +178,7 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 **Usage:** Print applications, single-color printing
 
 **Requirements:**
+
 - Black or single color only
 - Must maintain logo recognition
 - Should work in grayscale
@@ -172,12 +191,14 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 ### Vector Format (SVG)
 
 **Use Cases:**
+
 - Web applications
 - Scalable applications
 - High-quality displays
 - Future editing
 
 **Requirements:**
+
 - Clean vector paths
 - Optimized file size
 - Properly named layers
@@ -185,18 +206,21 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 - RGB color mode
 
 **File Naming:**
+
 - `regenerant-catalunya-logo-round-[variant]-[size].svg`
 - Example: `regenerant-catalunya-logo-round-fullcolor.svg`
 
 ### Raster Formats (PNG)
 
 **Use Cases:**
+
 - Web applications (specific sizes)
 - Social media
 - Email signatures
 - Applications requiring raster format
 
 **Required Sizes:**
+
 - 32x32px (favicon)
 - 64x64px (small icons)
 - 128x128px (medium icons)
@@ -205,6 +229,7 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 - 1024x1024px (print quality)
 
 **Requirements:**
+
 - Transparent background
 - High resolution (appropriate for size)
 - Optimized file size
@@ -212,23 +237,27 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 - Proper compression
 
 **File Naming:**
+
 - `regenerant-catalunya-logo-round-[variant]-[size]px.png`
 - Example: `regenerant-catalunya-logo-round-fullcolor-256px.png`
 
 ### Print Format (PDF)
 
 **Use Cases:**
+
 - Print materials
 - Professional documents
 - High-quality printing
 
 **Requirements:**
+
 - CMYK color mode
 - High resolution (300 DPI minimum)
 - Proper bleed areas (if needed)
 - Print-ready specifications
 
 **File Naming:**
+
 - `regenerant-catalunya-logo-round-[variant]-print.pdf`
 - Example: `regenerant-catalunya-logo-round-fullcolor-print.pdf`
 
@@ -241,6 +270,7 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 **Languages:** English, Spanish, Catalan
 
 **Requirements:**
+
 - Logo must work with text in all three languages
 - Text length variations must be accommodated
 - Typography must follow brand guidelines (Inter font)
@@ -249,16 +279,19 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 ### Logo-Only vs Logo with Text
 
 **Logo-Only Version:**
+
 - Use when space is limited
 - Use when logo is well-established
 - Use in icon contexts
 
 **Logo with Text Version:**
+
 - Use for primary brand applications
 - Use when establishing brand identity
 - Use in formal contexts
 
 **Text Placement:**
+
 - Below logo (preferred)
 - To the right of logo (horizontal layout)
 - Integrated with logo (if designed)
@@ -270,18 +303,21 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 ### Web Applications
 
 **Header/Navigation:**
+
 - Size: 40-60px height
 - Placement: Top-left
 - Format: SVG or PNG
 - Background: Light or dark (use appropriate version)
 
 **Hero Section:**
+
 - Size: 120-200px height
 - Placement: Center or left
 - Format: SVG or PNG
 - May include pattern overlay
 
 **Favicon:**
+
 - Size: 32x32px
 - Format: PNG or ICO
 - Simplified version if needed
@@ -289,16 +325,19 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 ### Social Media
 
 **Profile Picture:**
+
 - Size: 400x400px (square)
 - Format: PNG
 - Use: Full-color version
 
 **Cover Photo:**
+
 - Size: Platform-specific
 - Format: PNG
 - May include logo with text
 
 **Post Graphics:**
+
 - Size: Varies by platform
 - Format: PNG
 - Logo placement per template
@@ -306,16 +345,19 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 ### Print Materials
 
 **Business Cards:**
+
 - Size: 0.5-1 inch
 - Format: PDF or high-res PNG
 - Color: CMYK
 
 **Letterhead:**
+
 - Size: 1-1.5 inches
 - Format: PDF
 - Placement: Top-left or center
 
 **Event Materials:**
+
 - Size: Varies by material
 - Format: PDF or high-res PNG
 - May include pattern applications
@@ -327,6 +369,7 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 ### Do's
 
 ✅ **Do:**
+
 - Use logo at recommended minimum sizes
 - Maintain clear space around logo
 - Use appropriate color variation for background
@@ -339,6 +382,7 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 ### Don'ts
 
 ❌ **Don't:**
+
 - Stretch or distort logo
 - Change logo colors
 - Modify logo elements
@@ -355,6 +399,7 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 ### Design Approval
 
 **Process:**
+
 1. Andrea creates initial concepts
 2. Team reviews and provides feedback
 3. Andrea refines based on feedback
@@ -364,11 +409,13 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 ### Usage Approval
 
 **Routine Usage:**
+
 - Use approved templates
 - Follow usage guidelines
 - Self-service allowed
 
 **New Applications:**
+
 - Consult Andrea for new usage scenarios
 - Get approval for brand-critical applications
 - Follow review process
@@ -404,16 +451,19 @@ logos/
 ### Access
 
 **Canva:**
+
 - Logo files in shared brand folder
 - Templates include logo
 - Access: All team members
 
 **Figma:**
+
 - Logo as component in brand file
 - Variations as instances
 - Access: Andrea, advanced users
 
 **File Storage:**
+
 - Brand assets folder
 - Version controlled (Git)
 - Documented in template inventory
@@ -429,6 +479,7 @@ logos/
 **Timeline:** Immediate priority (required for event)
 
 **Milestones:**
+
 - [ ] Initial concepts created
 - [ ] Team feedback gathered
 - [ ] Design refined
@@ -440,6 +491,7 @@ logos/
 **Timeline:** After design approval
 
 **Deliverables:**
+
 - [ ] Logo files in all required formats
 - [ ] Usage guidelines document
 - [ ] Template files created
@@ -458,6 +510,7 @@ logos/
 **Document Status:** This document will be updated when logo design is finalized and delivered.
 
 **Next Steps:**
+
 1. Andrea to complete logo design
 2. Export logo in all required formats
 3. Create usage guidelines with examples
@@ -468,4 +521,3 @@ logos/
 
 **Maintained By:** ReFi Barcelona Brand Team  
 **Last Review:** November 13, 2025
-

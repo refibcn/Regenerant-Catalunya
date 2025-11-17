@@ -7,16 +7,19 @@ All three existing repositories now have upstream remotes configured pointing to
 ### Repository Status
 
 #### ReFi-BCN-Website
+
 - **Upstream:** `https://github.com/ReFiDAO/quartz-refi-template.git`
 - **Status:** Remote added ✅
 - **Next:** Review changes before syncing
 
 #### Regenerant-Catalunya
+
 - **Upstream:** `https://github.com/ReFiDAO/quartz-refi-template.git`
 - **Status:** Remote added ✅
 - **Next:** Review changes before syncing
 
 #### ReFi-DAO-Website
+
 - **Upstream:** `https://github.com/ReFiDAO/quartz-refi-template.git`
 - **Status:** Remote added ✅
 - **Next:** Review changes before syncing
@@ -70,17 +73,20 @@ git merge upstream/main --allow-unrelated-histories
 Before syncing, document site-specific customizations in `CUSTOMIZATIONS.md`:
 
 **For ReFi-BCN-Website:**
+
 - Blue color scheme (--blue-dark: #092045)
 - Multi-language support (en-US, ca-ES, es-ES)
 - Site-specific content
 - Custom domain: refibcn.cat
 
 **For Regenerant-Catalunya:**
+
 - Green color scheme customizations
 - Multi-language setup
 - Regenerant Catalunya specific content
 
 **For ReFi-DAO-Website:**
+
 - Purple/blue gradient theme
 - ReFi DAO specific content
 - Current theme architecture
@@ -88,6 +94,7 @@ Before syncing, document site-specific customizations in `CUSTOMIZATIONS.md`:
 ### Step 5: Resolve Conflicts
 
 If conflicts occur:
+
 1. Review each conflict carefully
 2. Keep site-specific customizations
 3. Accept template improvements where appropriate
@@ -165,6 +172,7 @@ git merge upstream/main --allow-unrelated-histories
 ## Verification
 
 After syncing, verify:
+
 - [ ] Site still builds correctly
 - [ ] Customizations preserved
 - [ ] No broken functionality
@@ -176,4 +184,3 @@ After syncing, verify:
 - See `docs/UPSTREAM-SYNC.md` for detailed sync guide
 - Check template repository: https://github.com/ReFiDAO/quartz-refi-template
 - Review CHANGELOG.md for template changes
-

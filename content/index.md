@@ -560,5 +560,3 @@ description: "A collaborative funding round uniting Catalan initiatives with mat
     </p>
   </div>
 </div>
-
-

@@ -2,7 +2,7 @@
 
 /**
  * Cursor Rules Setup Script
- * 
+ *
  * Generates site-specific cursor rules based on user input.
  * This script creates .cursorrules/ directory with customized rules.
  */
@@ -81,33 +81,39 @@ async function main() {
     process.exit(0)
   }
 
-  const baseUrl = config.baseUrl || await text({
-    message: "Base URL (without https://)?",
-    placeholder: "example.com",
-    initialValue: "",
-  })
+  const baseUrl =
+    config.baseUrl ||
+    (await text({
+      message: "Base URL (without https://)?",
+      placeholder: "example.com",
+      initialValue: "",
+    }))
 
   if (isCancel(baseUrl)) {
     cancel("Setup cancelled.")
     process.exit(0)
   }
 
-  const githubOrg = config.githubOrg || await text({
-    message: "GitHub organization/username?",
-    placeholder: "your-org",
-    initialValue: "",
-  })
+  const githubOrg =
+    config.githubOrg ||
+    (await text({
+      message: "GitHub organization/username?",
+      placeholder: "your-org",
+      initialValue: "",
+    }))
 
   if (isCancel(githubOrg)) {
     cancel("Setup cancelled.")
     process.exit(0)
   }
 
-  const githubRepo = config.githubRepo || await text({
-    message: "GitHub repository name?",
-    placeholder: "your-repo",
-    initialValue: "",
-  })
+  const githubRepo =
+    config.githubRepo ||
+    (await text({
+      message: "GitHub repository name?",
+      placeholder: "your-repo",
+      initialValue: "",
+    }))
 
   if (isCancel(githubRepo)) {
     cancel("Setup cancelled.")
@@ -137,7 +143,7 @@ async function main() {
   // Generate project-overview.mdc
   const projectOverviewTemplate = readFileSync(
     join(templateDir, "project-overview.mdc.template"),
-    "utf-8"
+    "utf-8",
   )
 
   const projectOverview = projectOverviewTemplate
@@ -158,7 +164,7 @@ async function main() {
   // Generate site-customization.mdc
   const siteCustomizationTemplate = readFileSync(
     join(templateDir, "site-customization.mdc.template"),
-    "utf-8"
+    "utf-8",
   )
 
   const siteCustomization = siteCustomizationTemplate
@@ -178,7 +184,7 @@ async function main() {
   // Generate upstream-sync.mdc
   const upstreamSyncTemplate = readFileSync(
     join(templateDir, "upstream-sync.mdc.template"),
-    "utf-8"
+    "utf-8",
   )
 
   const upstreamSync = upstreamSyncTemplate
@@ -280,4 +286,3 @@ main().catch((error) => {
   console.error("❌ Setup failed:", error)
   process.exit(1)
 })
-

@@ -4,30 +4,33 @@ export default () => {
     const currentPath = window.location.pathname
     const navLinks = document.querySelector(".nav-links")
     if (!navLinks) return
-    
+
     // Detect current language from path
     let currentLang = ""
     const langMatch = currentPath.match(/^\/(ca|es|en)(\/.*)?$/)
     if (langMatch) {
       currentLang = langMatch[1]
-    } else if (currentPath === "/" || !currentPath.startsWith("/ca/") && !currentPath.startsWith("/es/")) {
+    } else if (
+      currentPath === "/" ||
+      (!currentPath.startsWith("/ca/") && !currentPath.startsWith("/es/"))
+    ) {
       currentLang = "en" // Default to English
     }
-    
+
     const links = navLinks.querySelectorAll("a")
     links.forEach((link) => {
       let linkHref = link.getAttribute("href") || ""
-      
+
       // Skip external links
       if (linkHref.startsWith("http") || linkHref.startsWith("mailto:")) {
         return
       }
-      
+
       // If link already has language prefix, keep it
       if (linkHref.match(/^\/(ca|es|en)\//)) {
         return
       }
-      
+
       // Add language prefix if we're in a language-specific section
       if (currentLang && currentLang !== "en") {
         // Remove leading slash if present, add language prefix
@@ -39,16 +42,17 @@ export default () => {
       }
     })
   }
-  
+
   // Hide/show dev link based on localhost detection
   const updateDevLink = () => {
     const devLink = document.querySelector("a[data-dev-link]")
     if (!devLink) return
-    
-    const isLocalhost = window.location.hostname === "localhost" || 
-                       window.location.hostname === "127.0.0.1" ||
-                       window.location.hostname === ""
-    
+
+    const isLocalhost =
+      window.location.hostname === "localhost" ||
+      window.location.hostname === "127.0.0.1" ||
+      window.location.hostname === ""
+
     const listItem = devLink.closest("li")
     if (listItem) {
       if (isLocalhost) {
@@ -58,15 +62,15 @@ export default () => {
       }
     }
   }
-  
+
   // Active state functionality for navigation links
   const updateActiveLinks = () => {
     const currentPath = window.location.pathname
     const navLinks = document.querySelector(".nav-links")
     if (!navLinks) return
-    
+
     const links = navLinks.querySelectorAll("a")
-    
+
     // Normalize current path - remove language prefix and trailing slashes
     let normalizedPath = currentPath
     const langMatch = currentPath.match(/^\/(ca|es|en)(\/.*)?$/)
@@ -75,31 +79,33 @@ export default () => {
     } else if (currentPath === "/") {
       normalizedPath = "/"
     }
-    
+
     // Remove trailing slash except for root, remove index
     if (normalizedPath !== "/") {
       normalizedPath = normalizedPath.replace(/\/$/, "").replace(/\/index$/, "")
       if (!normalizedPath) normalizedPath = "/"
     }
-    
+
     links.forEach((link) => {
       let linkHref = link.getAttribute("href") || ""
-      
+
       // Normalize link href - remove language prefix and trailing slashes
       const linkLangMatch = linkHref.match(/^\/(ca|es|en)(\/.*)?$/)
       if (linkLangMatch) {
         linkHref = linkLangMatch[2] || "/"
       }
-      
+
       // Remove trailing slash except for root, remove index
       if (linkHref !== "/") {
         linkHref = linkHref.replace(/\/$/, "").replace(/\/index$/, "")
         if (!linkHref) linkHref = "/"
       }
-      
+
       // Check if current path matches link href exactly or is a child path
-      const isActive = normalizedPath === linkHref || (linkHref !== "/" && normalizedPath.startsWith(linkHref + "/"))
-      
+      const isActive =
+        normalizedPath === linkHref ||
+        (linkHref !== "/" && normalizedPath.startsWith(linkHref + "/"))
+
       if (isActive) {
         link.classList.add("active")
       } else {
@@ -107,36 +113,11 @@ export default () => {
       }
     })
   }
-  
+
   document.addEventListener("nav", () => {
-    const hamburger = document.querySelector(".hamburger")
-    const navLinks = document.querySelector(".nav-links")
-    
-    if (hamburger && navLinks) {
-      hamburger.addEventListener("click", (e) => {
-        e.stopPropagation()
-        navLinks.classList.toggle("open")
-        hamburger.classList.toggle("active")
-      })
-      
-      // Close menu when clicking a link
-      navLinks.querySelectorAll("a").forEach(link => {
-        link.addEventListener("click", () => {
-          navLinks.classList.remove("open")
-          hamburger.classList.remove("active")
-        })
-      })
-      
-      // Close menu when clicking outside
-      document.addEventListener("click", (e) => {
-        const target = e.target as Node
-        if (!hamburger.contains(target) && !navLinks.contains(target)) {
-          navLinks.classList.remove("open")
-          hamburger.classList.remove("active")
-        }
-      })
-    }
-    
+    // Navigation toggle is handled by Navigation.tsx component script
+    // This script only handles language-aware link updates and active states
+
     // Update navigation links, dev link visibility, and active state on SPA navigation
     setTimeout(() => {
       updateNavLinks()
@@ -144,7 +125,7 @@ export default () => {
       updateActiveLinks()
     }, 0)
   })
-  
+
   // Update navigation links, dev link visibility, and active state on initial load
   updateNavLinks()
   updateDevLink()

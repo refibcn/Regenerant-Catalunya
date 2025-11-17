@@ -35,6 +35,7 @@ git merge upstream/main --allow-unrelated-histories
 ### Step 5: Resolve Conflicts
 
 Review and resolve any conflicts, keeping ReFi-BCN customizations:
+
 - Site name: "ReFi Barcelona"
 - Base URL: "refibcn.cat"
 - Blue color scheme
@@ -49,14 +50,17 @@ Create `CUSTOMIZATIONS.md`:
 # ReFi-BCN-Website Customizations
 
 ## Theme
+
 - Blue color scheme (--blue-dark: #092045)
 - Custom styling in quartz/styles/custom.scss
 
 ## Content
+
 - Site-specific content in content/
 - Multi-language support (en, ca, es)
 
 ## Configuration
+
 - baseUrl: refibcn.cat
 - Analytics: Plausible enabled
 ```
@@ -81,6 +85,7 @@ git remote add upstream https://github.com/ReFiDAO/quartz-refi-template.git
 ### Step 2: Sync Process
 
 Follow same steps as ReFi-BCN-Website, but maintain:
+
 - Green color scheme customizations
 - Regenerant Catalunya specific content
 - Multi-language setup
@@ -97,6 +102,7 @@ git remote add upstream https://github.com/ReFiDAO/quartz-refi-template.git
 ### Step 2: Sync Process
 
 Follow same steps, maintaining:
+
 - Purple/blue gradient theme
 - ReFi DAO specific content
 - Current theme architecture
@@ -108,4 +114,3 @@ Follow same steps, maintaining:
 - Keep site-specific customizations
 - Document all overrides in CUSTOMIZATIONS.md
 - Test after syncing
-

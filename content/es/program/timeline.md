@@ -36,13 +36,17 @@ gantt
 ## Fase 1: Preparación del Programa (octubre 2025)
 
 ### 31 de octubre de 2025 ✅
+
 **Fondos locales (€11k) asegurados en cadena**
+
 - Multisig de tesorería listo para recibir fondos
 - Compromisos de socios locales confirmados
 - **Estado:** Completado
 
 ### Mediados de noviembre de 2025
+
 **Fondos de igualación globales asegurados en cadena**
+
 - $20.000 del Localism Fund
 - Fondos disponibles para distribución
 
@@ -51,7 +55,9 @@ gantt
 ## Fase 2: Inicio del Programa y Asignación Base (noviembre–diciembre 2025)
 
 ### 17-21 de noviembre de 2025
+
 **Taller #1: Introducción a Regenerant Catalunya**
+
 - **Formato:** En línea (1,5 horas)
 - **Idioma:** Español
 - **Contenido:**
@@ -65,13 +71,17 @@ gantt
 - **Entregable:** Abrir Cartera Web3
 
 ### 4-19 de diciembre de 2025
+
 **Horas de Oficina para Apoyo de Proyectos**
+
 - Apoyo según se necesite para proyectos que trabajan en presentaciones de Karma
 - Asistencia técnica y resolución de problemas
 - **Entregable:** Enviar actividades a Karma (al menos 3 actividades pasadas y 3 planes futuros)
 
 ### 8-14 de diciembre de 2025
+
 **Taller #2: Documentar el Impacto**
+
 - **Formato:** En línea
 - **Idioma:** Español
 - **Contenido:**
@@ -85,13 +95,16 @@ gantt
 - **Entregable:** Abrir cuenta en Karma
 
 ### Final de diciembre de 2025
+
 **Desembolso de la Fase 1**
+
 - **Mínimo €1.000 por proyecto** (vinculado a los requisitos mínimos de participación)
 - **Hasta €1.500 por proyecto** (basado en evaluación simplificada de impacto)
 - Fondos distribuidos a carteras Web3 de proyectos en Celo
 - Apoyo de off-ramp proporcionado (sin responsabilidades legales)
 
 **Requisitos Mínimos de Participación:**
+
 - ✅ Participar en al menos 2 talleres
 - ✅ Abrir cartera web3
 - ✅ Enviar al menos 3 actividades pasadas y 3 planes futuros a Karma
@@ -101,7 +114,9 @@ gantt
 ## Fase 3: Gobernanza Colectiva a Nivel de Red (enero–febrero 2026)
 
 ### Enero de 2026
+
 **Taller #4: Herramientas Web3 Avanzadas (por red)**
+
 - **Formato:** En línea, sesiones separadas para cada red
 - **Idioma:** Español
 - **Contenido:**
@@ -118,7 +133,9 @@ gantt
   - Activar la gobernanza de los fondos
 
 ### Enero/febrero de 2026
+
 **Taller #5: BioFi y Más Allá**
+
 - **Formato:** En línea
 - **Idioma:** Español
 - **Contenido:**
@@ -129,7 +146,9 @@ gantt
 - **Entregable:** Retroalimentación
 
 ### Final de febrero de 2026
+
 **Las Redes Activan la Gobernanza Colectiva de los Fondos de la Fase 2**
+
 - **Red Miceli Social:** ~€6.000 fondo colectivo activado
 - **Red La Fundició / Keras Buti:** ~€5.000 fondo colectivo activado
 - Las redes gobiernan colectivamente los fondos utilizando herramientas de gobernanza Web3
@@ -140,7 +159,9 @@ gantt
 ## Fase 4: Finalización del Programa (marzo 2026)
 
 ### Marzo de 2026
+
 **Informe Final Publicado**
+
 - Todos los artefactos publicados en **Catalán, Español e Inglés**
 - Publicado en [regenerant.refibcn.cat](https://regenerant.refibcn.cat/)
 - Incluye:
@@ -155,18 +176,18 @@ gantt
 
 ## Resumen de Hitos Clave
 
-| Fecha | Hito | Estado |
-|------|-----------|--------|
-| **31 oct 2025** | Fondos locales (€11k) asegurados en cadena | ✅ Completado |
+| Fecha                 | Hito                                               | Estado         |
+| --------------------- | -------------------------------------------------- | -------------- |
+| **31 oct 2025**       | Fondos locales (€11k) asegurados en cadena         | ✅ Completado  |
 | **Mediados nov 2025** | Fondos de igualación globales asegurados en cadena | 🔄 En Progreso |
-| **17-21 nov 2025** | Taller #1 — Inicio del programa | 📅 Próximo |
-| **4-19 dic 2025** | Horas de oficina para apoyo de proyectos | 📅 Próximo |
-| **8-14 dic 2025** | Taller #2 — Documentación de impacto | 📅 Próximo |
-| **Final dic 2025** | Desembolso de la Fase 1 | 📅 Próximo |
-| **Ene 2026** | Taller #4 — Herramientas Web3 avanzadas | 📅 Planificado |
-| **Ene/feb 2026** | Taller #5 — BioFi y más allá | 📅 Planificado |
-| **Final feb 2026** | Las redes activan gobernanza colectiva | 📅 Planificado |
-| **Mar 2026** | Informe final publicado | 📅 Planificado |
+| **17-21 nov 2025**    | Taller #1 — Inicio del programa                    | 📅 Próximo     |
+| **4-19 dic 2025**     | Horas de oficina para apoyo de proyectos           | 📅 Próximo     |
+| **8-14 dic 2025**     | Taller #2 — Documentación de impacto               | 📅 Próximo     |
+| **Final dic 2025**    | Desembolso de la Fase 1                            | 📅 Próximo     |
+| **Ene 2026**          | Taller #4 — Herramientas Web3 avanzadas            | 📅 Planificado |
+| **Ene/feb 2026**      | Taller #5 — BioFi y más allá                       | 📅 Planificado |
+| **Final feb 2026**    | Las redes activan gobernanza colectiva             | 📅 Planificado |
+| **Mar 2026**          | Informe final publicado                            | 📅 Planificado |
 
 ---
 
@@ -219,4 +240,3 @@ graph LR
 ---
 
 **¿Preguntas sobre el cronograma?** Contáctanos en hola@ReFiBCN.cat
-

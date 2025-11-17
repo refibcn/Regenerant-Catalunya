@@ -44,6 +44,7 @@ git checkout -b feature/my-improvement
 ```
 
 Use descriptive branch names:
+
 - `feature/add-new-package`
 - `fix/analytics-config`
 - `docs/improve-setup-guide`
@@ -75,6 +76,7 @@ git push origin feature/my-improvement
 ```
 
 Then:
+
 1. Go to your fork on GitHub
 2. Click "New Pull Request"
 3. Select your branch
@@ -86,6 +88,7 @@ Then:
 ### PR Title
 
 Use clear, descriptive titles:
+
 - ✅ "Add multilang package improvements"
 - ✅ "Fix analytics configuration issue"
 - ❌ "Updates"
@@ -94,6 +97,7 @@ Use clear, descriptive titles:
 ### PR Description
 
 Include:
+
 - **What**: What changes are made
 - **Why**: Why these changes are needed
 - **How**: How to test the changes
@@ -103,12 +107,15 @@ Example:
 
 ```markdown
 ## What
+
 Adds support for custom locale configuration in multilang package.
 
 ## Why
+
 Currently, locales are hardcoded. This allows users to configure their own locales.
 
 ## How to Test
+
 1. Install multilang package
 2. Edit scripts/build-multilang.mjs
 3. Configure custom locales
@@ -116,6 +123,7 @@ Currently, locales are hardcoded. This allows users to configure their own local
 5. Verify output structure
 
 ## Breaking Changes
+
 None - backward compatible
 ```
 
@@ -202,6 +210,7 @@ None - backward compatible
 ## Recognition
 
 Contributors are recognized in:
+
 - PR history
 - Release notes
 - CONTRIBUTORS.md (if maintained)
@@ -226,4 +235,3 @@ By contributing, you agree that your contributions will be licensed under the MI
 ---
 
 Thank you for contributing to the Quartz ReFi template! 🎉
-

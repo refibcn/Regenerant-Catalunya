@@ -90,7 +90,7 @@ Regenerant Catalunya une una cohorte diversa de **10-12 proyectos locales** (11 
 
 #### Regeneració.XYZ - Comunicar la Regeneración
 
-Una agencia creativa en la intersección de **arte, regeneración y narrativas rurales**. Nacida de un proyecto comunitario en La Garrotxa, Regeneració está creando nuevas narrativas para la regeneración a través de la expresión artística. Han sido reconocidos por el programa *Rhizome* de Culture Hack Labs como pioneros en *gobernanza comunitaria bioregional*.
+Una agencia creativa en la intersección de **arte, regeneración y narrativas rurales**. Nacida de un proyecto comunitario en La Garrotxa, Regeneració está creando nuevas narrativas para la regeneración a través de la expresión artística. Han sido reconocidos por el programa _Rhizome_ de Culture Hack Labs como pioneros en _gobernanza comunitaria bioregional_.
 
 #### [Resilience Earth](https://resilience.earth/) y [Simbiosi Fluvial](https://balkar.earth/fluvia/) - Gobernanza Bioregional y Gestión Digital de Ríos
 
@@ -128,7 +128,7 @@ La Marmita, con sede en el barrio de La Florida, busca implementar un sistema pa
 
 #### [Les Juntes](https://www.lesjuntes.coop/) - Vivienda Cooperativa y Regeneración Urbana
 
-Les Juntes es un proyecto de **vivienda cooperativa** bajo un modelo de "derecho de uso" (*cesión de uso* en español, no perfectamente traducible). Su objetivo es recuperar viviendas actualmente en manos de fondos de inversión en la zona norte de L'Hospitalet de Llobregat, para garantizar el derecho a la vivienda segura mediante estructuras de propiedad colectiva y compartida que resisten la mercantilización de un bien que debería asegurar la soberanía de vivienda de los residentes locales.
+Les Juntes es un proyecto de **vivienda cooperativa** bajo un modelo de "derecho de uso" (_cesión de uso_ en español, no perfectamente traducible). Su objetivo es recuperar viviendas actualmente en manos de fondos de inversión en la zona norte de L'Hospitalet de Llobregat, para garantizar el derecho a la vivienda segura mediante estructuras de propiedad colectiva y compartida que resisten la mercantilización de un bien que debería asegurar la soberanía de vivienda de los residentes locales.
 
 #### [La Suculenta](https://www.instagram.com/suculentalh/?hl=es) - Soberanía alimentaria e inclusión social
 
@@ -142,7 +142,7 @@ La Granja del Tilo es una cooperativa de trabajadores que gestiona una **granja 
 
 ### Proyectos invitados por ReFi Barcelona
 
-*Por confirmar*
+_Por confirmar_
 
 - Fundació Emprius
 - Arran de Terra
@@ -173,4 +173,3 @@ Esta colaboración encarna el enfoque **cosmo-local**: el conocimiento y los rec
 - [Sobre el Programa](/es/program) - Qué es Regenerant Catalunya
 - [Cronograma del Programa](/es/program/timeline) - Cronograma completo y hitos
 - [Recursos](/es/resources) - Documentación de herramientas y guías
-

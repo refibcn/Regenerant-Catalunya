@@ -17,20 +17,20 @@
 
 ### **Properties to Add:**
 
-| Property Name | Type | Options/Description |
-|--------------|------|---------------------|
-| **Task/Component** | Title | Main task or program component name |
-| **Category** | Select | Program Design, Stakeholder Mgmt, Technical Setup, Marketing, Financial, Evaluation, Operations, Documentation |
-| **Phase** | Select | Phase 1: Alignment (Done), Phase 2: Design (Current), Phase 3: Launch, Phase 4: Execution, Phase 5: Evaluation |
-| **Status** | Select | Not Started, In Progress, Blocked, On Hold, Completed |
-| **Priority** | Select | 🔴 Critical, 🟠 High, 🟡 Medium, 🟢 Low |
-| **Owner** | Person | Luiz, Giulio, Andrea, Partners, Advisory Council |
-| **Due Date** | Date | Target completion date |
-| **Dependencies** | Relation | Link to other tasks this depends on |
-| **Progress** | Number | 0-100% completion |
-| **Notes** | Text | Additional context or blockers |
-| **Related Docs** | Files & Media | Link to related documents |
-| **Stakeholders** | Multi-select | ReFi BCN, Miceli Social, La Fundició, Global Partners, Projects |
+| Property Name      | Type          | Options/Description                                                                                            |
+| ------------------ | ------------- | -------------------------------------------------------------------------------------------------------------- |
+| **Task/Component** | Title         | Main task or program component name                                                                            |
+| **Category**       | Select        | Program Design, Stakeholder Mgmt, Technical Setup, Marketing, Financial, Evaluation, Operations, Documentation |
+| **Phase**          | Select        | Phase 1: Alignment (Done), Phase 2: Design (Current), Phase 3: Launch, Phase 4: Execution, Phase 5: Evaluation |
+| **Status**         | Select        | Not Started, In Progress, Blocked, On Hold, Completed                                                          |
+| **Priority**       | Select        | 🔴 Critical, 🟠 High, 🟡 Medium, 🟢 Low                                                                        |
+| **Owner**          | Person        | Luiz, Giulio, Andrea, Partners, Advisory Council                                                               |
+| **Due Date**       | Date          | Target completion date                                                                                         |
+| **Dependencies**   | Relation      | Link to other tasks this depends on                                                                            |
+| **Progress**       | Number        | 0-100% completion                                                                                              |
+| **Notes**          | Text          | Additional context or blockers                                                                                 |
+| **Related Docs**   | Files & Media | Link to related documents                                                                                      |
+| **Stakeholders**   | Multi-select  | ReFi BCN, Miceli Social, La Fundició, Global Partners, Projects                                                |
 
 ### **Step 2: Create Multiple Views**
 
@@ -52,6 +52,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 1: Theory of Change & Logic Model**
+
 - **Category:** Program Design
 - **Phase:** Phase 2: Design
 - **Status:** Completed
@@ -66,6 +67,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 2: Stakeholder Ecosystem Mapping**
+
 - **Category:** Program Design
 - **Phase:** Phase 1: Alignment
 - **Status:** Completed
@@ -80,6 +82,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 3: Project Cohort Selection & Documentation**
+
 - **Category:** Program Design
 - **Phase:** Phase 2: Design
 - **Status:** In Progress
@@ -95,6 +98,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 4: Funding Architecture Design**
+
 - **Category:** Program Design
 - **Phase:** Phase 2: Design
 - **Status:** In Progress
@@ -110,6 +114,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 5: Technology Stack Definition**
+
 - **Category:** Program Design
 - **Phase:** Phase 2: Design
 - **Status:** Completed
@@ -124,6 +129,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 6: Impact Measurement Framework**
+
 - **Category:** Program Design
 - **Phase:** Phase 2: Design
 - **Status:** In Progress
@@ -139,6 +145,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 7: Capacity Building Program Design**
+
 - **Category:** Program Design
 - **Phase:** Phase 2: Design
 - **Status:** Completed
@@ -157,6 +164,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 8: Local Partner Agreements - Miceli Social**
+
 - **Category:** Stakeholder Mgmt
 - **Phase:** Phase 2: Design
 - **Status:** In Progress
@@ -172,6 +180,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 9: Local Partner Agreements - La Fundició**
+
 - **Category:** Stakeholder Mgmt
 - **Phase:** Phase 2: Design
 - **Status:** In Progress
@@ -187,6 +196,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 10: Global Partner Confirmations**
+
 - **Category:** Stakeholder Mgmt
 - **Phase:** Phase 2: Design
 - **Status:** In Progress
@@ -202,6 +212,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 11: Advisory Council Finalization**
+
 - **Category:** Stakeholder Mgmt
 - **Phase:** Phase 2: Design
 - **Status:** In Progress
@@ -217,6 +228,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 12: Project Onboarding & Communication**
+
 - **Category:** Stakeholder Mgmt
 - **Phase:** Phase 3: Launch
 - **Status:** Not Started
@@ -232,6 +244,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 13: Partner Coordination for Launch**
+
 - **Category:** Stakeholder Mgmt
 - **Phase:** Phase 3: Launch
 - **Status:** Not Started
@@ -251,6 +264,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 14: Safe Multisig Wallet Setup**
+
 - **Category:** Technical Setup
 - **Phase:** Phase 2: Design
 - **Status:** Not Started
@@ -266,6 +280,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 15: Gitcoin Platform Registration**
+
 - **Category:** Technical Setup
 - **Phase:** Phase 2: Design
 - **Status:** Not Started
@@ -281,6 +296,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 16: Notion Workspace Configuration**
+
 - **Category:** Technical Setup
 - **Phase:** Phase 2: Design
 - **Status:** In Progress
@@ -295,6 +311,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 17: WhatsApp Groups Creation**
+
 - **Category:** Technical Setup
 - **Phase:** Phase 2: Design
 - **Status:** Not Started
@@ -310,6 +327,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 18: Karma GAP Onboarding Preparation**
+
 - **Category:** Technical Setup
 - **Phase:** Phase 2: Design
 - **Status:** Not Started
@@ -324,6 +342,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 19: Celo Wallet Guidance**
+
 - **Category:** Technical Setup
 - **Phase:** Phase 2: Design
 - **Status:** Not Started
@@ -338,6 +357,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 20: Email Support System Setup**
+
 - **Category:** Technical Setup
 - **Phase:** Phase 2: Design
 - **Status:** Not Started
@@ -352,6 +372,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 21: Technical Documentation & Guides**
+
 - **Category:** Technical Setup
 - **Phase:** Phase 4: Execution
 - **Status:** Not Started
@@ -370,6 +391,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 22: Program Branding & Visual Identity**
+
 - **Category:** Marketing
 - **Phase:** Phase 2: Design
 - **Status:** Not Started
@@ -385,6 +407,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 23: Launch Announcements**
+
 - **Category:** Marketing
 - **Phase:** Phase 2: Design
 - **Status:** Not Started
@@ -399,6 +422,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 24: Press Release & Media Kit**
+
 - **Category:** Marketing
 - **Phase:** Phase 2: Design
 - **Status:** Not Started
@@ -413,6 +437,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 25: Social Media Campaign Content**
+
 - **Category:** Marketing
 - **Phase:** Phase 2: Design
 - **Status:** Not Started
@@ -428,6 +453,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 26: Project Spotlight Graphics**
+
 - **Category:** Marketing
 - **Phase:** Phase 2: Design
 - **Status:** Not Started
@@ -443,6 +469,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 27: Donor Journey Content**
+
 - **Category:** Marketing
 - **Phase:** Phase 2: Design
 - **Status:** Not Started
@@ -457,6 +484,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 28: Blog Posts & Articles**
+
 - **Category:** Marketing
 - **Phase:** Phase 2: Design
 - **Status:** Not Started
@@ -471,6 +499,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 29: Video Content (Optional)**
+
 - **Category:** Marketing
 - **Phase:** Phase 2: Design
 - **Status:** On Hold
@@ -485,6 +514,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 30: Launch Day Communication Protocols**
+
 - **Category:** Marketing
 - **Phase:** Phase 3: Launch
 - **Status:** Not Started
@@ -503,6 +533,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 31: Matching Pool Budget Planning**
+
 - **Category:** Financial
 - **Phase:** Phase 2: Design
 - **Status:** In Progress
@@ -518,6 +549,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 32: Fund Transfer Mechanisms**
+
 - **Category:** Financial
 - **Phase:** Phase 2: Design
 - **Status:** Not Started
@@ -533,6 +565,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 33: Financial Tracking & Reporting System**
+
 - **Category:** Financial
 - **Phase:** Phase 2: Design
 - **Status:** Not Started
@@ -547,6 +580,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 34: Project Distribution Planning - Phase 1**
+
 - **Category:** Financial
 - **Phase:** Phase 4: Execution
 - **Status:** Not Started
@@ -562,6 +596,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 35: Project Distribution Planning - Phase 2**
+
 - **Category:** Financial
 - **Phase:** Phase 4: Execution
 - **Status:** Not Started
@@ -581,6 +616,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 36: Evaluation Criteria Finalization**
+
 - **Category:** Evaluation
 - **Phase:** Phase 4: Execution
 - **Status:** Not Started
@@ -596,6 +632,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 37: Impact Reporting Templates**
+
 - **Category:** Evaluation
 - **Phase:** Phase 4: Execution
 - **Status:** Not Started
@@ -610,6 +647,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 38: Evaluation Council Training**
+
 - **Category:** Evaluation
 - **Phase:** Phase 4: Execution
 - **Status:** Not Started
@@ -625,6 +663,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 39: Regional Impact Analysis Framework**
+
 - **Category:** Evaluation
 - **Phase:** Phase 4: Execution
 - **Status:** Not Started
@@ -639,6 +678,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 40: Project Self-Assessment Process**
+
 - **Category:** Evaluation
 - **Phase:** Phase 4: Execution
 - **Status:** Not Started
@@ -653,6 +693,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 41: External Evaluation Coordination**
+
 - **Category:** Evaluation
 - **Phase:** Phase 5: Evaluation
 - **Status:** Not Started
@@ -672,6 +713,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 42: Daily Stand-ups Schedule**
+
 - **Category:** Operations
 - **Phase:** Phase 2: Design
 - **Status:** Not Started
@@ -686,6 +728,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 43: Team Roles & Responsibilities Documentation**
+
 - **Category:** Operations
 - **Phase:** Phase 1: Alignment
 - **Status:** Completed
@@ -700,6 +743,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 44: Launch Week Task Assignments**
+
 - **Category:** Operations
 - **Phase:** Phase 2: Design
 - **Status:** In Progress
@@ -714,6 +758,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 45: Donation Window Operations Plan**
+
 - **Category:** Operations
 - **Phase:** Phase 3: Launch
 - **Status:** Not Started
@@ -728,6 +773,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 46: Workshop Planning & Logistics**
+
 - **Category:** Operations
 - **Phase:** Phase 4: Execution
 - **Status:** Not Started
@@ -742,6 +788,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 47: Emergency Response Protocols**
+
 - **Category:** Operations
 - **Phase:** Phase 2: Design
 - **Status:** Completed
@@ -756,6 +803,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 48: Quality Assurance & Review Processes**
+
 - **Category:** Operations
 - **Phase:** Phase 2: Design
 - **Status:** Completed
@@ -774,6 +822,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 49: Master Documentation Maintenance**
+
 - **Category:** Documentation
 - **Phase:** Phase 2: Design
 - **Status:** In Progress
@@ -788,6 +837,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 50: Notion Master Doc Synchronization**
+
 - **Category:** Documentation
 - **Phase:** Phase 2: Design
 - **Status:** Not Started
@@ -803,6 +853,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 51: Comprehensive Final Report Planning**
+
 - **Category:** Documentation
 - **Phase:** Phase 5: Evaluation
 - **Status:** Not Started
@@ -817,6 +868,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 52: Knowledge Product Development**
+
 - **Category:** Documentation
 - **Phase:** Phase 5: Evaluation
 - **Status:** Not Started
@@ -831,6 +883,7 @@ After creating the database, add these views:
 ---
 
 #### **Entry 53: Documentation Throughout Program**
+
 - **Category:** Documentation
 - **Phase:** Phase 3-4: Launch & Execution
 - **Status:** Not Started
@@ -849,7 +902,8 @@ After creating the database, add these views:
 ### **View 1: 📊 Master Roadmap (Table View - Default)**
 
 **Filters:** None (shows everything)  
-**Sort:** 
+**Sort:**
+
 1. Phase (ascending)
 2. Priority (Critical → Low)
 3. Due Date (earliest first)
@@ -861,7 +915,8 @@ After creating the database, add these views:
 
 ### **View 2: 🔥 Critical Path (Board View)**
 
-**Filters:** 
+**Filters:**
+
 - Priority = 🔴 Critical
 
 **Group By:** Status  
@@ -885,7 +940,8 @@ After creating the database, add these views:
 
 ### **View 4: 👥 By Owner (Board View)**
 
-**Filters:** 
+**Filters:**
+
 - Status ≠ Completed
 
 **Group By:** Owner  
@@ -898,11 +954,13 @@ After creating the database, add these views:
 
 ### **View 5: 🎯 Current Phase (Table View)**
 
-**Filters:** 
+**Filters:**
+
 - Phase = Phase 2: Design
 - Status ≠ Completed
 
-**Sort:** 
+**Sort:**
+
 1. Priority (Critical → Low)
 2. Due Date (earliest first)
 
@@ -914,11 +972,13 @@ After creating the database, add these views:
 
 ### **View 6: ⚡ This Week (Table View)**
 
-**Filters:** 
+**Filters:**
+
 - Due Date ≤ 7 days from now
 - Status ≠ Completed
 
-**Sort:** 
+**Sort:**
+
 1. Priority (Critical → Low)
 2. Due Date (earliest first)
 
@@ -978,24 +1038,28 @@ Media Email: media@refibcn.cat
 Use this to track your database setup:
 
 ### **Phase 1: Structure**
+
 - [ ] Create database with inline view
 - [ ] Add all 12 properties with correct types
 - [ ] Configure property options (select options, etc.)
 - [ ] Test relation property (Dependencies)
 
 ### **Phase 2: Views**
+
 - [ ] Create 6 views with correct filters and sorting
 - [ ] Configure board view groupings
 - [ ] Set up timeline view with date property
 - [ ] Test view switching and functionality
 
 ### **Phase 3: Content**
+
 - [ ] Enter all 53 database entries
 - [ ] Fill in all property fields for each entry
 - [ ] Link dependencies between related tasks
 - [ ] Add notes and context where needed
 
 ### **Phase 4: Enhancements**
+
 - [ ] Add progress dashboard callout at top
 - [ ] Add quick links section
 - [ ] Add cover image to database page
@@ -1003,6 +1067,7 @@ Use this to track your database setup:
 - [ ] Configure colors for status indicators
 
 ### **Phase 5: Testing**
+
 - [ ] Test all views display correctly
 - [ ] Test filters work as expected
 - [ ] Test sorting is correct
@@ -1039,6 +1104,7 @@ Use this to track your database setup:
 ## 💡 USAGE TIPS
 
 ### **Daily Workflow:**
+
 1. Start day by reviewing "⚡ This Week" view
 2. Update progress % as you work
 3. Change status when tasks completed
@@ -1046,12 +1112,14 @@ Use this to track your database setup:
 5. End day with "🔥 Critical Path" check
 
 ### **Weekly Workflow:**
+
 1. Monday: Review "📅 Timeline" for week ahead
 2. Daily: Use "👥 By Owner" to balance workload
 3. Friday: Update all progress %, move completed tasks
 4. Weekly team meeting: Review "🎯 Current Phase" together
 
 ### **Monthly Workflow:**
+
 1. Review entire "📊 Master Roadmap"
 2. Update phases as you progress
 3. Add new tasks as they emerge
@@ -1068,4 +1136,3 @@ Use this to track your database setup:
 **Setup Time Required:** ~3.5 hours  
 **Next Action:** Create database in Notion and populate with all 53 entries  
 **Maintenance:** Daily updates during critical periods, weekly updates during execution
-

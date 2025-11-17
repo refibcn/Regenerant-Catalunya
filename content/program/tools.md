@@ -20,6 +20,7 @@ Karma GAP (Grantee Accountability and Reputation Protocol) creates a living, pub
 **Purpose:** Create a living, public "project resume" making impact visible and verifiable
 
 **Key Features:**
+
 - Transparent activity logging with on-chain records
 - Impact documentation aligned with Common Approach frameworks
 - On-chain reputation building through verified contributions
@@ -28,6 +29,7 @@ Karma GAP (Grantee Accountability and Reputation Protocol) creates a living, pub
 - Integration with Gitcoin and Octant ecosystems
 
 **Use cases:**
+
 - Documenting project activities and milestones
 - Building on-chain reputation for future funding
 - Transparent impact reporting to funders
@@ -107,6 +109,7 @@ Gardens is a governance platform built by 1Hive that uses conviction voting—a 
 **Purpose:** Enable communities to make collective funding and governance decisions through transparent, on-chain voting mechanisms
 
 **Key Features:**
+
 - Conviction voting mechanism (time-weighted voting power)
 - Proposal creation and voting interface
 - Transparent on-chain decision records
@@ -115,6 +118,7 @@ Gardens is a governance platform built by 1Hive that uses conviction voting—a 
 - Template system for projects and volunteers
 
 **Use cases:**
+
 - Community funding decisions for network resources
 - Bounties and rewards distribution for contributors
 - Template creation for projects and volunteers
@@ -139,6 +143,7 @@ Safe (formerly Gnosis Safe) is a smart contract wallet that enables secure, tran
 **Purpose:** Provide secure, transparent fund management requiring multiple approvals for all transactions
 
 **Key Features:**
+
 - Multi-signature transaction approval (configurable threshold)
 - On-chain transaction history and transparency
 - Support for multiple networks including Celo
@@ -147,6 +152,7 @@ Safe (formerly Gnosis Safe) is a smart contract wallet that enables secure, tran
 - Programmable transaction execution
 
 **Use cases:**
+
 - Network treasury management with shared control
 - Transparent fund disbursements requiring multiple approvals
 - Requiring multiple signers for security
@@ -173,6 +179,7 @@ Sarafu Network, developed by Grassroots Economics, provides tools for communitie
 **Purpose:** Strengthen local economic flows and enable community resource sharing through digital local currencies and commitment pooling
 
 **Key Features:**
+
 - Digital local currency creation and management
 - Commitment pooling for collective projects
 - Community-based economic coordination
@@ -181,6 +188,7 @@ Sarafu Network, developed by Grassroots Economics, provides tools for communitie
 - Transparent transaction records
 
 **Use cases:**
+
 - Creating local currency systems for community economic resilience
 - Commitment pooling for collective projects before funding
 - Strengthening local economic flows and reducing dependency on external currency
@@ -205,6 +213,7 @@ Cycles provides a protocol for mutual credit systems and circular economy flows,
 **Purpose:** Enable mutual credit systems and circular economy flows through decentralized clearing protocols
 
 **Key Features:**
+
 - Mutual credit system infrastructure
 - Clearing protocol for value exchange
 - Circular economy flow coordination
@@ -213,6 +222,7 @@ Cycles provides a protocol for mutual credit systems and circular economy flows,
 - Support for multiple value types
 
 **Use cases:**
+
 - Creating circular economy flows within networks
 - Mutual credit systems for local economic resilience
 - Clearing between network members without external currency
@@ -245,6 +255,7 @@ Silvi is a Web3 platform that enables projects to document tree planting and ste
 **Purpose:** Enable transparent, verifiable tracking of tree planting and stewardship activities with on-chain documentation
 
 **Key Features:**
+
 - Tree planting and stewardship event logging
 - Smart contract-based compensation for verified activities
 - Integration with Ecological Benefits Framework (EBF) for impact reporting
@@ -253,6 +264,7 @@ Silvi is a Web3 platform that enables projects to document tree planting and ste
 - On-chain verification of tree growth and stewardship
 
 **Use cases:**
+
 - Documenting reforestation projects with verifiable impact
 - Tracking individual tree stewardship from planting to maturity
 - Creating transparent records for carbon offset projects
@@ -279,6 +291,7 @@ Hypercerts are semi-fungible tokens (ERC-1155) that represent verifiable impact 
 **Purpose:** Create verifiable, tradable impact credentials that enable transparent funding and recognition of positive contributions
 
 **Key Features:**
+
 - Verifiable impact credential creation
 - Fractional ownership and trading of impact claims
 - Immutable on-chain records of impact
@@ -287,6 +300,7 @@ Hypercerts are semi-fungible tokens (ERC-1155) that represent verifiable impact 
 - Transparent impact markets
 
 **Use cases:**
+
 - Creating verifiable impact credentials for project outcomes
 - Enabling impact-based funding and investment
 - Documenting contributions to public goods
@@ -313,6 +327,7 @@ Ecocerts (also referred to as EcoCerts or environmental hypercerts) are impact c
 **Purpose:** Create verifiable environmental impact credentials for sustainability and ecological projects
 
 **Key Features:**
+
 - Environmental impact credential creation
 - Verification mechanisms for ecological claims
 - Integration with environmental measurement frameworks
@@ -321,6 +336,7 @@ Ecocerts (also referred to as EcoCerts or environmental hypercerts) are impact c
 - Blockchain-based verification
 
 **Use cases:**
+
 - Certifying environmental restoration projects
 - Creating verifiable credentials for sustainability achievements
 - Documenting carbon sequestration and offset activities
@@ -347,6 +363,7 @@ Gainforest is an open platform that empowers sustainable nature stewardship by u
 **Purpose:** Enable frictionless, transparent conservation funding through AI-powered monitoring and automated milestone-based payments
 
 **Key Features:**
+
 - Decentralized green fund with smart contracts for conservation projects
 - AI-powered oracles using machine learning, satellite imagery, and drone data
 - Automated fund releases upon verified environmental milestones
@@ -356,6 +373,7 @@ Gainforest is an open platform that empowers sustainable nature stewardship by u
 - Focus on Indigenous communities and forest conservation projects
 
 **Use cases:**
+
 - Pledging funds to Indigenous communities and forest conservation projects
 - Automated funding based on AI-verified environmental milestones
 - Tracking conservation impact through dynamic NFTrees certificates
@@ -382,6 +400,7 @@ Kokonut Network is a distributed network cooperative focused on syntropic agrofo
 **Purpose:** Support syntropic agroforestry projects through blockchain-based coordination and funding mechanisms
 
 **Key Features:**
+
 - Syntropic agroforestry project design and management
 - Blockchain-based project coordination
 - Community investment mechanisms
@@ -390,6 +409,7 @@ Kokonut Network is a distributed network cooperative focused on syntropic agrofo
 - Transparent project governance
 
 **Use cases:**
+
 - Designing and managing syntropic agroforestry systems
 - Coordinating community-based regenerative agriculture projects
 - Documenting regenerative farming practices and outcomes
@@ -413,4 +433,3 @@ Kokonut Network is a distributed network cooperative focused on syntropic agrofo
 - [Project Guidebook](/program/project-guidebook) - Detailed setup instructions
 - [Network Guidebook](/program/network-guidebook) - Network-level tool usage
 - [Program Timeline](/program/timeline) - Workshop schedule
-

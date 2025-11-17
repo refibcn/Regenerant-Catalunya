@@ -9,6 +9,7 @@ This is the initial release of the Quartz ReFi Template - a modular template rep
 ## ✨ Features
 
 ### Modular Package System
+
 - **Core Package** - Essential Quartz framework (always included)
 - **Theme Package** - Customizable theme architecture (always included)
 - **Multilang Package** - Multi-language support with LanguageSwitcher component (optional)
@@ -17,17 +18,20 @@ This is the initial release of the Quartz ReFi Template - a modular template rep
 - **OG Images Package** - Custom Open Graph image generation (optional)
 
 ### Setup & Configuration
+
 - **Interactive Setup Script** - `npm run setup` for easy package selection
 - **Cursor Rules Generator** - `npm run setup:cursor` for site-specific cursor rules
 - **Upstream Sync Helper** - `npm run sync:upstream` for syncing template improvements
 
 ### Documentation
+
 - Complete setup guide (`../setup/SETUP.md`)
 - Package documentation (`docs/PACKAGES.md`)
 - Upstream sync guide (`docs/UPSTREAM-SYNC.md`)
 - Contributing guidelines (`docs/CONTRIBUTING.md`)
 
 ### Developer Experience
+
 - **Cursor Rules** - Pre-configured cursor rules for template and child repositories
 - **GitHub Actions** - CI/CD workflows and deployment templates
 - **Issue Templates** - Bug report and feature request templates
@@ -71,4 +75,3 @@ Built with 💚 by the ReFi community, based on [Quartz](https://quartz.jzhao.xy
 ## 📝 Full Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for complete version history.
-

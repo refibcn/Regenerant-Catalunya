@@ -28,12 +28,14 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 **Owner:** Andrea (brand lead)
 
 **Step 1: Concept Development**
+
 - Review brand strategy and visual identity guidelines
 - Consider visual relationship with future long-term brand
 - Explore halftone pattern integration possibilities
 - Create initial concept sketches/mockups
 
 **Step 2: Design Specifications**
+
 - Format: Round (circular or square with rounded elements)
 - Must work across digital and print applications
 - Scalable for various sizes (from favicon to large banners)
@@ -41,12 +43,14 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 - Avoid visual complexity/chaos
 
 **Step 3: Design Iteration**
+
 - Create multiple concept variations
 - Test across different applications (web, print, social media)
 - Ensure readability at various sizes
 - Consider multi-language text integration (if applicable)
 
 **Step 4: Color Application**
+
 - Apply Regenerant Catalunya distinct highlight color
 - Test with halftone pattern overlays
 - Ensure contrast and readability
@@ -55,17 +59,20 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 ### Review Phase
 
 **Step 5: Team Feedback**
+
 - Present concepts to team
 - Gather feedback on visual direction
 - Consider usage scenarios
 - Refine based on feedback
 
 **Step 6: Multi-Language Considerations**
+
 - Test logo with EN/ES/CAT text (if applicable)
 - Ensure cultural appropriateness
 - Verify readability across languages
 
 **Step 7: Final Approval**
+
 - Andrea final approval
 - Team sign-off on selected design
 - Document design decisions
@@ -75,10 +82,10 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 **Step 8: Export Preparation**
 
 **Required Formats:**
+
 - **SVG** (vector, scalable)
   - Use: Web, scalable applications
   - Export: Clean vector paths, optimized file size
-  
 - **PNG** (raster, various sizes)
   - 32x32px (favicon)
   - 64x64px (small icons)
@@ -93,6 +100,7 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
   - Export: CMYK color mode, high resolution
 
 **Step 9: Create Usage Guidelines**
+
 - Clear space requirements (minimum distance from other elements)
 - Minimum size specifications
 - Color variations documentation
@@ -100,6 +108,7 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 - Integration examples
 
 **Step 10: Template File Creation**
+
 - Create Canva template with logo
 - Create Figma file with logo components
 - Document export specifications
@@ -108,18 +117,21 @@ The round logo is the primary visual identifier for Regenerant Catalunya event m
 ### Template Files
 
 **Canva Template:**
+
 - Logo placed in template
 - Usage guidelines included
 - Color palette loaded
 - Ready for team self-service
 
 **Figma File:**
+
 - Logo as component
 - Variations as instances
 - Export settings configured
 - For advanced editing
 
 **Access:**
+
 - Canva: Shared brand folder
 - Figma: ReFi DAO pro account
 - Documentation: Brand guidelines folder
@@ -286,6 +298,7 @@ Halftone patterns (AM screen with green duotone color map) are the core visual t
    - Preview final result
 
 **Color Mapping Guidelines (To Be Finalized):**
+
 - Dark tones → [Green color TBD]
 - Mid tones → [Green color TBD]
 - Light tones → [Green/Warm Sand TBD]
@@ -294,6 +307,7 @@ Halftone patterns (AM screen with green duotone color map) are the core visual t
 #### Step 4: Quality Control
 
 **Checklist:**
+
 - [ ] Pattern is clearly visible and consistent
 - [ ] Color mapping is accurate and on-brand
 - [ ] Image maintains readability
@@ -302,6 +316,7 @@ Halftone patterns (AM screen with green duotone color map) are the core visual t
 - [ ] Overall aesthetic matches brand direction (elegance over chaos)
 
 **Testing:**
+
 - Test at various sizes (thumbnail, medium, large)
 - Test on light and dark backgrounds
 - Verify pattern consistency across image
@@ -311,6 +326,7 @@ Halftone patterns (AM screen with green duotone color map) are the core visual t
 ### Figma Workflow (Advanced)
 
 **Use Cases:**
+
 - Advanced pattern combinations
 - Custom glyph halftone creation
 - Complex design work requiring precision
@@ -340,6 +356,7 @@ Halftone patterns (AM screen with green duotone color map) are the core visual t
    - Export for team use
 
 **Advanced Techniques:**
+
 - Custom pattern creation
 - Multiple pattern layers
 - Precise color mapping
@@ -350,6 +367,7 @@ Halftone patterns (AM screen with green duotone color map) are the core visual t
 **Status:** To be documented by Andrea after pattern system is finalized
 
 **Documentation Required:**
+
 - Specific Canva filter settings for each pattern type
 - Green duotone color mapping values
 - Pattern density recommendations
@@ -357,6 +375,7 @@ Halftone patterns (AM screen with green duotone color map) are the core visual t
 - Export settings for various use cases
 
 **Template Format:**
+
 ```
 Pattern Type: [Name]
 Tool: Canva/Figma
@@ -376,6 +395,7 @@ Examples: [links]
 ### Accessing Templates
 
 **Canva Templates:**
+
 1. Log into Canva account
 2. Access shared brand folder
 3. Select appropriate template
@@ -383,6 +403,7 @@ Examples: [links]
 5. Customize following guidelines
 
 **Figma Templates:**
+
 1. Access ReFi DAO pro Figma account
 2. Open brand design file
 3. Access template components
@@ -392,22 +413,26 @@ Examples: [links]
 ### Social Media Template Usage
 
 **Step 1: Select Template**
+
 - Choose template matching platform and format
 - Ensure template includes brand elements (logo, colors, patterns)
 
 **Step 2: Customize Content**
+
 - Replace placeholder text with your content
 - Ensure text follows brand guidelines
 - Check character limits for platform
 - Verify multi-language text (if applicable)
 
 **Step 3: Apply Imagery**
+
 - Upload your image
 - Apply halftone pattern following process guide
 - Ensure image quality is appropriate
 - Position image according to template guidelines
 
 **Step 4: Finalize**
+
 - Review brand consistency
 - Check quality control checklist
 - Export in required format
@@ -416,23 +441,27 @@ Examples: [links]
 ### Web Banner Template Usage
 
 **Step 1: Select Template**
+
 - Choose template matching website section
 - Ensure template integrates with Quartz framework
 - Verify responsive breakpoints
 
 **Step 2: Customize Content**
+
 - Update text content
 - Ensure typography follows guidelines
 - Verify CTA button styles
 - Check multi-language considerations
 
 **Step 3: Apply Brand Elements**
+
 - Ensure logo placement follows guidelines
 - Apply brand colors correctly
 - Use pattern overlays appropriately
 - Maintain brand consistency
 
 **Step 4: Export and Integrate**
+
 - Export in required formats (web-optimized)
 - Verify file sizes are appropriate
 - Test integration with Quartz website
@@ -441,23 +470,27 @@ Examples: [links]
 ### Event Material Template Usage
 
 **Step 1: Select Template**
+
 - Choose template matching material type
 - Verify print specifications (if applicable)
 - Ensure template includes all required elements
 
 **Step 2: Customize Content**
+
 - Update event information
 - Ensure text follows brand guidelines
 - Verify multi-language text
 - Check print specifications
 
 **Step 3: Apply Brand Elements**
+
 - Ensure round logo placement follows guidelines
 - Apply event color scheme
 - Use pattern applications appropriately
 - Maintain brand consistency
 
 **Step 4: Finalize and Export**
+
 - Review quality control checklist
 - Export in required formats
 - Verify print specifications (if applicable)
@@ -466,12 +499,14 @@ Examples: [links]
 ### Template Modification Guidelines
 
 **Allowed Modifications:**
+
 - Text content (following brand guidelines)
 - Imagery (using approved patterns)
 - Layout adjustments (maintaining brand structure)
 - Color applications (using brand palette)
 
 **Not Allowed:**
+
 - Logo modifications
 - Core brand color changes
 - Typography changes
@@ -479,6 +514,7 @@ Examples: [links]
 - Structural template changes
 
 **When in Doubt:**
+
 - Consult Andrea (brand lead)
 - Review brand guidelines
 - Use approved examples as reference
@@ -491,6 +527,7 @@ Examples: [links]
 ### Pre-Creation Checklist
 
 **Before Starting:**
+
 - [ ] Reviewed brand strategy and guidelines
 - [ ] Selected appropriate template (if using)
 - [ ] Gathered required assets (logo, images, text)
@@ -500,6 +537,7 @@ Examples: [links]
 ### During Creation Checklist
 
 **Design Process:**
+
 - [ ] Using approved brand colors
 - [ ] Following typography guidelines
 - [ ] Logo usage follows specifications
@@ -511,6 +549,7 @@ Examples: [links]
 ### Pre-Export Checklist
 
 **Before Exporting:**
+
 - [ ] All brand elements are correct
 - [ ] Text is proofread and accurate
 - [ ] Multi-language text is verified
@@ -523,6 +562,7 @@ Examples: [links]
 ### Post-Export Checklist
 
 **After Exporting:**
+
 - [ ] File opens correctly
 - [ ] Colors display accurately
 - [ ] Text is readable
@@ -534,6 +574,7 @@ Examples: [links]
 ### Brand-Critical Material Checklist
 
 **For External-Facing Materials:**
+
 - [ ] Andrea review completed
 - [ ] Team feedback incorporated
 - [ ] Brand guidelines strictly followed
@@ -550,11 +591,13 @@ Examples: [links]
 #### Issue: Pattern Not Applying Correctly in Canva
 
 **Symptoms:**
+
 - Pattern effect not available
 - Pattern looks incorrect
 - Pattern too intense or too subtle
 
 **Solutions:**
+
 1. Check Canva version (ensure latest version)
 2. Try different effect options
 3. Adjust pattern settings (size, intensity)
@@ -564,11 +607,13 @@ Examples: [links]
 #### Issue: Color Mapping Not Accurate
 
 **Symptoms:**
+
 - Colors don't match brand palette
 - Duotone effect not working
 - Colors look off-brand
 
 **Solutions:**
+
 1. Verify brand color codes are correct
 2. Check color mode (RGB for web, CMYK for print)
 3. Adjust color balance settings
@@ -578,11 +623,13 @@ Examples: [links]
 #### Issue: Logo Not Displaying Correctly
 
 **Symptoms:**
+
 - Logo appears pixelated
 - Logo colors are incorrect
 - Logo size is wrong
 
 **Solutions:**
+
 1. Use SVG format for scalable applications
 2. Use appropriate PNG size for raster applications
 3. Verify logo file is not corrupted
@@ -592,11 +639,13 @@ Examples: [links]
 #### Issue: Template Not Accessible
 
 **Symptoms:**
+
 - Can't find template in Canva/Figma
 - Template appears corrupted
 - Template missing elements
 
 **Solutions:**
+
 1. Verify access to shared brand folder
 2. Check Canva/Figma account permissions
 3. Request access from Andrea
@@ -606,11 +655,13 @@ Examples: [links]
 #### Issue: Multi-Language Text Issues
 
 **Symptoms:**
+
 - Text doesn't fit in template
 - Text appears incorrect
 - Character limits exceeded
 
 **Solutions:**
+
 1. Check character limits for platform
 2. Adjust text length or font size
 3. Verify translations are accurate
@@ -620,6 +671,7 @@ Examples: [links]
 ### Getting Help
 
 **When to Contact Andrea:**
+
 - Brand-critical design decisions
 - New pattern applications
 - Template modifications
@@ -627,6 +679,7 @@ Examples: [links]
 - Quality control issues
 
 **When to Consult Guidelines:**
+
 - Template usage questions
 - Pattern application questions
 - Color usage questions
@@ -634,6 +687,7 @@ Examples: [links]
 - General brand questions
 
 **Resources:**
+
 - Brand Strategy document (`../docs/brand/BRAND-STRATEGY.md`)
 - Round Logo Specifications (`docs/ROUND-LOGO-SPECIFICATIONS.md`)
 - Halftone Pattern Specifications (`docs/HALFTONE-PATTERN-SPECIFICATIONS.md`)
@@ -709,6 +763,7 @@ Examples: [links]
 **Document Status:** This is a living document that will be updated as processes are refined and new techniques are developed.
 
 **Next Steps:**
+
 1. Andrea to finalize pattern presets and settings
 2. Andrea to document green duotone color mapping values
 3. Create template library
@@ -719,4 +774,3 @@ Examples: [links]
 
 **Maintained By:** ReFi Barcelona Brand Team  
 **Last Review:** November 13, 2025
-

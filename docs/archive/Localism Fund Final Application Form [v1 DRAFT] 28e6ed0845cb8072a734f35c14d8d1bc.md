@@ -13,37 +13,37 @@ Archive?: No
 
 ## 1. BASIC INFORMATION
 
-### Grant Program Name*
+### Grant Program Name\*
 
 ```
 Regenerant Catalunya
 
 ```
 
-### Grant Program Description (1-2 sentences)*
+### Grant Program Description (1-2 sentences)\*
 
 <aside>
 
-Regenerant Catalunya is a participatory funding round operated by ReFi Barcelona dedicated to channeling resources into projects that are regenerating life in the 
+Regenerant Catalunya is a participatory funding round operated by ReFi Barcelona dedicated to channeling resources into projects that are regenerating life in the
 Catalan bioregion. The program is funded by local and international stakeholders, which are involved in the co-definition of the scope, modalities and activities of the initiative.
 
 </aside>
 
-### Grant Program Regional Focus*
+### Grant Program Regional Focus\*
 
 ```
 Catalonia, Spain
 
 ```
 
-### Local Hub / Organization Name*
+### Local Hub / Organization Name\*
 
 ```
 ReFi Barcelona
 
 ```
 
-### Local Hub / Organization Link*
+### Local Hub / Organization Link\*
 
 ```
 https://refibcn.cat/
@@ -56,27 +56,27 @@ https://refibcn.cat/
 https://gap.karmahq.xyz/project/refi-barcelona
 ```
 
-### Primary Contact Name*
+### Primary Contact Name\*
 
 ```
 Luiz Fernando Gomez Segala
 
 ```
 
-### Primary Contact Role*
+### Primary Contact Role\*
 
 ```
 Founder & Strategy Lead at ReFi Barcelona
 
 ```
 
-### Primary Contact Email*
+### Primary Contact Email\*
 
 ```
 luizfernandolfsg@gmail.com
 ```
 
-### Primary Contact Telegram Username*
+### Primary Contact Telegram Username\*
 
 ```
 @louizfe
@@ -97,9 +97,9 @@ luizfernandolfsg@gmail.com
 **Local partners**
 
 - [**Miceli Social**](https://miceli.social/): cooperative hub for rural resilience, **co-funding €6,000** and helping identify candidate projects. Their involvement grounds the round in territorial needs and ongoing ecological transition across rural **comarques** (counties).
-    - **Rural context:** based in Ripoll (Girona), Miceli supports municipalities and community groups to catalyze regenerative development.
+  - **Rural context:** based in Ripoll (Girona), Miceli supports municipalities and community groups to catalyze regenerative development.
 - [**La Fundició / Keras Buti**](https://lafundicio.net/): multi-stakeholder cooperative and **Xarxa d’Ateneus Cooperatius** hub, **co-funding €5,000** and inviting projects from its networks. Since 2006 they’ve linked the **urban commons** to bioregional practice through culture, education, and feminist economics.
-    - **Urban context:** based in L’Hospitalet de Llobregat (Barcelona metro), Catalonia’s second most populous municipality and among the densest in Europe.
+  - **Urban context:** based in L’Hospitalet de Llobregat (Barcelona metro), Catalonia’s second most populous municipality and among the densest in Europe.
 - Together, they curate invitations, co-host workshops, co-define the program with ReFi Barcelona, support due diligence and mentorship, and embed practices locally so learning spreads through trusted networks.
 
 ### B. Theory of Change
@@ -111,8 +111,8 @@ By equipping a **small cohort** with **funding, technology, connections, and kno
 - **Impact measurement:** activities and **impact reported on-chain via Karma GAP**.
 - **Capacity-building workshops & mentorships:** hands-on **workshops** in Web3 fundamentals, impact reporting, and collaborative governance — led by ReFi BCN with domain experts (including, where relevant, the Localism Fund Expert Network).
 - **Two-stage funding & participation:**
-    - **Phase 1 — Baseline Allocation (50%)**: onboarding and initial **Karma GAP** report; council evaluation; allocation calculation and disbursement.
-    - **Phase 2 — Adoption Allocation (50%; optional)**: small pilot of a Web3/ReFi use case; may include **streamed** releases tied to reported deliverables and impact.
+  - **Phase 1 — Baseline Allocation (50%)**: onboarding and initial **Karma GAP** report; council evaluation; allocation calculation and disbursement.
+  - **Phase 2 — Adoption Allocation (50%; optional)**: small pilot of a Web3/ReFi use case; may include **streamed** releases tied to reported deliverables and impact.
 
 ### D. Who & What is being funded
 
@@ -158,17 +158,17 @@ We will fund **10–12 projects** across **ecosystem restoration, community heal
 
 ### **A. Target Program Budget:** €29,200 (includes Localism Fund matching)
 
-### **B. PROPOSED ALLOCATION** *(to be finalized with local partners)*
+### **B. PROPOSED ALLOCATION** _(to be finalized with local partners)_
 
 1. **DIRECT GRANTS TO PROJECTS — 80% (€23,360)**
-    - Minimum €1,000 per project × 10–12 projects
-    - Two-phase 50%/50% disbursement:
-        - **Phase 1: Baseline Allocation (Nov–Dec 2025):** based on initial Karma GAP reports and council evaluation
-        - **Phase 2 (optional): Adoption Allocation (Jan–Feb 2026):** rewards for continued Web3 tool adoption and high-quality reporting
+   - Minimum €1,000 per project × 10–12 projects
+   - Two-phase 50%/50% disbursement:
+     - **Phase 1: Baseline Allocation (Nov–Dec 2025):** based on initial Karma GAP reports and council evaluation
+     - **Phase 2 (optional): Adoption Allocation (Jan–Feb 2026):** rewards for continued Web3 tool adoption and high-quality reporting
 2. **PROGRAM OPERATIONS & COORDINATION — 20% (€5,840)**
-    - **Round coordination & project support** — ReFi BCN team time**:** Workshops planning & execution • Ongoing project mentorship and technical support • Partner coordination • Communications and community engagement • Karma GAP onboarding and training for all projects • Production of documentation & reports
-    - **Council evaluation process — ReFi BCN team + advisors’ review time.**
-    - Plus additional expenses.
+   - **Round coordination & project support** — ReFi BCN team time**:** Workshops planning & execution • Ongoing project mentorship and technical support • Partner coordination • Communications and community engagement • Karma GAP onboarding and training for all projects • Production of documentation & reports
+   - **Council evaluation process — ReFi BCN team + advisors’ review time.**
+   - Plus additional expenses.
 
 ### **C. OPERATIONAL DETAILS**
 
@@ -195,26 +195,23 @@ We will fund **10–12 projects** across **ecosystem restoration, community heal
 ### A. Organizational Track Record - ReFi Barcelona
 
 - **Grants & donations (Gitcoin rounds):** ReFi Barcelona has participated in multiple Gitcoin rounds (primarily via Regen Coordination and ReFi DAO).
-    - **Total received:** **~$9.8k** raised (including individual donations)
-    - Wallet addresses: 0xd30CAa4260A16994510d5858A2f4ce7Bb506a294; 0x9Ea21b99E9B614a3d9f73C7EeE051ECfa3E434E6.
+  - **Total received:** **~$9.8k** raised (including individual donations)
+  - Wallet addresses: 0xd30CAa4260A16994510d5858A2f4ce7Bb506a294; 0x9Ea21b99E9B614a3d9f73C7EeE051ECfa3E434E6.
 - **Event fundraising:** BioFi Barcelona 2025 & ReFi Unconference 2024 — **~€3,000–€4,000** raised
 - **Local program co-funding (Regenerant Catalunya):** **€11,000** confirmed from Miceli Social (€6,000) and La Fundició / Keras Buti (€5,000)
 
 ### B. Past Fundraising Experience in the Team
 
 - **Luiz Fernando**
-    - Supported execution of Gitcoin rounds (e.g., Regen Coordination Global Round; ReFi Mediterranean **GG23**)
-    - Led and supported grants fundraising (mainly on Gitcoin) for ReFi Barcelona, ReFi DAO, TDF, and allied initiatives
-    - Roles: strategy, treasury coordination, methodology, partner relations
+  - Supported execution of Gitcoin rounds (e.g., Regen Coordination Global Round; ReFi Mediterranean **GG23**)
+  - Led and supported grants fundraising (mainly on Gitcoin) for ReFi Barcelona, ReFi DAO, TDF, and allied initiatives
+  - Roles: strategy, treasury coordination, methodology, partner relations
 - **Giulio Quarta**
-    - Community-building and partnerships across Web3/cooperative networks
-    - Lead the [Crypto Commons Association](https://www.crypto-commons.org/) from 2022 to 2024, where he was responsible of obtaining sponsorships & grants for the 15 in person events organized.
-    - Directed the [Commons Economy Roadmap](https://www.commonseconomy.org/) project, meant to connect (as well as evaluating with an extensive framework) projects in the distributed economy with content creators and relevant audiences, lead grants applications as well as requesting financing to the projects themselves
-    - Roles: partner relationships, onboarding, community engagement, operations
-- **Andrea Farias**
-    - Supported startup fundraising efforts (from $100,000 to $1 million raised) through research and pitch development.
-    - Currently the Bioregional Finance Coordinator for the Altiplano Estepario, a decade long bioregional organizing effort in the south of Spain.
-    - Roles: curriculum & evaluation design, comms strategy, documentation
+  - Community-building and partnerships across Web3/cooperative networks
+  - Lead the [Crypto Commons Association](https://www.crypto-commons.org/) from 2022 to 2024, where he was responsible of obtaining sponsorships & grants for the 15 in person events organized.
+  - Directed the [Commons Economy Roadmap](https://www.commonseconomy.org/) project, meant to connect (as well as evaluating with an extensive framework) projects in the distributed economy with content creators and relevant audiences, lead grants applications as well as requesting financing to the projects themselves
+  - Roles: partner relationships, onboarding, community engagement, operations
+- **Andrea Farias** - Supported startup fundraising efforts (from $100,000 to $1 million raised) through research and pitch development. - Currently the Bioregional Finance Coordinator for the Altiplano Estepario, a decade long bioregional organizing effort in the south of Spain. - Roles: curriculum & evaluation design, comms strategy, documentation
 </aside>
 
 ---
@@ -226,9 +223,9 @@ We will fund **10–12 projects** across **ecosystem restoration, community heal
 ### A. Funding Mechanism & Distribution Strategy
 
 - **Two-stage funding (50/50)** to a curated cohort (no open call), tied to verified progress and tool adoption:
-    - **Phase 1 (Nov–Dec 2025) — Baseline Allocation (50%)**: released after initial set of reports on Karma GAP and council evaluation.
-    - **Phase 2 (Jan–Feb 2026) — Adoption Allocation (50%; optional)**: released upon continued Web3 adoption and high-quality reporting; focused on piloting concrete tool integrations.
-        - **Funds streaming under review:** Octant V2 / Flowstate / Gardens for ongoing releases tied to deliverables.
+  - **Phase 1 (Nov–Dec 2025) — Baseline Allocation (50%)**: released after initial set of reports on Karma GAP and council evaluation.
+  - **Phase 2 (Jan–Feb 2026) — Adoption Allocation (50%; optional)**: released upon continued Web3 adoption and high-quality reporting; focused on piloting concrete tool integrations.
+    - **Funds streaming under review:** Octant V2 / Flowstate / Gardens for ongoing releases tied to deliverables.
 - **Funds management & distribution:** Safe multisig on Celo — **0x91889ea97FeD05180fb5A70cB9570630f3C0Be77**.
 - **Support:** wallet security guidance and **off-ramping** support (without legal liabilities).
 
@@ -237,11 +234,11 @@ We will fund **10–12 projects** across **ecosystem restoration, community heal
 All participating projects will be onboarded to a minimal Web3 stack for reporting their activities & managing funds:
 
 - **Karma GAP — activities & impact reporting**
-    - On-chain progress updates and milestone publishing (living public “project resume”).
-    - Reporting aligned with **Common Approach** guidelines using bioregionalized templates.
+  - On-chain progress updates and milestone publishing (living public “project resume”).
+  - Reporting aligned with **Common Approach** guidelines using bioregionalized templates.
 - **Web3 wallet on Celo — funds management**
-    - Supported options: **Valora, Minipay, Prosperity Pass, MetaMask, Zerion, Rainbow**.
-    - Training on setup, security, and practical use; **off-ramp support** provided (no legal liabilities).
+  - Supported options: **Valora, Minipay, Prosperity Pass, MetaMask, Zerion, Rainbow**.
+  - Training on setup, security, and practical use; **off-ramp support** provided (no legal liabilities).
 
 ### C. Optional Tools Stack (project-choice pilots)
 
@@ -272,7 +269,7 @@ All participating projects will be onboarded to a minimal Web3 stack for reporti
 ### C. Program Reporting & Outputs
 
 - **Knowledge base:** all documentation, dashboards, and artifacts are published at [**https://regenerant.refibcn.cat**](https://regenerant.refibcn.cat/).
-    - **Multilingual access:** content available in **Catalan, Spanish, and English**.
+  - **Multilingual access:** content available in **Catalan, Spanish, and English**.
 - **Karma GAP** reporting.
 - **Final deliverables (Feb-Mar 2026):** open report, methodology & rubric, regional analysis with visualizations, replication toolkit, governance/templates.
 </aside>
@@ -286,19 +283,17 @@ All participating projects will be onboarded to a minimal Web3 stack for reporti
 ### A. Program Timeline
 
 1. **Local Fundraising & Stakeholders Alignment ✅
-*July → August 2025***
+   _July → August 2025_**
 2. **Program Design ✅
-*September → October 2025***
-3. **Securing Local & Global Funds *(in progress 🏗️)*
-*October 2025***
+   _September → October 2025_**
+3. **Securing Local & Global Funds _(in progress 🏗️)_
+   _October 2025_**
 4. **Program Launch & Execution
-*November 2025 → February 2026***
-    1. **Program Phase #1: Baseline Allocation** — baseline disbursement (≥ €1,000)
-    ***November → December 2025***
-    2. **Program Phase #2: Adoption Allocation (optional)** — performance & adoption-based
-    ***January → February 2026***
+   _November 2025 → February 2026_** 1. **Program Phase #1: Baseline Allocation** — baseline disbursement (≥ €1,000)
+   **_November → December 2025_** 2. **Program Phase #2: Adoption Allocation (optional)** — performance & adoption-based
+   **_January → February 2026_**
 5. **Program Closing & Final Report
-*February → March 2026***
+   _February → March 2026_**
 
 ### B. Key Milestones
 
@@ -319,13 +314,13 @@ All participating projects will be onboarded to a minimal Web3 stack for reporti
 
 The program council will be formed by:
 
-1. **Lead Operators - ReFi Barcelona**: [https://refibcn.cat/](https://refibcn.cat/Home), [https://x.com/ReFiBCN](https://x.com/ReFiBCN) , [https://t.me/+1bYk6nHfI3VjZmVk](https://t.me/+1bYk6nHfI3VjZmVk) 
-    - [**Luiz Fernando**](https://www.linkedin.com/in/luizfernandosg/) – *Founder & Strategy Lead at ReFi BCN • Operations Lead at ReFi DAO • Council Member at Regen Coordination.*
-    - [**Giulio Quarta**](https://www.linkedin.com/in/giulio-quarta-b01a46122/) – Operations, Partnerships & Community Lead at ReFi BCN *• Previously director at Crypto Commons Association.*
-    - [**Andrea Farias**](https://www.linkedin.com/in/andrea-farias-bb944750/) – Program Design & Communications Lead at ReFi BCN.
+1. **Lead Operators - ReFi Barcelona**: [https://refibcn.cat/](https://refibcn.cat/Home), [https://x.com/ReFiBCN](https://x.com/ReFiBCN) , [https://t.me/+1bYk6nHfI3VjZmVk](https://t.me/+1bYk6nHfI3VjZmVk)
+   - [**Luiz Fernando**](https://www.linkedin.com/in/luizfernandosg/) – _Founder & Strategy Lead at ReFi BCN • Operations Lead at ReFi DAO • Council Member at Regen Coordination._
+   - [**Giulio Quarta**](https://www.linkedin.com/in/giulio-quarta-b01a46122/) – Operations, Partnerships & Community Lead at ReFi BCN _• Previously director at Crypto Commons Association._
+   - [**Andrea Farias**](https://www.linkedin.com/in/andrea-farias-bb944750/) – Program Design & Communications Lead at ReFi BCN.
 2. **Advisors:**
-    1. At least 1 representative from each local funder/partner - Miceli Social and La Fundició / Keras Buti 
-    2. Additional invitations to be aligned & sent by council
+   1. At least 1 representative from each local funder/partner - Miceli Social and La Fundició / Keras Buti
+   2. Additional invitations to be aligned & sent by council
 
 ### B. Delivery Capabilities
 
@@ -336,7 +331,7 @@ Our team covers essential skill sets required for successful program execution, 
 - **Staffing plan (Nov 2025–Jan 2026, 3 months):** **1.0–1.2 FTE/month**
 - **Rate (baseline):** **$2,000 per FTE-month** (≈ **€1,820**)
 - **Total staff cost:** **$6,000-$7,200** (≈ **€5,460-€6,552**)
-    - **Target ops budget: €5,840**
+  - **Target ops budget: €5,840**
 
 </aside>
 
@@ -344,7 +339,7 @@ Our team covers essential skill sets required for successful program execution, 
 
 ## COMMITMENT TO OPENCIVICS ETHICAL STANDARDS
 
-### Do you commit to upholding the OpenCivics Ethical Standards?*
+### Do you commit to upholding the OpenCivics Ethical Standards?\*
 
 ```
 ✅ Yes, I commit to upholding these standards
@@ -357,7 +352,7 @@ Our team covers essential skill sets required for successful program execution, 
 
 ## COMPLIANCE CONFIRMATION
 
-### Can your program pass basic compliance checks (e.g., OFAC and sanctions screening)?*
+### Can your program pass basic compliance checks (e.g., OFAC and sanctions screening)?\*
 
 ```
 ✅ Yes, our program can pass basic compliance checks

@@ -12,7 +12,9 @@ Central hub for all resources, documentation, and support materials for Regenera
 ## Essential Guidebooks
 
 ### [Project Guidebook](/program/project-guidebook)
+
 Comprehensive guide for participating projects covering:
+
 - Phase 1 requirements and minimum participation
 - Karma GAP setup and usage guide
 - Web3 wallet setup (Celo: Valora, Minipay, etc.)
@@ -22,7 +24,9 @@ Comprehensive guide for participating projects covering:
 - FAQ for projects
 
 ### [Network Guidebook](/program/network-guidebook)
+
 Guide for network-level governance covering:
+
 - Phase 2 funding structure
 - Web3 governance tools introduction (Gardens, Safe, Sarafu, Cycles)
 - Collective decision-making processes
@@ -30,7 +34,9 @@ Guide for network-level governance covering:
 - Resources and support
 
 ### [Program Timeline](/program/timeline)
+
 Complete timeline with:
+
 - Key milestones
 - Workshop schedule
 - Important deadlines
@@ -43,6 +49,7 @@ Complete timeline with:
 ### Required Tools (Phase 1)
 
 #### Karma GAP
+
 - **What it is:** On-chain activity and impact reporting platform
 - **Website:** [Karma GAP Documentation](https://discuss.octant.app/t/karma-gap-grantee-accountability-and-reputation-protocol/232)
 - **Purpose:** Create a living, public "project resume" making impact visible and verifiable
@@ -50,11 +57,14 @@ Complete timeline with:
 - **Support:** Office hours December 4-19, 2025
 
 #### Web3 Wallets on Celo
+
 **Recommended (Social Recovery):**
+
 - **Valora** — [valoraapp.com](https://valoraapp.com/)
 - **Minipay** — Stablecoin-focused wallet with social recovery
 
 **Also Supported:**
+
 - **Prosperity Pass** — Social recovery option
 - **MetaMask** — [metamask.io](https://metamask.io/)
 - **Zerion** — [zerion.io](https://zerion.io/)
@@ -65,12 +75,14 @@ Complete timeline with:
 ### Network-Level Tools (Phase 2)
 
 #### Gardens
+
 - **What it is:** Conviction voting for community funding and governance
 - **Website:** [gardens.1hive.org](https://gardens.1hive.org/)
 - **Use cases:** Template for projects and volunteers, bounties and rewards
 - **Training:** Covered in Workshop #4 (January 2026)
 
 #### Safe (Multisigs)
+
 - **What it is:** Multi-signature wallet for secure, transparent fund management
 - **Website:** [safe.global](https://safe.global/)
 - **Program Treasury:** 0x91889ea97FeD05180fb5A70cB9570630f3C0Be77 (on Celo)
@@ -78,12 +90,14 @@ Complete timeline with:
 - **Training:** Covered in Workshop #4 (January 2026)
 
 #### Sarafu Network
+
 - **What it is:** Local currency and commitment pooling platform
 - **Website:** [sarafu.network](https://sarafu.network/)
 - **Use cases:** Local currency systems, commitment pooling for collective projects
 - **Training:** Covered in Workshop #4 (January 2026)
 
 #### Cycles
+
 - **What it is:** Open clearing protocol for mutual credit and circular economy
 - **Website:** [cycles.so](https://www.cycles.so/)
 - **Use cases:** Circular economy flows, mutual credit systems
@@ -103,7 +117,9 @@ Projects can opt-in to pilot these tools for enhanced capabilities:
 ## Program Documentation
 
 ### [Master Document](/master-document)
+
 Comprehensive program documentation including:
+
 - Complete program overview
 - Two-phase funding mechanism details
 - Technology stack information
@@ -112,16 +128,22 @@ Comprehensive program documentation including:
 - Project cohort details
 
 ### [Program Design](/program/design/)
+
 Design documentation and planning:
+
 - [Program Design Overview](design/index.md)
 - [Design Summary](design/summary.md)
 
 ### [Program Execution](/program/execution/)
+
 Execution plans and operational documentation:
+
 - [Program Execution Plan](execution/index.md)
 
 ### [Evaluation Criteria](/program/evaluation-criteria)
+
 Evaluation framework and criteria:
+
 - Simplified impact evaluation approach
 - Allocation structure
 - Evaluation process
@@ -145,6 +167,7 @@ Evaluation framework and criteria:
 ### Office Hours
 
 **December 4-19, 2025**
+
 - Support as needed for projects working on Karma submissions
 - Technical assistance and troubleshooting
 - Schedule: Contact hola@ReFiBCN.cat for appointments
@@ -154,24 +177,30 @@ Evaluation framework and criteria:
 ## Workshop Materials
 
 ### Workshop #1: Introducing Regenerant Catalunya
+
 **When:** November 17-21, 2025  
 **Materials:** Provided during workshop
 
 ### Workshop #2: Documenting Impact
+
 **When:** December 8-14, 2025  
-**Materials:** 
+**Materials:**
+
 - Karma templates aligned with Common Approach frameworks
 - Examples of effective impact documentation
 - Metrics guidance for regeneration
 
 ### Workshop #4: Advanced Web3 Tools
+
 **When:** January 2026  
-**Materials:** 
+**Materials:**
+
 - Tool documentation and guides
 - Best practices from other networks
 - Setup instructions
 
 ### Workshop #5: BioFi and Beyond
+
 **When:** January/February 2026  
 **Materials:** Provided during workshop
 
@@ -180,15 +209,18 @@ Evaluation framework and criteria:
 ## Financial Information
 
 ### Program Budget
+
 - **Total:** €29,200 (~$32,120)
 - **Local Co-Funding:** €11,000 (€6,000 Miceli Social + €5,000 La Fundició)
 - **Global Matching:** $20,000 (via Localism Fund)
 
 ### Treasury Management
+
 - **Safe Multisig Address:** 0x91889ea97FeD05180fb5A70cB9570630f3C0Be77 (on Celo)
 - **Transparency:** All disbursements publicly documented via on-chain records + Karma updates
 
 ### Funding Distribution
+
 - **Phase 1:** Minimum €1,000 per project (tied to minimum participation), up to €1,500 per project (based on simplified impact evaluation)
 - **Phase 2:** €1,000 per project allocated to network-level pools (Miceli ~€6k, La Fundició ~€5k)
 
@@ -223,5 +255,4 @@ Evaluation framework and criteria:
 
 **Need help?** Don't hesitate to reach out at hola@ReFiBCN.cat
 
-*Together, let's finance the future we want to see — one bioregion at a time.*
-
+_Together, let's finance the future we want to see — one bioregion at a time._

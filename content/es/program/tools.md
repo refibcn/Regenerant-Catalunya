@@ -18,6 +18,7 @@ Regenerant Catalunya utiliza un conjunto de herramientas Web3 diseñadas para ap
 **Propósito:** Crear un "currículum de proyecto" vivo y público que hace visible y verificable el impacto
 
 **Características Clave:**
+
 - Registro transparente de actividades
 - Documentación de impacto alineada con marcos de Common Approach
 - Construcción de reputación en cadena
@@ -36,10 +37,12 @@ Regenerant Catalunya utiliza un conjunto de herramientas Web3 diseñadas para ap
 Carteras seguras para recibir y gestionar fondos en la blockchain de Celo.
 
 **Recomendadas (Recuperación Social):**
+
 - **Valora** — [valoraapp.com](https://valoraapp.com/) - Cartera móvil con recuperación social
 - **Minipay** — Cartera enfocada en monedas estables con recuperación social
 
 **También Soportadas:**
+
 - **Prosperity Pass** — Opción de recuperación social
 - **MetaMask** — [metamask.io](https://metamask.io/) - Extensión de navegador
 - **Zerion** — [zerion.io](https://zerion.io/) - Cartera multi-cadena
@@ -58,6 +61,7 @@ Carteras seguras para recibir y gestionar fondos en la blockchain de Celo.
 **Qué es:** Plataforma de votación por convicción para financiación y gobernanza comunitaria
 
 **Casos de uso:**
+
 - Plantilla para proyectos y voluntarios
 - Distribución de recompensas y premios
 - Decisiones de financiación comunitaria
@@ -74,6 +78,7 @@ Carteras seguras para recibir y gestionar fondos en la blockchain de Celo.
 **Qué es:** Cartera multi-firma para gestión de fondos segura y transparente
 
 **Casos de uso:**
+
 - Gestión de tesorería de red
 - Desembolsos de fondos transparentes
 - Requerir múltiples aprobaciones para transacciones
@@ -92,6 +97,7 @@ Carteras seguras para recibir y gestionar fondos en la blockchain de Celo.
 **Qué es:** Plataforma de moneda local y agrupación de compromisos
 
 **Casos de uso:**
+
 - Sistemas de moneda local
 - Agrupación de compromisos para proyectos colectivos
 - Fortalecer flujos económicos locales
@@ -108,6 +114,7 @@ Carteras seguras para recibir y gestionar fondos en la blockchain de Celo.
 **Qué es:** Protocolo de compensación abierto para crédito mutuo y economía circular
 
 **Casos de uso:**
+
 - Flujos de economía circular
 - Sistemas de crédito mutuo
 - Compensación entre miembros de red
@@ -156,4 +163,3 @@ Estas herramientas fueron elegidas porque:
 - [Guía de Proyectos](/es/program/project-guidebook) - Instrucciones detalladas de configuración
 - [Guía de Red](/es/program/network-guidebook) - Uso de herramientas a nivel de red
 - [Cronograma del Programa](/es/program/timeline) - Calendario de talleres
-

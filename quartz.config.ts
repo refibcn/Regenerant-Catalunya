@@ -9,7 +9,6 @@ import * as Plugin from "./quartz/plugins"
 
 // Support environment variables for multi-language builds
 const LOCALE = (process.env.QUARTZ_LOCALE as string) || "en-US"
-const CONTENT_DIR = (process.env.QUARTZ_CONTENT_DIR as string) || "content"
 
 const config: QuartzConfig = {
   configuration: {
@@ -27,31 +26,31 @@ const config: QuartzConfig = {
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
-    typography: {
-      header: "Inter",
-      body: "Inter",
-      code: "IBM Plex Mono",
-    },
+      typography: {
+        header: "Inter",
+        body: "Inter",
+        code: "IBM Plex Mono",
+      },
       colors: {
         lightMode: {
-          light: "#E6DFD7",           // warm sand background
-          lightgray: "#D8D0C8",        // slightly darker
-          gray: "#8F9A9E",             // subtle gray
-          darkgray: "#214033",         // forest green (main text)
-          dark: "#214033",             // forest green (headings)
-          secondary: "#3A6655",        // medium green (links)
-          tertiary: "#568F79",         // light green (hover)
+          light: "#E6DFD7", // warm sand background
+          lightgray: "#D8D0C8", // slightly darker
+          gray: "#8F9A9E", // subtle gray
+          darkgray: "#214033", // forest green (main text)
+          dark: "#214033", // forest green (headings)
+          secondary: "#3A6655", // medium green (links)
+          tertiary: "#568F79", // light green (hover)
           highlight: "rgba(33, 64, 51, 0.15)",
           textHighlight: "rgba(33, 64, 51, 0.25)",
         },
         darkMode: {
-          light: "#0F1A1A",            // very dark forest
-          lightgray: "#1A2828",        // light surface
-          gray: "#6B7F7F",             // muted gray
-          darkgray: "#B8C5C5",         // light gray (main text)
-          dark: "#E6DFD7",             // warm sand (headings)
-          secondary: "#568F79",        // light green (links in dark mode)
-          tertiary: "#7AAE95",         // lighter green (hover in dark mode)
+          light: "#0F1A1A", // very dark forest
+          lightgray: "#1A2828", // light surface
+          gray: "#6B7F7F", // muted gray
+          darkgray: "#B8C5C5", // light gray (main text)
+          dark: "#E6DFD7", // warm sand (headings)
+          secondary: "#568F79", // light green (links in dark mode)
+          tertiary: "#7AAE95", // lighter green (hover in dark mode)
           highlight: "rgba(86, 143, 121, 0.15)",
           textHighlight: "rgba(86, 143, 121, 0.25)",
         },

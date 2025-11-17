@@ -2,7 +2,7 @@
 
 /**
  * Upstream Sync Helper Script
- * 
+ *
  * Helps sync changes from the upstream template repository.
  * Usage: node scripts/sync-upstream.mjs
  */
@@ -62,4 +62,3 @@ async function main() {
 }
 
 main()
-

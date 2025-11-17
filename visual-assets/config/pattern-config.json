@@ -1,9 +1,7 @@
 {
   "default": {
-    "type": "dots",
-    "dotSize": 8,
-    "angle": 45,
-    "intensity": 0.6
+    "type": "bayerDither",
+    "matrixSize": 4
   },
   "patterns": {
     "dots": {
@@ -32,6 +30,13 @@
     "darkColor": "#214033",
     "lightColor": "#E6DFD7",
     "balance": 0.5
+  },
+  "bayerDither": {
+    "matrixSize": 4,
+    "darkColor": "#214033",
+    "midColor": "#E6DFD7",
+    "lightColor": "#E67E50",
+    "darkThreshold": 0.33,
+    "lightThreshold": 0.66
   }
 }
-

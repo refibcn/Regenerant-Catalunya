@@ -1,11 +1,9 @@
-import { pathToRoot } from "../util/path"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
-import { i18n } from "../i18n"
 
-const PageTitle: QuartzComponent = ({ cfg, displayClass }: QuartzComponentProps) => {
+const PageTitle: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
   const title = "Regenerant Catalunya"
-  
+
   return (
     <h2 class={classNames(displayClass, "page-title")}>
       <a href="/">{title}</a>

@@ -1,74 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="generator" content="pandoc">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>$if(title-prefix)$$title-prefix$ - $endif$$pagetitle$</title>
-  
-  <!-- Google Fonts: Inter -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  
-  <!-- IBM Plex Mono for code -->
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-  
-  <style type="text/css">
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
-  </style>
-  
-  <!-- Reveal.js CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.css">
-  
-  <!-- Custom Regenerant Catalunya CSS -->
-  <link rel="stylesheet" href="revealjs-custom.css">
-  
-$for(header-includes)$
-  $header-includes$
-$endfor$
-</head>
-<body>
-  <div class="reveal">
-    <div class="slides">
-      
-$body$
+  <head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <title>$if(title-prefix)$$title-prefix$ - $endif$$pagetitle$</title>
 
-    </div>
-  </div>
-  
-  <!-- Reveal.js JavaScript -->
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.js"></script>
-  <script>
-    Reveal.initialize({
-      hash: true,
-      controls: true,
-      progress: true,
-      center: true,
-      transition: 'fade',
-      backgroundTransition: 'fade',
-      // Navigation: left/right only (no vertical navigation)
-      navigationMode: 'linear',
-      // Slide dimensions for better content fit
-      width: 1280,
-      height: 720,
-      margin: 0.05,
-      minScale: 0.2,
-      maxScale: 1.5,
-      // Ensure content fits nicely
-      embedded: false,
-      // Keyboard navigation: only left/right arrows
-      keyboard: {
-        38: null, // Disable up arrow
-        40: null  // Disable down arrow
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- IBM Plex Mono for code -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <style type="text/css">
+      code {
+        white-space: pre-wrap;
       }
-    });
-  </script>
-</body>
-</html>
+      span.smallcaps {
+        font-variant: small-caps;
+      }
+      span.underline {
+        text-decoration: underline;
+      }
+      div.column {
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+      }
+      div.hanging-indent {
+        margin-left: 1.5em;
+        text-indent: -1.5em;
+      }
+      ul.task-list {
+        list-style: none;
+      }
+    </style>
 
+    <!-- Reveal.js CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.css" />
+
+    <!-- Custom Regenerant Catalunya CSS -->
+    <link rel="stylesheet" href="revealjs-custom.css" />
+
+    $for(header-includes)$ $header-includes$ $endfor$
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">$body$</div>
+    </div>
+
+    <!-- Reveal.js JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.js"></script>
+    <script>
+      Reveal.initialize({
+        hash: true,
+        controls: true,
+        progress: true,
+        center: true,
+        transition: "fade",
+        backgroundTransition: "fade",
+        // Navigation: left/right only (no vertical navigation)
+        navigationMode: "linear",
+        // Slide dimensions for better content fit
+        width: 1280,
+        height: 720,
+        margin: 0.05,
+        minScale: 0.2,
+        maxScale: 1.5,
+        // Ensure content fits nicely
+        embedded: false,
+        // Keyboard navigation: only left/right arrows
+        keyboard: {
+          38: null, // Disable up arrow
+          40: null, // Disable down arrow
+        },
+      })
+    </script>
+  </body>
+</html>

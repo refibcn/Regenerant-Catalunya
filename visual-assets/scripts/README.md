@@ -14,6 +14,7 @@ npm install canvas jimp  # If not already installed
 ### Basic Usage
 
 **Process a single image with halftone pattern:**
+
 ```bash
 node scripts/brand-assets/pattern-generation/halftone-dots.js \
   --input path/to/image.jpg \
@@ -21,6 +22,7 @@ node scripts/brand-assets/pattern-generation/halftone-dots.js \
 ```
 
 **Batch process images:**
+
 ```bash
 node scripts/brand-assets/image-processing/batch-process.js \
   --input-dir content/images/event-photos \
@@ -29,6 +31,7 @@ node scripts/brand-assets/image-processing/batch-process.js \
 ```
 
 **Generate social media template:**
+
 ```bash
 node scripts/brand-assets/template-generation/social-media.js \
   --platform instagram \
@@ -38,6 +41,7 @@ node scripts/brand-assets/template-generation/social-media.js \
 ```
 
 **Check brand compliance:**
+
 ```bash
 node scripts/brand-assets/quality-control/check-brand-compliance.js \
   --input path/to/asset.png \
@@ -88,4 +92,3 @@ These scripts are designed to be executed by AI agents (Cursor/ChatGPT). See `do
 - **Agent Implementation Guide:** `../docs/development/AGENT-IMPLEMENTATION-GUIDE.md`
 - **Procedural Specifications:** `../docs/brand/PROCEDURAL-SPECIFICATIONS.md`
 - **Brand Strategy:** `../docs/brand/BRAND-STRATEGY.md`
-

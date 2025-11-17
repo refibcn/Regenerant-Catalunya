@@ -7,11 +7,13 @@ This directory contains the Quartz framework files.
 When setting up from the template, you need to populate this directory. You can:
 
 1. **Copy from existing Quartz installation:**
+
    ```bash
    cp -r /path/to/quartz/quartz/* quartz/
    ```
 
 2. **Copy from ReFi-BCN-Website:**
+
    ```bash
    cp -r ../ReFi-BCN-Website/quartz/* quartz/
    ```
@@ -25,6 +27,7 @@ When setting up from the template, you need to populate this directory. You can:
 ## Structure
 
 The quartz directory should contain:
+
 - `components/` - React components
 - `plugins/` - Quartz plugins
 - `styles/` - SCSS stylesheets
@@ -36,6 +39,6 @@ The quartz directory should contain:
 ## Note
 
 The template includes package-specific components that will be copied here during setup:
+
 - `components/LanguageSwitcher.tsx` (from multilang package)
 - `components/Comments.tsx` (from comments package)
-

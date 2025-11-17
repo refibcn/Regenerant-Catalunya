@@ -6,6 +6,7 @@ original_url: https://www.localism.fund/round-01
 # Local Grant Programs | Round 01
 
 Welcome to the public coordination portal for the Local Grant Programs Round (01)
+
 ## Overview
 
 **Local Grant Programs** is the first funding round of the **Localism Fund**, a new grants program supporting **credible local networks and place-based groups** who are building practical models of political, economic, cultural, and ecological localism.
@@ -41,7 +42,7 @@ Depending on the local context, your program might focus on supporting:
 - 🌾 **Entrepreneurship & Local Businesses -** Co-ops, small business incubators, and circular economy projects creating local livelihoods.
 - 🔗 **Web3-Aligned Local Networks -** ReFi nodes, Greenpill chapters, or other DAOs using Ethereum to fund local impact.
 
-Each local program will use a mix of **Web3 tools** (e.g. wallets, attestations, stablecoins, impact tracking, funding and governance tools) to manage payouts as well as coordinate decision-making and funding in the open. **Don't worry if this is new to you**, round operators are here to support! 
+Each local program will use a mix of **Web3 tools** (e.g. wallets, attestations, stablecoins, impact tracking, funding and governance tools) to manage payouts as well as coordinate decision-making and funding in the open. **Don't worry if this is new to you**, round operators are here to support!
 
 Beyond the tech, what really matters is that these programs **reflect local priorities** and **empower people closest to the challenges** to decide where resources should go.
 
@@ -64,8 +65,8 @@ To qualify, applicants must:
 3. **Program Budget & Timeline** — Milestones (Q4 2025 – Q1 2026).
 4. **Impact & Measurement** — Local outcomes + on-chain reporting plan.
 5. **Team & Capacity** — Key members and relevant experience.
-[Apply Now](#)  
-*(link to application portal)*
+   [Apply Now](#)  
+   _(link to application portal)_
 
 ## Round Lifecycle
 
@@ -101,7 +102,7 @@ Experts also leave **qualitative feedback** to guide applicants and inform opera
 
 At least **four expert reviews** are required per program before selection.
 
-Once a program reaches the **“qualified” threshold**, it is marked as *conditionally committed* — pending final confirmation of co-funding and readiness to launch. Operators then verify these details before confirming final grantees.
+Once a program reaches the **“qualified” threshold**, it is marked as _conditionally committed_ — pending final confirmation of co-funding and readiness to launch. Operators then verify these details before confirming final grantees.
 
 #### 📘 Further Reading
 
@@ -182,12 +183,12 @@ The **Evaluation Rubric score** determines your **matching multiplier**, which i
 
 Programs that demonstrate stronger performance across scope, impact, and capacity — and that have secured larger, credible co-funding commitments — receive proportionally higher matching.
 
-| **Score Range** | **Matching Multiplier** | **Outcome** |
-| --- | --- | --- |
-| 13–16 | Up to 2× | Strong candidate, priority funding |
-| 10–12 | ~1.5× | Qualified candidate, standard allocation |
-| 7–9 | 1× or conditional | Pending improvements |
-| < 7 | — | Not eligible this cycle |
+| **Score Range** | **Matching Multiplier** | **Outcome**                              |
+| --------------- | ----------------------- | ---------------------------------------- |
+| 13–16           | Up to 2×                | Strong candidate, priority funding       |
+| 10–12           | ~1.5×                   | Qualified candidate, standard allocation |
+| 7–9             | 1× or conditional       | Pending improvements                     |
+| < 7             | —                       | Not eligible this cycle                  |
 
 Any unallocated matching will roll into future Localism Fund rounds.
 

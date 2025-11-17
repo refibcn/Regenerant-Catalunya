@@ -18,6 +18,7 @@ Regenerant Catalunya utilitza un conjunt d'eines Web3 dissenyades per donar supo
 **Propòsit:** Crear un "currículum de projecte" viu i públic que fa visible i verificable l'impacte
 
 **Característiques Clau:**
+
 - Registre transparent d'activitats
 - Documentació d'impacte alineada amb marcs de Common Approach
 - Construcció de reputació en cadena
@@ -36,10 +37,12 @@ Regenerant Catalunya utilitza un conjunt d'eines Web3 dissenyades per donar supo
 Carteres segures per rebre i gestionar fons a la blockchain de Celo.
 
 **Recomanades (Recuperació Social):**
+
 - **Valora** — [valoraapp.com](https://valoraapp.com/) - Cartera mòbil amb recuperació social
 - **Minipay** — Cartera enfocada en monedes estables amb recuperació social
 
 **També Suportades:**
+
 - **Prosperity Pass** — Opció de recuperació social
 - **MetaMask** — [metamask.io](https://metamask.io/) - Extensió de navegador
 - **Zerion** — [zerion.io](https://zerion.io/) - Cartera multi-cadena
@@ -58,6 +61,7 @@ Carteres segures per rebre i gestionar fons a la blockchain de Celo.
 **Què és:** Plataforma de votació per convicció per a finançament i governança comunitària
 
 **Casos d'ús:**
+
 - Plantilla per a projectes i voluntaris
 - Distribució de recompenses i premis
 - Decisions de finançament comunitari
@@ -74,6 +78,7 @@ Carteres segures per rebre i gestionar fons a la blockchain de Celo.
 **Què és:** Cartera multi-signatura per a gestió de fons segura i transparent
 
 **Casos d'ús:**
+
 - Gestió de tresoreria de xarxa
 - Desemborsaments de fons transparents
 - Requerir múltiples aprovacions per a transaccions
@@ -92,6 +97,7 @@ Carteres segures per rebre i gestionar fons a la blockchain de Celo.
 **Què és:** Plataforma de moneda local i agrupació de compromisos
 
 **Casos d'ús:**
+
 - Sistemes de moneda local
 - Agrupació de compromisos per a projectes col·lectius
 - Enfortir fluxos econòmics locals
@@ -108,6 +114,7 @@ Carteres segures per rebre i gestionar fons a la blockchain de Celo.
 **Què és:** Protocol de compensació obert per a crèdit mutu i economia circular
 
 **Casos d'ús:**
+
 - Fluxos d'economia circular
 - Sistemes de crèdit mutu
 - Compensació entre membres de xarxa
@@ -156,4 +163,3 @@ Aquestes eines van ser escollides perquè:
 - [Guia de Projectes](/ca/program/project-guidebook) - Instruccions detallades de configuració
 - [Guia de Xarxa](/ca/program/network-guidebook) - Ús d'eines a nivell de xarxa
 - [Cronograma del Programa](/ca/program/timeline) - Calendari de tallers
-

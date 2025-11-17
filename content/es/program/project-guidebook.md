@@ -29,6 +29,7 @@ description: "Guía completa para proyectos participantes de Regenerant Cataluny
 **Rango de Financiación:** Mínimo €1.000 por proyecto, hasta €1.500 por proyecto
 
 **Requisitos Mínimos de Participación** (necesarios para el mínimo de €1.000):
+
 - ✅ Participar en al menos **2 talleres**
 - ✅ Abrir una **cartera Web3** en Celo
 - ✅ Enviar al menos **3 actividades pasadas** y **3 planes futuros** a **Karma**
@@ -42,6 +43,7 @@ description: "Guía completa para proyectos participantes de Regenerant Cataluny
 ### Fase 2: Gobernanza Colectiva a Nivel de Red (enero–febrero 2026)
 
 **Financiación:** €1.000 por proyecto asignado a fondos a nivel de red:
+
 - **Red Miceli Social:** ~€6.000 fondo colectivo
 - **Red La Fundició / Keras Buti:** ~€5.000 fondo colectivo
 
@@ -56,6 +58,7 @@ description: "Guía completa para proyectos participantes de Regenerant Cataluny
 ### 1. Participar en Talleres
 
 **Taller #1: Introducción a Regenerant Catalunya**
+
 - **Cuándo:** 17-21 de noviembre de 2025 (1,5 horas)
 - **Formato:** En línea
 - **Contenido:**
@@ -69,6 +72,7 @@ description: "Guía completa para proyectos participantes de Regenerant Cataluny
 - **Entregable:** Abrir Cartera Web3
 
 **Taller #2: Documentar el Impacto**
+
 - **Cuándo:** 8-14 de diciembre de 2025
 - **Formato:** En línea
 - **Contenido:**
@@ -82,6 +86,7 @@ description: "Guía completa para proyectos participantes de Regenerant Cataluny
 - **Entregable:** Abrir cuenta en Karma
 
 **Horas de Oficina: 4-19 de diciembre de 2025**
+
 - Apoyo según se necesite para proyectos que trabajan en sus presentaciones de Karma
 - **Entregable:** Enviar actividades a Karma (al menos 3 actividades pasadas y 3 planes futuros)
 
@@ -90,6 +95,7 @@ description: "Guía completa para proyectos participantes de Regenerant Cataluny
 **Por qué:** Necesitaréis una cartera Web3 para recibir fondos de manera segura en la blockchain de Celo.
 
 **Opciones Recomendadas** (se recomienda fuertemente la recuperación social):
+
 - **Valora** — Recuperación social, cartera móvil fácil de usar
 - **Minipay** — Enfocada en monedas estables, recuperación social
 - **Prosperity Pass** — Opción de recuperación social
@@ -98,11 +104,13 @@ description: "Guía completa para proyectos participantes de Regenerant Cataluny
 - **Rainbow** — Cartera fácil de usar
 
 **Apoyo de Configuración:**
+
 - Onboarding completo proporcionado en el Taller #1
 - Formación sobre configuración, seguridad, copias de seguridad y uso práctico
 - Grupos de trabajo para apoyo práctico durante el Taller #1
 
 **Consejos de Seguridad:**
+
 - Escribid vuestra frase de recuperación y guardadla de manera segura
 - Nunca compartáis vuestras claves privadas o frase de recuperación
 - Utilizad carteras de recuperación social cuando sea posible (Valora, Minipay)
@@ -116,6 +124,7 @@ description: "Guía completa para proyectos participantes de Regenerant Cataluny
 Karma (Grantee Accountability Protocol) es una plataforma en cadena para informes de impacto transparentes. Crea un "currículum de proyecto" vivo y público que hace visible y verificable vuestro impacto.
 
 **Por qué Utilizar Karma?**
+
 - Construye vuestra reputación en cadena
 - Hace visible el impacto para futuros financiadores
 - Mejora la descubribilidad
@@ -123,16 +132,19 @@ Karma (Grantee Accountability Protocol) es una plataforma en cadena para informe
 - Formación y plantillas proporcionadas por ReFi BCN
 
 **Qué Enviar:**
+
 - **Al menos 3 actividades pasadas** — Documentad lo que ya habéis conseguido
 - **Al menos 3 planes futuros** — Compartid lo que prevéis hacer con la financiación
 
 **Cómo Utilizar Karma:**
+
 - Formación proporcionada en el Taller #2
 - Plantillas alineadas con marcos de Common Approach
 - Apoyo continuado a través de horas de oficina (4-19 de diciembre de 2025)
 - Ejemplos de uso efectivo de Karma compartidos en el Taller #2
 
 **Cronograma:**
+
 - Abrir cuenta: Durante o después del Taller #2
 - Enviar actividades: Antes de final de diciembre (con apoyo durante horas de oficina)
 
@@ -140,13 +152,13 @@ Karma (Grantee Accountability Protocol) es una plataforma en cadena para informe
 
 ## Resumen del Cronograma de Talleres
 
-| Taller | Fecha | Duración | Entregable Clave |
-|--------|-------|----------|------------------|
-| **Taller #1** | 17-21 nov 2025 | 1,5 horas | Abrir Cartera Web3 |
-| **Taller #2** | 8-14 dic 2025 | Por determinar | Abrir cuenta Karma |
-| **Horas de Oficina** | 4-19 dic 2025 | Según se necesite | Enviar actividades Karma |
-| **Taller #4** | ene 2026 | Por determinar | Configuración gobernanza red |
-| **Taller #5** | ene/feb 2026 | Por determinar | Visión BioFi |
+| Taller               | Fecha          | Duración          | Entregable Clave             |
+| -------------------- | -------------- | ----------------- | ---------------------------- |
+| **Taller #1**        | 17-21 nov 2025 | 1,5 horas         | Abrir Cartera Web3           |
+| **Taller #2**        | 8-14 dic 2025  | Por determinar    | Abrir cuenta Karma           |
+| **Horas de Oficina** | 4-19 dic 2025  | Según se necesite | Enviar actividades Karma     |
+| **Taller #4**        | ene 2026       | Por determinar    | Configuración gobernanza red |
+| **Taller #5**        | ene/feb 2026   | Por determinar    | Visión BioFi                 |
 
 **Todos los talleres son en línea.** Los participantes deberían tener portátiles o teléfonos móviles. Las presentaciones se realizan en **español**.
 
@@ -157,6 +169,7 @@ Karma (Grantee Accountability Protocol) es una plataforma en cadena para informe
 En la Fase 2, vuestra red (Miceli Social o La Fundició / Keras Buti) gobernará colectivamente un fondo de recursos utilizando herramientas Web3.
 
 **Qué Esperar:**
+
 - **Taller #4 (enero 2026):** Aprender sobre herramientas avanzadas de gobernanza Web3
   - Gardens (votación por convicción)
   - Safe (multisigs)
@@ -166,6 +179,7 @@ En la Fase 2, vuestra red (Miceli Social o La Fundició / Keras Buti) gobernará
 - **Toma de Decisiones Colectiva:** Las redes deciden cómo asignar los fondos de la Fase 2 juntas
 
 **Beneficios:**
+
 - Aprender herramientas prácticas de gobernanza Web3
 - Construir capacidad para futuras rondas
 - Crear estructuras de gobernanza portátiles y verificables
@@ -278,5 +292,4 @@ R: Sí, Karma crea un registro público en cadena. Esto construye tu reputación
 
 **¡Bienvenidos a Regenerant Catalunya!** Estamos emocionados de apoyar vuestro trabajo regenerativo y construir capacidad juntos. Si tenéis alguna pregunta, no dudéis en contactarnos.
 
-*Juntos, financiemos el futuro que queremos ver — una bioregión a la vez.*
-
+_Juntos, financiemos el futuro que queremos ver — una bioregión a la vez._

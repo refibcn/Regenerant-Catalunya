@@ -24,6 +24,7 @@ npm run setup
 ```
 
 The setup script will:
+
 - Prompt for site information (name, URL, etc.)
 - Let you select optional packages
 - Configure files automatically
@@ -50,9 +51,11 @@ Push to `main` branch and GitHub Actions will deploy automatically.
 ## Available Packages
 
 ### Core (Always Included)
+
 Essential Quartz framework and base configuration.
 
 ### Theme (Always Included)
+
 Customizable theme architecture with CSS variables.
 
 ### Optional Packages
@@ -80,8 +83,8 @@ Edit CSS variables in `quartz/styles/custom.scss`:
 ```scss
 :root {
   --primary-dark: #092045;
-  --primary-medium: #1A3A6B;
-  --primary-light: #2E5491;
+  --primary-medium: #1a3a6b;
+  --primary-light: #2e5491;
 }
 ```
 
@@ -140,4 +143,3 @@ MIT License - see [LICENSE](LICENSE) file for details.
 ---
 
 Built with 💚 by the ReFi community
-

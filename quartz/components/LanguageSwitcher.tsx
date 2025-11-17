@@ -4,12 +4,12 @@ import { i18n, ValidLocale } from "../i18n"
 import { FullSlug } from "../util/path"
 
 const SUPPORTED_LOCALES: ValidLocale[] = ["en-US", "ca-ES", "es-ES"]
-const LOCALE_PREFIXES: Record<ValidLocale, string> = {
+const LOCALE_PREFIXES: Partial<Record<ValidLocale, string>> = {
   "ca-ES": "ca",
   "en-US": "en",
   "es-ES": "es",
 }
-const LOCALE_NAMES: Record<ValidLocale, string> = {
+const LOCALE_NAMES: Partial<Record<ValidLocale, string>> = {
   "ca-ES": "CA",
   "en-US": "EN",
   "es-ES": "ES",
@@ -17,14 +17,14 @@ const LOCALE_NAMES: Record<ValidLocale, string> = {
 
 function getCurrentLanguage(slug: FullSlug): ValidLocale {
   // Try to detect from slug first
-  const segments = slug.split("/").filter((s) => s.length > 0)
+  const segments = slug.split("/").filter((s: string) => s.length > 0)
   const firstSegment = segments[0]
-  
+
   // Check if first segment is a language code
   if (firstSegment === "ca") return "ca-ES"
   if (firstSegment === "es") return "es-ES"
   if (firstSegment === "en") return "en-US"
-  
+
   // If slug doesn't have language prefix, try to detect from window location (client-side)
   if (typeof window !== "undefined") {
     const path = window.location.pathname
@@ -34,26 +34,26 @@ function getCurrentLanguage(slug: FullSlug): ValidLocale {
     // Root path defaults to English
     if (path === "/" || path === "/index.html") return "en-US"
   }
-  
+
   // Default to English if no language prefix
   return "en-US"
 }
 
 function getLanguagePath(slug: FullSlug, targetLocale: ValidLocale): string {
   const currentLang = getCurrentLanguage(slug)
-  let segments = slug.split("/").filter((s) => s.length > 0)
-  
+  let segments = slug.split("/").filter((s: string) => s.length > 0)
+
   // Remove current language prefix if present
   const currentPrefix = LOCALE_PREFIXES[currentLang]
-  if (segments[0] === currentPrefix) {
+  if (currentPrefix && segments[0] === currentPrefix) {
     segments.shift()
   }
-  
+
   // Handle index pages - remove "index" from segments
   if (segments.length > 0 && segments[segments.length - 1] === "index") {
     segments.pop()
   }
-  
+
   // If we're on the index page and slug doesn't have language info,
   // try to get the current path from window (client-side)
   if (typeof window !== "undefined" && segments.length === 0) {
@@ -64,33 +64,43 @@ function getLanguagePath(slug: FullSlug, targetLocale: ValidLocale): string {
       segments = pathMatch[1].split("/").filter((s) => s.length > 0 && s !== "index")
     }
   }
-  
+
   // Add target language prefix
   const targetPrefix = LOCALE_PREFIXES[targetLocale]
+  if (!targetPrefix) {
+    return "/"
+  }
   const pathWithoutLang = segments.length > 0 ? `/${segments.join("/")}` : ""
-  
+
   if (targetPrefix === "en") {
     // English is at root
     return pathWithoutLang || "/"
   }
-  
+
   // For other languages, add prefix
   return `/${targetPrefix}${pathWithoutLang}`
 }
 
-const LanguageSwitcher: QuartzComponent = ({ displayClass, cfg, fileData }: QuartzComponentProps) => {
+const LanguageSwitcher: QuartzComponent = ({
+  displayClass,
+  cfg,
+  fileData,
+}: QuartzComponentProps) => {
   const currentLocale = cfg.locale
   const currentSlug = fileData.slug || ("index" as FullSlug)
   const translation = i18n(currentLocale as ValidLocale) || i18n("en-US" as ValidLocale)
-  const langCopy = translation.components.languageSwitcher || { label: "Language", selectLanguage: "Select language" }
-  
+  const langCopy = translation.components.languageSwitcher || {
+    label: "Language",
+    selectLanguage: "Select language",
+  }
+
   // Detect actual current language from slug or config locale
   let actualLang = getCurrentLanguage(currentSlug)
   // If slug doesn't have language info, use config locale
   if (actualLang === "en-US" && currentLocale !== "en-US") {
     actualLang = currentLocale as ValidLocale
   }
-  
+
   return (
     <div class={classNames(displayClass, "language-switcher")}>
       <div class="language-switcher__container">
@@ -107,8 +117,8 @@ const LanguageSwitcher: QuartzComponent = ({ displayClass, cfg, fileData }: Quar
             const prefix = LOCALE_PREFIXES[locale]
             path = prefix === "en" ? "/" : `/${prefix}/`
           }
-          const localeName = LOCALE_NAMES[locale]
-          
+          const localeName = LOCALE_NAMES[locale] || locale
+
           return (
             <a
               href={path}

@@ -11,11 +11,11 @@
   max-width: 750px;
   margin-left: auto;
   margin-right: auto;
-  
+
   @media (min-width: 640px) {
     padding: 1.75rem 2rem;
   }
-  
+
   // Folder count text - smaller, subtle
   & > p {
     font-size: 0.85rem;
@@ -35,7 +35,7 @@ li.section-li {
   margin-bottom: 0.7rem;
   padding-bottom: 0.7rem;
   border-bottom: 1px solid var(--lightgray);
-  
+
   &:last-child {
     border-bottom: none;
     margin-bottom: 0;
@@ -50,7 +50,7 @@ li.section-li {
 
     @media all and ($mobile) {
       grid-template-columns: 1fr;
-      
+
       & > .tags {
         display: none;
       }
@@ -62,18 +62,18 @@ li.section-li {
         font-size: 1rem;
         font-weight: 600;
         line-height: 1.2;
-        
+
         & > a {
           background-color: transparent;
           color: var(--green-medium);
           text-decoration: none;
-          
+
           &:hover {
             color: var(--green-light);
           }
         }
       }
-      
+
       & > p {
         margin: 0;
         font-size: 0.9rem;
@@ -87,13 +87,13 @@ li.section-li {
       font-size: 0.85rem;
       opacity: 0.6;
       white-space: nowrap;
-      
+
       @media all and ($mobile) {
         font-size: 0.8rem;
         margin-top: 0.5rem;
       }
     }
-    
+
     & > .tags {
       display: flex;
       flex-wrap: wrap;
@@ -110,7 +110,7 @@ li.section-li {
   & > .tags {
     display: none;
   }
-  
+
   & .meta {
     display: none;
   }

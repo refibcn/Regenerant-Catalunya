@@ -24,18 +24,21 @@
 This comprehensive Program Design document covers 10 major sections:
 
 ### 1. Program Foundations
+
 - Vision statement and core principles
 - Network-driven approach
 - Cosmo-local integration
 - Unique value proposition for all stakeholders
 
 ### 2. Theory of Change
+
 - Core hypothesis and logic model
 - Inputs → Activities → Outputs → Outcomes → Impact flow
 - Key assumptions and critical dependencies
 - Mermaid diagram included
 
-### 3. Stakeholder Ecosystem  
+### 3. Stakeholder Ecosystem
+
 - ReFi Barcelona as lead coordinator
 - Local partners: Miceli Social (€6k) + La Fundició/Keras Buti (€5k)
 - Global partners: Regen Coordination, Celo, Gitcoin, Ethereum Foundation
@@ -43,6 +46,7 @@ This comprehensive Program Design document covers 10 major sections:
 - Mermaid ecosystem map included
 
 ### 4. Project Cohort & Selection
+
 - Network-driven curation methodology
 - 11 confirmed projects across rural/urban contexts:
   - 6 from Miceli Social (rural/environmental)
@@ -51,6 +55,7 @@ This comprehensive Program Design document covers 10 major sections:
 - Portfolio balance and thematic diversity
 
 ### 5. Funding Architecture
+
 - €30,000 total: €11k local + ~$20k global matching
 - Two-phase distribution model (~50% initial, ~50% follow-up)
 - Quadratic funding mechanism
@@ -58,6 +63,7 @@ This comprehensive Program Design document covers 10 major sections:
 - Mermaid funding flow diagram included
 
 ### 6. Technology Stack
+
 - **Required tools:** Karma GAP, Celo wallets, Safe Multisig
 - **Optional stack:** Silvi, Hypercerts, Gainforest, Sarafu Network, Kokonut Network
 - Program management: Notion workspace, WhatsApp groups
@@ -65,6 +71,7 @@ This comprehensive Program Design document covers 10 major sections:
 - Mermaid tech architecture diagram included
 
 ### 7. Impact Measurement Framework
+
 - Adapted from Regen Coordination GG23 methodology
 - Three-tier evaluation: Structured reporting → Council review → Allocation determination
 - Collaboratively defined criteria with local partners:
@@ -77,6 +84,7 @@ This comprehensive Program Design document covers 10 major sections:
 - Mermaid evaluation flow diagram included
 
 ### 8. Capacity Building Program
+
 - 4 educational workshop series:
   - Web3 Fundamentals
   - Impact Measurement & On-Chain Reporting
@@ -87,6 +95,7 @@ This comprehensive Program Design document covers 10 major sections:
 - Knowledge creation & open-source sharing
 
 ### 9. Risk Management
+
 - Technical risks: Platform failures, crypto volatility, security
 - Financial risks: Funding shortfalls, regulatory changes
 - Operational risks: Team unavailability, partner withdrawal, engagement
@@ -94,6 +103,7 @@ This comprehensive Program Design document covers 10 major sections:
 - Comprehensive mitigation strategies for each category
 
 ### 10. Success Metrics
+
 - **Quantitative:** Funding targets, tool adoption rates, impact measurement
 - **Qualitative:** Network strengthening, capacity building, innovation & learning
 - **Long-term vision:** Year 1, Year 3, Year 5 milestones
@@ -115,6 +125,7 @@ The full document contains 5 detailed Mermaid diagrams:
 ## 📁 Full Document Location
 
 **Complete 80+ page document with all details:**
+
 - **File:** `Program Design.md`
 - **Path:** `/250701 Regenerant Catalunya GG24/`
 - **Includes:** All diagrams, detailed methodologies, appendices, and templates
@@ -132,17 +143,20 @@ The full document contains 5 detailed Mermaid diagrams:
 ## 📝 Key Highlights
 
 ### Strategic Innovation
+
 - First bioregional Web3 funding round in Catalonia
 - Bridge between traditional cooperative economy and Web3 tools
 - Template for global replication
 
 ### Confirmed Commitments
+
 - €11,000 local funding secured
 - ~$20,000 global matching confirmed
 - 11 projects confirmed + 1 pending
 - Advisory council structure established
 
 ### Ready for Launch
+
 - Phase 2 (Program Design) nearing completion
 - October 14-28 launch during Gitcoin Grants Round 24
 - Comprehensive execution plan prepared
@@ -157,7 +171,4 @@ The full document contains 5 detailed Mermaid diagrams:
 
 ---
 
-*This Program Design serves as the comprehensive strategic blueprint for Regenerant Catalunya GG24, providing the foundation for operational execution while maintaining flexibility for iteration based on real-world implementation.*
-
-
-
+_This Program Design serves as the comprehensive strategic blueprint for Regenerant Catalunya GG24, providing the foundation for operational execution while maintaining flexibility for iteration based on real-world implementation._

@@ -90,7 +90,7 @@ Regenerant Catalunya unites a diverse cohort of **10-12 local projects** (11 con
 
 #### Regeneració.XYZ - Communicating Regeneration
 
-A creative agency at the intersection of **art, regeneration, and rural narratives**. Born out of a community project in La Garrotxa, Regeneració is crafting new narratives for regeneration through artistic expression. They have been recognized by Culture Hack Labs' *Rhizome* program as a pioneer in *bioregional community governance*.
+A creative agency at the intersection of **art, regeneration, and rural narratives**. Born out of a community project in La Garrotxa, Regeneració is crafting new narratives for regeneration through artistic expression. They have been recognized by Culture Hack Labs' _Rhizome_ program as a pioneer in _bioregional community governance_.
 
 #### [Resilience Earth](https://resilience.earth/) & [Simbiosi Fluvial](https://balkar.earth/fluvia/) - Bioregional Governance & Digital River Stewardship
 
@@ -134,7 +134,7 @@ La Marmita, based in the La Florida neighborhood, seeks to implement a system fo
 
 ![Les Juntes](/static/projects/les-juntes.png)
 
-Les Juntes is a **cooperative housing** project under a "use-right" model (*cesión de uso* in Spanish, not perfectly translatable). Its aim is to recover housing currently held by investment funds in the northern area of L'Hospitalet de Llobregat, in order to guarantee the right to secure housing through collective and shared ownership structures that resist the commodification of a good that should ensure the housing sovereignty of local residents.
+Les Juntes is a **cooperative housing** project under a "use-right" model (_cesión de uso_ in Spanish, not perfectly translatable). Its aim is to recover housing currently held by investment funds in the northern area of L'Hospitalet de Llobregat, in order to guarantee the right to secure housing through collective and shared ownership structures that resist the commodification of a good that should ensure the housing sovereignty of local residents.
 
 #### [La Suculenta](https://www.instagram.com/suculentalh/?hl=es) - Food sovereignty & social inclusion
 
@@ -152,7 +152,7 @@ La Granja del Tilo is a worker cooperative running an **organic egg farm** in th
 
 ### Projects invited by ReFi Barcelona
 
-*To be confirmed*
+_To be confirmed_
 
 - Fundació Emprius
 - Arran de Terra
@@ -170,9 +170,9 @@ The project scope reflects a broad regeneration definition: from ecological rest
 
 ## A Two-Way Bridge
 
-For local partners, **Regenerant Catalunya** offers not only new resources and visibility, but also a hands-on opportunity to shape how these global tools work in practice. 
+For local partners, **Regenerant Catalunya** offers not only new resources and visibility, but also a hands-on opportunity to shape how these global tools work in practice.
 
-For the global sponsors, it's a two-way street as well: a chance to learn from Catalonia's rich tradition of cooperativism and environmental activism, and to **embed their technology in real communities** striving for resilience. 
+For the global sponsors, it's a two-way street as well: a chance to learn from Catalonia's rich tradition of cooperativism and environmental activism, and to **embed their technology in real communities** striving for resilience.
 
 This collaboration embodies the **cosmo-local** approach: knowledge and resources circulate globally, but action is grounded locally.
 
@@ -183,4 +183,3 @@ This collaboration embodies the **cosmo-local** approach: knowledge and resource
 - [About the Program](/program) - What is Regenerant Catalunya
 - [Program Timeline](/program/timeline) - Complete timeline and milestones
 - [Resources](/resources) - Tool documentation and guides
-

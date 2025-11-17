@@ -37,8 +37,9 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
 ### Governance Tools
 
 #### Gardens
+
 - **What it is:** Conviction voting for community funding and governance
-- **Use cases:** 
+- **Use cases:**
   - Template for projects and volunteers
   - Bounties and rewards distribution
   - Community funding decisions
@@ -46,8 +47,9 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
 - **Training:** Covered in Workshop #4 (January 2026)
 
 #### Multistakeholder Contracts
+
 - **What it is:** Smart contracts that enable multiple stakeholders to participate in governance
-- **Use cases:** 
+- **Use cases:**
   - Formalizing network agreements
   - Defining roles and responsibilities
   - Creating transparent decision-making structures
@@ -55,6 +57,7 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
 ### Finance Tools
 
 #### Safe (Multisigs)
+
 - **What it is:** Multi-signature wallet for secure, transparent fund management
 - **Use cases:**
   - Network treasury management
@@ -65,6 +68,7 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
 - **Training:** Covered in Workshop #4 (January 2026)
 
 #### Sarafu Network
+
 - **What it is:** Local currency and commitment pooling platform
 - **Use cases:**
   - Creating local currency systems
@@ -74,6 +78,7 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
 - **Training:** Covered in Workshop #4 (January 2026)
 
 #### Cycles
+
 - **What it is:** Open clearing protocol for mutual credit and circular economy
 - **Use cases:**
   - Enabling circular economy flows
@@ -91,12 +96,14 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
 **When:** January 2026 (after Workshop #4)
 
 **Purpose:**
+
 - Review Phase 2 funding structure
 - Discuss network priorities and needs
 - Explore which tools best fit your network's context
 - Begin planning collective governance structure
 
 **Participants:**
+
 - All projects in your network (Miceli Social or La Fundició / Keras Buti)
 - Network coordinators
 - ReFi Barcelona support team
@@ -104,12 +111,14 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
 ### Step 2: Tool Selection & Setup
 
 **Decisions to Make:**
+
 - Which governance tools to use (Gardens, multistakeholder contracts, etc.)
 - Which finance tools to use (Safe, Sarafu, Cycles, etc.)
 - How to structure decision-making (voting thresholds, proposal processes, etc.)
 - Who will be signers/participants in governance structures
 
 **Support Available:**
+
 - Technical setup assistance from ReFi Barcelona
 - Training and documentation for selected tools
 - Best practices from other networks
@@ -119,12 +128,14 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
 **When:** End of February 2026
 
 **Activities:**
+
 - Set up selected Web3 governance tools
 - Transfer Phase 2 funds to network governance structures
 - Test governance processes
 - Make first collective decisions
 
 **Deliverables:**
+
 - Active governance structure managing network funds
 - Clear decision-making processes documented
 - First proposals and decisions recorded on-chain
@@ -134,11 +145,13 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
 ## Workshop Schedule
 
 ### Workshop #4: Advanced Web3 Tools (per network)
+
 **When:** January 2026  
 **Format:** Online, separate sessions for each network  
 **Language:** Spanish
 
 **Content:**
+
 - Set appropriate expectations:
   - Networks of significant size that manage resources
   - Let's manage our resources together!
@@ -151,15 +164,18 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
   - **Cycles** (open clearing protocol)
 
 **Project Deliverables:**
+
 - Agree on which mechanisms to use to manage collective pool
 - Activate governance of funds
 
 ### Workshop #5: BioFi and Beyond
+
 **When:** January/February 2026  
 **Format:** Online  
 **Language:** Spanish
 
 **Content:**
+
 - What is BioFi?
 - Long-term vision — how does it fit with what we are doing
 - Program as pilot
@@ -206,12 +222,14 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
 ### Miceli Social Network (~€6,000)
 
 **Potential Focus Areas:**
+
 - Supporting rural resilience projects across comarques
 - Funding collaborative initiatives between municipalities
 - Supporting ecological transition projects
 - Building capacity for bioregional governance
 
 **Potential Tools:**
+
 - **Gardens:** For voting on project proposals and resource allocation
 - **Safe:** For secure treasury management with multiple signers
 - **Sarafu:** For local currency supporting rural economic flows
@@ -219,12 +237,14 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
 ### La Fundició / Keras Buti Network (~€5,000)
 
 **Potential Focus Areas:**
+
 - Supporting urban cooperative initiatives
 - Funding community spaces and cultural projects
 - Supporting housing sovereignty projects
 - Building feminist economics infrastructure
 
 **Potential Tools:**
+
 - **Gardens:** For community funding decisions
 - **Safe:** For transparent treasury management
 - **Cycles:** For circular economy and mutual credit systems
@@ -290,5 +310,4 @@ Phase 2 is designed to build **permanent infrastructure** for bioregional financ
 
 **Together, let's build the infrastructure for ongoing bioregional regeneration!**
 
-*Questions? Reach out at hola@ReFiBCN.cat*
-
+_Questions? Reach out at hola@ReFiBCN.cat_

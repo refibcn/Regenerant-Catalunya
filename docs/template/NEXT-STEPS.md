@@ -3,6 +3,7 @@
 ## Current Status
 
 ✅ **Completed Locally:**
+
 - Template repository structure created
 - All packages implemented
 - Setup scripts created
@@ -41,6 +42,7 @@ rm -rf temp-quartz
 ```
 
 **Verify:**
+
 - `quartz/bootstrap-cli.mjs` exists
 - `quartz/components/` directory exists
 - `quartz/plugins/` directory exists
@@ -84,12 +86,13 @@ git log --oneline
    - Click "Create repository"
 
 3. **Add Remote and Push:**
+
    ```bash
    cd "/Users/luizfernando/Desktop/Workspaces/Zettelkasten/03 Libraries/quartz-refi-template"
-   
+
    # Add remote (replace with actual URL)
    git remote add origin https://github.com/ReFiDAO/quartz-refi-template.git
-   
+
    # Push to GitHub
    git branch -M main
    git push -u origin main
@@ -129,6 +132,7 @@ git push origin v1.0.0
 ```
 
 **Or via GitHub UI:**
+
 1. Go to repository → Releases → "Create a new release"
 2. **Tag:** `v1.0.0`
 3. **Title:** `v1.0.0 - Initial Template Release`
@@ -192,17 +196,18 @@ git fetch upstream
    - Create a test repository
 
 2. **Test Setup Script:**
+
    ```bash
    # Clone your test fork
    git clone https://github.com/YOUR-USERNAME/test-quartz-refi.git
    cd test-quartz-refi
-   
+
    # Install dependencies
    npm install
-   
+
    # Run setup script
    npm run setup
-   
+
    # Test build
    npx quartz build --serve
    ```
@@ -307,8 +312,8 @@ git remote -v
 ## Support
 
 If you encounter issues:
+
 - Check `docs/setup/SETUP.md` for setup help
 - Review `docs/UPSTREAM-SYNC.md` for sync issues
 - Check GitHub Issues for known problems
 - Create new issue if needed
-
