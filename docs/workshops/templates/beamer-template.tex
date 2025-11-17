@@ -1,0 +1,238 @@
+% Regenerant Catalunya Beamer Template
+% Custom LaTeX template for PDF presentations
+% Matches website visual style: forest green, warm sand, straight edges
+
+\documentclass[aspectratio=169,10pt]{beamer}
+
+% ============================================
+% PACKAGES
+% ============================================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{listings}
+\usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage{longtable}
+
+% ============================================
+% COLOR DEFINITIONS
+% ============================================
+\definecolor{greenDark}{RGB}{33, 64, 51}
+\definecolor{greenMedium}{RGB}{58, 101, 85}
+\definecolor{greenLight}{RGB}{86, 143, 121}
+\definecolor{warmSand}{RGB}{230, 223, 215}
+\definecolor{purple}{RGB}{107, 78, 163}
+\definecolor{orange}{RGB}{230, 126, 80}
+\definecolor{darkgray}{RGB}{9, 32, 69}
+
+% ============================================
+% FONT SETUP
+% ============================================
+% Use Latin Modern Sans as primary font (reliable, clean sans-serif)
+% This matches the visual style without font detection complexity
+\usepackage{lmodern}
+\renewcommand{\familydefault}{\sfdefault}
+
+% Code font - use Courier (reliable monospace)
+\usepackage{courier}
+
+% ============================================
+% BEAMER THEME CUSTOMIZATION
+% ============================================
+\usetheme{default}
+
+% Remove rounded corners everywhere
+\setbeamertemplate{blocks}[rounded=false]
+\setbeamertemplate{items}[square]
+\setbeamertemplate{itemize item}[square]
+\setbeamertemplate{itemize subitem}[square]
+
+% Background color for all slides
+\setbeamercolor{background canvas}{bg=warmSand}
+
+% Color scheme
+\setbeamercolor{structure}{fg=greenDark}
+\setbeamercolor{normal text}{fg=darkgray,bg=warmSand}
+\setbeamercolor{title}{fg=greenDark}
+\setbeamercolor{frametitle}{fg=greenDark}
+\setbeamercolor{block title}{fg=warmSand,bg=greenDark}
+\setbeamercolor{block body}{fg=darkgray,bg=warmSand}
+\setbeamercolor{alerted text}{fg=orange}
+\setbeamercolor{example text}{fg=greenMedium}
+
+% Typography - match HTML version
+% H1: 2.5em (40px), Bold (700)
+\setbeamerfont{title}{size=\Huge,series=\bfseries}
+% H2: 2em (32px), Bold (700) - match HTML h2 which uses bold
+\setbeamerfont{frametitle}{size=\Large,series=\bfseries}
+% H3: 1.5em (24px), Semi-bold (600)
+\setbeamerfont{framesubtitle}{size=\large,series=\bfseries}
+
+% Body text: Regular (400), proper line spacing
+\setbeamerfont{normal text}{size=\normalsize,series=\mdseries}
+\setbeamerfont{structure}{series=\mdseries}
+
+% Paragraph spacing - match HTML
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0pt}
+
+% Line spacing - match HTML line-height: 1.7
+\linespread{1.7}\selectfont
+
+% Frame title style - match HTML (border-bottom: 2px solid)
+\setbeamertemplate{frametitle}{
+  \vspace{0.8em}
+  \insertframetitle
+  \vspace{0.4em}
+  \textcolor{greenDark}{\rule{\textwidth}{2pt}}
+  \vspace{0.5em}
+}
+
+% Title page
+\setbeamertemplate{title page}{
+  \begin{center}
+    \vspace{2em}
+    {\usebeamerfont{title}\usebeamercolor[fg]{title}\inserttitle\par}
+    \vspace{1em}
+    {\usebeamerfont{subtitle}\insertsubtitle\par}
+    \vspace{2em}
+    {\usebeamerfont{author}\insertauthor\par}
+    \vspace{0.5em}
+    {\usebeamerfont{date}\insertdate\par}
+  \end{center}
+}
+
+% Navigation symbols (remove default, add custom if needed)
+\setbeamertemplate{navigation symbols}{}
+
+% Headline (remove default)
+\setbeamertemplate{headline}{}
+
+% Footline
+\setbeamertemplate{footline}{
+  \hfill
+  \insertframenumber/\inserttotalframenumber
+  \hspace{1em}
+  \vspace{0.5em}
+}
+
+% ============================================
+% CUSTOM ENVIRONMENTS
+% ============================================
+
+% Block styling - match HTML (2-3px borders, proper padding)
+% Use default block template but ensure no rounded corners
+\setbeamertemplate{blocks}[rounded=false]
+
+% Highlight box - match HTML .highlight-box styling
+% Border: 2px solid, padding: 1em, background: green highlight
+\newenvironment{highlightbox}{%
+  \setbeamercolor{block title}{fg=darkgray,bg=greenDark!15}
+  \setbeamercolor{block body}{fg=darkgray,bg=greenDark!15}
+  \setbeamertemplate{blocks}[rounded=false]
+  \setbeamersize{text margin left=1em,text margin right=1em}
+  \begin{block}{}
+}{%
+  \end{block}
+}
+
+% Info box - match HTML .info-box styling (purple left border)
+\newenvironment{infobox}{%
+  \setbeamercolor{block title}{fg=darkgray,bg=purple!15}
+  \setbeamercolor{block body}{fg=darkgray,bg=purple!15}
+  \setbeamertemplate{blocks}[rounded=false]
+  \setbeamersize{text margin left=1em,text margin right=1em}
+  \begin{block}{}
+}{%
+  \end{block}
+}
+
+% Warning box - match HTML .warning-box styling (orange left border)
+\newenvironment{warningbox}{%
+  \setbeamercolor{block title}{fg=darkgray,bg=orange!15}
+  \setbeamercolor{block body}{fg=darkgray,bg=orange!15}
+  \setbeamertemplate{blocks}[rounded=false]
+  \setbeamersize{text margin left=1em,text margin right=1em}
+  \begin{block}{}
+}{%
+  \end{block}
+}
+
+% ============================================
+% CODE STYLING - Match HTML version
+% ============================================
+\lstset{
+  basicstyle=\ttfamily\small,
+  backgroundcolor=\color{greenDark!15},  % Match HTML: var(--green-highlight)
+  frame=single,
+  framerule=1pt,  % Match HTML: border: 1px solid
+  rulecolor=\color{greenDark},
+  breaklines=true,
+  breakatwhitespace=true,
+  showstringspaces=false,
+  keywordstyle=\color{greenDark}\bfseries,
+  commentstyle=\color{greenMedium}\itshape,
+  stringstyle=\color{greenMedium},
+  numbers=left,
+  numberstyle=\tiny\color{greenMedium},
+  stepnumber=1,
+  numbersep=5pt
+}
+
+% Inline code styling
+\newcommand{\code}[1]{\textcolor{darkgray}{\ttfamily\small\colorbox{greenDark!15}{#1}}}
+
+% Additional spacing adjustments
+\setlength{\topsep}{0.5em}
+\setlength{\partopsep}{0pt}
+\setlength{\itemsep}{0.3em}
+
+% ============================================
+% DOCUMENT METADATA
+% ============================================
+$if(title)$
+\title{$title$}
+$endif$
+
+$if(subtitle)$
+\subtitle{$subtitle$}
+$endif$
+
+$if(author)$
+\author{$for(author)$$author$$sep$ \and $endfor$}
+$endif$
+
+$if(date)$
+\date{$date$}
+$else$
+\date{\today}
+$endif$
+
+$if(institute)$
+\institute{$institute$}
+$endif$
+
+% ============================================
+% PANDOC COMPATIBILITY
+% ============================================
+% Define tightlist for pandoc compatibility
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% ============================================
+% DOCUMENT CONTENT
+% ============================================
+\begin{document}
+
+$if(title)$
+\frame{\titlepage}
+$endif$
+
+$body$
+
+\end{document}
+
