@@ -17,11 +17,11 @@ function setupCarousel() {
     { name: "Anigami", summary: "Advancing regenerative tourism models in Catalonia, combining Erasmus+ funding with training programs.", network: "Miceli Social", image: "/static/projects/anigami.jpg", url: "https://www.anigami.cat/" },
     { name: "Mixité", summary: "Designing new policies and strategies for rural housing, offering support services for municipalities and community groups.", network: "Miceli Social", image: "/static/projects/mixite.jpg", url: "https://www.mixite.cat/" },
     // Keras Buti network projects
-    { name: "Laurel 31", summary: "A space for textile creation and production guided by principles of environmental sustainability and political thought.", network: "Keras Buti", image: "/static/projects/laurel-31.jpg", url: "https://www.instagram.com/laurel31_economiassilvestres/?hl=es" },
-    { name: "La Marmita", summary: "Implementing a system for producing low-cost, healthy, and ecological meals using thermopol cooking technology.", network: "Keras Buti", image: "/static/projects/la-marmita.jpg" },
-    { name: "Les Juntes", summary: "Cooperative housing project under a 'use-right' model, recovering housing from investment funds to guarantee housing sovereignty.", network: "Keras Buti", image: "/static/projects/les-juntes.jpg", url: "https://www.lesjuntes.coop/" },
-    { name: "La Suculenta", summary: "Community dining initiative offering affordable meals prepared with ecological and locally sourced ingredients.", network: "Keras Buti", image: "/static/projects/la-suculenta.jpg", url: "https://www.instagram.com/suculentalh/?hl=es" },
-    { name: "La Granja del Tilo", summary: "Worker cooperative running an organic egg farm in the Parc Agrari del Baix Llobregat, ensuring generational renewal in farming.", network: "Keras Buti", image: "/static/projects/la-granja-del-tilo.jpg" }
+    { name: "Laurel 31", summary: "A space for textile creation and production guided by principles of environmental sustainability and political thought.", network: "Keras Buti", image: "/static/projects/laurel-31.png", url: "https://www.instagram.com/laurel31_economiassilvestres/?hl=es" },
+    { name: "La Marmita", summary: "Implementing a system for producing low-cost, healthy, and ecological meals using thermopol cooking technology.", network: "Keras Buti", image: "/static/projects/la-marmita.png" },
+    { name: "Les Juntes", summary: "Cooperative housing project under a 'use-right' model, recovering housing from investment funds to guarantee housing sovereignty.", network: "Keras Buti", image: "/static/projects/les-juntes.png", url: "https://www.lesjuntes.coop/" },
+    { name: "La Suculenta", summary: "Community dining initiative offering affordable meals prepared with ecological and locally sourced ingredients.", network: "Keras Buti", image: "/static/projects/la-suculenta.png", url: "https://www.instagram.com/suculentalh/?hl=es" },
+    { name: "La Granja del Tilo", summary: "Worker cooperative running an organic egg farm in the Parc Agrari del Baix Llobregat, ensuring generational renewal in farming.", network: "Keras Buti", image: "/static/projects/la-granja-del-tilo.png" }
   ]
   
   // Clear existing content
@@ -55,41 +55,50 @@ function setupCarousel() {
       slide.className = 'carousel-slide'
       const slideWidth = 100 / slidesPerView
       slide.style.minWidth = `${slideWidth}%`
-      slide.style.padding = '0 0.75rem'
+      slide.style.padding = '0 0.5rem'
       
       // Create slug for image path
       const imageSlug = project.image || `/static/projects/${project.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}.jpg`
       
+      // Determine network tag color
+      const networkColor = project.network === "Miceli Social" 
+        ? "var(--miceli-terracotta)" 
+        : project.network === "Keras Buti"
+        ? "var(--fundicio-purple)"
+        : "var(--green-dark)"
+      
       slide.innerHTML = `
-        <div class="carousel-card" style="border: 2px solid var(--green-dark); background: var(--light); height: 100%; transition: all .2s; display: flex; flex-direction: column; overflow: hidden; position: relative;">
-          <div style="position: relative; width: 100%; height: 150px; background: var(--green-highlight); overflow: hidden;">
-            <img src="${imageSlug}" alt="${project.name}" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.style.display='none'; this.parentElement.style.background='var(--green-highlight)';">
+        <div class="carousel-card" style="border: 2px solid var(--green-dark); background: var(--light); height: 100%; transition: all .2s; display: flex; flex-direction: column; overflow: visible; position: relative; box-sizing: border-box;">
+          <div style="position: relative; width: 100%; height: 180px; background: var(--green-highlight); overflow: hidden; flex-shrink: 0; margin: 0; padding: 0;">
+            <img src="${imageSlug}" alt="${project.name}" style="width: 100%; height: 100%; object-fit: cover; display: block; margin: 0; padding: 0;" onerror="this.style.display='none'; this.parentElement.style.background='var(--green-highlight)';">
             <div style="position: absolute; top: 0.5rem; left: 0.5rem;">
-              <span style="background: var(--green-dark); color: var(--light); padding: 0.25rem 0.5rem; font-size: 0.7rem; font-weight: 600; display: inline-block;">${project.network}</span>
+              <span style="background: ${networkColor}; color: var(--light); padding: 0.2rem 0.4rem; font-size: 0.65rem; font-weight: 600; display: inline-block;">${project.network}</span>
             </div>
           </div>
-          <div style="padding: 1rem; flex-grow: 1; display: flex; flex-direction: column;">
-            <h4 style="margin-top: 0; margin-bottom: 0.5rem; color: var(--darkgray); font-size: 1rem;">${project.name}</h4>
-            <p style="color: var(--darkgray); font-size: 0.875rem; line-height: 1.4; flex-grow: 1; margin-bottom: 0.75rem;">${project.summary}</p>
-            ${project.url ? `<a href="${project.url}" target="_blank" rel="noopener" style="font-weight: 600; font-size: 0.8rem; color: var(--green-dark);">Learn more →</a>` : ''}
+          <div style="padding: 0.6rem; flex-grow: 1; display: flex; flex-direction: column; box-sizing: border-box;">
+            <h4 style="margin-top: 0; margin-bottom: 0.4rem; color: var(--darkgray); font-size: 0.95rem;">${project.name}</h4>
+            <p style="color: var(--darkgray); font-size: 0.8rem; line-height: 1.35; flex-grow: 1; margin-bottom: 0.6rem;">${project.summary}</p>
+            ${project.url ? `<a href="${project.url}" target="_blank" rel="noopener" style="font-weight: 600; font-size: 0.75rem; color: var(--green-dark);">Learn more →</a>` : ''}
           </div>
         </div>
       `
       carouselTrack.appendChild(slide)
     })
     
-    // Duplicate slides for infinite loop
+    // Duplicate slides multiple times for seamless infinite loop (at least 3x for smooth scrolling)
     const originalSlides = Array.from(carouselTrack.children)
-    originalSlides.forEach((slide) => {
-      const clone = slide.cloneNode(true) as HTMLElement
-      carouselTrack.appendChild(clone)
-    })
+    for (let i = 0; i < 3; i++) {
+      originalSlides.forEach((slide) => {
+        const clone = slide.cloneNode(true) as HTMLElement
+        carouselTrack.appendChild(clone)
+      })
+    }
   }
   
   // Create indicators
   function createIndicators() {
     carouselIndicators.innerHTML = ''
-    projects.forEach((project, index) => {
+    projects.forEach((_, index) => {
       const indicator = document.createElement('button')
       indicator.className = 'carousel-indicator'
       indicator.setAttribute('aria-label', `Go to slide ${index + 1}`)
@@ -108,11 +117,19 @@ function setupCarousel() {
   // Update carousel position
   function updateCarouselPosition() {
     const slideWidth = carouselTrack.children[0]?.clientWidth || 0
-    const totalWidth = slideWidth * projects.length
+    if (slideWidth === 0) return
     
-    // Reset position seamlessly when reaching duplicated slides
-    if (scrollPosition >= totalWidth) {
-      scrollPosition = scrollPosition - totalWidth
+    const singleSetWidth = slideWidth * projects.length
+    
+    // Reset position seamlessly when reaching end of first set (before visible jump)
+    // We reset when we've scrolled past one full set, jumping back to start invisibly
+    if (scrollPosition >= singleSetWidth) {
+      scrollPosition = scrollPosition - singleSetWidth
+    }
+    
+    // Also handle negative scroll (for prev button)
+    if (scrollPosition < 0) {
+      scrollPosition = singleSetWidth + scrollPosition
     }
     
     // Use transform for smooth continuous movement
@@ -182,12 +199,10 @@ function setupCarousel() {
     const handlePrev = () => {
       pauseAutoScroll()
       const slideWidth = carouselTrack.children[0]?.clientWidth || 0
-      scrollPosition -= slideWidth
-      if (scrollPosition < 0) {
-        const totalWidth = slideWidth * projects.length
-        scrollPosition = totalWidth - slideWidth
+      if (slideWidth > 0) {
+        scrollPosition -= slideWidth
+        updateCarouselPosition()
       }
-      updateCarouselPosition()
       resumeAutoScrollAfterDelay()
     }
     prevBtn.addEventListener('click', handlePrev)
@@ -259,17 +274,15 @@ function setupCarousel() {
   
   function handleSwipe() {
     const slideWidth = carouselTrack.children[0]?.clientWidth || 0
-    if (touchEndX < touchStartX - 50) {
-      scrollPosition += slideWidth
-      updateCarouselPosition()
-    }
-    if (touchEndX > touchStartX + 50) {
-      scrollPosition -= slideWidth
-      if (scrollPosition < 0) {
-        const totalWidth = slideWidth * projects.length
-        scrollPosition = totalWidth - slideWidth
+    if (slideWidth > 0) {
+      if (touchEndX < touchStartX - 50) {
+        scrollPosition += slideWidth
+        updateCarouselPosition()
       }
-      updateCarouselPosition()
+      if (touchEndX > touchStartX + 50) {
+        scrollPosition -= slideWidth
+        updateCarouselPosition()
+      }
     }
   }
   
@@ -277,11 +290,13 @@ function setupCarousel() {
   slidesPerView = getSlidesPerView()
   createSlides()
   createIndicators()
-  // Wait a bit for slides to render before calculating sizes
-  setTimeout(() => {
-    handleResize()
-    startAutoScroll()
-  }, 100)
+  // Start immediately - use requestAnimationFrame to ensure DOM is ready
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      handleResize()
+      startAutoScroll()
+    })
+  })
   
   // Cleanup on navigation
   if (typeof window.addCleanup === 'function') {

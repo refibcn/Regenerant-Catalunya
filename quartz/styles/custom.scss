@@ -20,6 +20,12 @@
   --green-light: #3d7a5e;      // Light green (hover states)
   --green-highlight: rgba(33, 64, 51, 0.15);  // Transparent green for backgrounds
   
+  // Partner accent colors
+  --miceli-terracotta: #8B5A3C;  // Terracotta for Miceli Social (rural)
+  --miceli-terracotta-light: rgba(139, 90, 60, 0.15);  // Light terracotta for backgrounds
+  --fundicio-purple: #6B4EA3;  // Purple for La Fundició / Keras Buti (urban) - using brand-purple
+  --fundicio-purple-light: rgba(107, 78, 163, 0.15);  // Light purple for backgrounds
+  
   // Blue color scheme (kept for reference)
   --blue-dark: #092045;       // Dark navy (main)
   --blue-medium: #1A3A6B;     // Medium blue (links)
@@ -160,17 +166,40 @@ header {
   gap: 1rem;
   box-sizing: border-box;
   transition: padding 0.2s ease, gap 0.2s ease, max-width 0.2s ease;
+  min-width: 0; // Allow flex items to shrink
   
-  @media (max-width: 640px) {
+  > * {
+    flex-shrink: 0;
+    min-width: 0;
+  }
+  
+  .navigation {
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: 100%;
+  }
+  
+  @media (max-width: 1024px) {
+    gap: 0.75rem;
+    padding: 0.5rem 1.5rem;
+  }
+  
+  @media (max-width: 768px) {
     max-width: calc(100% - 1rem); // 0.5rem on each side
     padding: 0.5rem 1rem;
     gap: 0.5rem;
     margin-top: 0.25rem;
+    flex-wrap: nowrap;
+  }
+  
+  @media (max-width: 640px) {
+    padding: 0.5rem 0.75rem;
+    gap: 0.5rem;
   }
   
   @media (max-width: 375px) {
     max-width: calc(100% - 0.5rem); // 0.25rem on each side
-    padding: 0.5rem 0.75rem;
+    padding: 0.5rem 0.5rem;
     gap: 0.25rem;
   }
 }
@@ -304,6 +333,7 @@ header .search button p {
   justify-content: center;
   min-width: 0;
   width: 100%;
+  position: relative;
   
   .nav-shell {
     position: relative;
@@ -313,9 +343,11 @@ header .search button p {
     width: 100%;
     min-width: 0;
     z-index: 5;
+    flex: 1;
   }
   
-  .nav-links {
+  .nav-links,
+  #nav-menu {
     display: flex;
     list-style: none;
     gap: clamp(1rem, 2vw, 1.5rem);
@@ -324,18 +356,21 @@ header .search button p {
     align-items: center;
     justify-content: center;
     white-space: nowrap;
+    flex-wrap: nowrap;
     
     li {
       margin: 0;
+      flex-shrink: 0;
     }
     
     a {
       color: var(--green-dark) !important;
       text-decoration: none;
       font-weight: 500;
-      font-size: 1rem;
+      font-size: clamp(0.875rem, 1vw, 1rem);
       transition: color 0.2s ease;
       border-bottom: none;
+      white-space: nowrap;
       
       &:hover {
         color: var(--green-light) !important;
@@ -351,6 +386,25 @@ header .search button p {
   .nav-toggle {
     display: none;
     margin-left: 1rem;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: transparent;
+    border: 1.5px solid var(--green-dark);
+    padding: 0.5rem;
+    min-width: 2.5rem;
+    height: 2.5rem;
+    
+    &:hover {
+      background: transparent !important;
+    }
+    
+    svg {
+      width: 18px;
+      height: 18px;
+      stroke: var(--green-dark);
+    }
   }
   
   &[data-collapsed="true"] {
@@ -358,7 +412,8 @@ header .search button p {
       justify-content: flex-end;
     }
     
-    .nav-links {
+    .nav-links,
+    #nav-menu {
       position: absolute;
       top: calc(100% + 0.5rem);
       right: 0;
@@ -367,8 +422,9 @@ header .search button p {
       background: var(--light);
       border: 1.5px solid var(--green-dark);
       padding: 0.75rem 0;
-      gap: 0.25rem;
+      gap: 0;
       min-width: clamp(220px, 50vw, 320px);
+      max-width: calc(100vw - 2rem);
       box-shadow:
         0 14px 50px rgba(33, 64, 51, 0.12),
         0 10px 30px rgba(33, 64, 51, 0.16);
@@ -376,11 +432,13 @@ header .search button p {
       pointer-events: none;
       transform: translateY(-8px);
       transition: opacity 0.2s ease, transform 0.2s ease;
+      white-space: normal;
       
       &.open {
         opacity: 1;
         pointer-events: auto;
         transform: translateY(0);
+        display: flex !important;
       }
       
       li {
@@ -393,6 +451,7 @@ header .search button p {
         padding: 0.85rem 1.2rem;
         border-bottom: 1px solid rgba(33, 64, 51, 0.15);
         min-height: 44px;
+        font-size: 1rem;
         
         &:hover {
           background-color: rgba(33, 64, 51, 0.08);
@@ -405,7 +464,14 @@ header .search button p {
     }
     
     .nav-toggle {
-      display: inline-flex;
+      display: inline-flex !important;
+    }
+  }
+  
+  // Force mobile collapse on small screens
+  @media (max-width: 768px) {
+    &[data-collapsed="true"] .nav-toggle {
+      display: inline-flex !important;
     }
   }
 }
@@ -435,6 +501,11 @@ header .search button p {
     transform 0.2s ease;
   color: var(--green-dark);
   padding: 0;
+  
+  &.nav-toggle:hover {
+    background: transparent !important;
+    border-color: var(--green-dark) !important;
+  }
   line-height: 1;
   box-sizing: border-box;
 
@@ -850,10 +921,10 @@ button,
 // ============================================
 
 footer {
-  // Container matching top bar style with proper alignment
+  // Container matching section-narrow width (52rem)
   max-width: 52rem;
   margin: 2rem auto 0.5rem;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 1.5rem;
   border: 2px solid var(--green-dark);
   background: var(--light);
   box-sizing: border-box;
@@ -861,6 +932,10 @@ footer {
   display: flex;
   align-items: center;
   gap: 2rem;
+  
+  @media (min-width: 640px) {
+    padding: 1.5rem 2rem;
+  }
   
   @media (max-width: 639px) {
     padding: 1.5rem 1rem;
@@ -1880,6 +1955,12 @@ article[data-slug="index"] {
   --green-light: #3d7a5e;      // Light green (hover states)
   --green-highlight: rgba(33, 64, 51, 0.15);  // Transparent green for backgrounds
   
+  // Partner accent colors
+  --miceli-terracotta: #8B5A3C;  // Terracotta for Miceli Social (rural)
+  --miceli-terracotta-light: rgba(139, 90, 60, 0.15);  // Light terracotta for backgrounds
+  --fundicio-purple: #6B4EA3;  // Purple for La Fundició / Keras Buti (urban) - using brand-purple
+  --fundicio-purple-light: rgba(107, 78, 163, 0.15);  // Light purple for backgrounds
+  
   // Blue color scheme (kept for reference)
   --blue-dark: #092045;       // Dark navy (main)
   --blue-medium: #1A3A6B;     // Medium blue (links)
@@ -2135,6 +2216,7 @@ header .search button p {
   justify-content: center;
   min-width: 0;
   width: 100%;
+  position: relative;
   
   .nav-shell {
     position: relative;
@@ -2144,9 +2226,11 @@ header .search button p {
     width: 100%;
     min-width: 0;
     z-index: 5;
+    flex: 1;
   }
   
-  .nav-links {
+  .nav-links,
+  #nav-menu {
     display: flex;
     list-style: none;
     gap: clamp(1rem, 2vw, 1.5rem);
@@ -2155,18 +2239,21 @@ header .search button p {
     align-items: center;
     justify-content: center;
     white-space: nowrap;
+    flex-wrap: nowrap;
     
     li {
       margin: 0;
+      flex-shrink: 0;
     }
     
     a {
       color: var(--green-dark) !important;
       text-decoration: none;
       font-weight: 500;
-      font-size: 1rem;
+      font-size: clamp(0.875rem, 1vw, 1rem);
       transition: color 0.2s ease;
       border-bottom: none;
+      white-space: nowrap;
       
       &:hover {
         color: var(--green-light) !important;
@@ -2182,6 +2269,25 @@ header .search button p {
   .nav-toggle {
     display: none;
     margin-left: 1rem;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: transparent;
+    border: 1.5px solid var(--green-dark);
+    padding: 0.5rem;
+    min-width: 2.5rem;
+    height: 2.5rem;
+    
+    &:hover {
+      background: transparent !important;
+    }
+    
+    svg {
+      width: 18px;
+      height: 18px;
+      stroke: var(--green-dark);
+    }
   }
   
   &[data-collapsed="true"] {
@@ -2189,7 +2295,8 @@ header .search button p {
       justify-content: flex-end;
     }
     
-    .nav-links {
+    .nav-links,
+    #nav-menu {
       position: absolute;
       top: calc(100% + 0.5rem);
       right: 0;
@@ -2198,8 +2305,9 @@ header .search button p {
       background: var(--light);
       border: 1.5px solid var(--green-dark);
       padding: 0.75rem 0;
-      gap: 0.25rem;
+      gap: 0;
       min-width: clamp(220px, 50vw, 320px);
+      max-width: calc(100vw - 2rem);
       box-shadow:
         0 14px 50px rgba(33, 64, 51, 0.12),
         0 10px 30px rgba(33, 64, 51, 0.16);
@@ -2207,11 +2315,13 @@ header .search button p {
       pointer-events: none;
       transform: translateY(-8px);
       transition: opacity 0.2s ease, transform 0.2s ease;
+      white-space: normal;
       
       &.open {
         opacity: 1;
         pointer-events: auto;
         transform: translateY(0);
+        display: flex !important;
       }
       
       li {
@@ -2224,6 +2334,7 @@ header .search button p {
         padding: 0.85rem 1.2rem;
         border-bottom: 1px solid rgba(33, 64, 51, 0.15);
         min-height: 44px;
+        font-size: 1rem;
         
         &:hover {
           background-color: rgba(33, 64, 51, 0.08);
@@ -2236,7 +2347,14 @@ header .search button p {
     }
     
     .nav-toggle {
-      display: inline-flex;
+      display: inline-flex !important;
+    }
+  }
+  
+  // Force mobile collapse on small screens
+  @media (max-width: 768px) {
+    &[data-collapsed="true"] .nav-toggle {
+      display: inline-flex !important;
     }
   }
 }
@@ -2666,10 +2784,10 @@ button,
 // ============================================
 
 footer {
-  // Container matching top bar style with proper alignment
+  // Container matching section-narrow width (52rem)
   max-width: 52rem;
   margin: 2rem auto 0.5rem;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 1.5rem;
   border: 2px solid var(--green-dark);
   background: var(--light);
   box-sizing: border-box;
@@ -2677,6 +2795,10 @@ footer {
   display: flex;
   align-items: center;
   gap: 2rem;
+  
+  @media (min-width: 640px) {
+    padding: 1.5rem 2rem;
+  }
   
   @media (max-width: 639px) {
     padding: 1.5rem 1rem;
@@ -3695,6 +3817,12 @@ article[data-slug="index"] {
   --green-medium: #2d5a47;     // Medium green (links)
   --green-light: #3d7a5e;      // Light green (hover states)
   --green-highlight: rgba(33, 64, 51, 0.15);  // Transparent green for backgrounds
+  
+  // Partner accent colors
+  --miceli-terracotta: #8B5A3C;  // Terracotta for Miceli Social (rural)
+  --miceli-terracotta-light: rgba(139, 90, 60, 0.15);  // Light terracotta for backgrounds
+  --fundicio-purple: #6B4EA3;  // Purple for La Fundició / Keras Buti (urban) - using brand-purple
+  --fundicio-purple-light: rgba(107, 78, 163, 0.15);  // Light purple for backgrounds
   
   // Blue color scheme (kept for reference)
   --blue-dark: #092045;       // Dark navy (main)
@@ -4386,10 +4514,10 @@ button,
 // ============================================
 
 footer {
-  // Container matching top bar style with proper alignment
+  // Container matching section-narrow width (52rem)
   max-width: 52rem;
   margin: 2rem auto 0.5rem;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 1.5rem;
   border: 2px solid var(--green-dark);
   background: var(--light);
   box-sizing: border-box;
@@ -4397,6 +4525,10 @@ footer {
   display: flex;
   align-items: center;
   gap: 2rem;
+  
+  @media (min-width: 640px) {
+    padding: 1.5rem 2rem;
+  }
   
   @media (max-width: 639px) {
     padding: 1.5rem 1rem;
@@ -5415,6 +5547,12 @@ article[data-slug="index"] {
   --green-medium: #2d5a47;     // Medium green (links)
   --green-light: #3d7a5e;      // Light green (hover states)
   --green-highlight: rgba(33, 64, 51, 0.15);  // Transparent green for backgrounds
+  
+  // Partner accent colors
+  --miceli-terracotta: #8B5A3C;  // Terracotta for Miceli Social (rural)
+  --miceli-terracotta-light: rgba(139, 90, 60, 0.15);  // Light terracotta for backgrounds
+  --fundicio-purple: #6B4EA3;  // Purple for La Fundició / Keras Buti (urban) - using brand-purple
+  --fundicio-purple-light: rgba(107, 78, 163, 0.15);  // Light purple for backgrounds
   
   // Blue color scheme (kept for reference)
   --blue-dark: #092045;       // Dark navy (main)
@@ -6106,10 +6244,10 @@ button,
 // ============================================
 
 footer {
-  // Container matching top bar style with proper alignment
+  // Container matching section-narrow width (52rem)
   max-width: 52rem;
   margin: 2rem auto 0.5rem;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 1.5rem;
   border: 2px solid var(--green-dark);
   background: var(--light);
   box-sizing: border-box;
@@ -6117,6 +6255,10 @@ footer {
   display: flex;
   align-items: center;
   gap: 2rem;
+  
+  @media (min-width: 640px) {
+    padding: 1.5rem 2rem;
+  }
   
   @media (max-width: 639px) {
     padding: 1.5rem 1rem;
@@ -7135,6 +7277,12 @@ article[data-slug="index"] {
   --green-medium: #2d5a47;     // Medium green (links)
   --green-light: #3d7a5e;      // Light green (hover states)
   --green-highlight: rgba(33, 64, 51, 0.15);  // Transparent green for backgrounds
+  
+  // Partner accent colors
+  --miceli-terracotta: #8B5A3C;  // Terracotta for Miceli Social (rural)
+  --miceli-terracotta-light: rgba(139, 90, 60, 0.15);  // Light terracotta for backgrounds
+  --fundicio-purple: #6B4EA3;  // Purple for La Fundició / Keras Buti (urban) - using brand-purple
+  --fundicio-purple-light: rgba(107, 78, 163, 0.15);  // Light purple for backgrounds
   
   // Blue color scheme (kept for reference)
   --blue-dark: #092045;       // Dark navy (main)
@@ -7826,10 +7974,10 @@ button,
 // ============================================
 
 footer {
-  // Container matching top bar style with proper alignment
+  // Container matching section-narrow width (52rem)
   max-width: 52rem;
   margin: 2rem auto 0.5rem;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 1.5rem;
   border: 2px solid var(--green-dark);
   background: var(--light);
   box-sizing: border-box;
@@ -7837,6 +7985,10 @@ footer {
   display: flex;
   align-items: center;
   gap: 2rem;
+  
+  @media (min-width: 640px) {
+    padding: 1.5rem 2rem;
+  }
   
   @media (max-width: 639px) {
     padding: 1.5rem 1rem;
@@ -8855,6 +9007,12 @@ article[data-slug="index"] {
   --green-medium: #2d5a47;     // Medium green (links)
   --green-light: #3d7a5e;      // Light green (hover states)
   --green-highlight: rgba(33, 64, 51, 0.15);  // Transparent green for backgrounds
+  
+  // Partner accent colors
+  --miceli-terracotta: #8B5A3C;  // Terracotta for Miceli Social (rural)
+  --miceli-terracotta-light: rgba(139, 90, 60, 0.15);  // Light terracotta for backgrounds
+  --fundicio-purple: #6B4EA3;  // Purple for La Fundició / Keras Buti (urban) - using brand-purple
+  --fundicio-purple-light: rgba(107, 78, 163, 0.15);  // Light purple for backgrounds
   
   // Blue color scheme (kept for reference)
   --blue-dark: #092045;       // Dark navy (main)
@@ -9546,10 +9704,10 @@ button,
 // ============================================
 
 footer {
-  // Container matching top bar style with proper alignment
+  // Container matching section-narrow width (52rem)
   max-width: 52rem;
   margin: 2rem auto 0.5rem;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 1.5rem;
   border: 2px solid var(--green-dark);
   background: var(--light);
   box-sizing: border-box;
@@ -9557,6 +9715,10 @@ footer {
   display: flex;
   align-items: center;
   gap: 2rem;
+  
+  @media (min-width: 640px) {
+    padding: 1.5rem 2rem;
+  }
   
   @media (max-width: 639px) {
     padding: 1.5rem 1rem;
@@ -10575,6 +10737,12 @@ article[data-slug="index"] {
   --green-medium: #2d5a47;     // Medium green (links)
   --green-light: #3d7a5e;      // Light green (hover states)
   --green-highlight: rgba(33, 64, 51, 0.15);  // Transparent green for backgrounds
+  
+  // Partner accent colors
+  --miceli-terracotta: #8B5A3C;  // Terracotta for Miceli Social (rural)
+  --miceli-terracotta-light: rgba(139, 90, 60, 0.15);  // Light terracotta for backgrounds
+  --fundicio-purple: #6B4EA3;  // Purple for La Fundició / Keras Buti (urban) - using brand-purple
+  --fundicio-purple-light: rgba(107, 78, 163, 0.15);  // Light purple for backgrounds
   
   // Blue color scheme (kept for reference)
   --blue-dark: #092045;       // Dark navy (main)
@@ -11266,10 +11434,10 @@ button,
 // ============================================
 
 footer {
-  // Container matching top bar style with proper alignment
+  // Container matching section-narrow width (52rem)
   max-width: 52rem;
   margin: 2rem auto 0.5rem;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 1.5rem;
   border: 2px solid var(--green-dark);
   background: var(--light);
   box-sizing: border-box;
@@ -11277,6 +11445,10 @@ footer {
   display: flex;
   align-items: center;
   gap: 2rem;
+  
+  @media (min-width: 640px) {
+    padding: 1.5rem 2rem;
+  }
   
   @media (max-width: 639px) {
     padding: 1.5rem 1rem;
@@ -12295,6 +12467,12 @@ article[data-slug="index"] {
   --green-medium: #2d5a47;     // Medium green (links)
   --green-light: #3d7a5e;      // Light green (hover states)
   --green-highlight: rgba(33, 64, 51, 0.15);  // Transparent green for backgrounds
+  
+  // Partner accent colors
+  --miceli-terracotta: #8B5A3C;  // Terracotta for Miceli Social (rural)
+  --miceli-terracotta-light: rgba(139, 90, 60, 0.15);  // Light terracotta for backgrounds
+  --fundicio-purple: #6B4EA3;  // Purple for La Fundició / Keras Buti (urban) - using brand-purple
+  --fundicio-purple-light: rgba(107, 78, 163, 0.15);  // Light purple for backgrounds
   
   // Blue color scheme (kept for reference)
   --blue-dark: #092045;       // Dark navy (main)
@@ -12986,10 +13164,10 @@ button,
 // ============================================
 
 footer {
-  // Container matching top bar style with proper alignment
+  // Container matching section-narrow width (52rem)
   max-width: 52rem;
   margin: 2rem auto 0.5rem;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 1.5rem;
   border: 2px solid var(--green-dark);
   background: var(--light);
   box-sizing: border-box;
@@ -12997,6 +13175,10 @@ footer {
   display: flex;
   align-items: center;
   gap: 2rem;
+  
+  @media (min-width: 640px) {
+    padding: 1.5rem 2rem;
+  }
   
   @media (max-width: 639px) {
     padding: 1.5rem 1rem;
@@ -14015,6 +14197,12 @@ article[data-slug="index"] {
   --green-medium: #2d5a47;     // Medium green (links)
   --green-light: #3d7a5e;      // Light green (hover states)
   --green-highlight: rgba(33, 64, 51, 0.15);  // Transparent green for backgrounds
+  
+  // Partner accent colors
+  --miceli-terracotta: #8B5A3C;  // Terracotta for Miceli Social (rural)
+  --miceli-terracotta-light: rgba(139, 90, 60, 0.15);  // Light terracotta for backgrounds
+  --fundicio-purple: #6B4EA3;  // Purple for La Fundició / Keras Buti (urban) - using brand-purple
+  --fundicio-purple-light: rgba(107, 78, 163, 0.15);  // Light purple for backgrounds
   
   // Blue color scheme (kept for reference)
   --blue-dark: #092045;       // Dark navy (main)
@@ -14706,10 +14894,10 @@ button,
 // ============================================
 
 footer {
-  // Container matching top bar style with proper alignment
+  // Container matching section-narrow width (52rem)
   max-width: 52rem;
   margin: 2rem auto 0.5rem;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 1.5rem;
   border: 2px solid var(--green-dark);
   background: var(--light);
   box-sizing: border-box;
@@ -14717,6 +14905,10 @@ footer {
   display: flex;
   align-items: center;
   gap: 2rem;
+  
+  @media (min-width: 640px) {
+    padding: 1.5rem 2rem;
+  }
   
   @media (max-width: 639px) {
     padding: 1.5rem 1rem;
@@ -15735,6 +15927,12 @@ article[data-slug="index"] {
   --green-medium: #2d5a47;     // Medium green (links)
   --green-light: #3d7a5e;      // Light green (hover states)
   --green-highlight: rgba(33, 64, 51, 0.15);  // Transparent green for backgrounds
+  
+  // Partner accent colors
+  --miceli-terracotta: #8B5A3C;  // Terracotta for Miceli Social (rural)
+  --miceli-terracotta-light: rgba(139, 90, 60, 0.15);  // Light terracotta for backgrounds
+  --fundicio-purple: #6B4EA3;  // Purple for La Fundició / Keras Buti (urban) - using brand-purple
+  --fundicio-purple-light: rgba(107, 78, 163, 0.15);  // Light purple for backgrounds
   
   // Blue color scheme (kept for reference)
   --blue-dark: #092045;       // Dark navy (main)
@@ -16426,10 +16624,10 @@ button,
 // ============================================
 
 footer {
-  // Container matching top bar style with proper alignment
+  // Container matching section-narrow width (52rem)
   max-width: 52rem;
   margin: 2rem auto 0.5rem;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 1.5rem;
   border: 2px solid var(--green-dark);
   background: var(--light);
   box-sizing: border-box;
@@ -16437,6 +16635,10 @@ footer {
   display: flex;
   align-items: center;
   gap: 2rem;
+  
+  @media (min-width: 640px) {
+    padding: 1.5rem 2rem;
+  }
   
   @media (max-width: 639px) {
     padding: 1.5rem 1rem;
@@ -17455,6 +17657,12 @@ article[data-slug="index"] {
   --green-medium: #2d5a47;     // Medium green (links)
   --green-light: #3d7a5e;      // Light green (hover states)
   --green-highlight: rgba(33, 64, 51, 0.15);  // Transparent green for backgrounds
+  
+  // Partner accent colors
+  --miceli-terracotta: #8B5A3C;  // Terracotta for Miceli Social (rural)
+  --miceli-terracotta-light: rgba(139, 90, 60, 0.15);  // Light terracotta for backgrounds
+  --fundicio-purple: #6B4EA3;  // Purple for La Fundició / Keras Buti (urban) - using brand-purple
+  --fundicio-purple-light: rgba(107, 78, 163, 0.15);  // Light purple for backgrounds
   
   // Blue color scheme (kept for reference)
   --blue-dark: #092045;       // Dark navy (main)
@@ -18146,10 +18354,10 @@ button,
 // ============================================
 
 footer {
-  // Container matching top bar style with proper alignment
+  // Container matching section-narrow width (52rem)
   max-width: 52rem;
   margin: 2rem auto 0.5rem;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 1.5rem;
   border: 2px solid var(--green-dark);
   background: var(--light);
   box-sizing: border-box;
@@ -18157,6 +18365,10 @@ footer {
   display: flex;
   align-items: center;
   gap: 2rem;
+  
+  @media (min-width: 640px) {
+    padding: 1.5rem 2rem;
+  }
   
   @media (max-width: 639px) {
     padding: 1.5rem 1rem;
@@ -19175,6 +19387,12 @@ article[data-slug="index"] {
   --green-medium: #2d5a47;     // Medium green (links)
   --green-light: #3d7a5e;      // Light green (hover states)
   --green-highlight: rgba(33, 64, 51, 0.15);  // Transparent green for backgrounds
+  
+  // Partner accent colors
+  --miceli-terracotta: #8B5A3C;  // Terracotta for Miceli Social (rural)
+  --miceli-terracotta-light: rgba(139, 90, 60, 0.15);  // Light terracotta for backgrounds
+  --fundicio-purple: #6B4EA3;  // Purple for La Fundició / Keras Buti (urban) - using brand-purple
+  --fundicio-purple-light: rgba(107, 78, 163, 0.15);  // Light purple for backgrounds
   
   // Blue color scheme (kept for reference)
   --blue-dark: #092045;       // Dark navy (main)
@@ -19866,10 +20084,10 @@ button,
 // ============================================
 
 footer {
-  // Container matching top bar style with proper alignment
+  // Container matching section-narrow width (52rem)
   max-width: 52rem;
   margin: 2rem auto 0.5rem;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 1.5rem;
   border: 2px solid var(--green-dark);
   background: var(--light);
   box-sizing: border-box;
@@ -19877,6 +20095,10 @@ footer {
   display: flex;
   align-items: center;
   gap: 2rem;
+  
+  @media (min-width: 640px) {
+    padding: 1.5rem 2rem;
+  }
   
   @media (max-width: 639px) {
     padding: 1.5rem 1rem;
@@ -20895,6 +21117,12 @@ article[data-slug="index"] {
   --green-medium: #2d5a47;     // Medium green (links)
   --green-light: #3d7a5e;      // Light green (hover states)
   --green-highlight: rgba(33, 64, 51, 0.15);  // Transparent green for backgrounds
+  
+  // Partner accent colors
+  --miceli-terracotta: #8B5A3C;  // Terracotta for Miceli Social (rural)
+  --miceli-terracotta-light: rgba(139, 90, 60, 0.15);  // Light terracotta for backgrounds
+  --fundicio-purple: #6B4EA3;  // Purple for La Fundició / Keras Buti (urban) - using brand-purple
+  --fundicio-purple-light: rgba(107, 78, 163, 0.15);  // Light purple for backgrounds
   
   // Blue color scheme (kept for reference)
   --blue-dark: #092045;       // Dark navy (main)
@@ -21586,10 +21814,10 @@ button,
 // ============================================
 
 footer {
-  // Container matching top bar style with proper alignment
+  // Container matching section-narrow width (52rem)
   max-width: 52rem;
   margin: 2rem auto 0.5rem;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 1.5rem;
   border: 2px solid var(--green-dark);
   background: var(--light);
   box-sizing: border-box;
@@ -21597,6 +21825,10 @@ footer {
   display: flex;
   align-items: center;
   gap: 2rem;
+  
+  @media (min-width: 640px) {
+    padding: 1.5rem 2rem;
+  }
   
   @media (max-width: 639px) {
     padding: 1.5rem 1rem;
@@ -22615,6 +22847,12 @@ article[data-slug="index"] {
   --green-medium: #2d5a47;     // Medium green (links)
   --green-light: #3d7a5e;      // Light green (hover states)
   --green-highlight: rgba(33, 64, 51, 0.15);  // Transparent green for backgrounds
+  
+  // Partner accent colors
+  --miceli-terracotta: #8B5A3C;  // Terracotta for Miceli Social (rural)
+  --miceli-terracotta-light: rgba(139, 90, 60, 0.15);  // Light terracotta for backgrounds
+  --fundicio-purple: #6B4EA3;  // Purple for La Fundició / Keras Buti (urban) - using brand-purple
+  --fundicio-purple-light: rgba(107, 78, 163, 0.15);  // Light purple for backgrounds
   
   // Blue color scheme (kept for reference)
   --blue-dark: #092045;       // Dark navy (main)
@@ -22756,17 +22994,40 @@ header {
   gap: 1rem;
   box-sizing: border-box;
   transition: padding 0.2s ease, gap 0.2s ease, max-width 0.2s ease;
+  min-width: 0; // Allow flex items to shrink
   
-  @media (max-width: 640px) {
+  > * {
+    flex-shrink: 0;
+    min-width: 0;
+  }
+  
+  .navigation {
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: 100%;
+  }
+  
+  @media (max-width: 1024px) {
+    gap: 0.75rem;
+    padding: 0.5rem 1.5rem;
+  }
+  
+  @media (max-width: 768px) {
     max-width: calc(100% - 1rem); // 0.5rem on each side
     padding: 0.5rem 1rem;
     gap: 0.5rem;
     margin-top: 0.25rem;
+    flex-wrap: nowrap;
+  }
+  
+  @media (max-width: 640px) {
+    padding: 0.5rem 0.75rem;
+    gap: 0.5rem;
   }
   
   @media (max-width: 375px) {
     max-width: calc(100% - 0.5rem); // 0.25rem on each side
-    padding: 0.5rem 0.75rem;
+    padding: 0.5rem 0.5rem;
     gap: 0.25rem;
   }
 }
@@ -22900,6 +23161,7 @@ header .search button p {
   justify-content: center;
   min-width: 0;
   width: 100%;
+  position: relative;
   
   .nav-shell {
     position: relative;
@@ -22909,9 +23171,11 @@ header .search button p {
     width: 100%;
     min-width: 0;
     z-index: 5;
+    flex: 1;
   }
   
-  .nav-links {
+  .nav-links,
+  #nav-menu {
     display: flex;
     list-style: none;
     gap: clamp(1rem, 2vw, 1.5rem);
@@ -22920,18 +23184,21 @@ header .search button p {
     align-items: center;
     justify-content: center;
     white-space: nowrap;
+    flex-wrap: nowrap;
     
     li {
       margin: 0;
+      flex-shrink: 0;
     }
     
     a {
       color: var(--green-dark) !important;
       text-decoration: none;
       font-weight: 500;
-      font-size: 1rem;
+      font-size: clamp(0.875rem, 1vw, 1rem);
       transition: color 0.2s ease;
       border-bottom: none;
+      white-space: nowrap;
       
       &:hover {
         color: var(--green-light) !important;
@@ -22947,6 +23214,25 @@ header .search button p {
   .nav-toggle {
     display: none;
     margin-left: 1rem;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: transparent;
+    border: 1.5px solid var(--green-dark);
+    padding: 0.5rem;
+    min-width: 2.5rem;
+    height: 2.5rem;
+    
+    &:hover {
+      background: transparent !important;
+    }
+    
+    svg {
+      width: 18px;
+      height: 18px;
+      stroke: var(--green-dark);
+    }
   }
   
   &[data-collapsed="true"] {
@@ -22954,7 +23240,8 @@ header .search button p {
       justify-content: flex-end;
     }
     
-    .nav-links {
+    .nav-links,
+    #nav-menu {
       position: absolute;
       top: calc(100% + 0.5rem);
       right: 0;
@@ -22963,8 +23250,9 @@ header .search button p {
       background: var(--light);
       border: 1.5px solid var(--green-dark);
       padding: 0.75rem 0;
-      gap: 0.25rem;
+      gap: 0;
       min-width: clamp(220px, 50vw, 320px);
+      max-width: calc(100vw - 2rem);
       box-shadow:
         0 14px 50px rgba(33, 64, 51, 0.12),
         0 10px 30px rgba(33, 64, 51, 0.16);
@@ -22972,11 +23260,13 @@ header .search button p {
       pointer-events: none;
       transform: translateY(-8px);
       transition: opacity 0.2s ease, transform 0.2s ease;
+      white-space: normal;
       
       &.open {
         opacity: 1;
         pointer-events: auto;
         transform: translateY(0);
+        display: flex !important;
       }
       
       li {
@@ -22989,6 +23279,7 @@ header .search button p {
         padding: 0.85rem 1.2rem;
         border-bottom: 1px solid rgba(33, 64, 51, 0.15);
         min-height: 44px;
+        font-size: 1rem;
         
         &:hover {
           background-color: rgba(33, 64, 51, 0.08);
@@ -23001,7 +23292,14 @@ header .search button p {
     }
     
     .nav-toggle {
-      display: inline-flex;
+      display: inline-flex !important;
+    }
+  }
+  
+  // Force mobile collapse on small screens
+  @media (max-width: 768px) {
+    &[data-collapsed="true"] .nav-toggle {
+      display: inline-flex !important;
     }
   }
 }
@@ -23031,6 +23329,11 @@ header .search button p {
     transform 0.2s ease;
   color: var(--green-dark);
   padding: 0;
+  
+  &.nav-toggle:hover {
+    background: transparent !important;
+    border-color: var(--green-dark) !important;
+  }
   line-height: 1;
   box-sizing: border-box;
 
@@ -23446,10 +23749,10 @@ button,
 // ============================================
 
 footer {
-  // Container matching top bar style with proper alignment
+  // Container matching section-narrow width (52rem)
   max-width: 52rem;
   margin: 2rem auto 0.5rem;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 1.5rem;
   border: 2px solid var(--green-dark);
   background: var(--light);
   box-sizing: border-box;
@@ -23457,6 +23760,10 @@ footer {
   display: flex;
   align-items: center;
   gap: 2rem;
+  
+  @media (min-width: 640px) {
+    padding: 1.5rem 2rem;
+  }
   
   @media (max-width: 639px) {
     padding: 1.5rem 1rem;
@@ -24462,10 +24769,10 @@ article[data-slug="index"] {
   position: relative;
   max-width: 100%;
   margin: 0 auto;
-  padding: 0 4rem;
+  padding: 0;
   
   @media (max-width: 1200px) {
-    padding: 0 1rem !important;
+    padding: 0;
     
     .carousel-btn-prev,
     .carousel-btn-next {
@@ -24477,7 +24784,8 @@ article[data-slug="index"] {
 .carousel-container {
   overflow: hidden;
   position: relative;
-  padding: 2px 0; // Add padding to prevent border clipping
+  width: 100%;
+  padding: 2px 0 4px 0; // Add padding to prevent border clipping, extra bottom padding for bottom border
 }
 
 .carousel-track {
@@ -24486,12 +24794,18 @@ article[data-slug="index"] {
 }
 
 .carousel-slide {
-  padding: 0 0.75rem;
+  padding: 0 0.5rem;
+  display: flex;
+  align-items: stretch;
   
   .carousel-card {
     border: 2px solid var(--green-dark) !important;
     position: relative;
     z-index: 1;
+    overflow: visible !important; // Ensure borders are visible
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     
     &:hover {
       background: var(--green-highlight) !important;
@@ -24506,34 +24820,42 @@ article[data-slug="index"] {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: var(--green-dark);
-  color: var(--light);
-  border: 2px solid var(--green-dark);
-  width: 3rem;
-  height: 3rem;
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--green-dark);
+  border: 1.5px solid var(--green-dark);
+  width: 2.5rem;
+  height: 2.5rem;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all .2s;
+  transition: all 0.2s ease;
   z-index: 10;
+  box-shadow: 0 2px 8px rgba(33, 64, 51, 0.1);
+  border-radius: 0;
   
   &.carousel-btn-prev {
-    left: 0.5rem;
+    left: -3.5rem;
   }
   
   &.carousel-btn-next {
-    right: 0.5rem;
+    right: -3.5rem;
   }
   
   &:hover {
-    background: var(--green-medium);
-    border-color: var(--green-medium);
+    background: var(--green-highlight);
+    border-color: var(--green-dark);
+    box-shadow: 0 4px 12px rgba(33, 64, 51, 0.15);
+    transform: translateY(-50%) scale(1.05);
   }
   
   &:active {
     transform: translateY(-50%) scale(0.95);
+  }
+  
+  @media (max-width: 1200px) {
+    display: none !important;
   }
 }
 
@@ -24541,7 +24863,8 @@ article[data-slug="index"] {
   display: flex;
   justify-content: center;
   gap: 0.25rem;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
+  width: 100%;
 }
 
 .carousel-indicator {
@@ -24629,6 +24952,8 @@ article[data-slug="index"] {
   margin-right: auto;
   overflow: visible;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
   
   table {
     width: 100%;
@@ -24640,6 +24965,31 @@ article[data-slug="index"] {
     box-sizing: border-box;
     table-layout: fixed;
     word-wrap: break-word;
+    margin: 0 auto; // Center the table
+    
+    // Column widths: Date and Status equal width, Milestone wide
+    th:nth-child(1),
+    td:nth-child(1) {
+      width: 16%; // Date column - same as Status
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      white-space: nowrap; // Prevent line breaks in date
+    }
+    
+    th:nth-child(2),
+    td:nth-child(2) {
+      width: 68%; // Milestone column (main content) - wider
+      word-wrap: break-word; // Allow wrapping for long milestone text
+    }
+    
+    th:nth-child(3),
+    td:nth-child(3) {
+      width: 16%; // Status column - same as Date
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      text-align: center; // Center align status
+      white-space: nowrap; // Prevent line breaks in status
+    }
     
     th {
       padding: 0.5rem;

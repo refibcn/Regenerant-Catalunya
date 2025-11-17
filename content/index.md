@@ -103,7 +103,7 @@ description: "A collaborative funding round uniting Catalan initiatives with mat
 
 <div class="section-container section-container-tinted">
   <div class="section-content-centered">
-    <h2 class="section-title">Partners & Projects</h2>
+  <h2 class="section-title">Partners & Projects</h2>
     <p class="section-subtitle">
       Regenerant Catalunya brings together local Catalan networks and global Web3 funders to support regenerative projects across the bioregion.
     </p>
@@ -111,14 +111,14 @@ description: "A collaborative funding round uniting Catalan initiatives with mat
   
   <div class="section-content-wide">
     <!-- Partners Section: 3-column layout -->
-    <div style="margin-bottom: 3rem;">
+    <div style="margin-top: 3rem; margin-bottom: 3rem;">
       <!-- Desktop: Header grid with Local spanning 2 columns, Global in column 3 -->
       <!-- Mobile: Headers stack vertically, each above their respective cards -->
       <div class="partners-header-grid" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1.5rem; margin-bottom: 1rem;">
-        <div class="partners-header-local" style="background: var(--green-highlight); border: 2px solid var(--green-dark); padding: 0.75rem 1rem; grid-column: 1 / 3; text-align: center;">
+        <div class="partners-header-local" style="background: var(--light); border: 2px solid var(--green-dark); padding: 0.5rem 1rem; grid-column: 1 / 3; text-align: center;">
           <h3 style="color: var(--darkgray); margin: 0; font-size: 1.25rem;">Local Funders / Partners</h3>
         </div>
-        <div class="partners-header-global" style="background: var(--green-highlight); border: 2px solid var(--green-dark); padding: 0.75rem 1rem; grid-column: 3; text-align: center;">
+        <div class="partners-header-global" style="background: var(--green-highlight); border: 2px solid var(--green-dark); padding: 0.5rem 1rem; grid-column: 3; text-align: center;">
           <h3 style="color: var(--darkgray); margin: 0; font-size: 1.25rem;">Global Funder / Partner</h3>
         </div>
       </div>
@@ -127,22 +127,20 @@ description: "A collaborative funding round uniting Catalan initiatives with mat
       <div class="partners-cards-grid">
         <!-- Local Partners Cards -->
         <div class="partners-local-cards">
-          <div class="grid-item">
-            <h4>🌍 Miceli Social</h4>
-            <p style="font-size: 0.95rem; line-height: 1.6;">
+          <div class="grid-item" style="display: flex; flex-direction: column; background: var(--miceli-terracotta-light);">
+            <h4 style="margin-top: 0; margin-bottom: 1rem;">🌍 Miceli Social</h4>
+            <p style="font-size: 0.95rem; line-height: 1.6; flex-grow: 1; margin-bottom: 1rem;">
               A cooperative service hub focused on <strong>rural resilience</strong>, based in Ripoll (Girona). Miceli catalyzes regenerative development in rural areas by supporting municipalities and community groups.
             </p>
-            <p style="font-size: 0.95rem; line-height: 1.6; color: var(--green-dark); font-weight: 600; margin-bottom: 0.5rem;">Contribution:</p>
-            <p style="font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem;">€6,000 matching pool + rural project curation</p>
+            <p style="font-size: 0.95rem; line-height: 1.6; color: var(--green-dark); font-weight: 600; margin-bottom: 1rem;">Contribution: €6,000</p>
             <p style="margin-bottom: 0;"><a href="https://miceli.social/" target="_blank" rel="noopener" style="font-weight: 600; font-size: 0.9rem;">Learn more →</a></p>
           </div>
-          <div class="grid-item">
-            <h4>🏙️ La Fundició / Keras Buti</h4>
-            <p style="font-size: 0.95rem; line-height: 1.6;">
+          <div class="grid-item" style="display: flex; flex-direction: column; background: var(--fundicio-purple-light);">
+            <h4 style="margin-top: 0; margin-bottom: 1rem;">🏙️ La Fundició / Keras Buti</h4>
+            <p style="font-size: 0.95rem; line-height: 1.6; flex-grow: 1; margin-bottom: 1rem;">
               A cultural and social innovation cooperative based in L'Hospitalet de Llobregat, linking the <strong>urban commons</strong> to bioregional practice through culture, education, and feminist economics since 2006.
             </p>
-            <p style="font-size: 0.95rem; line-height: 1.6; color: var(--green-dark); font-weight: 600; margin-bottom: 0.5rem;">Contribution:</p>
-            <p style="font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem;">€5,000 matching pool + urban project curation</p>
+            <p style="font-size: 0.95rem; line-height: 1.6; color: var(--green-dark); font-weight: 600; margin-bottom: 1rem;">Contribution: €5,000</p>
             <p style="margin-bottom: 0;">
               <a href="https://lafundicio.net/" target="_blank" rel="noopener" style="font-weight: 600; font-size: 0.9rem; margin-right: 1rem;">Learn more →</a>
               <a href="https://kerasbuti.org/" target="_blank" rel="noopener" style="font-weight: 600; font-size: 0.9rem;">Learn more →</a>
@@ -151,11 +149,12 @@ description: "A collaborative funding round uniting Catalan initiatives with mat
         </div>
         <!-- Global Partner Card -->
         <div class="partners-global-card">
-          <div class="grid-item">
-            <h4>🌐 Localism Fund</h4>
-            <p style="font-size: 0.95rem; line-height: 1.6;">
+          <div class="grid-item" style="display: flex; flex-direction: column; background: var(--green-highlight);">
+            <h4 style="margin-top: 0; margin-bottom: 1rem;">🌐 Localism Fund</h4>
+            <p style="font-size: 0.95rem; line-height: 1.6; flex-grow: 1; margin-bottom: 1rem;">
               Operated by <strong>OpenCivics</strong> and <strong>Regen Coordination</strong>. Provides matching for credible local networks building practical models of political, economic, cultural, and ecological localism using Ethereum infrastructure. The Localism Fund matching pool is supported by global sponsors such as Gitcoin, Celo Public Goods, Ma Earth and Ethereum Foundation / Ethereum Everywhere.
             </p>
+            <p style="font-size: 0.95rem; line-height: 1.6; color: var(--green-dark); font-weight: 600; margin-bottom: 1rem;">Contribution: €18,200</p>
             <p style="margin-bottom: 0;"><a href="https://www.localism.fund/" target="_blank" rel="noopener" style="font-weight: 600; font-size: 0.9rem;">Learn more →</a></p>
           </div>
         </div>
@@ -170,17 +169,17 @@ description: "A collaborative funding round uniting Catalan initiatives with mat
         11 confirmed projects (10-12 total) carefully curated by our partners, spanning ecosystem restoration, community health, education, sustainable tourism, housing, food systems, and cultural innovation.
       </p>
       <!-- Projects Carousel -->
-      <div class="projects-carousel" style="position: relative; max-width: 100%; margin: 0 auto; padding: 0 4rem;">
-        <div class="carousel-container" style="overflow: hidden; position: relative;">
-          <div class="carousel-track" style="display: flex; transition: transform 0.5s ease;">
+      <div class="projects-carousel">
+        <button class="carousel-btn carousel-btn-prev" aria-label="Previous project">‹</button>
+        <div class="carousel-container">
+          <div class="carousel-track">
             <!-- Project slides will be inserted here by JavaScript -->
           </div>
         </div>
-        <button class="carousel-btn carousel-btn-prev" aria-label="Previous project" style="position: absolute; left: 0.5rem; top: 50%; transform: translateY(-50%); background: var(--green-dark); color: var(--light); border: 2px solid var(--green-dark); width: 3rem; height: 3rem; cursor: pointer; font-size: 1.5rem; display: flex; align-items: center; justify-content: center; transition: all .2s; z-index: 10;">‹</button>
-        <button class="carousel-btn carousel-btn-next" aria-label="Next project" style="position: absolute; right: 0.5rem; top: 50%; transform: translateY(-50%); background: var(--green-dark); color: var(--light); border: 2px solid var(--green-dark); width: 3rem; height: 3rem; cursor: pointer; font-size: 1.5rem; display: flex; align-items: center; justify-content: center; transition: all .2s; z-index: 10;">›</button>
-        <div class="carousel-indicators" style="display: flex; justify-content: center; gap: 0.5rem; margin-top: 2rem;">
+        <button class="carousel-btn carousel-btn-next" aria-label="Next project">›</button>
+      </div>
+      <div class="carousel-indicators">
           <!-- Indicators will be inserted here by JavaScript -->
-        </div>
       </div>
       <p style="text-align: center; margin-top: 2rem;">
         <a href="/program/partners-projects" style="font-weight: 600; font-size: 1.125rem;">View all projects and details →</a>

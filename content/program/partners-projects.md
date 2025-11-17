@@ -120,21 +120,31 @@ This initiative is designing new policies and strategies for rural housing, offe
 
 #### [Laurel 31](https://www.instagram.com/laurel31_economiassilvestres/?hl=es) - Textile sustainability & neighbourhood creativity
 
+![Laurel 31](/static/projects/laurel-31.png)
+
 Laurel 31 is a space for textile creation and production guided by principles of environmental sustainability and political thought.
 
 #### La Marmita - Community food systems & cooperative health
+
+![La Marmita](/static/projects/la-marmita.png)
 
 La Marmita, based in the La Florida neighborhood, seeks to implement a system for producing low-cost, healthy, and ecological meals using **thermopol** cooking technology. La Marmita is managed by the consumer cooperative **Keras Buti**.
 
 #### [Les Juntes](https://www.lesjuntes.coop/) - Cooperative Housing and Urban Regeneration
 
+![Les Juntes](/static/projects/les-juntes.png)
+
 Les Juntes is a **cooperative housing** project under a "use-right" model (*cesión de uso* in Spanish, not perfectly translatable). Its aim is to recover housing currently held by investment funds in the northern area of L'Hospitalet de Llobregat, in order to guarantee the right to secure housing through collective and shared ownership structures that resist the commodification of a good that should ensure the housing sovereignty of local residents.
 
 #### [La Suculenta](https://www.instagram.com/suculentalh/?hl=es) - Food sovereignty & social inclusion
 
+![La Suculenta](/static/projects/la-suculenta.png)
+
 La Suculenta is a community dining initiative at the **Casal Cívic Comunitari de Bellvitge**. It focuses on offering affordable meals prepared with ecological and locally sourced ingredients, while also providing hospitality training and employment opportunities to people who have suffered violations of their fundamental rights.
 
 #### La Granja del Tilo - Agroecology & generational renewal
+
+![La Granja del Tilo](/static/projects/la-granja-del-tilo.png)
 
 La Granja del Tilo is a worker cooperative running an **organic egg farm** in the **Parc Agrari del Baix Llobregat**. The initiative works to ensure generational renewal in farming by creating structures that support young farmers and recovering agricultural land in the Delta del Llobregat. Its goal is to resist urban development pressure and preserve the agroecological systems of the delta.
 
