@@ -434,12 +434,11 @@ description: "A collaborative funding round uniting Catalan initiatives with mat
         <p style="margin-bottom: 0;"><a href="/program" style="font-weight: 600; font-size: 0.9rem;">View Program →</a></p>
       </div>
       <div class="grid-item" style="display: flex; flex-direction: column;">
-        <h4 style="margin-top: 0; margin-bottom: 1rem; min-height: 3.5rem; color: var(--darkgray); font-size: 1.125rem;">Tools & Guidebooks</h4>
+        <h4 style="margin-top: 0; margin-bottom: 1rem; min-height: 3.5rem; color: var(--darkgray); font-size: 1.125rem;">Tools & Guides</h4>
         <p style="color: var(--darkgray); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem; flex-grow: 1;">
-          Complete guides for participating projects and networks covering Phase 1 requirements, Karma setup, wallet guide, workshop schedule, and Phase 2 governance tools.
+          Essential guides for setting up and using Web3 tools, including wallet setup, Karma GAP configuration, and connecting to dApps.
         </p>
-        <p style="margin-bottom: 0.5rem;"><a href="/program/project-guidebook" style="font-weight: 600; font-size: 0.9rem;">→ Project Guidebook</a></p>
-        <p style="margin-bottom: 0;"><a href="/program/network-guidebook" style="font-weight: 600; font-size: 0.9rem;">→ Network Guidebook</a></p>
+        <p style="margin-bottom: 0;"><a href="/es/resources/valora-guide" style="font-weight: 600; font-size: 0.9rem;">→ Valora Wallet Setup Guide</a></p>
       </div>
       <div class="grid-item" style="display: flex; flex-direction: column;">
         <h4 style="margin-top: 0; margin-bottom: 1rem; min-height: 3.5rem; color: var(--darkgray); font-size: 1.125rem;">All Resources</h4>
