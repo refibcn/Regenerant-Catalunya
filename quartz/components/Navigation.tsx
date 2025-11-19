@@ -1,31 +1,50 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { i18n, ValidLocale } from "../i18n"
+import { FullSlug } from "../util/path"
 import style from "./styles/navigation.scss"
 
+function getCurrentLanguage(slug: FullSlug): ValidLocale {
+  const segments = slug.split("/").filter((s: string) => s.length > 0)
+  const firstSegment = segments[0]
+  
+  if (firstSegment === "ca") return "ca-ES"
+  if (firstSegment === "es") return "es-ES"
+  if (firstSegment === "en") return "en-US"
+  
+  return "en-US"
+}
+
 export default (() => {
-  const Navigation: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
+  const Navigation: QuartzComponent = ({ displayClass, cfg, fileData }: QuartzComponentProps) => {
+    const currentSlug = (fileData.slug || "index") as FullSlug
+    const currentLang = getCurrentLanguage(currentSlug)
+    const translation = i18n(currentLang)
+    const navLabels = translation.components.navigation || {
+      program: "Program",
+      partnersProjects: "Partners & Projects",
+      tools: "Tools",
+      resources: "Resources",
+    }
+    
+    // Determine base path for links based on current language
+    // For English (en-US), use root path, for others use language prefix
+    const basePath = currentLang === "en-US" ? "" : currentLang === "ca-ES" ? "/ca" : "/es"
+    
     return (
       <nav class={`navigation ${displayClass ?? ""}`} aria-label="Primary navigation">
         <div class="nav-shell">
           <ul id="nav-menu" class="nav-links">
             <li>
-              <a href="/program">Program</a>
+              <a href={basePath ? `${basePath}/program` : "/program"} data-nav-link="program">{navLabels.program}</a>
             </li>
             <li>
-              <a href="/program/partners-projects">Partners & Projects</a>
+              <a href={basePath ? `${basePath}/program/partners-projects` : "/program/partners-projects"} data-nav-link="partners-projects">{navLabels.partnersProjects}</a>
             </li>
             <li>
-              <a href="/program/tools">Tools</a>
+              <a href={basePath ? `${basePath}/program/tools` : "/program/tools"} data-nav-link="tools">{navLabels.tools}</a>
             </li>
             <li>
-              <a href="/resources">Resources</a>
-            </li>
-            <li>
-              <a href="#get-involved">Contact</a>
-            </li>
-            <li>
-              <a href="/dev" data-dev-link>
-                Dev
-              </a>
+              <a href={basePath ? `${basePath}/resources` : "/resources"} data-nav-link="resources">{navLabels.resources}</a>
             </li>
           </ul>
           <button

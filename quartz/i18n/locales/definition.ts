@@ -66,6 +66,12 @@ export interface Translation {
       label: string
       selectLanguage: string
     }
+    navigation?: {
+      program: string
+      partnersProjects: string
+      tools: string
+      resources: string
+    }
   }
   pages: {
     rss: {

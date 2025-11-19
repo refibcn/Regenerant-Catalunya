@@ -63,6 +63,12 @@ export default {
       label: "Language",
       selectLanguage: "Select language",
     },
+    navigation: {
+      program: "Program",
+      partnersProjects: "Partners & Projects",
+      tools: "Tools",
+      resources: "Resources",
+    },
   },
   pages: {
     rss: {

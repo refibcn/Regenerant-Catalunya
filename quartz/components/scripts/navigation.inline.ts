@@ -1,4 +1,55 @@
 export default () => {
+  // Navigation translations
+  const navTranslations: Record<string, Record<string, string>> = {
+    en: {
+      program: "Program",
+      "partners-projects": "Partners & Projects",
+      tools: "Tools",
+      resources: "Resources",
+    },
+    es: {
+      program: "Programa",
+      "partners-projects": "Socios y Proyectos",
+      tools: "Herramientas",
+      resources: "Recursos",
+    },
+    ca: {
+      program: "Programa",
+      "partners-projects": "Socis i Projectes",
+      tools: "Eines",
+      resources: "Recursos",
+    },
+  }
+
+  // Update navigation labels based on current language
+  const updateNavLabels = () => {
+    const currentPath = window.location.pathname
+    const navLinks = document.querySelector(".nav-links")
+    if (!navLinks) return
+
+    // Detect current language from path
+    let currentLang = "en"
+    const langMatch = currentPath.match(/^\/(ca|es|en)(\/.*)?$/)
+    if (langMatch) {
+      currentLang = langMatch[1]
+    } else if (
+      currentPath === "/" ||
+      (!currentPath.startsWith("/ca/") && !currentPath.startsWith("/es/"))
+    ) {
+      currentLang = "en" // Default to English
+    }
+
+    const translations = navTranslations[currentLang] || navTranslations.en
+    const links = navLinks.querySelectorAll("a[data-nav-link]")
+    
+    links.forEach((link) => {
+      const linkType = link.getAttribute("data-nav-link")
+      if (linkType && translations[linkType]) {
+        link.textContent = translations[linkType]
+      }
+    })
+  }
+
   // Update navigation links to be language-aware
   const updateNavLinks = () => {
     const currentPath = window.location.pathname
@@ -43,25 +94,6 @@ export default () => {
     })
   }
 
-  // Hide/show dev link based on localhost detection
-  const updateDevLink = () => {
-    const devLink = document.querySelector("a[data-dev-link]")
-    if (!devLink) return
-
-    const isLocalhost =
-      window.location.hostname === "localhost" ||
-      window.location.hostname === "127.0.0.1" ||
-      window.location.hostname === ""
-
-    const listItem = devLink.closest("li")
-    if (listItem) {
-      if (isLocalhost) {
-        listItem.style.display = ""
-      } else {
-        listItem.style.display = "none"
-      }
-    }
-  }
 
   // Active state functionality for navigation links
   const updateActiveLinks = () => {
@@ -116,18 +148,18 @@ export default () => {
 
   document.addEventListener("nav", () => {
     // Navigation toggle is handled by Navigation.tsx component script
-    // This script only handles language-aware link updates and active states
+    // This script handles language-aware link updates, label updates, and active states
 
-    // Update navigation links, dev link visibility, and active state on SPA navigation
+    // Update navigation labels, links, and active state on SPA navigation
     setTimeout(() => {
+      updateNavLabels()
       updateNavLinks()
-      updateDevLink()
       updateActiveLinks()
     }, 0)
   })
 
-  // Update navigation links, dev link visibility, and active state on initial load
+  // Update navigation labels, links, and active state on initial load
+  updateNavLabels()
   updateNavLinks()
-  updateDevLink()
   updateActiveLinks()
 }
