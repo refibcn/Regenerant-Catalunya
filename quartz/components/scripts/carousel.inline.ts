@@ -38,7 +38,7 @@ function setupCarousel() {
       summary:
         "Bringing regenerative storytelling into schools, helping them recover their link with place and co-create artistic figures.",
       network: "Miceli Social",
-      image: "/static/projects/Chapter#2 01.png",
+      image: "/static/projects/Chapter2-01.png",
       url: "https://chapter2.cat/",
     },
     {
