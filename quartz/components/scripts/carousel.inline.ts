@@ -15,14 +15,14 @@ function setupCarousel() {
       summary:
         "A creative agency crafting new narratives for regeneration through artistic expression.",
       network: "Miceli Social",
-      image: "/static/projects/regeneracio-xyz.jpg",
+      image: "/static/projects/regeneracio.png",
     },
     {
       name: "Resilience Earth & Simbiosi Fluvial",
       summary:
         "Worker cooperative applying blockchain and AI systems to improve environmental data collection for the Fluvià River basin.",
       network: "Miceli Social",
-      image: "/static/projects/resilience-earth.jpg",
+      image: "/static/projects/Simbiosi Fluvial 01.png",
       url: "https://resilience.earth/",
     },
     {
@@ -30,7 +30,7 @@ function setupCarousel() {
       summary:
         "Developing a regenerative model of community health that is holistic, participatory, and rooted in nature.",
       network: "Miceli Social",
-      image: "/static/projects/de-bat-a-bat.jpg",
+      image: "/static/projects/Bat a Bat 01.png",
       url: "http://www.debatabat.org/",
     },
     {
@@ -38,7 +38,7 @@ function setupCarousel() {
       summary:
         "Bringing regenerative storytelling into schools, helping them recover their link with place and co-create artistic figures.",
       network: "Miceli Social",
-      image: "/static/projects/chapter2.jpg",
+      image: "/static/projects/Chapter#2 01.png",
       url: "https://chapter2.cat/",
     },
     {
@@ -46,7 +46,7 @@ function setupCarousel() {
       summary:
         "Advancing regenerative tourism models in Catalonia, combining Erasmus+ funding with training programs.",
       network: "Miceli Social",
-      image: "/static/projects/anigami.jpg",
+      image: "/static/projects/Anigami.png",
       url: "https://www.anigami.cat/",
     },
     {
@@ -54,7 +54,7 @@ function setupCarousel() {
       summary:
         "Designing new policies and strategies for rural housing, offering support services for municipalities and community groups.",
       network: "Miceli Social",
-      image: "/static/projects/mixite.jpg",
+      image: "/static/projects/Mixité.png",
       url: "https://www.mixite.cat/",
     },
     // Keras Buti network projects
