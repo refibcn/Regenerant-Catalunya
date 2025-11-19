@@ -436,10 +436,9 @@ description: "Una ronda de finançament participatiu que uneix iniciatives catal
       <div class="grid-item" style="display: flex; flex-direction: column;">
         <h4 style="margin-top: 0; margin-bottom: 1rem; min-height: 3.5rem; color: var(--darkgray); font-size: 1.125rem;">Eines i Guies</h4>
         <p style="color: var(--darkgray); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem; flex-grow: 1;">
-          Guies completes per als projectes i xarxes participants que cobreixen els requisits de la Fase 1, configuració de Karma, guia de cartera, cronograma de tallers i eines de governança de la Fase 2.
+          Guies essencials per configurar i utilitzar eines Web3, incloent configuració de cartera, configuració de Karma GAP i connexió a dApps.
         </p>
-        <p style="margin-bottom: 0.5rem;"><a href="/ca/program/project-guidebook" style="font-weight: 600; font-size: 0.9rem;">→ Guia de Projectes</a></p>
-        <p style="margin-bottom: 0;"><a href="/ca/program/network-guidebook" style="font-weight: 600; font-size: 0.9rem;">→ Guia de Xarxa</a></p>
+        <p style="margin-bottom: 0;"><a href="/es/resources/valora-guide" style="font-weight: 600; font-size: 0.9rem;">→ Guia de Configuració de Valora</a></p>
       </div>
       <div class="grid-item" style="display: flex; flex-direction: column;">
         <h4 style="margin-top: 0; margin-bottom: 1rem; min-height: 3.5rem; color: var(--darkgray); font-size: 1.125rem;">Tots els Recursos</h4>
