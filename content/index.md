@@ -453,7 +453,7 @@ description: "A collaborative funding round uniting Catalan initiatives with mat
   </div>
 </div>
 
-<div class="section-container section-narrow">
+<div id="program-timeline" class="section-container section-narrow">
   <div class="section-content-centered">
     <h2 class="section-title">Program Timeline</h2>
     <p class="section-subtitle">
