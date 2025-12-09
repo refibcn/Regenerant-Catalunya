@@ -1,15 +1,15 @@
 {
-  "name": "@jackyzha0/quartz",
-  "description": "🌱 publish your digital garden and notes as a website",
+  "name": "@refibcn/regenerant-catalunya",
+  "description": "Knowledge base and documentation for Regenerant Catalunya's GG24 local funding program",
   "private": true,
-  "version": "4.5.2",
+  "version": "1.0.0",
   "type": "module",
-  "author": "jackyzha0 <j.zhao2k19@gmail.com>",
+  "author": "ReFi Barcelona <info@refibcn.cat>",
   "license": "MIT",
-  "homepage": "https://quartz.jzhao.xyz",
+  "homepage": "https://regenerant-catalunya.refibcn.cat",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jackyzha0/quartz.git"
+    "url": "https://github.com/refibcn/Regenerant-Catalunya.git"
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
@@ -25,11 +25,11 @@
     "node": ">=22"
   },
   "keywords": [
-    "site generator",
-    "ssg",
-    "digital-garden",
-    "markdown",
-    "blog",
+    "refi",
+    "regenerative-finance",
+    "catalonia",
+    "gitcoin",
+    "local-funding",
     "quartz"
   ],
   "bin": {
