@@ -3,8 +3,11 @@ title: "Regenerant Catalunya"
 description: "A collaborative funding round uniting Catalan initiatives with matched contributions and web3 tools that make regeneration visible and scalable."
 ---
 
-<div class="hero-section">
-  <div class="hero-content">
+<div class="hero-section" style="position: relative; overflow: hidden;">
+  <div class="hero-image" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 0;">
+    <img src="/static/cover.png" alt="Regenerant Catalunya" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.15;" />
+  </div>
+  <div class="hero-content" style="position: relative; z-index: 1;">
     <h1>Powering Regeneration in Catalonia</h1>
     <p class="hero-text">
       A participatory funding round connecting local regenerative projects with global Web3 infrastructure.

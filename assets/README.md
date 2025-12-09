@@ -14,7 +14,7 @@ assets/
     ├── cover.png            # Main cover image (dithered landscape)
     ├── Keras Buti projects/
     ├── Miceli projects/
-    └── valora-onboarding-screenshots/
+    └── ...
 ```
 
 ## Image Processing Workflow
