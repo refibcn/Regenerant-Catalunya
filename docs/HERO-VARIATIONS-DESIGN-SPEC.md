@@ -96,3 +96,6 @@
 - Card should maintain consistent styling across all variations
 - Consider creating both desktop and mobile versions if needed
 - Background image should be consistent across all variations
+
+
+

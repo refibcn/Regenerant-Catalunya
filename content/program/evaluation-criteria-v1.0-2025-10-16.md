@@ -32,7 +32,7 @@ Our evaluation framework combines:
 3. **Final allocations are determined** based on evaluation scores, balancing impact demonstration with project needs
 4. **Two-phase distribution** links evaluation to funding: Phase 1 (Baseline Allocation) based on initial reports, Phase 2 (Adoption Allocation) rewarding continued Web3 tool adoption
 
-For more details on the impact measurement framework, see the [master document section on Impact Measurement & On-Chain Activity](../../docs/REGENERANT%20CATALUNYA%20GG24%20%5BMASTER%20DOC%5D%2026c6ed0845cb80a29615cc480f969597.md#3-impact-measurement--on-chain-activity).
+For more details on the impact measurement framework, see the [Program Overview](/program) and [Program Funding](/program/funding) pages.
 
 ---
 
@@ -421,8 +421,8 @@ All allocation decisions are:
 
 ### Program Documentation
 
-- **[Regenerant Catalunya Master Document](../../docs/REGENERANT%20CATALUNYA%20GG24%20%5BMASTER%20DOC%5D%2026c6ed0845cb80a29615cc480f969597.md)** - Complete program documentation including impact measurement framework
-- **[Impact Measurement & On-Chain Activity](../../docs/REGENERANT%20CATALUNYA%20GG24%20%5BMASTER%20DOC%5D%2026c6ed0845cb80a29615cc480f969597.md#3-impact-measurement--on-chain-activity)** - Detailed section on evaluation process and criteria
+- **[Program Overview](/program)** - Complete program information including impact measurement framework
+- **[Program Funding](/program/funding)** - Funding architecture and distribution details
 
 ### Frameworks and Tools
 

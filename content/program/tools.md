@@ -15,7 +15,7 @@ Regenerant Catalunya utilizes a suite of Web3 tools designed to support transpar
 
 **What it is:** On-chain activity and impact reporting platform that enables grantees to build verifiable reputation through transparent documentation of their work and outcomes.
 
-Karma GAP (Grantee Accountability and Reputation Protocol) creates a living, public "project resume" that makes impact visible and verifiable on-chain. Projects document their activities, achievements, and outcomes, building a transparent record that can be evaluated by funders and the community.
+[[Karma GAP]] (Grantee Accountability and Reputation Protocol) creates a living, public "project resume" that makes impact visible and verifiable on-chain. Projects document their activities, achievements, and outcomes, building a transparent record that can be evaluated by funders and the community.
 
 **Purpose:** Create a living, public "project resume" making impact visible and verifiable
 
@@ -36,7 +36,7 @@ Karma GAP (Grantee Accountability and Reputation Protocol) creates a living, pub
 - Creating verifiable project histories
 - Enabling community evaluation of work
 
-**Interoperability:** Karma GAP integrates with Gitcoin Grants and Octant funding mechanisms, allowing projects to build reputation that can influence future grant allocations. Impact data documented in Karma can be referenced by other tools like Hypercerts for creating verifiable impact credentials.
+**Interoperability:** [[Karma GAP]] integrates with Gitcoin Grants and Octant funding mechanisms, allowing projects to build reputation that can influence future grant allocations. Impact data documented in Karma can be referenced by other tools like [[Hypercerts]] for creating verifiable impact credentials.
 
 **Website:** [Karma GAP Documentation](https://discuss.octant.app/t/karma-gap-grantee-accountability-and-reputation-protocol/232)
 
@@ -52,14 +52,14 @@ Secure wallets for receiving and managing funds on the Celo blockchain. These wa
 
 **Recommended (Social Recovery):**
 
-- **Valora** — [valoraapp.com](https://valoraapp.com/)
+- **[[Valora]]** — [valoraapp.com](https://valoraapp.com/)
   - Mobile-first wallet designed for Celo
   - Social recovery mechanism to prevent key loss
   - Built-in support for Celo stablecoins (cUSD, cEUR)
   - User-friendly interface for non-technical users
   - Available on iOS and Android
 
-- **Minipay** — Stablecoin-focused wallet with social recovery
+- **[[Minipay]]** — Stablecoin-focused wallet with social recovery
   - Integrated into Opera Mini browser
   - Built specifically for Celo stablecoins
   - Social recovery via Google account
@@ -90,7 +90,7 @@ Secure wallets for receiving and managing funds on the Celo blockchain. These wa
   - Mobile-first design
   - Available on iOS and Android
 
-**Interoperability:** All Celo-compatible wallets can interact with the same Celo dApps, DeFi protocols, and smart contracts. Wallets can connect to tools like Safe multisigs for treasury management, Gardens for governance participation, and other Celo-based applications. Social recovery wallets (Valora, Minipay) reduce the risk of fund loss, making them ideal for projects managing grant funds.
+**Interoperability:** All Celo-compatible wallets can interact with the same Celo dApps, DeFi protocols, and smart contracts. Wallets can connect to tools like [[Safe]] multisigs for treasury management, [[Gardens]] for governance participation, and other Celo-based applications. Social recovery wallets ([[Valora]], [[Minipay]]) reduce the risk of fund loss, making them ideal for projects managing grant funds.
 
 **Training:** Provided in Workshop #1 (November 17-21, 2025)
 
@@ -104,7 +104,7 @@ Secure wallets for receiving and managing funds on the Celo blockchain. These wa
 
 **What it is:** Conviction voting platform for community funding and governance that enables decentralized decision-making through time-weighted voting.
 
-Gardens is a governance platform built by 1Hive that uses conviction voting—a mechanism where voting power increases the longer someone holds their position. This creates more thoughtful, long-term funding decisions compared to simple majority voting, as it requires sustained support rather than brief majorities.
+[[Gardens]] is a governance platform built by 1Hive that uses conviction voting—a mechanism where voting power increases the longer someone holds their position. This creates more thoughtful, long-term funding decisions compared to simple majority voting, as it requires sustained support rather than brief majorities.
 
 **Purpose:** Enable communities to make collective funding and governance decisions through transparent, on-chain voting mechanisms
 
@@ -126,7 +126,7 @@ Gardens is a governance platform built by 1Hive that uses conviction voting—a 
 - Governance proposals and voting
 - Long-term project funding commitments
 
-**Interoperability:** Gardens can integrate with Safe multisigs to execute approved funding proposals, with Sarafu Network for local currency-based governance, and with Karma GAP to document governance decisions and their outcomes. Gardens works with any ERC-20 token, making it compatible with Celo's native assets.
+**Interoperability:** [[Gardens]] can integrate with [[Safe]] multisigs to execute approved funding proposals, with [[Sarafu Network]] for local currency-based governance, and with [[Karma GAP]] to document governance decisions and their outcomes. [[Gardens]] works with any ERC-20 token, making it compatible with Celo's native assets.
 
 **Website:** [gardens.1hive.org](https://gardens.1hive.org/)
 
@@ -138,7 +138,7 @@ Gardens is a governance platform built by 1Hive that uses conviction voting—a 
 
 **What it is:** Multi-signature wallet for secure, transparent fund management that requires multiple approvals before transactions can be executed.
 
-Safe (formerly Gnosis Safe) is a smart contract wallet that enables secure, transparent treasury management. Instead of a single private key controlling funds, Safe requires multiple signers to approve transactions, reducing the risk of fund loss or misuse. All transactions are recorded on-chain for full transparency.
+[[Safe]] (formerly Gnosis Safe) is a smart contract wallet that enables secure, transparent treasury management. Instead of a single private key controlling funds, [[Safe]] requires multiple signers to approve transactions, reducing the risk of fund loss or misuse. All transactions are recorded on-chain for full transparency.
 
 **Purpose:** Provide secure, transparent fund management requiring multiple approvals for all transactions
 
@@ -157,10 +157,10 @@ Safe (formerly Gnosis Safe) is a smart contract wallet that enables secure, tran
 - Transparent fund disbursements requiring multiple approvals
 - Requiring multiple signers for security
 - On-chain transaction records for accountability
-- Integration with governance platforms like Gardens
+- Integration with governance platforms like [[Gardens]]
 - Coordinated fund management across team members
 
-**Interoperability:** Safe multisigs integrate seamlessly with Gardens for executing approved funding proposals, with individual wallets for receiving disbursements, and with other Celo dApps for DeFi operations. Safe can hold Celo native assets (CELO, cUSD, cEUR) and any Celo-based tokens. The program treasury address can receive funds from various sources and disburse them according to governance decisions.
+**Interoperability:** [[Safe]] multisigs integrate seamlessly with [[Gardens]] for executing approved funding proposals, with individual wallets for receiving disbursements, and with other Celo dApps for DeFi operations. [[Safe]] can hold Celo native assets (CELO, cUSD, cEUR) and any Celo-based tokens. The program treasury address can receive funds from various sources and disburse them according to governance decisions.
 
 **Website:** [safe.global](https://safe.global/)
 
@@ -174,7 +174,7 @@ Safe (formerly Gnosis Safe) is a smart contract wallet that enables secure, tran
 
 **What it is:** Local currency and commitment pooling platform that enables communities to create their own digital currencies and pool commitments for collective projects.
 
-Sarafu Network, developed by Grassroots Economics, provides tools for communities to establish local currency systems that strengthen local economic flows. The platform enables commitment pooling, where community members can commit resources (time, goods, services) to collective projects before funds are needed, creating a more resilient local economy.
+[[Sarafu Network]], developed by Grassroots Economics, provides tools for communities to establish local currency systems that strengthen local economic flows. The platform enables commitment pooling, where community members can commit resources (time, goods, services) to collective projects before funds are needed, creating a more resilient local economy.
 
 **Purpose:** Strengthen local economic flows and enable community resource sharing through digital local currencies and commitment pooling
 
@@ -196,7 +196,7 @@ Sarafu Network, developed by Grassroots Economics, provides tools for communitie
 - Coordinating local economic activities
 - Building community economic networks
 
-**Interoperability:** Sarafu Network can integrate with Gardens for governance of local currency parameters, with Safe multisigs for managing community treasuries, and with Cycles for clearing between different local currency networks. Local currencies can be used within Gardens for community funding decisions, creating a complete local economic governance system.
+**Interoperability:** [[Sarafu Network]] can integrate with [[Gardens]] for governance of local currency parameters, with [[Safe]] multisigs for managing community treasuries, and with [[Cycles]] for clearing between different local currency networks. Local currencies can be used within [[Gardens]] for community funding decisions, creating a complete local economic governance system.
 
 **Website:** [sarafu.network](https://sarafu.network/)
 
@@ -208,7 +208,7 @@ Sarafu Network, developed by Grassroots Economics, provides tools for communitie
 
 **What it is:** Open clearing protocol for mutual credit and circular economy that enables value exchange coordination between network members without requiring external currency.
 
-Cycles provides a protocol for mutual credit systems and circular economy flows, allowing network members to exchange value through credit relationships rather than requiring external currency. The protocol enables clearing between different participants, creating resilient local and regional economic networks.
+[[Cycles]] provides a protocol for mutual credit systems and circular economy flows, allowing network members to exchange value through credit relationships rather than requiring external currency. The protocol enables clearing between different participants, creating resilient local and regional economic networks.
 
 **Purpose:** Enable mutual credit systems and circular economy flows through decentralized clearing protocols
 
@@ -230,7 +230,7 @@ Cycles provides a protocol for mutual credit systems and circular economy flows,
 - Building resilient economic networks
 - Coordinating resource flows in regenerative systems
 
-**Interoperability:** Cycles can integrate with Sarafu Network for clearing between different local currencies, with Gardens for governance of credit parameters, and with Safe multisigs for managing network reserves. The protocol enables value exchange coordination across the Regenerant Catalunya network, allowing projects to exchange resources and services efficiently.
+**Interoperability:** [[Cycles]] can integrate with [[Sarafu Network]] for clearing between different local currencies, with [[Gardens]] for governance of credit parameters, and with [[Safe]] multisigs for managing network reserves. The protocol enables value exchange coordination across the Regenerant Catalunya network, allowing projects to exchange resources and services efficiently.
 
 **Website:** [cycles.so](https://www.cycles.so/)
 
@@ -250,7 +250,7 @@ Projects can opt-in to pilot these tools for enhanced capabilities. These tools 
 
 **What it is:** Tree planting and stewardship dMRV (digital Measurement, Reporting, and Verification) platform that enables transparent tracking of reforestation projects from planting to maturity.
 
-Silvi is a Web3 platform that enables projects to document tree planting and stewardship activities on-chain, creating verifiable records of reforestation impact. The platform supports projects ranging from large-scale reforestation initiatives to individual backyard tree planting, with compensation mechanisms for verified stewardship activities.
+[[Silvi]] is a Web3 platform that enables projects to document tree planting and stewardship activities on-chain, creating verifiable records of reforestation impact. The platform supports projects ranging from large-scale reforestation initiatives to individual backyard tree planting, with compensation mechanisms for verified stewardship activities.
 
 **Purpose:** Enable transparent, verifiable tracking of tree planting and stewardship activities with on-chain documentation
 
@@ -272,9 +272,9 @@ Silvi is a Web3 platform that enables projects to document tree planting and ste
 - Verifying tree planting activities for funding and reporting
 - Building on-chain reputation for reforestation work
 
-**Interoperability:** Silvi integrates with Opera Minipay for plant-to-earn campaigns, uses the Ecological Benefits Framework (EBF) for standardized impact reporting, and can work with Hypercerts to create verifiable impact credentials for reforestation projects. Silvi data can complement Karma GAP documentation by providing specific tree planting metrics and verification.
+**Interoperability:** [[Silvi]] integrates with Opera [[Minipay]] for plant-to-earn campaigns, uses the Ecological Benefits Framework (EBF) for standardized impact reporting, and can work with [[Hypercerts]] to create verifiable impact credentials for reforestation projects. [[Silvi]] data can complement [[Karma GAP]] documentation by providing specific tree planting metrics and verification.
 
-**Potential Use Cases:** Projects can combine Silvi with Hypercerts to create verifiable impact credentials for reforestation work, integrate with Karma GAP to document comprehensive environmental impact, and use Silvi data to support funding applications and impact reporting.
+**Potential Use Cases:** Projects can combine [[Silvi]] with [[Hypercerts]] to create verifiable impact credentials for reforestation work, integrate with [[Karma GAP]] to document comprehensive environmental impact, and use [[Silvi]] data to support funding applications and impact reporting.
 
 **Website:** [silvi.earth](https://www.silvi.earth/)
 
@@ -286,7 +286,7 @@ Silvi is a Web3 platform that enables projects to document tree planting and ste
 
 **What it is:** Impact credential system that creates verifiable, tradable certificates representing positive impacts using blockchain technology.
 
-Hypercerts are semi-fungible tokens (ERC-1155) that represent verifiable impact claims. They enable projects to create transparent, immutable records of their contributions to public goods, allowing funders to purchase fractions of hypercerts to claim a share of the represented impact. This creates a market for positive externalities and enables better coordination and funding of impactful initiatives.
+[[Hypercerts]] are semi-fungible tokens (ERC-1155) that represent verifiable impact claims. They enable projects to create transparent, immutable records of their contributions to public goods, allowing funders to purchase fractions of hypercerts to claim a share of the represented impact. This creates a market for positive externalities and enables better coordination and funding of impactful initiatives.
 
 **Purpose:** Create verifiable, tradable impact credentials that enable transparent funding and recognition of positive contributions
 
@@ -308,9 +308,9 @@ Hypercerts are semi-fungible tokens (ERC-1155) that represent verifiable impact 
 - Verifying environmental and social impact claims
 - Enabling fractional ownership of impact
 
-**Interoperability:** Hypercerts can integrate with Karma GAP to create verifiable credentials from documented activities, with Silvi to certify reforestation impact, and with Gainforest for forest conservation credentials. Hypercerts can be used alongside Gardens for impact-based funding decisions and with Safe multisigs for managing impact credential treasuries.
+**Interoperability:** [[Hypercerts]] can integrate with [[Karma GAP]] to create verifiable credentials from documented activities, with [[Silvi]] to certify reforestation impact, and with [[Gainforest]] for forest conservation credentials. [[Hypercerts]] can be used alongside [[Gardens]] for impact-based funding decisions and with [[Safe]] multisigs for managing impact credential treasuries.
 
-**Potential Use Cases:** Projects can mint hypercerts based on Karma GAP documentation to create verifiable impact credentials, combine Silvi tree planting data with Hypercerts for certified reforestation impact, and use Hypercerts with Gardens to enable impact-based community funding decisions.
+**Potential Use Cases:** Projects can mint hypercerts based on [[Karma GAP]] documentation to create verifiable impact credentials, combine [[Silvi]] tree planting data with [[Hypercerts]] for certified reforestation impact, and use [[Hypercerts]] with [[Gardens]] to enable impact-based community funding decisions.
 
 **Website:** [hypercerts.org](https://www.hypercerts.org/)
 
@@ -322,7 +322,7 @@ Hypercerts are semi-fungible tokens (ERC-1155) that represent verifiable impact 
 
 **What it is:** Impact credential system focused on environmental certifications, providing verifiable credentials for ecological and sustainability achievements.
 
-Ecocerts (also referred to as EcoCerts or environmental hypercerts) are impact credentials specifically designed for environmental and sustainability projects. They provide a mechanism for creating verifiable, tradable certificates representing positive environmental impacts, enabling transparent recognition and funding of ecological initiatives.
+[[Ecocerts]] (also referred to as EcoCerts or environmental hypercerts) are impact credentials specifically designed for environmental and sustainability projects. They provide a mechanism for creating verifiable, tradable certificates representing positive environmental impacts, enabling transparent recognition and funding of ecological initiatives.
 
 **Purpose:** Create verifiable environmental impact credentials for sustainability and ecological projects
 
@@ -344,9 +344,9 @@ Ecocerts (also referred to as EcoCerts or environmental hypercerts) are impact c
 - Enabling environmental impact-based funding
 - Building transparent environmental impact markets
 
-**Interoperability:** Ecocerts can integrate with Silvi for tree planting certifications, with Gainforest for forest conservation credentials, and with Karma GAP to create verifiable environmental impact records. Ecocerts can work alongside Hypercerts for comprehensive impact credential systems, and integrate with Gardens for environmental impact-based governance decisions.
+**Interoperability:** [[Ecocerts]] can integrate with [[Silvi]] for tree planting certifications, with [[Gainforest]] for forest conservation credentials, and with [[Karma GAP]] to create verifiable environmental impact records. [[Ecocerts]] can work alongside [[Hypercerts]] for comprehensive impact credential systems, and integrate with [[Gardens]] for environmental impact-based governance decisions.
 
-**Potential Use Cases:** Projects can use Ecocerts with Silvi to create certified reforestation credentials, combine with Gainforest for verified forest conservation impact, and integrate with Karma GAP to build comprehensive environmental impact portfolios.
+**Potential Use Cases:** Projects can use [[Ecocerts]] with [[Silvi]] to create certified reforestation credentials, combine with [[Gainforest]] for verified forest conservation impact, and integrate with [[Karma GAP]] to build comprehensive environmental impact portfolios.
 
 **Website:** Documentation and resources available through environmental hypercert platforms and community channels
 
@@ -358,7 +358,7 @@ Ecocerts (also referred to as EcoCerts or environmental hypercerts) are impact c
 
 **What it is:** Decentralized fund using artificial intelligence to measure and reward sustainable nature stewardship, enabling trustless donations to Indigenous communities and forest conservation projects.
 
-Gainforest is an open platform that empowers sustainable nature stewardship by unifying accessible and automated monitoring, auditable and decentralized payments, and stakeholder engagement. Private stakeholders can pledge funds to Indigenous communities and forest conservation projects through smart contracts. The platform automatically releases donations when monitored environmental milestones are achieved, using AI-powered oracles that leverage satellite imagery, drone data, and field data to detect ecological changes. Gainforest issues dynamic impact certificates (NFTrees™) that continuously update with conservation area data, allowing donors to track impact over time.
+[[Gainforest]] is an open platform that empowers sustainable nature stewardship by unifying accessible and automated monitoring, auditable and decentralized payments, and stakeholder engagement. Private stakeholders can pledge funds to Indigenous communities and forest conservation projects through smart contracts. The platform automatically releases donations when monitored environmental milestones are achieved, using AI-powered oracles that leverage satellite imagery, drone data, and field data to detect ecological changes. [[Gainforest]] issues dynamic impact certificates (NFTrees™) that continuously update with conservation area data, allowing donors to track impact over time.
 
 **Purpose:** Enable frictionless, transparent conservation funding through AI-powered monitoring and automated milestone-based payments
 
@@ -381,9 +381,9 @@ Gainforest is an open platform that empowers sustainable nature stewardship by u
 - Building transparent conservation funding mechanisms
 - Real-time monitoring and verification of conservation outcomes
 
-**Interoperability:** Gainforest's decentralized fund and smart contracts can integrate with other blockchain-based conservation initiatives, enhancing transparency and efficiency in environmental funding. The platform can work with Hypercerts/Ecocerts for impact credential systems, with Karma GAP to document conservation activities, and with Gardens for community governance of conservation funding decisions. Gainforest's AI monitoring data can complement other MRV tools like Silvi for comprehensive conservation tracking.
+**Interoperability:** [[Gainforest]]'s decentralized fund and smart contracts can integrate with other blockchain-based conservation initiatives, enhancing transparency and efficiency in environmental funding. The platform can work with [[Hypercerts]]/[[Ecocerts]] for impact credential systems, with [[Karma GAP]] to document conservation activities, and with [[Gardens]] for community governance of conservation funding decisions. [[Gainforest]]'s AI monitoring data can complement other MRV tools like [[Silvi]] for comprehensive conservation tracking.
 
-**Potential Use Cases:** Projects can use Gainforest for automated milestone-based funding of forest conservation work, integrate Gainforest's NFTrees with Hypercerts for comprehensive impact credentialing, and combine Gainforest's AI monitoring with Karma GAP for detailed conservation impact documentation.
+**Potential Use Cases:** Projects can use [[Gainforest]] for automated milestone-based funding of forest conservation work, integrate [[Gainforest]]'s NFTrees with [[Hypercerts]] for comprehensive impact credentialing, and combine [[Gainforest]]'s AI monitoring with [[Karma GAP]] for detailed conservation impact documentation.
 
 **Website:** [gainforest.earth](https://gainforest.earth/)
 
@@ -395,7 +395,7 @@ Gainforest is an open platform that empowers sustainable nature stewardship by u
 
 **What it is:** Syntropic agroforestry design platform that uses blockchain technology to support regenerative agriculture and community-based farming initiatives.
 
-Kokonut Network is a distributed network cooperative focused on syntropic agroforestry—a regenerative farming approach that mimics natural forest ecosystems. The platform enables communities to establish and manage agroforestry projects, democratizing investment in real-world regenerative agriculture while promoting biodiversity and soil restoration.
+[[Kokonut Network]] is a distributed network cooperative focused on syntropic agroforestry—a regenerative farming approach that mimics natural forest ecosystems. The platform enables communities to establish and manage agroforestry projects, democratizing investment in real-world regenerative agriculture while promoting biodiversity and soil restoration.
 
 **Purpose:** Support syntropic agroforestry projects through blockchain-based coordination and funding mechanisms
 
@@ -417,9 +417,9 @@ Kokonut Network is a distributed network cooperative focused on syntropic agrofo
 - Building regenerative agriculture networks
 - Tracking biodiversity and soil health improvements
 
-**Interoperability:** Kokonut Network can integrate with Karma GAP to document agroforestry activities and outcomes, with Hypercerts/Ecocerts to create verifiable regenerative agriculture credentials, and with Gardens for community governance of agroforestry projects. The platform can work with Sarafu Network for local economic coordination around regenerative agriculture.
+**Interoperability:** [[Kokonut Network]] can integrate with [[Karma GAP]] to document agroforestry activities and outcomes, with [[Hypercerts]]/[[Ecocerts]] to create verifiable regenerative agriculture credentials, and with [[Gardens]] for community governance of agroforestry projects. The platform can work with [[Sarafu Network]] for local economic coordination around regenerative agriculture.
 
-**Potential Use Cases:** Projects can combine Kokonut Network agroforestry design with Silvi tree planting for comprehensive forest restoration, use Kokonut Network data with Hypercerts to create certified regenerative agriculture credentials, and integrate with Karma GAP for detailed agroforestry impact documentation.
+**Potential Use Cases:** Projects can combine [[Kokonut Network]] agroforestry design with [[Silvi]] tree planting for comprehensive forest restoration, use [[Kokonut Network]] data with [[Hypercerts]] to create certified regenerative agriculture credentials, and integrate with [[Karma GAP]] for detailed agroforestry impact documentation.
 
 **Website:** [kokonut.network](https://kokonut.network/)
 

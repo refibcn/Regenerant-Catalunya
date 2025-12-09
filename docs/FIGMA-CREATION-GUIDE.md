@@ -151,3 +151,6 @@ Create these text styles:
 - No buttons should appear in any variation
 - Maintain consistent card styling across all variations
 - The background image should be consistent across all variations
+
+
+

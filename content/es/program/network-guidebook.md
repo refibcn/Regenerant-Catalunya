@@ -265,7 +265,7 @@ En la Fase 2 (enero–febrero 2026), las redes gobiernan colectivamente los fond
 - [Guía de Proyectos](/es/program/project-guidebook) — Para requisitos de proyectos individuales
 - [Cronograma del Programa](/es/program/timeline) — Cronograma completo con todos los hitos
 - [Recursos](/es/resources) — Enlaces a toda la documentación de herramientas
-- [Documento Maestro](/es/master-document) — Documentación completa del programa
+- [Programa](/es/program) — Información completa del programa
 
 ### Contacto
 

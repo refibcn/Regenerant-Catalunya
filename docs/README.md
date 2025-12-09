@@ -58,7 +58,7 @@ docs/
 ## 🔗 Related Resources
 
 - **Website Content:** [`../content/`](../content/) - Published website content
-- **Visual Assets:** [`../visual-assets/`](../visual-assets/) - Brand assets package
+- **Assets:** [`../assets/`](../assets/) - Brand assets (config, generated, test-prototypes)
 - **Scripts:** [`../scripts/`](../scripts/) - Utility scripts
 
 ## 📝 Notes

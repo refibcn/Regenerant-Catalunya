@@ -32,7 +32,7 @@ Our evaluation framework combines:
 3. **Final allocations are determined** based on evaluation scores, balancing impact demonstration with project needs
 4. **Two-phase distribution** links evaluation to funding: Phase 1 (Baseline Allocation) based on initial reports, Phase 2 (Adoption Allocation) rewarding continued Web3 tool adoption
 
-For more details on the impact measurement framework, see the [master document section on Impact Measurement & On-Chain Activity](../../docs/REGENERANT%20CATALUNYA%20GG24%20%5BMASTER%20DOC%5D%2026c6ed0845cb80a29615cc480f969597.md#3-impact-measurement--on-chain-activity).
+Per a més detalls sobre el marc de mesura d'impacte, consulteu les pàgines [Programa](/ca/program) i [Finançament del Programa](/ca/program/funding).
 
 ---
 
@@ -419,10 +419,10 @@ All allocation decisions are:
 - **[Regen Coordination GG23 Retrospective](https://gov.gitcoin.co/t/ai-impactqf-regen-coordination-global-gg23-retrospective/20385)** - Proven methodology that successfully allocated $96,000 to 50 projects
 - **[Localism Fund Round 01 Public Documentation](https://www.localism.fund/round-01-public-documentation)** - Evaluation rubric structure for local grant programs
 
-### Program Documentation
+### Documentació del Programa
 
-- **[Regenerant Catalunya Master Document](../../docs/REGENERANT%20CATALUNYA%20GG24%20%5BMASTER%20DOC%5D%2026c6ed0845cb80a29615cc480f969597.md)** - Complete program documentation including impact measurement framework
-- **[Impact Measurement & On-Chain Activity](../../docs/REGENERANT%20CATALUNYA%20GG24%20%5BMASTER%20DOC%5D%2026c6ed0845cb80a29615cc480f969597.md#3-impact-measurement--on-chain-activity)** - Detailed section on evaluation process and criteria
+- **[Programa](/ca/program)** - Informació completa del programa incloent el marc de mesura d'impacte
+- **[Finançament del Programa](/ca/program/funding)** - Arquitectura de finançament i detalls de distribució
 
 ### Frameworks and Tools
 

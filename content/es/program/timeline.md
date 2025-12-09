@@ -43,11 +43,11 @@ gantt
 - Compromisos de socios locales confirmados
 - **Estado:** Completado
 
-### Mediados de noviembre de 2025
+### Final de noviembre de 2025
 
 **Fondos de igualación globales asegurados en cadena**
 
-- $20.000 del Localism Fund
+- Desembolso estimado $18.000 (≈ €16.380) del Localism Fund
 - Fondos disponibles para distribución
 
 ---
@@ -74,25 +74,28 @@ gantt
 
 **Horas de Oficina para Apoyo de Proyectos**
 
-- Apoyo según se necesite para proyectos que trabajan en presentaciones de Karma
+- Apoyo según se necesite para proyectos que trabajan en documentación y, más adelante, en presentaciones de Karma
 - Asistencia técnica y resolución de problemas
-- **Entregable:** Enviar actividades a Karma (al menos 3 actividades pasadas y 3 planes futuros)
+- **Entregable:** Tener el informe de actividades en Google Docs avanzado y apoyo disponible para la fase de Karma
 
-### 8-14 de diciembre de 2025
+### Talleres de documentación específicos por red (Fase 1)
 
-**Taller #2: Documentar el Impacto**
+Estos talleres sustituyen al antiguo “Taller #2” único y están **enfocados solo en la documentación en Google Docs** (sin configuración Web3 en estas sesiones):
 
-- **Formato:** En línea
-- **Idioma:** Español
-- **Contenido:**
-  - Cómo documentar el impacto de manera efectiva
-  - La importancia de buenos datos (independientemente de cripto)
-  - Establecer métricas adecuadas para la regeneración
-  - Qué es Karma y por qué utilizarlo
-  - Cómo registrar actividades en Karma
-  - Ejemplos de proyectos que utilizan Karma efectivamente
-  - Qué buscamos (3 actividades pasadas + 3 planes futuros)
-- **Entregable:** Abrir cuenta en Karma
+- **3 de diciembre de 2025 – Red Keras Buti**
+  - **Formato:** Presencial en Pomezia (L’Hospitalet)
+  - **Enfoque:** Trabajar directamente en el informe de actividades en Google Docs de cada proyecto para mapear actividades, entregables y métricas.
+
+- **11 de diciembre de 2025 – Red Miceli (en línea)**
+  - **Formato:** Sesión en línea
+  - **Enfoque:** Mismo objetivo, adaptado al contexto y tipos de proyectos de Miceli.
+
+- **19 de diciembre de 2025 – Red Miceli (presencial, alrededor de la asamblea general)**
+  - **Formato:** Taller corto presencial
+  - **Enfoque:** Acompañar y nivelar la documentación de proyectos de Miceli para que queden en una situación similar a los proyectos de Keras Buti.
+
+**Entregable global de estos talleres:**  
+Cada proyecto tiene un **informe de actividades en Google Docs** parcial o completamente rellenado, que luego se utilizará para las presentaciones en Karma GAP.
 
 ### Final de diciembre de 2025
 
@@ -230,12 +233,34 @@ graph LR
 
 ---
 
+## Apoyo Continuo e Infraestructura
+
+A lo largo del programa, los proyectos tienen acceso a:
+
+**Apoyo Técnico:**
+- Horas de oficina semanales para preguntas técnicas y resolución de problemas
+- Apoyo bajo demanda para problemas críticos y emergencias
+- Actualizaciones de plataforma e introducción de nuevas funcionalidades
+- Orientación sobre seguridad y mejores prácticas
+
+**Programa de Mentoría:**
+- Sesiones mensuales mentor-proyecto con expertos Web3 globales
+- Oportunidades de aprendizaje entre pares y colaboración entre proyectos
+- Apoyo ad-hoc para desafíos y oportunidades específicas
+
+**Construcción de Comunidad:**
+- Reuniones regulares de cohorte y compartir de progreso
+- Facilitación de colaboración entre proyectos
+- Construcción de red y desarrollo de relaciones
+
+---
+
 ## Recursos
 
 - [Guía de Proyectos](/es/program/project-guidebook) — Guía detallada para proyectos participantes
 - [Guía de Red](/es/program/network-guidebook) — Guía para la gobernanza de red de la Fase 2
 - [Recursos](/es/resources) — Enlaces a toda la documentación de herramientas y materiales de apoyo
-- [Documento Maestro](/es/master-document) — Documentación completa del programa
+- [Programa](/es/program) — Información completa del programa
 
 ---
 

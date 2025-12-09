@@ -30,9 +30,9 @@ description: "Guía completa para proyectos participantes de Regenerant Cataluny
 
 **Requisitos Mínimos de Participación** (necesarios para el mínimo de €1.000):
 
-- ✅ Participar en al menos **2 talleres**
-- ✅ Abrir una **cartera Web3** en Celo
-- ✅ Enviar al menos **3 actividades pasadas** y **3 planes futuros** a **Karma**
+- ✅ Participar en al menos **2 talleres** (incluyendo el taller de documentación específico de tu red)
+- ✅ Preparar un **informe de actividades en Google Docs** (siguiendo la plantilla del programa) que después pueda utilizarse para Karma GAP
+- ✅ En sesiones prácticas posteriores: abrir una **cartera Web3** en Celo y enviar al menos **3 actividades pasadas** y **3 planes futuros** a **Karma**
 
 **Evaluación de Impacto:** La evaluación simplificada de impacto determina la asignación hasta €1.500. La evaluación continúa pero no dictará mucho la distribución ya que la división del 50% con un mínimo de €1k deja una varianza limitada para diferencias de asignación.
 
@@ -44,8 +44,8 @@ description: "Guía completa para proyectos participantes de Regenerant Cataluny
 
 **Financiación:** €1.000 por proyecto asignado a fondos a nivel de red:
 
-- **Red Miceli Social:** ~€6.000 fondo colectivo
-- **Red La Fundició / Keras Buti:** ~€5.000 fondo colectivo
+- **Red [[Miceli Social]]:** ~€6.000 fondo colectivo
+- **Red [[La Fundició]] / [[Keras Buti]]:** ~€5.000 fondo colectivo
 
 **Gobernanza:** Las redes gobiernan colectivamente los fondos utilizando herramientas de gobernanza Web3 (Gardens, Safe multisigs, Sarafu, Cycles)
 
@@ -57,38 +57,27 @@ description: "Guía completa para proyectos participantes de Regenerant Cataluny
 
 ### 1. Participar en Talleres
 
-**Taller #1: Introducción a Regenerant Catalunya**
+En la Fase 1, los talleres se desarrollan en **dos oleadas complementarias**:
 
-- **Cuándo:** 17-21 de noviembre de 2025 (1,5 horas)
-- **Formato:** En línea
-- **Contenido:**
-  - Presentación de ReFi Barcelona
-  - Por qué Web3 (abordando mitos y preocupaciones)
-  - Visión a largo plazo (BioFi e Infraestructura de Finanzas Biorecionales)
-  - Presentación de la ronda y los socios
-  - Cronograma y actividades
-  - Cómo se distribuirán los fondos
-  - Configuración de cartera Web3 (con grupos de trabajo para apoyo)
-- **Entregable:** Abrir Cartera Web3
+**Oleada 1: Talleres de documentación (por red)**
 
-**Taller #2: Documentar el Impacto**
+- **Red Keras Buti / La Fundició:** Segundo taller **presencial en Pomezia (L’Hospitalet)** el **3 de diciembre**  
+- **Red Miceli:** Taller principal **en línea el 11 de diciembre** + pequeño taller **presencial alrededor de la asamblea general de Miceli el 19 de diciembre**
 
-- **Cuándo:** 8-14 de diciembre de 2025
-- **Formato:** En línea
-- **Contenido:**
-  - Cómo documentar el impacto de manera efectiva
-  - La importancia de buenos datos (independientemente de cripto)
-  - Establecer métricas adecuadas para la regeneración
-  - Qué es Karma y por qué utilizarlo
-  - Cómo registrar actividades en Karma
-  - Ejemplos de proyectos que utilizan Karma efectivamente
-  - Qué buscamos (3 actividades pasadas + 3 planes futuros)
-- **Entregable:** Abrir cuenta en Karma
+En estos talleres de la primera oleada:
 
-**Horas de Oficina: 4-19 de diciembre de 2025**
+- El foco está en **entender y documentar actividades, entregables y métricas**  
+- Se trabaja directamente sobre el **informe de actividades en Google Docs** por proyecto  
+- No se pide abrir carteras ni utilizar Karma u otras herramientas Web3 en directo
 
-- Apoyo según se necesite para proyectos que trabajan en sus presentaciones de Karma
-- **Entregable:** Enviar actividades a Karma (al menos 3 actividades pasadas y 3 planes futuros)
+**Oleada 2: Taller práctico de Web3 y Karma GAP (más adelante)**
+
+- Taller(es) de seguimiento para:
+  - Abrir o revisar la **cartera Web3** en Celo  
+  - Crear o revisar la cuenta en **Karma GAP**  
+  - Trasladar la información del **Google Doc** a actividades en Karma (3 pasadas + 3 futuras)
+
+Los detalles exactos de fecha y formato se compartirán una vez que los informes de actividades estén listos.
 
 ### 2. Abrir Cartera Web3 en Celo
 
@@ -166,7 +155,7 @@ Karma (Grantee Accountability Protocol) es una plataforma en cadena para informe
 
 ## Visión General de la Fase 2: Gobernanza a Nivel de Red
 
-En la Fase 2, vuestra red (Miceli Social o La Fundició / Keras Buti) gobernará colectivamente un fondo de recursos utilizando herramientas Web3.
+En la Fase 2, vuestra red ([[Miceli Social]] o [[La Fundició]] / [[Keras Buti]]) gobernará colectivamente un fondo de recursos utilizando herramientas Web3.
 
 **Qué Esperar:**
 
@@ -199,7 +188,7 @@ En la Fase 2, vuestra red (Miceli Social o La Fundició / Keras Buti) gobernará
 ### Información de Contacto
 
 - **Correo electrónico:** hola@ReFiBCN.cat
-- **ReFi Barcelona:** [refibcn.cat](https://refibcn.cat/)
+- **[[ReFi Barcelona]]:** [refibcn.cat](https://refibcn.cat/)
 - **Sitio Web del Programa:** [regenerant.refibcn.cat](https://regenerant.refibcn.cat/)
 
 ### Recursos Adicionales
@@ -207,7 +196,8 @@ En la Fase 2, vuestra red (Miceli Social o La Fundició / Keras Buti) gobernará
 - [Cronograma del Programa](/es/program/timeline) — Cronograma completo con todos los hitos
 - [Guía de Red](/es/program/network-guidebook) — Guía para la gobernanza de red de la Fase 2
 - [Recursos](/es/resources) — Enlaces a toda la documentación de herramientas y materiales de apoyo
-- [Documento Maestro](/es/master-document) — Documentación completa del programa
+- [Programa](/es/program) — Información completa del programa
+ - [Guía para el informe de actividades](/es/program/guia-informe-actividades) — Guía paso a paso para rellenar el informe de actividades en Google Docs
 
 ---
 
@@ -250,7 +240,7 @@ R: Necesitas asistir a al menos 2 talleres para cumplir los requisitos mínimos 
 R: Contáctanos en hola@ReFiBCN.cat. Podemos proporcionar grabaciones o arreglos alternativos.
 
 **P: ¿Qué pasa en la Fase 2?**
-R: Tu red (Miceli Social o La Fundició) gobierna colectivamente los fondos de la Fase 2 utilizando herramientas Web3. Aprenderás sobre herramientas de gobernanza en el Taller #4 y participarás en la toma de decisiones colectiva.
+R: Tu red ([[Miceli Social]] o [[La Fundició]]) gobierna colectivamente los fondos de la Fase 2 utilizando herramientas Web3. Aprenderás sobre herramientas de gobernanza en el Taller #4 y participarás en la toma de decisiones colectiva.
 
 ### Preguntas sobre Impacto e Informes
 
@@ -268,7 +258,7 @@ R: Sí, Karma crea un registro público en cadena. Esto construye tu reputación
 ## Fechas y Plazos Clave
 
 - **31 de octubre de 2025:** Fondos locales asegurados en cadena ✅
-- **Mediados de noviembre de 2025:** Fondos de igualación globales asegurados en cadena
+- **Final de noviembre de 2025:** Fondos de igualación globales asegurados en cadena
 - **17-21 de noviembre de 2025:** Taller #1 — Inicio del programa
 - **4-19 de diciembre de 2025:** Horas de oficina para apoyo de proyectos
 - **8-14 de diciembre de 2025:** Taller #2 — Formación en documentación de impacto

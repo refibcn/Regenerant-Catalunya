@@ -4,20 +4,15 @@
 
 -Many parts have to be updated regarding what GG24 finally is, the name of the round etc etc, do a proper final check of this aspect alone when ready
 
-<aside>
-
-**Future Points TBD**
-
-- [ ] Funds allocation according to past / future work
-      **Advisors:**
-
-      - **Oriol** - Miceli Social: Rural resilience and municipal collaboration expertise
-      - **Mariló** - La Fundició • Keras Buti: Urban cooperative economics and cultural innovation experience
-      - Oscar/Erika?
-      - Clara Gromaches?
-      - Representative from Arran de Terra
-
-  </aside>
+> **Future Points TBD**
+>
+> - [ ] Funds allocation according to past / future work
+>       **Advisors:**
+>   - **Oriol** - Miceli Social: Rural resilience and municipal collaboration expertise
+>   - **Mariló** - La Fundició • Keras Buti: Urban cooperative economics and cultural innovation experience
+>   - Oscar/Erika?
+>   - Clara Gromaches?
+>   - Representative from Arran de Terra
 
 # A. Introduction
 
@@ -31,7 +26,7 @@
 
 Launching in the **last week of October 2025**, the program is led by **ReFi Barcelona** as a bridge between local needs and global support. We provide a curated cohort of **10–12 local projects** with funding, capacity-building workshops, and hands-on mentorship to experiment with **Web3 technologies and financial tools** (blockchain-based impact tracking, transparent treasury management, digital measurement systems) that could open new income streams and improve their long-term resilience.
 
-Both the funding pool _and_ the activities of Regenerant Catalunya emerged through a mediation of local and global interests. Established Catalan regenerative networks like **Miceli Social** and **La Fundició** have together committed around **€11,000**, that is being matched with up to $20,000 **by global sponsors through the Localism Fund** – bringing the total pool to nearly **`€30,000`,** which will be used to directly support 10-12 regenerative projects in Catalonia.
+Both the funding pool _and_ the activities of Regenerant Catalunya emerged through a mediation of local and global interests. Established Catalan regenerative networks like **Miceli Social** and **La Fundició** have together committed around **€11,000**, that is being matched with up to $20,000 **by global sponsors through the Localism Fund** – bringing the total pool to **€29,200**, which will be used to directly support 10-12 regenerative projects in Catalonia.
 
 ---
 
@@ -190,19 +185,19 @@ Rather than imposing complex blockchain systems, we start with **minimal Web3 st
 
 **Network-Level Tools (Phase 2):** Networks collectively govern Phase 2 funds using Web3 governance and finance tools:
 
-- **Governance:** Gardens (conviction voting), multistakeholder contracts
-- **Finance:** Safe (multisigs), Sarafu (local currency / commitment pooling), Cycles (open clearing protocol)
+- **Governance:** [[Gardens]] (conviction voting), multistakeholder contracts
+- **Finance:** [[Safe]] (multisigs), [[Sarafu Network]] (local currency / commitment pooling), [[Cycles]] (open clearing protocol)
 
 ### **Technology Stack**
 
 **Required for all projects:**
 
-- **Karma GAP** — on-chain activity and impact reporting (living public "project resume")
-- **Web3 wallet on Celo** — secure fund management (Valora, Minipay, MetaMask, etc.)
+- **[[Karma GAP]]** — on-chain activity and impact reporting (living public "project resume")
+- **Web3 wallet on Celo** — secure fund management ([[Valora]], [[Minipay]], MetaMask, etc.)
 
 **Optional pilots:**
 
-- **Silvi** (tree planting dMRV), **Hypercerts/Ecocerts** (impact credentials), **Gainforest** (forest MRV), **Sarafu** (local currency), **Kokonut Network** (syntropic agroforestry), **Gardens** (conviction voting), **Cycles** (clearing protocol)
+- **[[Silvi]]** (tree planting dMRV), **[[Hypercerts]]**/[[Ecocerts]] (impact credentials), **[[Gainforest]]** (forest MRV), **[[Sarafu Network]]** (local currency), **[[Kokonut Network]]** (syntropic agroforestry), **[[Gardens]]** (conviction voting), **[[Cycles]]** (clearing protocol)
 
 ### **Technology Stack: Minimal Requirements, Maximum Flexibility**
 
@@ -424,18 +419,18 @@ _Together, let's finance the future we want to see — one bioregion at a time._
 
 The project cohort reflects Catalonia's regenerative diversity:
 
-**From Rural Resilience:** [Resilience Earth](https://resilience.earth/) applies blockchain and AI systems to improve environmental data collection for the Fluvià River basin. [De Bat a Bat](http://www.debatabat.org/) develops holistic community health models rooted in nature. [Mixité](https://www.mixite.cat/) designs new policies for rural housing sustainability.
+**From Rural Resilience:** [[Resilience Earth]] applies blockchain and AI systems to improve environmental data collection for the Fluvià River basin. [[De Bat a Bat]] develops holistic community health models rooted in nature. [[Mixité]] designs new policies for rural housing sustainability.
 
-**From Urban Innovation:** [Les Juntes](https://www.lesjuntes.coop/) creates cooperative housing models that resist commodification. [La Suculenta](https://www.instagram.com/suculentalh/?hl=es) provides affordable ecological meals while training people who have suffered rights violations. [Laurel 31](https://www.instagram.com/laurel31_economiassilvestres/?hl=es) advances textile sustainability in neighborhood contexts.
+**From Urban Innovation:** [[Les Juntes]] creates cooperative housing models that resist commodification. [[La Suculenta]] provides affordable ecological meals while training people who have suffered rights violations. [[Laurel 31]] advances textile sustainability in neighborhood contexts.
 
-**From Creative Regeneration:** [Regeneració.XYZ](https://regeneracio.xyz/) crafts new narratives for regeneration through artistic expression. [Chapter#2](https://chapter2.cat/) brings regenerative storytelling into schools. [Anigami](https://www.anigami.cat/) advances regenerative tourism models.
+**From Creative Regeneration:** [[Regeneració.XYZ]] crafts new narratives for regeneration through artistic expression. [[Chapter#2]] brings regenerative storytelling into schools. [[Anigami]] advances regenerative tourism models.
 
 ---
 
 - **Website:** [regenerant.refibcn.cat](https://regenerant.refibcn.cat/)
-- **ReFi Barcelona:** [refibcn.cat](https://refibcn.cat/)
+- **[[ReFi Barcelona]]:** [refibcn.cat](https://refibcn.cat/)
 - **Localism Fund:** [localism.fund](https://www.localism.fund/)
-- **Regen Coordination:** [regencoordination.xyz](https://www.regencoordination.xyz/)
+- **[[Regen Coordination]]:** [regencoordination.xyz](https://www.regencoordination.xyz/)
 
 **Contact:**
 
@@ -450,7 +445,7 @@ The project cohort reflects Catalonia's regenerative diversity:
 - [Impact Results | Gitcoin](https://impact.gitcoin.co/)
 - [Gitcoin Grants – Quadratic Funding for the World | Gitcoin Blog](https://www.gitcoin.co/blog/gitcoin-grants-quadratic-funding-for-the-world)
 - [AI ImpactQF Regen Coordination Global GG23 Retrospective](https://gov.gitcoin.co/t/ai-impactqf-regen-coordination-global-gg23-retrospective/20385)
-- [Miceli Social - ReFi Barcelona](https://refibcn.cat/Bioregional+Knowledge+Commons/Bioregionalisme+a+Catalunya/Projects+%26+Organizations/Miceli+Social)
+- [[Miceli Social]] - ReFi Barcelona](https://refibcn.cat/Bioregional+Knowledge+Commons/Bioregionalisme+a+Catalunya/Projects+%26+Organizations/Miceli+Social)
 - [[TEMP CHECK] Fair Fees for GG24 | Gitcoin](https://app.x23.ai/gitcoin/discussions/topic/22560/temp-check-fair-fees-for-gg24)
 - [Karma GAP - Grantee Accountability and reputation protocol - Public Good Projects Discussion - Octant](https://discuss.octant.app/t/karma-gap-grantee-accountability-and-reputation-protocol/232)
 - [ReFi Barcelona Bioregional Knowledge Commons](https://refibcn.cat/)
@@ -462,8 +457,6 @@ The project cohort reflects Catalonia's regenerative diversity:
 ---
 
 # **B.** Program **Design & Details**
-
-<aside>
 
 ## Program Details
 
@@ -477,15 +470,15 @@ _Original version → [](https://www.notion.so/2906ed0845cb805c8d4fd7c8e2506c08?
 
 **Local partners**
 
-- [**Miceli Social**](https://miceli.social/): cooperative hub for rural resilience, **co-funding €6,000** and helping identify candidate projects. Their involvement grounds the round in territorial needs and ongoing ecological transition across rural **comarques** (counties).
+- [[Miceli Social]]: cooperative hub for rural resilience, **co-funding €6,000** and helping identify candidate projects. Their involvement grounds the round in territorial needs and ongoing ecological transition across rural **comarques** (counties).
   - **Rural context:** based in Ripoll (Girona), Miceli supports municipalities and community groups to catalyze regenerative development.
-- [**La Fundició / Keras Buti**](https://lafundicio.net/): multi-stakeholder cooperative and **Xarxa d’Ateneus Cooperatius** hub, **co-funding €5,000** and inviting projects from its networks. Since 2006 they’ve linked the **urban commons** to bioregional practice through culture, education, and feminist economics.
+- [[La Fundició]] / [[Keras Buti]]: multi-stakeholder cooperative and **Xarxa d'Ateneus Cooperatius** hub, **co-funding €5,000** and inviting projects from its networks. Since 2006 they've linked the **urban commons** to bioregional practice through culture, education, and feminist economics.
   - **Urban context:** based in L’Hospitalet de Llobregat (Barcelona metro), Catalonia’s second most populous municipality and among the densest in Europe.
 - Together, they curate invitations, co-host workshops, co-define the program with ReFi Barcelona, support due diligence and mentorship, and embed practices locally so learning spreads through trusted networks.
 
 ### B. Theory of Change
 
-By equipping a **small cohort** with **funding, technology, connections, and know-how**, we create **visible success stories** that catalyze wider ReFi/Web3 adoption. Projects serve as **living labs** for participatory funding, transparent impact tracking, and collaborative governance, introduced **within Miceli and La Fundició’s ecosystems** so practices diffuse through existing social infrastructure.
+By equipping a **small cohort** with **funding, technology, connections, and know-how**, we create **visible success stories** that catalyze wider ReFi/Web3 adoption. Projects serve as **living labs** for participatory funding, transparent impact tracking, and collaborative governance, introduced **within [[Miceli Social]] and [[La Fundició]]'s ecosystems** so practices diffuse through existing social infrastructure.
 
 ### C. How it works
 
@@ -619,10 +612,6 @@ La Granja del Tilo is a worker cooperative running an **organic egg farm** in th
 
 ---
 
-</aside>
-
-<aside>
-
 ## Program Design
 
 ## **1️⃣ Mechanisms & Tooling**
@@ -700,9 +689,6 @@ _Original version → [](https://www.notion.so/2906ed0845cb8068beb5ec1ab503324f?
   - **Multilingual access:** content available in **Catalan, Spanish, and English**.
 - **Karma** reporting by all projects.
 - **Final deliverables (Feb-Mar 2026):** open report, impact documentation methodology, regional analysis with visualizations, replication toolkit, network governance templates.
-</aside>
-
-<aside>
 
 ## Program Funds & Distribution
 
@@ -764,10 +750,6 @@ _Original version → [](https://www.notion.so/2906ed0845cb802989e4eaccd6b35c18?
 - Safe address: 0x91889ea97FeD05180fb5A70cB9570630f3C0Be77
 - Signers: ReFi Barcelona team (2-of-3 initially; expanding to include partner advisors, to be onboarded)
 - All disbursements publicly documented via on-chain records + Karma updates
-
-</aside>
-
-<aside>
 
 ## Program Execution
 
@@ -930,19 +912,19 @@ All workshops will be online. Participants should have their laptops or mobile p
 
 **January–February 2026:** Networks participate in **Workshop #4** to learn advanced Web3 governance tools and collectively activate governance of Phase 2 funds. **Workshop #5** explores the long-term vision of BioFi and Bioregional Finance Infrastructure.
 
-</aside>
-
-<aside>
-
 ## Program Resources
 
 ### Evaluation Criteria
 
+See [Program Evaluation Criteria](/program/evaluation-criteria) for detailed evaluation framework.
+
 ### Regenerant Catalunya - Project Guidebook
+
+See [Project Guidebook](/program/project-guidebook) for comprehensive guide for participating projects.
 
 ### Regenerant Catalunya - Network Guidebook
 
-</aside>
+See [Network Guidebook](/program/network-guidebook) for network-level governance guide.
 
 ---
 

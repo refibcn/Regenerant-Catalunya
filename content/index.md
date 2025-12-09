@@ -68,7 +68,7 @@ description: "A collaborative funding round uniting Catalan initiatives with mat
         <dd style="margin: 0; font-size: 0.95rem; line-height: 1.6;">
           An additional <strong>€1,000 per project</strong> is allocated to network-level pools: <strong>~€6,000 for Miceli Social network</strong> and <strong>~€5,000 for La Fundició/Keras Buti network</strong>.
           <br>
-          Networks collectively govern these funds using Web3 tools like <strong>Gardens</strong>, <strong>Safe</strong>, <strong>Sarafu</strong>, and <strong>Cycles</strong> <em>(see more below).</em>
+          Networks collectively govern these funds using Web3 tools like <strong>Gardens</strong>, <strong>Safe</strong>, <strong>Sarafu Network</strong>, and <strong>Cycles</strong> <em>(see more below).</em>
         </dd>
       </div>
     </dl>
@@ -353,7 +353,7 @@ description: "A collaborative funding round uniting Catalan initiatives with mat
             <br>
             Secure self-custodial wallets for fund management. Recommended: <strong>Valora</strong> or <strong>Minipay</strong> with social recovery to prevent key loss.
           </p>
-          <p style="margin-bottom: 0;"><a href="/program/tools#web3-wallets" style="font-weight: 600; font-size: 0.9rem;">Learn more →</a></p>
+          <p style="margin-bottom: 0;"><a href="/program/tools#web3-wallets-on-celo" style="font-weight: 600; font-size: 0.9rem;">Learn more →</a></p>
         </div>
         <div class="grid-item">
           <h4>Karma GAP</h4>
@@ -370,8 +370,8 @@ description: "A collaborative funding round uniting Catalan initiatives with mat
             Projects can opt-in to pilot these tools for enhanced capabilities:
           </p>
           <ul style="font-size: 0.95rem; line-height: 1.25; margin: 0 0 1rem 0; padding-left: 1.25rem;">
-            <li><strong>Silvi</strong> (tree planting dMRV)</li>
-            <li><strong>Hypercerts/Ecocerts</strong> (impact credentials)</li>
+            <li><strong>Silvi</strong> (tree planting dMRV)
+            <li><strong>Hypercerts</strong>/<strong>Ecocerts</strong> (impact credentials)</li>
             <li><strong>Gainforest</strong> (forest MRV)</li>
             <li><strong>Kokonut Network</strong> (syntropic agroforestry)</li>
           </ul>
@@ -395,14 +395,14 @@ description: "A collaborative funding round uniting Catalan initiatives with mat
           <p style="font-size: 0.95rem; line-height: 1.5;">
             Multi-signature wallet for secure, transparent treasury management requiring multiple approvals.
           </p>
-          <p style="margin-bottom: 0;"><a href="/program/tools#safe" style="font-weight: 600; font-size: 0.9rem;">Learn more →</a></p>
+          <p style="margin-bottom: 0;"><a href="/program/tools#safe-multisigs" style="font-weight: 600; font-size: 0.9rem;">Learn more →</a></p>
         </div>
         <div class="grid-item">
           <h4>Sarafu Network</h4>
           <p style="font-size: 0.95rem; line-height: 1.5;">
             Local currency and commitment pooling platform for community digital currencies and collective projects.
           </p>
-          <p style="margin-bottom: 0;"><a href="/program/tools#sarafu" style="font-weight: 600; font-size: 0.9rem;">Learn more →</a></p>
+          <p style="margin-bottom: 0;"><a href="/program/tools#sarafu-network" style="font-weight: 600; font-size: 0.9rem;">Learn more →</a></p>
         </div>
         <div class="grid-item">
           <h4>Cycles</h4>

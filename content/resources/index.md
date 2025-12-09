@@ -9,6 +9,18 @@ Central hub for all resources, documentation, and support materials for Regenera
 
 ---
 
+## Essential Guides
+
+**Get started with these key guides:**
+
+- **[Project Page Preparation](/resources/project-page-prep)** — Complete guide to preparing your project page and documentation
+- **[Guía Completa de Onboarding a Valora](/es/resources/valora-guide)** — Step-by-step wallet setup with screenshots
+- **[Evaluation Criteria](/program/evaluation-criteria)** — Complete evaluation framework and understanding criteria
+
+**Need more detail?** See the [Essential Guidebooks](#essential-guidebooks) section below.
+
+---
+
 ## Essential Guidebooks
 
 ### [Project Guidebook](/program/project-guidebook)
@@ -16,22 +28,11 @@ Central hub for all resources, documentation, and support materials for Regenera
 Comprehensive guide for participating projects covering:
 
 - Phase 1 requirements and minimum participation
-- Karma GAP setup and usage guide
-- Web3 wallet setup (Celo: Valora, Minipay, etc.)
-- Workshop schedule and expectations
-- Office hours and support resources
-- Phase 2 overview
-- FAQ for projects
-
-### [Network Guidebook](/program/network-guidebook)
-
-Guide for network-level governance covering:
-
-- Phase 2 funding structure
-- Web3 governance tools introduction (Gardens, Safe, Sarafu, Cycles)
-- Collective decision-making processes
-- Network coordination best practices
-- Resources and support
+- **Visual journey flow** — Complete Phase 1 journey from kickoff to disbursement
+- **Step-by-step guide** — Each step with links to detailed pages
+- **Workshop schedule** — All workshops and key activities
+- **Support resources** — Office hours, contact information, FAQ
+- Links to detailed guides for each step
 
 ### [Program Timeline](/program/timeline)
 
@@ -48,7 +49,7 @@ Complete timeline with:
 
 ### Required Tools (Phase 1)
 
-#### Karma GAP
+#### [[Karma GAP]]
 
 - **What it is:** On-chain activity and impact reporting platform
 - **Website:** [Karma GAP Documentation](https://discuss.octant.app/t/karma-gap-grantee-accountability-and-reputation-protocol/232)
@@ -60,8 +61,9 @@ Complete timeline with:
 
 **Recommended (Social Recovery):**
 
-- **Valora** — [valoraapp.com](https://valoraapp.com/)
-- **Minipay** — Stablecoin-focused wallet with social recovery
+- **[[Valora]]** — [valoraapp.com](https://valoraapp.com/)
+  - **[Complete Valora Setup Guide](/es/resources/valora-guide)** — Step-by-step walkthrough with screenshots
+- **[[Minipay]]** — Stablecoin-focused wallet with social recovery
 
 **Also Supported:**
 
@@ -70,18 +72,18 @@ Complete timeline with:
 - **Zerion** — [zerion.io](https://zerion.io/)
 - **Rainbow** — [rainbow.me](https://rainbow.me/)
 
-**Training:** Provided in Workshop #1 (November 17-21, 2025)
+**Training:** Provided in Workshop #1 (November 19, 2025)
 
 ### Network-Level Tools (Phase 2)
 
-#### Gardens
+#### [[Gardens]]
 
 - **What it is:** Conviction voting for community funding and governance
 - **Website:** [gardens.1hive.org](https://gardens.1hive.org/)
 - **Use cases:** Template for projects and volunteers, bounties and rewards
 - **Training:** Covered in Workshop #4 (January 2026)
 
-#### Safe (Multisigs)
+#### [[Safe]] (Multisigs)
 
 - **What it is:** Multi-signature wallet for secure, transparent fund management
 - **Website:** [safe.global](https://safe.global/)
@@ -89,14 +91,14 @@ Complete timeline with:
 - **Use cases:** Network treasury management, transparent fund disbursements
 - **Training:** Covered in Workshop #4 (January 2026)
 
-#### Sarafu Network
+#### [[Sarafu Network]]
 
 - **What it is:** Local currency and commitment pooling platform
 - **Website:** [sarafu.network](https://sarafu.network/)
 - **Use cases:** Local currency systems, commitment pooling for collective projects
 - **Training:** Covered in Workshop #4 (January 2026)
 
-#### Cycles
+#### [[Cycles]]
 
 - **What it is:** Open clearing protocol for mutual credit and circular economy
 - **Website:** [cycles.so](https://www.cycles.so/)
@@ -107,16 +109,16 @@ Complete timeline with:
 
 Projects can opt-in to pilot these tools for enhanced capabilities:
 
-- **Silvi** — Tree planting & stewardship dMRV
-- **Hypercerts/Ecocerts** — Impact credentials
-- **Gainforest** — Forest MRV
-- **Kokonut Network** — Syntropic agroforestry design
+- **[[Silvi]]** — Tree planting & stewardship dMRV
+- **[[Hypercerts]]**/[[Ecocerts]] — Impact credentials
+- **[[Gainforest]]** — Forest MRV
+- **[[Kokonut Network]]** — Syntropic agroforestry design
 
 ---
 
 ## Program Documentation
 
-### [Master Document](/master-document)
+### [Program Overview](/program)
 
 Comprehensive program documentation including:
 
@@ -127,18 +129,6 @@ Comprehensive program documentation including:
 - Program timeline
 - Project cohort details
 
-### [Program Design](/program/design/)
-
-Design documentation and planning:
-
-- [Program Design Overview](design/index.md)
-- [Design Summary](design/summary.md)
-
-### [Program Execution](/program/execution/)
-
-Execution plans and operational documentation:
-
-- [Program Execution Plan](execution/index.md)
 
 ### [Evaluation Criteria](/program/evaluation-criteria)
 
@@ -147,6 +137,8 @@ Evaluation framework and criteria:
 - Simplified impact evaluation approach
 - Allocation structure
 - Evaluation process
+
+**For Projects:** The evaluation criteria page includes visual breakdown, how to align your reporting, and self-assessment guidance.
 
 ---
 
@@ -178,8 +170,10 @@ Evaluation framework and criteria:
 
 ### Workshop #1: Introducing Regenerant Catalunya
 
-**When:** November 17-21, 2025  
-**Materials:** Provided during workshop
+**When:** November 19, 2025 ✅ Completed  
+**Materials:**
+- [Workshop Documentation](/resources/workshops/workshop-1-kickoff) — Complete notes, recording, and resources
+- Workshop recording and slides (shared separately)
 
 ### Workshop #2: Documenting Impact
 
@@ -211,18 +205,18 @@ Evaluation framework and criteria:
 ### Program Budget
 
 - **Total:** €29,200 (~$32,120)
-- **Local Co-Funding:** €11,000 (€6,000 Miceli Social + €5,000 La Fundició)
+- **Local Co-Funding:** €11,000 (€6,000 [[Miceli Social]] + €5,000 [[La Fundició]])
 - **Global Matching:** $20,000 (via Localism Fund)
 
 ### Treasury Management
 
-- **Safe Multisig Address:** 0x91889ea97FeD05180fb5A70cB9570630f3C0Be77 (on Celo)
-- **Transparency:** All disbursements publicly documented via on-chain records + Karma updates
+- **[[Safe]] Multisig Address:** 0x91889ea97FeD05180fb5A70cB9570630f3C0Be77 (on Celo)
+- **Transparency:** All disbursements publicly documented via on-chain records + [[Karma GAP]] updates
 
 ### Funding Distribution
 
 - **Phase 1:** Minimum €1,000 per project (tied to minimum participation), up to €1,500 per project (based on simplified impact evaluation)
-- **Phase 2:** €1,000 per project allocated to network-level pools (Miceli ~€6k, La Fundició ~€5k)
+- **Phase 2:** €1,000 per project allocated to network-level pools ([[Miceli Social]] ~€6k, [[La Fundició]] ~€5k)
 
 ---
 
@@ -230,17 +224,17 @@ Evaluation framework and criteria:
 
 ### Partners & Funders
 
-- **ReFi Barcelona:** [refibcn.cat](https://refibcn.cat/)
-- **Miceli Social:** [miceli.social](https://miceli.social/)
-- **La Fundició:** [lafundicio.net](https://lafundicio.net/)
+- **[[ReFi Barcelona]]:** [refibcn.cat](https://refibcn.cat/)
+- **[[Miceli Social]]:** [miceli.social](https://miceli.social/)
+- **[[La Fundició]]:** [lafundicio.net](https://lafundicio.net/)
 - **Localism Fund:** [localism.fund](https://www.localism.fund/)
-- **Regen Coordination:** [regencoordination.xyz](https://www.regencoordination.xyz/)
+- **[[Regen Coordination]]:** [regencoordination.xyz](https://www.regencoordination.xyz/)
 
 ### Related Programs & References
 
 - [Ethereum Localism x Regen Coordination](https://blog.refidao.com/ethereum-localism-x-regen-coordination/)
 - [Gitcoin Grants](https://grants.gitcoin.co/)
-- [Karma GAP Discussion](https://discuss.octant.app/t/karma-gap-grantee-accountability-and-reputation-protocol/232)
+- [[Karma GAP]] Discussion: [Karma GAP Documentation](https://discuss.octant.app/t/karma-gap-grantee-accountability-and-reputation-protocol/232)
 - [Regen Coordination GG23 Retrospective](https://gov.gitcoin.co/t/ai-impactqf-regen-coordination-global-gg23-retrospective/20385)
 
 ---

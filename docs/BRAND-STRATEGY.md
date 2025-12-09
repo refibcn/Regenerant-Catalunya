@@ -149,60 +149,40 @@ Green Highlight: rgba(33, 64, 51, 0.15)
 
 ## Implementation Approach
 
-### Agent-Executable Processes
+### Manual Image Processing
 
-All visual creation processes are designed to be executed by AI agents (Cursor/ChatGPT) using code-based workflows:
+All image processing is done manually using [ditheringstudio.com](https://ditheringstudio.com/):
 
-1. **Pattern Application:** Automated halftone pattern generation scripts
-2. **Image Processing:** Batch image processing pipelines
-3. **Logo Generation:** Procedural logo creation workflows
-4. **Template Generation:** Code-based template creation
-5. **Quality Control:** Automated brand compliance checks
+1. **Pattern Application:** Apply halftone/dithering effects via ditheringstudio.com
+2. **Image Processing:** Manual color grading and export
+3. **Logo Generation:** Design tools (Figma/design software)
+4. **Template Generation:** Design tools with brand guidelines
+5. **Quality Control:** Manual verification against brand specs
 
 ### Tool Strategy
 
-**Primary:** Code-based scripts (Python/Node.js)
+**Primary:** Manual processing via web tools
 
-- Pattern generation scripts
-- Image processing pipelines
-- Template generation
-- Quality control automation
+- [ditheringstudio.com](https://ditheringstudio.com/) for dithering effects
+- Design software for templates and logos
+- Manual quality checks
 
-**Secondary:** Figma MCP integration (when available)
+**Secondary:** Figma (for advanced design work)
 
-- Advanced design work
 - Template component creation
 - Design system management
-
-**Eliminated:** Manual Canva/Figma workflows
-
-- Replaced with agent-executable procedures
-- Automated processing pipelines
-- Code-based asset generation
+- Logo design
 
 ### File Organization
 
 ```
-scripts/brand-assets/
-├── pattern-generation/
-│   ├── halftone-dots.js
-│   ├── halftone-lines.js
-│   ├── halftone-squares.js
-│   ├── halftone-crosshatch.js
-│   └── halftone-glyphs.js
-├── image-processing/
-│   ├── apply-pattern.js
-│   ├── apply-duotone.js
-│   └── batch-process.js
-├── logo-generation/
-│   └── generate-logo-variants.js
-├── template-generation/
-│   ├── social-media.js
-│   ├── web-banners.js
-│   └── event-materials.js
-└── quality-control/
-    ├── check-brand-compliance.js
-    └── validate-assets.js
+assets/
+├── config/              # Brand configuration files
+│   ├── brand-config.json
+│   ├── colors.json
+│   └── pattern-config.json
+├── generated/           # Processed visual assets
+└── test-prototypes/     # Test materials
 ```
 
 ---
@@ -235,7 +215,7 @@ scripts/brand-assets/
 
 - **Agent Implementation Guide:** `AGENT-IMPLEMENTATION-GUIDE.md`
 - **Procedural Specifications:** `PROCEDURAL-SPECIFICATIONS.md`
-- **Script Library:** `scripts/brand-assets/`
+- **Brand Assets:** `assets/` (config, generated assets, test prototypes)
 
 ---
 

@@ -25299,3 +25299,33 @@ article[data-slug="index"] {
     }
   }
 }
+
+// Hide duplicate h1 headings in article content
+// ArticleTitle component already renders the title, so hide h1s from markdown content
+article > h1:first-of-type:not(.article-title) {
+  display: none;
+}
+
+// Make images responsive and fitting across all screen sizes
+// Override base img styles with more specific selector
+.page .center article img,
+article img {
+  // Base styles for all screen sizes (mobile-first)
+  max-width: 80% !important;
+  width: auto !important;
+  height: auto !important;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  
+  // Tablet and up (768px+)
+  @media (min-width: 768px) {
+    max-width: 50% !important;
+  }
+  
+  // Desktop (1024px+)
+  @media (min-width: 1024px) {
+    max-width: 40% !important;
+  }
+}
+

@@ -44,8 +44,8 @@ Benvinguts a **Regenerant Catalunya**! Aquesta guia ofereix tot el que necessite
 
 **Finançament:** €1.000 per projecte assignat a fons a nivell de xarxa:
 
-- **Xarxa Miceli Social:** ~€6.000 fons col·lectiu
-- **Xarxa La Fundició / Keras Buti:** ~€5.000 fons col·lectiu
+- **Xarxa [[Miceli Social]]:** ~€6.000 fons col·lectiu
+- **Xarxa [[La Fundició]] / [[Keras Buti]]:** ~€5.000 fons col·lectiu
 
 **Governança:** Les xarxes governen col·lectivament els fons utilitzant eines de governança Web3 (Gardens, Safe multisigs, Sarafu, Cycles)
 
@@ -62,7 +62,7 @@ Benvinguts a **Regenerant Catalunya**! Aquesta guia ofereix tot el que necessite
 - **Quan:** 17-21 de novembre de 2025 (1,5 hores)
 - **Format:** En línia
 - **Contingut:**
-  - Presentació de ReFi Barcelona
+  - Presentació de [[ReFi Barcelona]]
   - Per què Web3 (abordant mites i preocupacions)
   - Visió a llarg termini (BioFi i Infraestructura de Finances Biorecionals)
   - Presentació de la ronda i els socis
@@ -166,7 +166,7 @@ Karma (Grantee Accountability Protocol) és una plataforma en cadena per a infor
 
 ## Visió General de la Fase 2: Governança a Nivell de Xarxa
 
-A la Fase 2, la vostra xarxa (Miceli Social o La Fundició / Keras Buti) governarà col·lectivament un fons de recursos utilitzant eines Web3.
+A la Fase 2, la vostra xarxa ([[Miceli Social]] o [[La Fundició]] / [[Keras Buti]]) governarà col·lectivament un fons de recursos utilitzant eines Web3.
 
 **Què Esperar:**
 
@@ -199,7 +199,7 @@ A la Fase 2, la vostra xarxa (Miceli Social o La Fundició / Keras Buti) governa
 ### Informació de Contacte
 
 - **Correu electrònic:** hola@ReFiBCN.cat
-- **ReFi Barcelona:** [refibcn.cat](https://refibcn.cat/)
+- **[[ReFi Barcelona]]:** [refibcn.cat](https://refibcn.cat/)
 - **Lloc Web del Programa:** [regenerant.refibcn.cat](https://regenerant.refibcn.cat/)
 
 ### Recursos Addicionals
@@ -207,7 +207,7 @@ A la Fase 2, la vostra xarxa (Miceli Social o La Fundició / Keras Buti) governa
 - [Cronograma del Programa](/ca/program/timeline) — Cronograma complet amb totes les fites
 - [Guia de Xarxa](/ca/program/network-guidebook) — Guia per a la governança de xarxa de la Fase 2
 - [Recursos](/ca/resources) — Enllaços a tota la documentació d'eines i materials de suport
-- [Document Mestre](/ca/master-document) — Documentació completa del programa
+- [Programa](/ca/program) — Informació completa del programa
 
 ---
 
@@ -250,7 +250,7 @@ R: Necessites assistir a almenys 2 tallers per complir els requisits mínims de 
 R: Contacta'ns a hola@ReFiBCN.cat. Podem proporcionar enregistraments o arranjaments alternatius.
 
 **P: Què passa a la Fase 2?**
-R: La teva xarxa (Miceli Social o La Fundició) governa col·lectivament els fons de la Fase 2 utilitzant eines Web3. Aprendràs sobre eines de governança al Taller #4 i participaràs en la presa de decisions col·lectiva.
+R: La teva xarxa ([[Miceli Social]] o [[La Fundició]]) governa col·lectivament els fons de la Fase 2 utilitzant eines Web3. Aprendràs sobre eines de governança al Taller #4 i participaràs en la presa de decisions col·lectiva.
 
 ### Preguntes sobre Impacte i Informes
 
@@ -268,7 +268,7 @@ R: Sí, Karma crea un registre públic en cadena. Això construeix la teva reput
 ## Dates i Terminis Clau
 
 - **31 d'octubre de 2025:** Fons locals assegurats en cadena ✅
-- **Mitjans de novembre de 2025:** Fons d'igualació globals assegurats en cadena
+- **Final de novembre de 2025:** Fons d'igualació globals assegurats en cadena
 - **17-21 de novembre de 2025:** Taller #1 — Inici del programa
 - **4-19 de desembre de 2025:** Hores d'oficina per a suport de projectes
 - **8-14 de desembre de 2025:** Taller #2 — Formació en documentació d'impacte

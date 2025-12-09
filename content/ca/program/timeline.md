@@ -43,11 +43,11 @@ gantt
 - Compromisos de socis locals confirmats
 - **Estat:** Completat
 
-### Mitjans de novembre de 2025
+### Final de novembre de 2025
 
 **Fons d'igualació globals assegurats en cadena**
 
-- $20.000 del Localism Fund
+- Desemborsament estimat $18.000 (≈ €16.380) del Localism Fund
 - Fons disponibles per a distribució
 
 ---
@@ -230,12 +230,34 @@ graph LR
 
 ---
 
+## Suport Continu i Infraestructura
+
+Durant tot el programa, els projectes tenen accés a:
+
+**Suport Tècnic:**
+- Hores d'oficina setmanals per a preguntes tècniques i resolució de problemes
+- Suport a la carta per a problemes crítics i emergències
+- Actualitzacions de plataforma i introducció de noves funcionalitats
+- Orientació sobre seguretat i millors pràctiques
+
+**Programa de Mentoria:**
+- Sessions mensuals mentor-projecte amb experts Web3 globals
+- Oportunitats d'aprenentatge entre iguals i col·laboració entre projectes
+- Suport ad-hoc per a reptes i oportunitats específiques
+
+**Construcció de Comunitat:**
+- Reunions regulars de cohort i compartició de progrés
+- Facilitació de col·laboració entre projectes
+- Construcció de xarxa i desenvolupament de relacions
+
+---
+
 ## Recursos
 
 - [Guia de Projectes](/ca/program/project-guidebook) — Guia detallada per a projectes participants
 - [Guia de Xarxa](/ca/program/network-guidebook) — Guia per a la governança de xarxa de la Fase 2
 - [Recursos](/ca/resources) — Enllaços a tota la documentació d'eines i materials de suport
-- [Document Mestre](/ca/master-document) — Documentació completa del programa
+- [Programa](/ca/program) — Informació completa del programa
 
 ---
 

@@ -521,3 +521,5 @@ logos/
 
 **Maintained By:** ReFi Barcelona Brand Team  
 **Last Review:** November 13, 2025
+
+

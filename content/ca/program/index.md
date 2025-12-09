@@ -5,7 +5,7 @@ description: "Una ronda de finançament participatiu que connecta el treball reg
 
 # Regenerant Catalunya
 
-**Regenerant Catalunya** és una ronda de finançament participatiu pionera que demostra com el **coneixement local pot integrar-se amb la infraestructura Web3 global** per crear un model replicable de regeneració bioregional. Mitjançant la col·laboració entre socis catalans establerts ([Miceli Social](https://miceli.social/), [La Fundició](https://lafundicio.net/)/[Keras Buti](https://kerasbuti.org/)) i finançadors Web3 globals (Gitcoin, Celo, Ethereum Foundation), estem canalitzant **€29.200 a 10-12 projectes regeneratius seleccionats** arreu de Catalunya.
+**Regenerant Catalunya** és una ronda de finançament participatiu pionera que demostra com el **coneixement local pot integrar-se amb la infraestructura Web3 global** per crear un model replicable de regeneració bioregional. Mitjançant la col·laboració entre socis catalans establerts ([Miceli Social](https://miceli.social/), [La Fundició](https://lafundicio.net/)/[Keras Buti](https://kerasbuti.org/)) i finançadors Web3 globals (Gitcoin, Celo, Ethereum Foundation), estem canalitzant **€27.380 a 11 projectes regeneratius confirmats** (10-12 totals) arreu de Catalunya.
 
 ## Què el fa únic
 
@@ -34,7 +34,7 @@ _Ronda de Finançament Participatiu Bioregional a Catalunya_
 
 El programa està liderat per **ReFi Barcelona** com a pont entre les necessitats locals i el suport global, proporcionant a projectes locals seleccionats finançament **igualat per socis Web3 globals**. A canvi, aquests projectes **experimentaran amb tecnologies i eines financeres noves** (per exemple, finançament comunitari basat en blockchain, seguiment d'impacte digital) que podrien obrir noves fonts d'ingressos i millorar el seu impacte a llarg termini.
 
-Tant el fons de finançament _com_ les activitats de Regenerant Catalunya han sorgit mitjançant una mediació d'interessos locals i globals. Xarxes regeneratives catalanes establertes com **Miceli Social** i **La Fundició** han compromès conjuntament al voltant de **€11.000**, que s'està igualant amb fins a $20.000 **per patrocinadors globals a través del Localism Fund** — portant el fons total a **€29.200**, que s'utilitzarà per donar suport directament a 10-12 projectes regeneratius a Catalunya.
+Tant el fons de finançament _com_ les activitats de Regenerant Catalunya han sorgit mitjançant una mediació d'interessos locals i globals. Xarxes regeneratives catalanes establertes com **Miceli Social** i **La Fundició** han compromès conjuntament **€11.000**, que s'està igualant amb un desemborsament estimat de $18.000 **per patrocinadors globals a través del Localism Fund** — portant el fons total a **€27.380**, que s'utilitzarà per donar suport directament a 11 projectes regeneratius confirmats (10-12 totals) a Catalunya.
 
 ---
 
@@ -49,7 +49,7 @@ _Si ets un finançador o soci tècnic interessat en donar suport a la regeneraci
 ## Més Informació
 
 - [Partners i Projectes](/ca/program/partners-projects) - Socis i projectes participants
-- [Document Mestre](/ca/master-document) - Documentació completa del programa
+- [Programa](/ca/program) - Informació completa del programa
 
 ---
 
@@ -59,18 +59,10 @@ _Si ets un finançador o soci tècnic interessat en donar suport a la regeneraci
 
 Cronograma complet amb fites clau i horari de tallers.
 
-### [Disseny del Programa](design/)
 
-Documentació de disseny i planificació del programa.
+### [Cronograma del Programa](/ca/program/timeline)
 
-- [Visió General del Disseny del Programa](design/index.md)
-- [Resum del Disseny](design/summary.md)
-
-### [Execució del Programa](execution/)
-
-Plans d'execució i documentació operativa.
-
-- [Pla d'Execució del Programa](execution/index.md)
+Cronograma complet amb fites clau, horari de tallers i suport continu.
 
 ### [Guia de Projectes](project-guidebook/)
 

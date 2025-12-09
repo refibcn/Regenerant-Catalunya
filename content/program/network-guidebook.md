@@ -1,6 +1,7 @@
 ---
 title: "Network Guidebook"
 description: "Guide for network-level governance in Phase 2 of Regenerant Catalunya"
+draft: true
 ---
 
 # Regenerant Catalunya - Network Guidebook
@@ -36,7 +37,7 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
 
 ### Governance Tools
 
-#### Gardens
+#### [[Gardens]]
 
 - **What it is:** Conviction voting for community funding and governance
 - **Use cases:**
@@ -56,7 +57,7 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
 
 ### Finance Tools
 
-#### Safe (Multisigs)
+#### [[Safe]] (Multisigs)
 
 - **What it is:** Multi-signature wallet for secure, transparent fund management
 - **Use cases:**
@@ -67,7 +68,7 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
 - **Program Treasury:** 0x91889ea97FeD05180fb5A70cB9570630f3C0Be77 (on Celo)
 - **Training:** Covered in Workshop #4 (January 2026)
 
-#### Sarafu Network
+#### [[Sarafu Network]]
 
 - **What it is:** Local currency and commitment pooling platform
 - **Use cases:**
@@ -77,7 +78,7 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
 - **Website:** [sarafu.network](https://sarafu.network/)
 - **Training:** Covered in Workshop #4 (January 2026)
 
-#### Cycles
+#### [[Cycles]]
 
 - **What it is:** Open clearing protocol for mutual credit and circular economy
 - **Use cases:**
@@ -112,8 +113,8 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
 
 **Decisions to Make:**
 
-- Which governance tools to use (Gardens, multistakeholder contracts, etc.)
-- Which finance tools to use (Safe, Sarafu, Cycles, etc.)
+- Which governance tools to use ([[Gardens]], multistakeholder contracts, etc.)
+- Which finance tools to use ([[Safe]], [[Sarafu Network]], [[Cycles]], etc.)
 - How to structure decision-making (voting thresholds, proposal processes, etc.)
 - Who will be signers/participants in governance structures
 
@@ -156,12 +157,12 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
   - Networks of significant size that manage resources
   - Let's manage our resources together!
 - How tools can be used for governance:
-  - **Gardens** — template for projects and volunteers, bounties and rewards
+  - **[[Gardens]]** — template for projects and volunteers, bounties and rewards
   - Multistakeholder contracts
 - Finance tools:
-  - **Safe** (multisigs)
-  - **Sarafu** (local currency / commitment pooling)
-  - **Cycles** (open clearing protocol)
+  - **[[Safe]]** (multisigs)
+  - **[[Sarafu Network]]** (local currency / commitment pooling)
+  - **[[Cycles]]** (open clearing protocol)
 
 **Project Deliverables:**
 
@@ -203,7 +204,7 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
 
 ### Fund Management
 
-- **Transparent Treasury:** Use Safe multisig or similar tools for transparent fund management
+- **Transparent Treasury:** Use [[Safe]] multisig or similar tools for transparent fund management
 - **Clear Allocation Criteria:** Define criteria for how funds will be allocated
 - **Regular Reporting:** Provide regular updates on fund usage and impact
 - **Public Records:** Maintain public, on-chain records of all transactions
@@ -230,9 +231,9 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
 
 **Potential Tools:**
 
-- **Gardens:** For voting on project proposals and resource allocation
-- **Safe:** For secure treasury management with multiple signers
-- **Sarafu:** For local currency supporting rural economic flows
+- **[[Gardens]]:** For voting on project proposals and resource allocation
+- **[[Safe]]:** For secure treasury management with multiple signers
+- **[[Sarafu Network]]:** For local currency supporting rural economic flows
 
 ### La Fundició / Keras Buti Network (~€5,000)
 
@@ -245,9 +246,9 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
 
 **Potential Tools:**
 
-- **Gardens:** For community funding decisions
-- **Safe:** For transparent treasury management
-- **Cycles:** For circular economy and mutual credit systems
+- **[[Gardens]]:** For community funding decisions
+- **[[Safe]]:** For transparent treasury management
+- **[[Cycles]]:** For circular economy and mutual credit systems
 
 ---
 
@@ -265,7 +266,7 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
 - [Project Guidebook](/program/project-guidebook) — For individual project requirements
 - [Program Timeline](/program/timeline) — Complete timeline with all milestones
 - [Resources](/resources) — Links to all tool documentation
-- [Master Document](/master-document) — Comprehensive program documentation
+- [Program Overview](/program) — Complete program information
 
 ### Contact
 

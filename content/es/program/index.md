@@ -5,7 +5,7 @@ description: "Una ronda de financiación participativa que conecta el trabajo re
 
 # Regenerant Catalunya
 
-**Regenerant Catalunya** es una ronda de financiación participativa pionera que demuestra cómo el **conocimiento local puede integrarse con la infraestructura Web3 global** para crear un modelo replicable de regeneración bioregional. Mediante la colaboración entre socios catalanes establecidos ([Miceli Social](https://miceli.social/), [La Fundició](https://lafundicio.net/)/[Keras Buti](https://kerasbuti.org/)) y financiadores Web3 globales (Gitcoin, Celo, Ethereum Foundation), estamos canalizando **€29.200 a 10-12 proyectos regenerativos seleccionados** por toda Cataluña.
+**Regenerant Catalunya** es una ronda de financiación participativa pionera que demuestra cómo el **conocimiento local puede integrarse con la infraestructura Web3 global** para crear un modelo replicable de regeneración bioregional. Mediante la colaboración entre socios catalanes establecidos ([Miceli Social](https://miceli.social/), [La Fundició](https://lafundicio.net/)/[Keras Buti](https://kerasbuti.org/)) y financiadores Web3 globales (Gitcoin, Celo, Ethereum Foundation), estamos canalizando **€27.380 a 11 proyectos regenerativos confirmados** (10-12 totales) por toda Cataluña.
 
 ## Qué lo hace único
 
@@ -19,6 +19,28 @@ En lugar de imponer soluciones blockchain externas, **construimos dentro de ecos
 
 - **Fase 1 (nov-dic 2025):** Asignación Base — mínimo €1.000 por proyecto (vinculado a los requisitos mínimos de participación), hasta €1.500 por proyecto (basado en evaluación simplificada de impacto)
 - **Fase 2 (ene-feb 2026):** Gobernanza Colectiva a Nivel de Red — €1.000 por proyecto asignado a fondos a nivel de red para gobernanza colectiva utilizando herramientas Web3
+
+---
+
+## Redes y recorridos de talleres
+
+Regenerant Catalunya se organiza alrededor de **dos redes** que siguen **recorridos de talleres paralelos que convergen**:
+
+- **Red Miceli Social:** Proyectos rurales conectados a través de Miceli Social  
+- **Red La Fundició / Keras Buti:** Proyectos urbanos/cooperativos conectados a través de La Fundició y Keras Buti
+
+En la **Fase 1**, los talleres se estructuran intencionalmente en **dos oleadas**:
+
+- **Oleada 1 – Talleres de Documentación (ahora):**  
+  - Sesiones separadas para cada red (por ejemplo, segundo taller de Keras Buti **presencial en Pomezia el 3 de diciembre**, taller de Miceli **en línea el 11 de diciembre** más una sesión corta **presencial alrededor de la asamblea general de Miceli el 19 de diciembre**).  
+  - **Enfoque:** Ayudar a los proyectos a **compilar y estructurar sus actividades, entregables y métricas** en un **informe de actividades en Google Docs**, usando lenguaje sencillo y ejemplos concretos.  
+  - **Importante:** En estos primeros talleres **no pedimos a los proyectos que abran carteras ni que utilicen KarmaGAP u otras herramientas Web3**. El objetivo es dejar la documentación preparada.
+
+- **Oleada 2 – Taller práctico de Web3 y KarmaGAP (más adelante en la Fase 1):**  
+  - Talleres de seguimiento donde los proyectos **abrirán carteras (si aún no lo han hecho)** y **trasladarán su informe de actividades en Google Docs a actualizaciones de “Project Activity” en KarmaGAP**.  
+  - Estas sesiones se apoyarán directamente en los Google Docs preparados en la Oleada 1 y se programarán **después** de que la documentación esté lista.
+
+En ambas redes, el requisito compartido es que cada proyecto prepare un **informe de actividades** conciso (actividades → entregables → métricas con prueba/evidencia) que después pueda copiarse a KarmaGAP.
 
 ## Visión
 
@@ -34,7 +56,7 @@ _Ronda de Financiación Participativa Bioregional en Cataluña_
 
 El programa está liderado por **ReFi Barcelona** como puente entre las necesidades locales y el apoyo global, proporcionando a proyectos locales seleccionados financiación **igualada por socios Web3 globales**. A cambio, estos proyectos **experimentarán con tecnologías y herramientas financieras nuevas** (por ejemplo, financiación comunitaria basada en blockchain, seguimiento de impacto digital) que podrían abrir nuevas fuentes de ingresos y mejorar su impacto a largo plazo.
 
-Tanto el fondo de financiación _como_ las actividades de Regenerant Catalunya han surgido mediante una mediación de intereses locales y globales. Redes regenerativas catalanas establecidas como **Miceli Social** y **La Fundició** han comprometido conjuntamente alrededor de **€11.000**, que se está igualando con hasta $20.000 **por patrocinadores globales a través del Localism Fund** — llevando el fondo total a **€29.200**, que se utilizará para apoyar directamente a 10-12 proyectos regenerativos en Cataluña.
+Tanto el fondo de financiación _como_ las actividades de Regenerant Catalunya han surgido mediante una mediación de intereses locales y globales. Redes regenerativas catalanas establecidas como **Miceli Social** y **La Fundició** han comprometido conjuntamente **€11.000**, que se está igualando con un desembolso estimado de $18.000 **por patrocinadores globales a través del Localism Fund** — llevando el fondo total a **€27.380**, que se utilizará para apoyar directamente a 11 proyectos regenerativos confirmados (10-12 totales) en Cataluña.
 
 ---
 
@@ -49,7 +71,7 @@ _Si eres un financiador o socio técnico interesado en apoyar la regeneración d
 ## Más Información
 
 - [Partners y Proyectos](/es/program/partners-projects) - Socios y proyectos participantes
-- [Documento Maestro](/es/master-document) - Documentación completa del programa
+- [Programa](/es/program) - Información completa del programa
 
 ---
 
@@ -59,18 +81,10 @@ _Si eres un financiador o socio técnico interesado en apoyar la regeneración d
 
 Cronograma completo con hitos clave y horario de talleres.
 
-### [Diseño del Programa](design/)
 
-Documentación de diseño y planificación del programa.
+### [Cronograma del Programa](/es/program/timeline)
 
-- [Visión General del Diseño del Programa](design/index.md)
-- [Resumen del Diseño](design/summary.md)
-
-### [Ejecución del Programa](execution/)
-
-Planes de ejecución y documentación operativa.
-
-- [Plan de Ejecución del Programa](execution/index.md)
+Cronograma completo con hitos clave, horario de talleres y apoyo continuo.
 
 ### [Guía de Proyectos](project-guidebook/)
 
@@ -79,6 +93,10 @@ Guía completa para proyectos participantes que cubre los requisitos de la Fase 
 ### [Guía de Red](network-guidebook/)
 
 Guía para la gobernanza a nivel de red que cubre la estructura de financiación de la Fase 2, herramientas de gobernanza Web3 y procesos de toma de decisiones colectivas.
+
+### [Guía para el informe de actividades](guia-informe-actividades/)
+
+Guía específica en castellano para preparar el informe de actividades en Google Docs (Miceli / Keras Buti), con explicaciones y ejemplos sencillos.
 
 ### [Recursos](resources/)
 

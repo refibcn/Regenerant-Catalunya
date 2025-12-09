@@ -265,7 +265,7 @@ A la Fase 2 (gener–febrer 2026), les xarxes governen col·lectivament els fons
 - [Guia de Projectes](/ca/program/project-guidebook) — Per a requisits de projectes individuals
 - [Cronograma del Programa](/ca/program/timeline) — Cronograma complet amb totes les fites
 - [Recursos](/ca/resources) — Enllaços a tota la documentació d'eines
-- [Document Mestre](/ca/master-document) — Documentació completa del programa
+- [Programa](/ca/program) — Informació completa del programa
 
 ### Contacte
 

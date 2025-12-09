@@ -116,7 +116,7 @@ Els projectes poden optar per provar aquestes eines per a capacitats millorades:
 
 ## Documentació del Programa
 
-### [Document Mestre](/ca/master-document)
+### [Programa](/ca/program)
 
 Documentació completa del programa que inclou:
 
@@ -127,18 +127,6 @@ Documentació completa del programa que inclou:
 - Cronograma del programa
 - Detalls de la cohort de projectes
 
-### [Disseny del Programa](design/)
-
-Documentació de disseny i planificació:
-
-- [Visió General del Disseny del Programa](design/index.md)
-- [Resum del Disseny](design/summary.md)
-
-### [Execució del Programa](execution/)
-
-Plans d'execució i documentació operativa:
-
-- [Pla d'Execució del Programa](execution/index.md)
 
 ### [Criteris d'Avaluació](/ca/program/evaluation-criteria)
 
@@ -211,7 +199,7 @@ Marc i criteris d'avaluació:
 ### Pressupost del Programa
 
 - **Total:** €29.200 (~$32.120)
-- **Co-Finançament Local:** €11.000 (€6.000 Miceli Social + €5.000 La Fundició)
+- **Co-Finançament Local:** €11.000 (€6.000 [[Miceli Social]] + €5.000 [[La Fundició]])
 - **Igualació Global:** $20.000 (via Localism Fund)
 
 ### Gestió de Tresoreria
@@ -222,7 +210,7 @@ Marc i criteris d'avaluació:
 ### Distribució de Finançament
 
 - **Fase 1:** Mínim €1.000 per projecte (vinculat a participació mínima), fins a €1.500 per projecte (basat en avaluació simplificada d'impacte)
-- **Fase 2:** €1.000 per projecte assignat a fons a nivell de xarxa (Miceli ~€6k, La Fundició ~€5k)
+- **Fase 2:** €1.000 per projecte assignat a fons a nivell de xarxa ([[Miceli Social]] ~€6k, [[La Fundició]] ~€5k)
 
 ---
 
@@ -230,11 +218,11 @@ Marc i criteris d'avaluació:
 
 ### Socis i Finançadors
 
-- **ReFi Barcelona:** [refibcn.cat](https://refibcn.cat/)
-- **Miceli Social:** [miceli.social](https://miceli.social/)
-- **La Fundició:** [lafundicio.net](https://lafundicio.net/)
+- **[[ReFi Barcelona]]:** [refibcn.cat](https://refibcn.cat/)
+- **[[Miceli Social]]:** [miceli.social](https://miceli.social/)
+- **[[La Fundició]]:** [lafundicio.net](https://lafundicio.net/)
 - **Localism Fund:** [localism.fund](https://www.localism.fund/)
-- **Regen Coordination:** [regencoordination.xyz](https://www.regencoordination.xyz/)
+- **[[Regen Coordination]]:** [regencoordination.xyz](https://www.regencoordination.xyz/)
 
 ### Programes i Referències Relacionats
 

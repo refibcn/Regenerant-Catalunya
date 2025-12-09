@@ -66,7 +66,7 @@ description: "Una ronda de financiación participativa que une iniciativas catal
         <dt style="font-size: 1.125rem; margin-bottom: 0.75rem; margin-top: 0;"><strong>Fase 2: Gobernanza a Nivel de Red
         <br><em>Ene-Feb 2026</em></strong></dt>
         <dd style="margin: 0; font-size: 0.95rem; line-height: 1.6;">
-          Se destina un adicional de <strong>€1,000 por proyecto</strong> a pools a nivel de red: <strong>~€6,000 para la red Miceli Social</strong> y <strong>~€5,000 para la red La Fundició/Keras Buti</strong>.
+          Se destina un adicional de <strong>€1,000 por proyecto</strong> a pools a nivel de red: <strong>~€6,000 para la red [[Miceli Social]]</strong> y <strong>~€5,000 para la red [[La Fundició]]/[[Keras Buti]]</strong>.
           <br>
           Las redes gobiernan colectivamente estos fondos utilizando herramientas Web3 como <strong>Gardens</strong>, <strong>Safe</strong>, <strong>Sarafu</strong> y <strong>Cycles</strong> <em>(ver más abajo).</em>
         </dd>
@@ -82,7 +82,7 @@ description: "Una ronda de financiación participativa que une iniciativas catal
       <div class="grid-item">
         <h4 style="margin-top: 0; color: var(--darkgray); font-size: 1.125rem;">Construcción dentro de Ecosistemas de Confianza</h4>
         <p style="color: var(--darkgray); font-size: 0.95rem; line-height: 1.6; margin-bottom: 0;">
-          En lugar de imponer soluciones externas, trabajamos dentro de redes establecidas — Miceli Social (rural) y La Fundició/Keras Buti (urbano) — aprovechando las relaciones existentes y la infraestructura social.
+          En lugar de imponer soluciones externas, trabajamos dentro de redes establecidas — [[Miceli Social]] (rural) y [[La Fundició]]/[[Keras Buti]] (urbano) — aprovechando las relaciones existentes y la infraestructura social.
         </p>
       </div>
       <div class="grid-item">
@@ -128,15 +128,15 @@ description: "Una ronda de financiación participativa que une iniciativas catal
         <!-- Local Partners Cards -->
         <div class="partners-local-cards">
           <div class="grid-item" style="display: flex; flex-direction: column; background: var(--miceli-terracotta-light);">
-            <h4 style="margin-top: 0; margin-bottom: 1rem;">🌍 Miceli Social</h4>
+            <h4 style="margin-top: 0; margin-bottom: 1rem;">🌍 [[Miceli Social]]</h4>
             <p style="font-size: 0.95rem; line-height: 1.6; flex-grow: 1; margin-bottom: 1rem;">
-              Un centro de servicios cooperativo centrado en la <strong>resiliencia rural</strong>, con sede en Ripoll (Girona). Miceli cataliza el desarrollo regenerativo en zonas rurales dando apoyo a municipios y grupos comunitarios.
+              Un centro de servicios cooperativo centrado en la <strong>resiliencia rural</strong>, con sede en Ripoll (Girona). [[Miceli Social]] cataliza el desarrollo regenerativo en zonas rurales dando apoyo a municipios y grupos comunitarios.
             </p>
             <p style="font-size: 0.95rem; line-height: 1.6; color: var(--green-dark); font-weight: 600; margin-bottom: 1rem;">Contribución: €6,000</p>
             <p style="margin-bottom: 0;"><a href="https://miceli.social/" target="_blank" rel="noopener" style="font-weight: 600; font-size: 0.9rem;">Más información →</a></p>
           </div>
           <div class="grid-item" style="display: flex; flex-direction: column; background: var(--fundicio-purple-light);">
-            <h4 style="margin-top: 0; margin-bottom: 1rem;">🏙️ La Fundició / Keras Buti</h4>
+            <h4 style="margin-top: 0; margin-bottom: 1rem;">🏙️ [[La Fundició]] / [[Keras Buti]]</h4>
             <p style="font-size: 0.95rem; line-height: 1.6; flex-grow: 1; margin-bottom: 1rem;">
               Una cooperativa de innovación cultural y social con sede en L'Hospitalet de Llobregat, que conecta los <strong>comunes urbanos</strong> con la práctica bioregional a través de la cultura, la educación y la economía feminista desde 2006.
             </p>
@@ -152,7 +152,7 @@ description: "Una ronda de financiación participativa que une iniciativas catal
           <div class="grid-item" style="display: flex; flex-direction: column; background: var(--green-highlight);">
             <h4 style="margin-top: 0; margin-bottom: 1rem;">🌐 Localism Fund</h4>
             <p style="font-size: 0.95rem; line-height: 1.6; flex-grow: 1; margin-bottom: 1rem;">
-              Operado por <strong>OpenCivics</strong> y <strong>Regen Coordination</strong>. Proporciona igualación para redes locales creíbles que construyen modelos prácticos de localismo político, económico, cultural y ecológico utilizando infraestructura Ethereum. El pool de igualación del Localism Fund está respaldado por patrocinadores globales como Gitcoin, Celo Public Goods, Ma Earth y Ethereum Foundation / Ethereum Everywhere.
+              Operado por <strong>OpenCivics</strong> y <strong>[[Regen Coordination]]</strong>. Proporciona igualación para redes locales creíbles que construyen modelos prácticos de localismo político, económico, cultural y ecológico utilizando infraestructura Ethereum. El pool de igualación del Localism Fund está respaldado por patrocinadores globales como [[Gitcoin]], [[Celo Public Goods]], Ma Earth y [[Ethereum Foundation]] / Ethereum Everywhere.
             </p>
             <p style="font-size: 0.95rem; line-height: 1.6; color: var(--green-dark); font-weight: 600; margin-bottom: 1rem;">Contribución: €18,200</p>
             <p style="margin-bottom: 0;"><a href="https://www.localism.fund/" target="_blank" rel="noopener" style="font-weight: 600; font-size: 0.9rem;">Más información →</a></p>

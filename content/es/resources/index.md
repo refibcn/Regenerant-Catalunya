@@ -11,7 +11,7 @@ Central hub for all resources, documentation, and support materials for Regenera
 
 ## Essential Guidebooks
 
-### [Project Guidebook](/program/project-guidebook)
+### [Project Guidebook](/es/program/project-guidebook)
 
 Comprehensive guide for participating projects covering:
 
@@ -23,7 +23,7 @@ Comprehensive guide for participating projects covering:
 - Phase 2 overview
 - FAQ for projects
 
-### [Network Guidebook](/program/network-guidebook)
+### [Network Guidebook](/es/program/network-guidebook)
 
 Guide for network-level governance covering:
 
@@ -33,7 +33,7 @@ Guide for network-level governance covering:
 - Network coordination best practices
 - Resources and support
 
-### [Program Timeline](/program/timeline)
+### [Program Timeline](/es/program/timeline)
 
 Complete timeline with:
 
@@ -61,7 +61,7 @@ Complete timeline with:
 **Recommended (Social Recovery):**
 
 - **Valora** — [valoraapp.com](https://valoraapp.com/)
-  - **[Guía Completa de Onboarding a Valora](/resources/valora-guide)** — Guía paso a paso para configurar Valora, activar la recuperación social y conectar con Karma GAP usando WalletConnect
+  - **[Guía Completa de Onboarding a Valora](/es/resources/valora-guide)** — Guía paso a paso para configurar Valora, activar la recuperación social y conectar con Karma GAP usando WalletConnect
 - **Minipay** — Stablecoin-focused wallet with social recovery
 
 **Also Supported:**
@@ -117,7 +117,7 @@ Projects can opt-in to pilot these tools for enhanced capabilities:
 
 ## Program Documentation
 
-### [Master Document](/master-document)
+### [Programa](/es/program)
 
 Comprehensive program documentation including:
 
@@ -128,20 +128,8 @@ Comprehensive program documentation including:
 - Program timeline
 - Project cohort details
 
-### [Program Design](/program/design/)
 
-Design documentation and planning:
-
-- [Program Design Overview](design/index.md)
-- [Design Summary](design/summary.md)
-
-### [Program Execution](/program/execution/)
-
-Execution plans and operational documentation:
-
-- [Program Execution Plan](execution/index.md)
-
-### [Evaluation Criteria](/program/evaluation-criteria)
+### [Evaluation Criteria](/es/program/evaluation-criteria)
 
 Evaluation framework and criteria:
 
@@ -212,7 +200,7 @@ Evaluation framework and criteria:
 ### Program Budget
 
 - **Total:** €29,200 (~$32,120)
-- **Local Co-Funding:** €11,000 (€6,000 Miceli Social + €5,000 La Fundició)
+- **Local Co-Funding:** €11,000 (€6,000 [[Miceli Social]] + €5,000 [[La Fundició]])
 - **Global Matching:** $20,000 (via Localism Fund)
 
 ### Treasury Management
@@ -223,7 +211,7 @@ Evaluation framework and criteria:
 ### Funding Distribution
 
 - **Phase 1:** Minimum €1,000 per project (tied to minimum participation), up to €1,500 per project (based on simplified impact evaluation)
-- **Phase 2:** €1,000 per project allocated to network-level pools (Miceli ~€6k, La Fundició ~€5k)
+- **Phase 2:** €1,000 per project allocated to network-level pools ([[Miceli Social]] ~€6k, [[La Fundició]] ~€5k)
 
 ---
 
@@ -231,11 +219,11 @@ Evaluation framework and criteria:
 
 ### Partners & Funders
 
-- **ReFi Barcelona:** [refibcn.cat](https://refibcn.cat/)
-- **Miceli Social:** [miceli.social](https://miceli.social/)
-- **La Fundició:** [lafundicio.net](https://lafundicio.net/)
+- **[[ReFi Barcelona]]:** [refibcn.cat](https://refibcn.cat/)
+- **[[Miceli Social]]:** [miceli.social](https://miceli.social/)
+- **[[La Fundició]]:** [lafundicio.net](https://lafundicio.net/)
 - **Localism Fund:** [localism.fund](https://www.localism.fund/)
-- **Regen Coordination:** [regencoordination.xyz](https://www.regencoordination.xyz/)
+- **[[Regen Coordination]]:** [regencoordination.xyz](https://www.regencoordination.xyz/)
 
 ### Related Programs & References
 
@@ -249,8 +237,8 @@ Evaluation framework and criteria:
 ## Quick Links
 
 - [Home](/)
-- [About the Program](/program)
-- [Partners & Projects](/program/partners-projects)
+- [About the Program](/es/program)
+- [Partners & Projects](/es/program/partners-projects)
 
 ---
 

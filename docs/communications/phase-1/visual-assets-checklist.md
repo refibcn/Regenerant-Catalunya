@@ -164,7 +164,7 @@ status: draft
 ### Recommended Structure
 
 ```
-visual-assets/
+assets/
 ├── phase-1/
 │   ├── project-photos/
 │   │   ├── fluvia-river/

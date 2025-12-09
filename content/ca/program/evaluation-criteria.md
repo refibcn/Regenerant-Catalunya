@@ -212,7 +212,7 @@ Phase Allocation = (Project Score / Sum of All Scores) × Total Phase Pool
 
 **Program Docs:**
 
-- [Master Document](../../docs/REGENERANT%20CATALUNYA%20GG24%20%5BMASTER%20DOC%5D%2026c6ed0845cb80a29615cc480f969597.md)
+- [Programa](/ca/program) — Informació completa del programa
 
 **Tools:**
 

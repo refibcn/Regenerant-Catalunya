@@ -27,7 +27,58 @@ status: Active
 
 ---
 
-## 2. Evaluation Principles
+## 2. Understanding Evaluation Criteria
+
+**How Projects Are Evaluated:**
+
+Your project will be evaluated based on **4 criteria** that reflect Catalan regenerative values. Understanding these criteria helps you align your documentation and maximize your impact.
+
+**Visual Breakdown:** Evaluation criteria weighting:
+
+```mermaid
+pie title Evaluation Criteria Weighting
+    "Local Impact (35%)" : 35
+    "Web3 Adoption (25%)" : 25
+    "Resource Efficiency (25%)" : 25
+    "Clear Plans (15%)" : 15
+```
+
+**The 4 Evaluation Criteria Overview:**
+
+1. **Local Ecological, Social & Economic Impact (35%)**
+   - Direct impact in Catalan communities (ecological, social, economic)
+   - Examples: Ecosystem restoration, community health, cooperative models, food sovereignty
+   - What evaluators look for: Measurable outcomes, strong documentation, network integration
+
+2. **ReFi/Web3 Awareness, Adoption & Development (25%)**
+   - Contribution to Web3 ecosystem through tool adoption and on-chain activity
+   - Examples: Wallet setup, Karma GAP usage, tool integration, education
+   - What evaluators look for: Regular updates, consistent reporting, tool adoption
+
+3. **Resource Efficiency & Project Maturity (25%)**
+   - Impact relative to resources and project maturity
+   - Examples: Efficient use of funding, strong performance for project size, accountability
+   - What evaluators look for: Efficiency, transparency, results relative to resources
+
+4. **Active Goals, Plans & Milestones (15%)**
+   - Clarity and feasibility of project roadmap
+   - Examples: Specific goals, realistic milestones, alignment with bioregional regeneration
+   - What evaluators look for: Clear planning, detailed milestones, alignment with values
+
+**How to Align Your Reporting:**
+
+- **Document measurable impact** — Quantify where possible (participants, hectares, etc.)
+- **Show Web3 engagement** — Document wallet setup, Karma usage, tool adoption
+- **Demonstrate efficiency** — Show impact relative to resources
+- **Present clear plans** — Specific goals, timelines, expected outcomes
+
+**Self-Assessment:** Use the project data collection document (Google Doc) to assess your alignment with criteria before submitting to Karma GAP.
+
+**Reference for Workshop #2:** This evaluation framework will be covered in detail during Workshop #2: Documenting Impact (December 8-14, 2025).
+
+---
+
+## 3. Evaluation Principles
 
 1. **Evidence Over Intention** - Reward documented action and impact, not alignment alone
 2. **Transparency** - Evaluations based on verifiable data and public Karma GAP documentation
@@ -37,7 +88,7 @@ status: Active
 
 ---
 
-## 3. Scoring System
+## 4. Scoring System
 
 - **Scale:** 1-10 per criterion (1-3: Limited | 4-6: Moderate | 7-8: Strong | 9-10: Exceptional)
 - **Weighting:** Recent work (post-program) weighted 70-80%; historical context 20-30%
@@ -50,7 +101,7 @@ Final Score = (Criterion 1 × 0.35) + (Criterion 2 × 0.25) + (Criterion 3 × 0.
 
 ---
 
-## 4. Core Criteria
+## 5. Core Criteria
 
 ### **Criterion 1: Local Ecological, Social & Economic Impact (35%)**
 
@@ -140,7 +191,7 @@ Final Score = (Criterion 1 × 0.35) + (Criterion 2 × 0.25) + (Criterion 3 × 0.
 
 ---
 
-## 5. Evaluation Process
+## 6. Evaluation Process
 
 ### Reporting Structure
 
@@ -163,7 +214,7 @@ Final Score = (Criterion 1 × 0.35) + (Criterion 2 × 0.25) + (Criterion 3 × 0.
 
 ---
 
-## 6. Council
+## 7. Council
 
 **Composition:**
 
@@ -176,7 +227,7 @@ Final Score = (Criterion 1 × 0.35) + (Criterion 2 × 0.25) + (Criterion 3 × 0.
 
 ---
 
-## 7. Allocation & Distribution
+## 8. Allocation & Distribution
 
 ### Two-Phase Model
 
@@ -202,7 +253,7 @@ Phase Allocation = (Project Score / Sum of All Scores) × Total Phase Pool
 
 ---
 
-## 8. References
+## 9. References
 
 **Methodology:**
 
@@ -212,7 +263,7 @@ Phase Allocation = (Project Score / Sum of All Scores) × Total Phase Pool
 
 **Program Docs:**
 
-- [Master Document](../../docs/REGENERANT%20CATALUNYA%20GG24%20%5BMASTER%20DOC%5D%2026c6ed0845cb80a29615cc480f969597.md)
+- [Program Overview](/program) — Complete program information
 
 **Tools:**
 
