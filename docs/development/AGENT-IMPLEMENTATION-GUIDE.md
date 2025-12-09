@@ -85,7 +85,7 @@ Store all processed images in `assets/generated/`:
 
 ```
 assets/generated/
-├── Carles Rabada Unsplash/     # Processed photos
+├── cover.png                    # Main cover image (dithered)
 ├── Keras Buti projects/         # Partner project images
 ├── Miceli projects/             # Partner project images
 └── valora-onboarding-screenshots/  # App screenshots

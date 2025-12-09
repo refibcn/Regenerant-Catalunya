@@ -10,14 +10,11 @@ assets/
 │   ├── brand-config.json   # Brand compliance rules
 │   ├── colors.json         # Color palette (with Bayer dither settings)
 │   └── pattern-config.json # Pattern generation settings
-├── generated/           # Processed visual assets
-│   ├── Keras Buti projects/
-│   ├── Miceli projects/
-│   └── valora-onboarding-screenshots/
-└── test-prototypes/     # Test materials and experiments
-    ├── input/           # Source test images
-    ├── output/          # Test results
-    └── templates/       # Template files
+└── generated/           # Processed visual assets
+    ├── cover.png            # Main cover image (dithered landscape)
+    ├── Keras Buti projects/
+    ├── Miceli projects/
+    └── valora-onboarding-screenshots/
 ```
 
 ## Image Processing Workflow
