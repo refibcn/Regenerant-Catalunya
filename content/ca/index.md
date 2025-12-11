@@ -3,8 +3,11 @@ title: "Regenerant Catalunya"
 description: "Una ronda de finançament participatiu que uneix iniciatives catalanes amb contribucions igualades i eines web3 que fan visible i escalable la regeneració."
 ---
 
-<div class="hero-section">
-  <div class="hero-content">
+<div class="hero-section" style="position: relative; overflow: hidden;">
+  <div class="hero-image" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 0;">
+    <img src="/static/cover.png" alt="Regenerant Catalunya" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.15;" />
+  </div>
+  <div class="hero-content" style="position: relative; z-index: 1;">
     <h1>Impulsant la Regeneració a Catalunya</h1>
     <p class="hero-text">
       Una ronda de finançament participatiu que connecta projectes regeneratius locals amb infraestructura Web3 global.
@@ -438,6 +441,7 @@ description: "Una ronda de finançament participatiu que uneix iniciatives catal
         <p style="color: var(--darkgray); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem; flex-grow: 1;">
           Guies essencials per configurar i utilitzar eines Web3, incloent configuració de cartera, configuració de Karma GAP i connexió a dApps.
         </p>
+        <p style="margin-bottom: 0.5rem;"><a href="/ca/resources/guia-informe-actividades" style="font-weight: 600; font-size: 0.9rem;">→ Guia per a l'informe d'activitats</a></p>
         <p style="margin-bottom: 0;"><a href="/es/resources/valora-guide" style="font-weight: 600; font-size: 0.9rem;">→ Guia de Configuració de Valora</a></p>
       </div>
       <div class="grid-item" style="display: flex; flex-direction: column;">

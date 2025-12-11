@@ -25306,6 +25306,18 @@ article > h1:first-of-type:not(.article-title) {
   display: none;
 }
 
+// Exception for carousel images - must come before general img rules
+.carousel-card img,
+.carousel-slide img {
+  max-width: 100% !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block !important;
+}
+
 // Make images responsive and fitting across all screen sizes
 // Override base img styles with more specific selector
 .page .center article img,

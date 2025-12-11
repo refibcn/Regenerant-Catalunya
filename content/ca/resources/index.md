@@ -11,6 +11,17 @@ Centre central per a tots els recursos, documentació i materials de suport per 
 
 ## Guies Essencials
 
+### [Guia per a l'informe d'activitats](/ca/resources/guia-informe-actividades)
+
+Guia completa per documentar activitats, lliurables i mètriques:
+
+- Com preparar l'informe d'activitats a Google Docs
+- Conceptes clau: activitats, lliurables, mètriques
+- La Cadena de Valor de l'Impacte
+- Exemples pràctics de reportatge
+- Propers passos cap a Karma GAP
+- Per al Taller #2 (8-14 desembre 2025)
+
 ### [Guia de Projectes](project-guidebook/)
 
 Guia completa per a projectes participants que cobreix:
@@ -174,6 +185,7 @@ Marc i criteris d'avaluació:
 **Quan:** 8-14 de desembre de 2025  
 **Materials:**
 
+- **[Guia per a l'informe d'activitats](/ca/resources/guia-informe-actividades)** — Guia completa per al taller
 - Plantilles de Karma alineades amb marcs de Common Approach
 - Exemples de documentació d'impacte efectiva
 - Orientació de mètriques per a la regeneració

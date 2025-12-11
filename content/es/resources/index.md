@@ -12,6 +12,17 @@ Central hub for all resources, documentation, and support materials for Regenera
 
 ## Essential Guidebooks
 
+### [Guía para el informe de actividades](/es/resources/guia-informe-actividades)
+
+Guía completa para documentar actividades, entregables y métricas:
+
+- Cómo preparar el informe de actividades en Google Docs
+- Conceptos clave: actividades, entregables, métricas
+- La Cadena de Valor del Impacto
+- Ejemplos prácticos de reportaje
+- Próximos pasos hacia Karma GAP
+- Para Workshop #2 (8-14 diciembre 2025)
+
 ### [Project Guidebook](/es/program/project-guidebook)
 
 Comprehensive guide for participating projects covering:
@@ -176,6 +187,7 @@ Evaluation framework and criteria:
 **When:** December 8-14, 2025  
 **Materials:**
 
+- **[Guía para el informe de actividades](/es/resources/guia-informe-actividades)** — Complete guide for the workshop
 - Karma templates aligned with Common Approach frameworks
 - Examples of effective impact documentation
 - Metrics guidance for regeneration

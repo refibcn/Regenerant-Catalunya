@@ -13,6 +13,7 @@ Central hub for all resources, documentation, and support materials for Regenera
 
 **Get started with these key guides:**
 
+- **[Activity Report Guide](/resources/activity-report-guide)** — Complete guide for documenting activities, deliverables, and metrics using Google Docs template
 - **[Project Page Preparation](/resources/project-page-prep)** — Complete guide to preparing your project page and documentation
 - **[Guía Completa de Onboarding a Valora](/es/resources/valora-guide)** — Step-by-step wallet setup with screenshots
 - **[Evaluation Criteria](/program/evaluation-criteria)** — Complete evaluation framework and understanding criteria
@@ -180,6 +181,7 @@ Evaluation framework and criteria:
 **When:** December 8-14, 2025  
 **Materials:**
 
+- **[Activity Report Guide](/resources/activity-report-guide)** — Complete guide for the workshop
 - Karma templates aligned with Common Approach frameworks
 - Examples of effective impact documentation
 - Metrics guidance for regeneration
