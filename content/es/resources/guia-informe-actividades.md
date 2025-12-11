@@ -5,7 +5,7 @@ description: "Cómo documentar actividades, entregables y métricas para Regener
 
 <div style="font-size: 0.95rem; line-height: 1.6;">
 
-# <img src="/static/icons/checklist-icon.png" alt="✓" style="width: 28px; height: 28px; display: inline-block; vertical-align: middle; margin-right: 8px;" /> Guía para el informe de actividades
+# Guía para el informe de actividades
 
 Esta página te ayuda a preparar el **informe de actividades** que utilizaremos en Regenerant Catalunya. Siguiéndola, los proyectos pueden asegurar que sus actividades estén bien organizadas, tengan impacto y estén alineadas con objetivos compartidos.
 

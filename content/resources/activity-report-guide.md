@@ -5,7 +5,7 @@ description: "How to document activities, deliverables, and metrics for Regenera
 
 <div style="font-size: 0.95rem; line-height: 1.6;">
 
-# <img src="/static/icons/checklist-icon.png" alt="✓" style="width: 28px; height: 28px; display: inline-block; vertical-align: middle; margin-right: 8px;" /> Activity Report Guide
+# Activity Report Guide
 
 This page helps you prepare the **activity report** that we'll use in Regenerant Catalunya. By following it, projects can ensure their activities are well-organized, impactful, and aligned with shared objectives.
 

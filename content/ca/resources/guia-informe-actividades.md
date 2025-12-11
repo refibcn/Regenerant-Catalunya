@@ -5,7 +5,7 @@ description: "Com documentar activitats, lliurables i mètriques per a Regeneran
 
 <div style="font-size: 0.95rem; line-height: 1.6;">
 
-# <img src="/static/icons/checklist-icon.png" alt="✓" style="width: 28px; height: 28px; display: inline-block; vertical-align: middle; margin-right: 8px;" /> Guia per a l'informe d'activitats
+# Guia per a l'informe d'activitats
 
 Aquesta pàgina t'ajuda a preparar l'**informe d'activitats** que utilitzarem a Regenerant Catalunya. Seguint-la, els projectes poden assegurar que les seves activitats estiguin ben organitzades, tinguin impacte i estiguin alineades amb objectius compartits.
 
