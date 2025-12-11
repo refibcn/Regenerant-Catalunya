@@ -1,6 +1,7 @@
 ---
 title: "Program Resources"
 description: "Links to all guidebooks, tool documentation, workshop materials, and support channels"
+draft: true
 ---
 
 # Regenerant Catalunya - Program Resources
