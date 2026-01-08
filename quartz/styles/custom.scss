@@ -1315,10 +1315,11 @@ article[data-slug="index"] {
   margin-right: calc(-50vw + 50%);
   width: 100vw;
   position: relative;
-  background-image: url("/static/hero-background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  // Removed background-image - using img tag in .hero-image instead to avoid duplication
+  // background-image: url("/static/hero-background.png");
+  // background-size: cover;
+  // background-position: center;
+  // background-repeat: no-repeat;
   min-height: 75vh;
 
   @media (min-width: 768px) {
@@ -1450,17 +1451,22 @@ article[data-slug="index"] {
 
   // Hero image styles (applies to all hero sections)
   .hero-image {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
 
     @media (min-width: 768px) {
-      // Push image beyond the normal margin
-      margin-right: -8rem;
-      margin-left: 2rem;
+      // No margin adjustments needed for absolute positioned element
     }
 
     img {
-      width: 150%;
-      max-width: 150%;
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
       border-radius: 0;
       object-fit: cover;
     }
@@ -3202,10 +3208,11 @@ article[data-slug="index"] {
   margin-right: calc(-50vw + 50%);
   width: 100vw;
   position: relative;
-  background-image: url("/static/hero-background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  // Removed background-image - using img tag in .hero-image instead to avoid duplication
+  // background-image: url("/static/hero-background.png");
+  // background-size: cover;
+  // background-position: center;
+  // background-repeat: no-repeat;
   min-height: 75vh;
 
   @media (min-width: 768px) {
@@ -3337,17 +3344,22 @@ article[data-slug="index"] {
 
   // Hero image styles (applies to all hero sections)
   .hero-image {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
 
     @media (min-width: 768px) {
-      // Push image beyond the normal margin
-      margin-right: -8rem;
-      margin-left: 2rem;
+      // No margin adjustments needed for absolute positioned element
     }
 
     img {
-      width: 150%;
-      max-width: 150%;
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
       border-radius: 0;
       object-fit: cover;
     }
@@ -4951,10 +4963,11 @@ article[data-slug="index"] {
   margin-right: calc(-50vw + 50%);
   width: 100vw;
   position: relative;
-  background-image: url("/static/hero-background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  // Removed background-image - using img tag in .hero-image instead to avoid duplication
+  // background-image: url("/static/hero-background.png");
+  // background-size: cover;
+  // background-position: center;
+  // background-repeat: no-repeat;
   min-height: 75vh;
 
   @media (min-width: 768px) {
@@ -5086,17 +5099,22 @@ article[data-slug="index"] {
 
   // Hero image styles (applies to all hero sections)
   .hero-image {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
 
     @media (min-width: 768px) {
-      // Push image beyond the normal margin
-      margin-right: -8rem;
-      margin-left: 2rem;
+      // No margin adjustments needed for absolute positioned element
     }
 
     img {
-      width: 150%;
-      max-width: 150%;
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
       border-radius: 0;
       object-fit: cover;
     }
@@ -6700,10 +6718,11 @@ article[data-slug="index"] {
   margin-right: calc(-50vw + 50%);
   width: 100vw;
   position: relative;
-  background-image: url("/static/hero-background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  // Removed background-image - using img tag in .hero-image instead to avoid duplication
+  // background-image: url("/static/hero-background.png");
+  // background-size: cover;
+  // background-position: center;
+  // background-repeat: no-repeat;
   min-height: 75vh;
 
   @media (min-width: 768px) {
@@ -6835,17 +6854,22 @@ article[data-slug="index"] {
 
   // Hero image styles (applies to all hero sections)
   .hero-image {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
 
     @media (min-width: 768px) {
-      // Push image beyond the normal margin
-      margin-right: -8rem;
-      margin-left: 2rem;
+      // No margin adjustments needed for absolute positioned element
     }
 
     img {
-      width: 150%;
-      max-width: 150%;
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
       border-radius: 0;
       object-fit: cover;
     }
@@ -8449,10 +8473,11 @@ article[data-slug="index"] {
   margin-right: calc(-50vw + 50%);
   width: 100vw;
   position: relative;
-  background-image: url("/static/hero-background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  // Removed background-image - using img tag in .hero-image instead to avoid duplication
+  // background-image: url("/static/hero-background.png");
+  // background-size: cover;
+  // background-position: center;
+  // background-repeat: no-repeat;
   min-height: 75vh;
 
   @media (min-width: 768px) {
@@ -8584,17 +8609,22 @@ article[data-slug="index"] {
 
   // Hero image styles (applies to all hero sections)
   .hero-image {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
 
     @media (min-width: 768px) {
-      // Push image beyond the normal margin
-      margin-right: -8rem;
-      margin-left: 2rem;
+      // No margin adjustments needed for absolute positioned element
     }
 
     img {
-      width: 150%;
-      max-width: 150%;
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
       border-radius: 0;
       object-fit: cover;
     }
@@ -10198,10 +10228,11 @@ article[data-slug="index"] {
   margin-right: calc(-50vw + 50%);
   width: 100vw;
   position: relative;
-  background-image: url("/static/hero-background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  // Removed background-image - using img tag in .hero-image instead to avoid duplication
+  // background-image: url("/static/hero-background.png");
+  // background-size: cover;
+  // background-position: center;
+  // background-repeat: no-repeat;
   min-height: 75vh;
 
   @media (min-width: 768px) {
@@ -10333,17 +10364,22 @@ article[data-slug="index"] {
 
   // Hero image styles (applies to all hero sections)
   .hero-image {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
 
     @media (min-width: 768px) {
-      // Push image beyond the normal margin
-      margin-right: -8rem;
-      margin-left: 2rem;
+      // No margin adjustments needed for absolute positioned element
     }
 
     img {
-      width: 150%;
-      max-width: 150%;
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
       border-radius: 0;
       object-fit: cover;
     }
@@ -11947,10 +11983,11 @@ article[data-slug="index"] {
   margin-right: calc(-50vw + 50%);
   width: 100vw;
   position: relative;
-  background-image: url("/static/hero-background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  // Removed background-image - using img tag in .hero-image instead to avoid duplication
+  // background-image: url("/static/hero-background.png");
+  // background-size: cover;
+  // background-position: center;
+  // background-repeat: no-repeat;
   min-height: 75vh;
 
   @media (min-width: 768px) {
@@ -12082,17 +12119,22 @@ article[data-slug="index"] {
 
   // Hero image styles (applies to all hero sections)
   .hero-image {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
 
     @media (min-width: 768px) {
-      // Push image beyond the normal margin
-      margin-right: -8rem;
-      margin-left: 2rem;
+      // No margin adjustments needed for absolute positioned element
     }
 
     img {
-      width: 150%;
-      max-width: 150%;
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
       border-radius: 0;
       object-fit: cover;
     }
@@ -13696,10 +13738,11 @@ article[data-slug="index"] {
   margin-right: calc(-50vw + 50%);
   width: 100vw;
   position: relative;
-  background-image: url("/static/hero-background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  // Removed background-image - using img tag in .hero-image instead to avoid duplication
+  // background-image: url("/static/hero-background.png");
+  // background-size: cover;
+  // background-position: center;
+  // background-repeat: no-repeat;
   min-height: 75vh;
 
   @media (min-width: 768px) {
@@ -13831,17 +13874,22 @@ article[data-slug="index"] {
 
   // Hero image styles (applies to all hero sections)
   .hero-image {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
 
     @media (min-width: 768px) {
-      // Push image beyond the normal margin
-      margin-right: -8rem;
-      margin-left: 2rem;
+      // No margin adjustments needed for absolute positioned element
     }
 
     img {
-      width: 150%;
-      max-width: 150%;
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
       border-radius: 0;
       object-fit: cover;
     }
@@ -15445,10 +15493,11 @@ article[data-slug="index"] {
   margin-right: calc(-50vw + 50%);
   width: 100vw;
   position: relative;
-  background-image: url("/static/hero-background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  // Removed background-image - using img tag in .hero-image instead to avoid duplication
+  // background-image: url("/static/hero-background.png");
+  // background-size: cover;
+  // background-position: center;
+  // background-repeat: no-repeat;
   min-height: 75vh;
 
   @media (min-width: 768px) {
@@ -15580,17 +15629,22 @@ article[data-slug="index"] {
 
   // Hero image styles (applies to all hero sections)
   .hero-image {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
 
     @media (min-width: 768px) {
-      // Push image beyond the normal margin
-      margin-right: -8rem;
-      margin-left: 2rem;
+      // No margin adjustments needed for absolute positioned element
     }
 
     img {
-      width: 150%;
-      max-width: 150%;
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
       border-radius: 0;
       object-fit: cover;
     }
@@ -17194,10 +17248,11 @@ article[data-slug="index"] {
   margin-right: calc(-50vw + 50%);
   width: 100vw;
   position: relative;
-  background-image: url("/static/hero-background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  // Removed background-image - using img tag in .hero-image instead to avoid duplication
+  // background-image: url("/static/hero-background.png");
+  // background-size: cover;
+  // background-position: center;
+  // background-repeat: no-repeat;
   min-height: 75vh;
 
   @media (min-width: 768px) {
@@ -17329,17 +17384,22 @@ article[data-slug="index"] {
 
   // Hero image styles (applies to all hero sections)
   .hero-image {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
 
     @media (min-width: 768px) {
-      // Push image beyond the normal margin
-      margin-right: -8rem;
-      margin-left: 2rem;
+      // No margin adjustments needed for absolute positioned element
     }
 
     img {
-      width: 150%;
-      max-width: 150%;
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
       border-radius: 0;
       object-fit: cover;
     }
@@ -18943,10 +19003,11 @@ article[data-slug="index"] {
   margin-right: calc(-50vw + 50%);
   width: 100vw;
   position: relative;
-  background-image: url("/static/hero-background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  // Removed background-image - using img tag in .hero-image instead to avoid duplication
+  // background-image: url("/static/hero-background.png");
+  // background-size: cover;
+  // background-position: center;
+  // background-repeat: no-repeat;
   min-height: 75vh;
 
   @media (min-width: 768px) {
@@ -19078,17 +19139,22 @@ article[data-slug="index"] {
 
   // Hero image styles (applies to all hero sections)
   .hero-image {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
 
     @media (min-width: 768px) {
-      // Push image beyond the normal margin
-      margin-right: -8rem;
-      margin-left: 2rem;
+      // No margin adjustments needed for absolute positioned element
     }
 
     img {
-      width: 150%;
-      max-width: 150%;
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
       border-radius: 0;
       object-fit: cover;
     }
@@ -20692,10 +20758,11 @@ article[data-slug="index"] {
   margin-right: calc(-50vw + 50%);
   width: 100vw;
   position: relative;
-  background-image: url("/static/hero-background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  // Removed background-image - using img tag in .hero-image instead to avoid duplication
+  // background-image: url("/static/hero-background.png");
+  // background-size: cover;
+  // background-position: center;
+  // background-repeat: no-repeat;
   min-height: 75vh;
 
   @media (min-width: 768px) {
@@ -20827,17 +20894,22 @@ article[data-slug="index"] {
 
   // Hero image styles (applies to all hero sections)
   .hero-image {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
 
     @media (min-width: 768px) {
-      // Push image beyond the normal margin
-      margin-right: -8rem;
-      margin-left: 2rem;
+      // No margin adjustments needed for absolute positioned element
     }
 
     img {
-      width: 150%;
-      max-width: 150%;
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
       border-radius: 0;
       object-fit: cover;
     }
@@ -22441,10 +22513,11 @@ article[data-slug="index"] {
   margin-right: calc(-50vw + 50%);
   width: 100vw;
   position: relative;
-  background-image: url("/static/hero-background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  // Removed background-image - using img tag in .hero-image instead to avoid duplication
+  // background-image: url("/static/hero-background.png");
+  // background-size: cover;
+  // background-position: center;
+  // background-repeat: no-repeat;
   min-height: 75vh;
 
   @media (min-width: 768px) {
@@ -22576,17 +22649,22 @@ article[data-slug="index"] {
 
   // Hero image styles (applies to all hero sections)
   .hero-image {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
 
     @media (min-width: 768px) {
-      // Push image beyond the normal margin
-      margin-right: -8rem;
-      margin-left: 2rem;
+      // No margin adjustments needed for absolute positioned element
     }
 
     img {
-      width: 150%;
-      max-width: 150%;
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
       border-radius: 0;
       object-fit: cover;
     }
@@ -24400,10 +24478,11 @@ article[data-slug="index"] {
   margin-right: calc(-50vw + 50%);
   width: 100vw;
   position: relative;
-  background-image: url("/static/hero-background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  // Removed background-image - using img tag in .hero-image instead to avoid duplication
+  // background-image: url("/static/hero-background.png");
+  // background-size: cover;
+  // background-position: center;
+  // background-repeat: no-repeat;
   min-height: 75vh;
 
   @media (min-width: 768px) {
@@ -24535,17 +24614,22 @@ article[data-slug="index"] {
 
   // Hero image styles (applies to all hero sections)
   .hero-image {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
 
     @media (min-width: 768px) {
-      // Push image beyond the normal margin
-      margin-right: -8rem;
-      margin-left: 2rem;
+      // No margin adjustments needed for absolute positioned element
     }
 
     img {
-      width: 150%;
-      max-width: 150%;
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
       border-radius: 0;
       object-fit: cover;
     }
@@ -25306,7 +25390,27 @@ article > h1:first-of-type:not(.article-title) {
   display: none;
 }
 
+// Exception for hero images - must come before general img rules
+// Use more specific selector to override .page .center article img rule
+.page .center article .hero-section .hero-image img,
+.page .center article .hero-image img,
+.hero-section .hero-image img,
+.hero-image img {
+  max-width: 100% !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block !important;
+}
+
 // Exception for carousel images - must come before general img rules
+// Use more specific selector to override .page .center article img rule
+.page .center article .projects-carousel .carousel-card img,
+.page .center article .carousel-card img,
+.page .center article .carousel-slide img,
+.projects-carousel .carousel-card img,
 .carousel-card img,
 .carousel-slide img {
   max-width: 100% !important;

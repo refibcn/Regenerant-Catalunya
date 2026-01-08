@@ -5,7 +5,7 @@ description: "Una ronda de financiación participativa que une iniciativas catal
 
 <div class="hero-section" style="position: relative; overflow: hidden;">
   <div class="hero-image" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 0;">
-    <img src="/static/cover.png" alt="Regenerant Catalunya" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.15;" />
+    <img src="/static/cover.png" alt="Regenerant Catalunya" style="width: 100%; height: 100%; object-fit: cover; opacity: 1;" />
   </div>
   <div class="hero-content" style="position: relative; z-index: 1;">
     <h1>Impulsando la Regeneración en Cataluña</h1>
