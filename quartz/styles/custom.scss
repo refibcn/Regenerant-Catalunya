@@ -25393,9 +25393,13 @@ article > h1:first-of-type:not(.article-title) {
 // Exception for hero images - must come before general img rules
 // Use more specific selector to override .page .center article img rule
 .page .center article .hero-section .hero-image img,
+.page .center article .hero-section .hero-image picture img,
 .page .center article .hero-image img,
+.page .center article .hero-image picture img,
 .hero-section .hero-image img,
-.hero-image img {
+.hero-section .hero-image picture img,
+.hero-image img,
+.hero-image picture img {
   max-width: 100% !important;
   width: 100% !important;
   height: 100% !important;
@@ -25403,6 +25407,7 @@ article > h1:first-of-type:not(.article-title) {
   margin: 0 !important;
   padding: 0 !important;
   display: block !important;
+  opacity: 1 !important;
 }
 
 // Exception for carousel images - must come before general img rules
