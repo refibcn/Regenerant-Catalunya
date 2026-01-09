@@ -16,12 +16,11 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
 
 ### Funding Structure
 
-**€1,000 per project** is allocated to network-level pools:
+**€10,000 additional** is allocated for network-level governance:
 
-- **Miceli Social network:** ~€6,000 collective pool
-- **La Fundició / Keras Buti network:** ~€5,000 collective pool
-
-**Total Phase 2 Funding:** ~€11,000 (distributed across the two networks)
+- Distribution method to be determined collaboratively with networks through sense-making workshops
+- Networks will collectively govern funds using selected Web3 tools
+- Governance managed by key network stakeholders, not necessarily all project participants
 
 ### Why Network-Level Governance?
 
@@ -33,40 +32,53 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
 
 ---
 
+## Phase 2 Approach: Sense-Making First
+
+**Key Principle:** Identify concrete network needs before proposing tools.
+
+The first Phase 2 workshop focuses on **sense-making** — understanding current governance challenges, network priorities, and decision-making processes before selecting tools. This ensures tools serve real needs rather than imposing solutions.
+
 ## Web3 Governance Tools
 
-### Governance Tools
-
-#### [[Gardens]]
-
-- **What it is:** Conviction voting for community funding and governance
-- **Use cases:**
-  - Template for projects and volunteers
-  - Bounties and rewards distribution
-  - Community funding decisions
-- **Website:** [gardens.1hive.org](https://gardens.1hive.org/)
-- **Training:** Covered in Workshop #4 (January 2026)
-
-#### Multistakeholder Contracts
-
-- **What it is:** Smart contracts that enable multiple stakeholders to participate in governance
-- **Use cases:**
-  - Formalizing network agreements
-  - Defining roles and responsibilities
-  - Creating transparent decision-making structures
-
-### Finance Tools
+### Primary Tools (Selected Based on Network Needs)
 
 #### [[Safe]] (Multisigs)
 
 - **What it is:** Multi-signature wallet for secure, transparent fund management
 - **Use cases:**
-  - Network treasury management
+  - Network treasury management (key stakeholders as signers)
   - Requiring multiple approvals for fund disbursements
   - Transparent on-chain record of all transactions
 - **Website:** [safe.global](https://safe.global/)
 - **Program Treasury:** 0x91889ea97FeD05180fb5A70cB9570630f3C0Be77 (on Celo)
 - **Training:** Covered in Workshop #4 (January 2026)
+- **Note:** Signers are key network stakeholders, not necessarily all project participants
+
+#### Home Community
+
+- **What it is:** Mobile app for community governance designed for local communities
+- **Use cases:**
+  - Community decision-making (proposals with thumbs up/down)
+  - Participatory budgeting
+  - Fund management without visible crypto complexity
+- **Key feature:** Hides crypto complexity — users see numbers, not blockchain terminology
+- **Primary option for:** La Fundición network
+- **Training:** Covered in Workshop #4 (January 2026)
+
+#### Institutional Development Kit (Regen Foundation)
+
+- **What it is:** Framework for identifying web3 integration opportunities
+- **Use cases:**
+  - Mapping current governance structures and protocols
+  - Identifying where web3 tools can add value
+  - Designing protocols for future development
+  - Focus on micropublics and sociocratic circles
+- **Book available:** February 2026 (cards already available)
+- **Training:** Covered in Workshop #4 (January 2026)
+
+### Optional Tools (Based on Network Needs)
+
+#### [[Gardens]]
 
 #### [[Sarafu Network]]
 
@@ -92,22 +104,24 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
 
 ## Collective Decision-Making Process
 
-### Step 1: Network Coordination Meeting
+### Step 1: Sense-Making Workshop
 
-**When:** January 2026 (after Workshop #4)
+**When:** January 2026 (Workshop #4)
 
 **Purpose:**
 
-- Review Phase 2 funding structure
-- Discuss network priorities and needs
+- **Primary focus:** Identify concrete network needs before proposing tools
+- Understand current governance challenges and decision-making processes
+- Discuss network priorities and how tools might address them
 - Explore which tools best fit your network's context
 - Begin planning collective governance structure
 
 **Participants:**
 
-- All projects in your network (Miceli Social or La Fundició / Keras Buti)
+- Key network stakeholders (Miceli Social or La Fundició / Keras Buti)
 - Network coordinators
 - ReFi Barcelona support team
+- **Note:** May include project participants, but governance signers will be key stakeholders
 
 ### Step 2: Tool Selection & Setup
 
@@ -145,29 +159,29 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
 
 ## Workshop Schedule
 
-### Workshop #4: Advanced Web3 Tools (per network)
+### Workshop #4: Phase 2 Sense-Making & Needs Identification (per network)
 
 **When:** January 2026  
-**Format:** Online, separate sessions for each network  
+**Format:** In-person or online, separate sessions for each network  
 **Language:** Spanish
 
 **Content:**
 
-- Set appropriate expectations:
-  - Networks of significant size that manage resources
-  - Let's manage our resources together!
-- How tools can be used for governance:
-  - **[[Gardens]]** — template for projects and volunteers, bounties and rewards
-  - Multistakeholder contracts
-- Finance tools:
-  - **[[Safe]]** (multisigs)
-  - **[[Sarafu Network]]** (local currency / commitment pooling)
-  - **[[Cycles]]** (open clearing protocol)
+- **Primary focus:** Identify concrete network needs before proposing tools
+- Sense-making session to understand current governance challenges
+- Discussion of network priorities and decision-making processes
+- Exploration of how Web3 tools might address identified needs
+- Introduction to available tools:
+  - **Home Community** (mobile app for La Fundición) — community governance without visible crypto
+  - **Safe multisig** — network-level treasury management (key stakeholders as signers)
+  - **Institutional Development Kit** — framework for identifying web3 integration opportunities
+  - Optional: Gardens, Sarafu Network, Cycles (based on identified needs)
 
-**Project Deliverables:**
+**Network Deliverables:**
 
-- Agree on which mechanisms to use to manage collective pool
-- Activate governance of funds
+- Documented network needs and priorities
+- Initial tool selection based on network context
+- Plan for Phase 2 governance structure
 
 ### Workshop #5: BioFi and Beyond
 
@@ -220,35 +234,31 @@ In Phase 2 (January–February 2026), networks collectively govern funds using W
 
 ## Example Use Cases
 
-### Miceli Social Network (~€6,000)
+### Miceli Social Network
 
-**Potential Focus Areas:**
-
-- Supporting rural resilience projects across comarques
-- Funding collaborative initiatives between municipalities
-- Supporting ecological transition projects
-- Building capacity for bioregional governance
+**Network Characteristics:**
+- Tech-forward approach (Oriol interested in deep web3 integration)
+- Interest in exploring KarmaGap potential with wallet integration
+- Open to technical experimentation (hackathon format proposed)
 
 **Potential Tools:**
+- **[[Safe]]:** Multi-sig treasury with key stakeholders as signers
+- **Institutional Development Kit:** For identifying web3 integration opportunities
+- Optional: Gardens, Cycles (based on sense-making outcomes)
 
-- **[[Gardens]]:** For voting on project proposals and resource allocation
-- **[[Safe]]:** For secure treasury management with multiple signers
-- **[[Sarafu Network]]:** For local currency supporting rural economic flows
+### La Fundició / Keras Buti Network
 
-### La Fundició / Keras Buti Network (~€5,000)
-
-**Potential Focus Areas:**
-
-- Supporting urban cooperative initiatives
-- Funding community spaces and cultural projects
-- Supporting housing sovereignty projects
-- Building feminist economics infrastructure
+**Network Characteristics:**
+- Territorial-presential approach (emphasis on body-based management)
+- Skeptical of crypto/blockchain complexity
+- Need for tools that respond to real needs, not curiosity-driven experimentation
 
 **Potential Tools:**
+- **Home Community:** Primary option — mobile app that hides crypto complexity
+- **[[Safe]]:** Multi-sig treasury (if Home Community integration allows)
+- **Institutional Development Kit:** For identifying micropublics and sociocratic circle opportunities
 
-- **[[Gardens]]:** For community funding decisions
-- **[[Safe]]:** For transparent treasury management
-- **[[Cycles]]:** For circular economy and mutual credit systems
+**Note:** Tension identified between tech-forward (Misael) and territorial-presential (La Fundición) approaches. Resolution: sense-making first to identify concrete needs before tool selection.
 
 ---
 

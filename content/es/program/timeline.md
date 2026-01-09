@@ -47,12 +47,13 @@ gantt
 
 **Fondos de igualación globales asegurados en cadena**
 
-- Desembolso estimado $18.000 (≈ €16.380) del Localism Fund
+- Desembolso $18.100 USD (≈ €16.380) del Localism Fund
+- Financiación total del programa confirmada: €26.000 (€11.000 locales + €15.000 de igualación global)
 - Fondos disponibles para distribución
 
 ---
 
-## Fase 2: Inicio del Programa y Asignación Base (noviembre–diciembre 2025)
+## Fase 2: Inicio del Programa y Asignación Base (noviembre 2025–enero 2026)
 
 ### 17-21 de noviembre de 2025
 
@@ -70,13 +71,13 @@ gantt
   - Configuración de cartera Web3 (con grupos de trabajo)
 - **Entregable:** Abrir Cartera Web3
 
-### 4-19 de diciembre de 2025
+### 5-9 de enero de 2026
 
-**Horas de Oficina para Apoyo de Proyectos**
+**Horas de Oficina para Apoyo de Karma GAP**
 
-- Apoyo según se necesite para proyectos que trabajan en documentación y, más adelante, en presentaciones de Karma
+- Apoyo para proyectos que trabajan en presentaciones de Karma GAP
 - Asistencia técnica y resolución de problemas
-- **Entregable:** Tener el informe de actividades en Google Docs avanzado y apoyo disponible para la fase de Karma
+- **Entregable:** Proyectos listos para enviar actividades a Karma GAP
 
 ### Talleres de documentación específicos por red (Fase 1)
 
@@ -97,20 +98,51 @@ Estos talleres sustituyen al antiguo “Taller #2” único y están **enfocados
 **Entregable global de estos talleres:**  
 Cada proyecto tiene un **informe de actividades en Google Docs** parcial o completamente rellenado, que luego se utilizará para las presentaciones en Karma GAP.
 
-### Final de diciembre de 2025
+### 12 de enero de 2026
 
-**Desembolso de la Fase 1**
+**Fecha límite: Completar Informe de Actividades en Google Docs**
 
-- **Mínimo €1.000 por proyecto** (vinculado a los requisitos mínimos de participación)
-- **Hasta €1.500 por proyecto** (basado en evaluación simplificada de impacto)
+- Todos los proyectos deben completar su informe de actividades en Google Docs
+- Subir materiales de apoyo a la carpeta de Google Drive
+- **Entregable:** Informe de actividades completo listo para transferir a Karma GAP
+
+### 12-16 de enero de 2026
+
+**Enviar Actividades a Karma GAP**
+
+- Transferir información del Google Doc a Karma GAP
+- Enviar actividades con entregables y métricas
+- **Entregable:** Actividades enviadas a Karma GAP
+
+### 19 de enero de 2026
+
+**Taller Final de Cierre de la Fase 1**
+
+- **Formato:** Presencial (Barcelona)
+- **Hora:** 10:00–11:30
+- **Contenido:**
+  - Revisar cualquier pregunta pendiente sobre presentaciones en Karma GAP
+  - Reflexión y sentido común de la Fase 1
+  - Introducción a la Fase 2 (gobernanza a nivel de red)
+- **Entregable:** Finalización de la Fase 1 y orientación de la Fase 2
+
+### Finales de enero de 2026
+
+**Verificación de Completitud y Desembolso de la Fase 1**
+
+- Verificación ligera de que todos los proyectos han completado los requisitos de reporte
+- Notas de revisión interna para aprendizaje y comunicación con financiadores
+- **La financiación es condicional a completar el reporte básico** (Google Doc + presentación en Karma GAP)
+- **Distribución igualitaria** — todos los proyectos que completan los requisitos reciben la misma asignación (~€1.000 por proyecto)
+- **Evaluación:** Revisión interna ligera solo para aprendizaje y comunicación con financiadores; no afecta los montos de financiación
 - Fondos distribuidos a carteras Web3 de proyectos en Celo
 - Apoyo de off-ramp proporcionado (sin responsabilidades legales)
 
-**Requisitos Mínimos de Participación:**
+**Requisitos de Participación:**
 
-- ✅ Participar en al menos 2 talleres
-- ✅ Abrir cartera web3
-- ✅ Enviar al menos 3 actividades pasadas y 3 planes futuros a Karma
+- ✅ Completar informe de actividades en Google Docs antes del 12 de enero
+- ✅ Enviar actividades a Karma GAP (12-16 de enero)
+- ✅ Asistir al taller final de cierre (19 de enero)
 
 ---
 
@@ -118,22 +150,23 @@ Cada proyecto tiene un **informe de actividades en Google Docs** parcial o compl
 
 ### Enero de 2026
 
-**Taller #4: Herramientas Web3 Avanzadas (por red)**
+**Taller #4: Creación de Sentido y Identificación de Necesidades de la Fase 2 (por red)**
 
-- **Formato:** En línea, sesiones separadas para cada red
+- **Formato:** Presencial o en línea, sesiones separadas para cada red
 - **Idioma:** Español
 - **Contenido:**
-  - Establecer expectativas adecuadas para gobernanza de red
-  - Cómo las herramientas se pueden utilizar para gobernanza:
-    - Gardens (votación por convicción)
-    - Contratos multistakeholder
-  - Herramientas financieras:
-    - Safe (multisigs)
-    - Sarafu (moneda local / agrupación de compromisos)
-    - Cycles (protocolo de compensación abierto)
+  - **Enfoque principal:** Identificar necesidades concretas de la red antes de proponer herramientas
+  - Sesión de creación de sentido para entender los desafíos actuales de gobernanza
+  - Discusión de prioridades de la red y procesos de toma de decisiones
+  - Exploración de cómo las herramientas Web3 podrían abordar las necesidades identificadas
+  - Introducción a herramientas disponibles:
+    - **Home Community** (aplicación móvil para La Fundición) — gobernanza comunitaria sin cripto visible
+    - **Safe multisig** — gestión de tesorería a nivel de red (stakeholders clave como firmantes)
+    - **Institutional Development Kit** — marco para identificar oportunidades de integración web3
 - **Entregables:**
-  - Acordar qué mecanismos utilizar para gestionar el fondo colectivo
-  - Activar la gobernanza de los fondos
+  - Necesidades y prioridades de la red documentadas
+  - Selección inicial de herramientas basada en el contexto de la red
+  - Plan para la estructura de gobernanza de la Fase 2
 
 ### Enero/febrero de 2026
 
@@ -152,10 +185,12 @@ Cada proyecto tiene un **informe de actividades en Google Docs** parcial o compl
 
 **Las Redes Activan la Gobernanza Colectiva de los Fondos de la Fase 2**
 
-- **Red Miceli Social:** ~€6.000 fondo colectivo activado
-- **Red La Fundició / Keras Buti:** ~€5.000 fondo colectivo activado
-- Las redes gobiernan colectivamente los fondos utilizando herramientas de gobernanza Web3
+- **Financiación de la Fase 2:** €10.000 adicionales disponibles para gobernanza a nivel de red
+- **Red Miceli Social:** Safe multisig activado con stakeholders clave como firmantes
+- **Red La Fundició / Keras Buti:** Aplicación Home Community o Safe multisig (según preferencia de la red)
+- Las redes gobiernan colectivamente los fondos utilizando herramientas Web3 seleccionadas
 - Primeras decisiones colectivas tomadas
+- **Nota:** La gobernanza es gestionada por stakeholders clave de la red, no necesariamente todos los participantes del proyecto
 
 ---
 
@@ -183,10 +218,13 @@ Cada proyecto tiene un **informe de actividades en Google Docs** parcial o compl
 | --------------------- | -------------------------------------------------- | -------------- |
 | **31 oct 2025**       | Fondos locales (€11k) asegurados en cadena         | ✅ Completado  |
 | **Mediados nov 2025** | Fondos de igualación globales asegurados en cadena | 🔄 En Progreso |
-| **17-21 nov 2025**    | Taller #1 — Inicio del programa                    | 📅 Próximo     |
-| **4-19 dic 2025**     | Horas de oficina para apoyo de proyectos           | 📅 Próximo     |
-| **8-14 dic 2025**     | Taller #2 — Documentación de impacto               | 📅 Próximo     |
-| **Final dic 2025**    | Desembolso de la Fase 1                            | 📅 Próximo     |
+| **19 nov 2025**       | Taller #1 — Inicio del programa                    | ✅ Completado  |
+| **3, 11, 19 dic 2025** | Talleres de documentación (por red)              | ✅ Completado  |
+| **5-9 ene 2026**      | Horas de oficina para apoyo de Karma GAP          | 📅 Próximo     |
+| **12 ene 2026**       | Fecha límite: Completar Google Doc                | 📅 Próximo     |
+| **12-16 ene 2026**    | Enviar actividades a Karma GAP                     | 📅 Próximo     |
+| **19 ene 2026**       | Taller final de cierre (Barcelona)                | 📅 Próximo     |
+| **Finales ene 2026**  | Verificación y desembolso de la Fase 1            | 📅 Próximo     |
 | **Ene 2026**          | Taller #4 — Herramientas Web3 avanzadas            | 📅 Planificado |
 | **Ene/feb 2026**      | Taller #5 — BioFi y más allá                       | 📅 Planificado |
 | **Final feb 2026**    | Las redes activan gobernanza colectiva             | 📅 Planificado |
@@ -217,19 +255,21 @@ graph LR
 
 ### Eventos Obligatorios
 
-- **17-21 de noviembre de 2025:** Taller #1 (requerido para participación mínima)
-- **8-14 de diciembre de 2025:** Taller #2 (requerido para participación mínima)
-- **4-19 de diciembre de 2025:** Horas de oficina (recomendado para apoyo de Karma)
+- **19 de noviembre de 2025:** Taller #1 (inicio del programa) ✅ Completado
+- **3, 11 o 19 de diciembre de 2025:** Talleres de documentación (por red) ✅ Completado
+- **19 de enero de 2026:** Taller final de cierre (requerido para completar la Fase 1)
+
+### Plazos Importantes
+
+- **12 de enero de 2026:** Completar informe de actividades en Google Docs
+- **12-16 de enero de 2026:** Enviar actividades a Karma GAP
+- **Finales de enero de 2026:** Desembolso de la Fase 1 (condicional a completar requisitos)
 
 ### Opcional pero Recomendado
 
+- **5-9 de enero de 2026:** Horas de oficina para apoyo de Karma GAP
 - **Enero de 2026:** Taller #4 (para gobernanza de red)
 - **Enero/febrero de 2026:** Taller #5 (para visión a largo plazo)
-
-### Plazos
-
-- **Final de diciembre de 2025:** Enviar actividades de Karma (3 pasadas + 3 futuras) para calificar para la financiación de la Fase 1
-- **Final de febrero de 2026:** Las redes activan la gobernanza de la Fase 2
 
 ---
 

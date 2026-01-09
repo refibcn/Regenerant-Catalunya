@@ -47,7 +47,8 @@ gantt
 
 **Fons d'igualació globals assegurats en cadena**
 
-- Desemborsament estimat $18.000 (≈ €16.380) del Localism Fund
+- Desemborsament $18.100 USD (≈ €16.380) del Localism Fund
+- Finançament total del programa confirmat: €26.000 (€11.000 locals + €15.000 d'igualació global)
 - Fons disponibles per a distribució
 
 ---
@@ -94,20 +95,23 @@ gantt
   - Què busquem (3 activitats passades + 3 plans futurs)
 - **Lliurable:** Obrir compte a Karma
 
-### Final de desembre de 2025
+### Final de gener de 2026
 
-**Desemborsament de la Fase 1**
+**Verificació de Completitud i Desemborsament de la Fase 1**
 
-- **Mínim €1.000 per projecte** (vinculat als requisits mínims de participació)
-- **Fins a €1.500 per projecte** (basat en avaluació simplificada d'impacte)
+- Verificació lleugera que tots els projectes han completat els requisits de reportatge
+- Notes de revisió interna per a aprenentatge i comunicació amb finançadors
+- **La finançació és condicional a completar el reportatge bàsic** (Google Doc + presentació a Karma GAP)
+- **Distribució igualitària** — tots els projectes que completen els requisits reben la mateixa assignació (~€1.000 per projecte)
+- **Avaluació:** Revisió interna lleugera només per a aprenentatge i comunicació amb finançadors; no afecta els imports de finançament
 - Fons distribuïts a carteres Web3 de projectes a Celo
 - Suport d'off-ramp proporcionat (sense responsabilitats legals)
 
-**Requisits Mínims de Participació:**
+**Requisits de Participació:**
 
-- ✅ Participar en almenys 2 tallers
-- ✅ Obrir cartera web3
-- ✅ Enviar almenys 3 activitats passades i 3 plans futurs a Karma
+- ✅ Completar informe d'activitats a Google Docs abans del 12 de gener
+- ✅ Enviar activitats a Karma GAP (12-16 de gener)
+- ✅ Assistir al taller final de tancament (19 de gener)
 
 ---
 
@@ -115,12 +119,19 @@ gantt
 
 ### Gener de 2026
 
-**Taller #4: Eines Web3 Avançades (per xarxa)**
+**Taller #4: Creació de Sentit i Identificació de Necessitats de la Fase 2 (per xarxa)**
 
-- **Format:** En línia, sessions separades per a cada xarxa
+- **Format:** Presencial o en línia, sessions separades per a cada xarxa
 - **Idioma:** Espanyol
 - **Contingut:**
-  - Establir expectatives adequades per a governança de xarxa
+  - **Enfocament principal:** Identificar necessitats concretes de la xarxa abans de proposar eines
+  - Sessió de creació de sentit per entendre els desafiaments actuals de governança
+  - Discussió de prioritats de la xarxa i processos de presa de decisions
+  - Exploració de com les eines Web3 podrien abordar les necessitats identificades
+  - Introducció a eines disponibles:
+    - **Home Community** (aplicació mòbil per a La Fundició) — governança comunitària sense cripto visible
+    - **Safe multisig** — gestió de tresoreria a nivell de xarxa (stakeholders clau com a signants)
+    - **Institutional Development Kit** — marc per identificar oportunitats d'integració web3
   - Com les eines es poden utilitzar per a governança:
     - Gardens (votació per convicció)
     - Contractes multistakeholder
@@ -149,10 +160,12 @@ gantt
 
 **Les Xarxes Activen la Governança Col·lectiva dels Fons de la Fase 2**
 
-- **Xarxa Miceli Social:** ~€6.000 fons col·lectiu activat
-- **Xarxa La Fundició / Keras Buti:** ~€5.000 fons col·lectiu activat
-- Les xarxes governen col·lectivament els fons utilitzant eines de governança Web3
+- **Finançament de la Fase 2:** €10.000 addicionals disponibles per a governança a nivell de xarxa
+- **Xarxa Miceli Social:** Safe multisig activat amb stakeholders clau com a signants
+- **Xarxa La Fundició / Keras Buti:** Aplicació Home Community o Safe multisig (segons preferència de la xarxa)
+- Les xarxes governen col·lectivament els fons utilitzant eines Web3 seleccionades
 - Primeres decisions col·lectives preses
+- **Nota:** La governança és gestionada per stakeholders clau de la xarxa, no necessàriament tots els participants del projecte
 
 ---
 

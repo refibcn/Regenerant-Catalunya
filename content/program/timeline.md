@@ -23,10 +23,12 @@ gantt
     Wallet Setup Support          :ws, 2025-11-20, 14d
     Prepare Project Page          :prep, 2025-11-20, 25d
     Office Hours                  :office, 2025-12-04, 16d
-    Workshop #2                   :workshop2, 2025-12-08, 7d
-    Optional Support Sessions     :support, 2025-12-15, 17d
-    Evaluation                    :eval, 2025-12-20, 11d
-    Phase 1 Disbursement          :disburse1, 2025-12-31, 1d
+    Documentation Workshops       :done, doc-workshops, 2025-12-03, 17d
+    Office Hours                  :office, 2026-01-05, 5d
+    Google Docs Deadline          :docs, 2026-01-12, 1d
+    Karma GAP Submissions         :karma-sub, 2026-01-12, 5d
+    Final Closeout Workshop       :workshop3, 2026-01-19, 1d
+    Phase 1 Disbursement          :disburse1, 2026-01-20, 1d
     section Phase 2
     Workshop #4                   :workshop4, 2026-01-15, 1d
     Workshop #5                   :workshop5, 2026-01-31, 30d
@@ -51,12 +53,13 @@ gantt
 
 **Global matching funds secured on-chain**
 
-- Estimated Disbursement $18,000 (≈ €16,380) from Localism Fund
+- Disbursement $18,100 USD (≈ €16,380) from Localism Fund
+- Total program funding confirmed: €26,000 (€11,000 local + €15,000 from global matching)
 - Funds available for distribution
 
 ---
 
-## Phase 2: Program Kickoff & Baseline Allocation (November–December 2025)
+## Phase 2: Program Kickoff & Baseline Allocation (November 2025–January 2026)
 
 ### November 19, 2025 ✅
 
@@ -92,13 +95,13 @@ gantt
 - Identify and describe key activities, deliverables, and metrics
 - **Deliverable:** Activities report in Google Docs started and ready to be refined in documentation workshops
 
-### December 4-19, 2025
+### January 5-9, 2026
 
-**Office Hours for Project Support**
+**Office Hours for Karma GAP Support**
 
-- Support as needed for projects working on Karma submissions
+- Support for projects working on Karma GAP submissions
 - Technical assistance and troubleshooting
-- **Deliverable:** Submit activities on Karma (at least 3 past activities and 3 future plans)
+- **Deliverable:** Projects ready to submit activities to Karma GAP
 
 ### Networks & Workshop Paths (Phase 1)
 
@@ -120,46 +123,51 @@ For **Phase 1**, workshops are intentionally structured in **two waves**:
 
 Across both networks, the **shared requirement** is that each project prepares a concise **activities report** (activities → deliverables → metrics with proof/evidence) that can later be copied into KarmaGAP.
 
-### December 8-31, 2025
+### January 12, 2026
+
+**Deadline: Complete Google Doc Activities Report**
+
+- All projects must complete their Google Doc activities report
+- Upload supporting materials to Google Drive folder
+- **Deliverable:** Complete activities report ready for transfer to Karma GAP
+
+### January 12-16, 2026
 
 **Submit Activities to Karma GAP**
 
-- Submit at least 3 past activities
-- Submit at least 3 future plans
 - Transfer information from Google Doc to Karma GAP
+- Submit activities with deliverables and metrics
 - **Deliverable:** Activities submitted to Karma GAP
 
-### December 15-31, 2025
+### January 19, 2026
 
-**Optional Support Sessions**
+**Final Phase 1 Closeout Workshop**
 
-- Individual or small group sessions for Karma GAP submission help
-- Scheduled as needed
-- **Deliverable:** Additional support for projects needing help
+- **Format:** In-person (Barcelona)
+- **Time:** 10:00–11:30 AM
+- **Content:**
+  - Review any remaining questions about Karma GAP submissions
+  - Phase 1 reflection and sense-making
+  - Introduction to Phase 2 (network-level governance)
+- **Deliverable:** Phase 1 completion and Phase 2 orientation
 
-### December 20-31, 2025
+### Late January 2026
 
-**Evaluation Process**
+**Completion Check & Phase 1 Disbursement**
 
-- Council members review Karma GAP submissions
-- Projects scored independently based on 4 criteria
-- Scores averaged across evaluators
-- Allocation determined (€1,000-€1,500)
-
-### End of December 2025
-
-**Phase 1 Disbursement**
-
-- **Minimum €1,000 per project** (tied to minimum participation requirements)
-- **Up to €1,500 per project** (based on simplified impact evaluation)
+- Lightweight verification that all projects have completed reporting requirements
+- Internal review notes for learning and funder communication
+- **Funding is conditional on completing basic reporting** (Google Doc + Karma GAP submission)
+- **Equal distribution** — all projects completing requirements receive the same allocation (~€1,000 per project)
+- **Evaluation:** Lightweight internal review for learning and funder communication only; does not affect funding amounts
 - Funds distributed to project Web3 wallets on Celo
 - Off-ramp support provided (without legal liabilities)
 
-**Minimum Participation Requirements:**
+**Participation Requirements:**
 
-- ✅ Participate in at least 2 workshops
-- ✅ Open web3 wallet
-- ✅ Submit at least 3 past activities and 3 future plans to Karma
+- ✅ Complete Google Doc activities report by January 12
+- ✅ Submit activities to Karma GAP (January 12–16)
+- ✅ Attend final closeout workshop (January 19)
 
 ---
 
@@ -167,22 +175,23 @@ Across both networks, the **shared requirement** is that each project prepares a
 
 ### January 2026
 
-**Workshop #4: Advanced Web3 Tools (per network)**
+**Workshop #4: Phase 2 Sense-Making & Needs Identification (per network)**
 
-- **Format:** Online, separate sessions for each network
+- **Format:** In-person or online, separate sessions for each network
 - **Language:** Spanish
 - **Content:**
-  - Set appropriate expectations for network governance
-  - How tools can be used for governance:
-    - Gardens (conviction voting)
-    - Multistakeholder contracts
-  - Finance tools:
-    - Safe (multisigs)
-    - Sarafu (local currency / commitment pooling)
-    - Cycles (open clearing protocol)
+  - **Primary focus:** Identify concrete network needs before proposing tools
+  - Sense-making session to understand current governance challenges
+  - Discussion of network priorities and decision-making processes
+  - Exploration of how Web3 tools might address identified needs
+  - Introduction to available tools:
+    - **Home Community** (mobile app for La Fundición) — community governance without visible crypto
+    - **Safe multisig** — network-level treasury management
+    - **Institutional Development Kit** — framework for identifying web3 integration opportunities
 - **Deliverables:**
-  - Agree on which mechanisms to use to manage collective pool
-  - Activate governance of funds
+  - Documented network needs and priorities
+  - Initial tool selection based on network context
+  - Plan for Phase 2 governance structure
 
 ### January/February 2026
 
@@ -201,10 +210,12 @@ Across both networks, the **shared requirement** is that each project prepares a
 
 **Networks Activate Collective Governance of Phase 2 Funds**
 
-- **Miceli Social network:** ~€6,000 collective pool activated
-- **La Fundició / Keras Buti network:** ~€5,000 collective pool activated
-- Networks collectively govern funds using Web3 governance tools
+- **Phase 2 funding:** €10,000 additional available for network-level governance
+- **Miceli Social network:** Multi-sig Safe activated with key stakeholders as signers
+- **La Fundició / Keras Buti network:** Home Community app or Safe multisig (based on network preference)
+- Networks collectively govern funds using selected Web3 governance tools
 - First collective decisions made
+- **Note:** Governance managed by key network stakeholders, not necessarily all project participants
 
 ---
 
@@ -233,15 +244,13 @@ Across both networks, the **shared requirement** is that each project prepares a
 | **Oct 31, 2025**    | Local funds (€11k) secured on-chain     | ✅ Completed   |
 | **End Nov 2025**    | Global matching funds secured on-chain  | 🔄 In Progress |
 | **Nov 19, 2025**     | Workshop #1 — Program kickoff           | ✅ Completed   |
-| **Nov 20-Dec 7**     | Wallet setup support                     | 📅 Upcoming    |
-| **Nov 20-Dec 14**    | Prepare project page (Google Doc)        | 📅 Upcoming    |
-| **Dec 4-19, 2025**   | Office hours for project support        | 📅 Upcoming    |
-| **Dec 8-14, 2025**   | Workshop #2 — Impact documentation      | 📅 Upcoming    |
-| **Dec 8-31, 2025**   | Submit activities to Karma GAP          | 📅 Upcoming    |
-| **Dec 15-31, 2025**  | Optional support sessions               | 📅 Upcoming    |
-| **Dec 20-31, 2025**  | Evaluation process                      | 📅 Upcoming    |
-| **End Dec 2025**     | Phase 1 disbursement                    | 📅 Upcoming    |
-| **Jan 2026**        | Workshop #4 — Advanced Web3 tools       | 📅 Planned     |
+| **Dec 3, 11, 19 2025** | Documentation workshops (by network)   | ✅ Completed   |
+| **Jan 5-9, 2026**    | Office hours for Karma GAP support      | 📅 Upcoming    |
+| **Jan 12, 2026**     | Deadline: Complete Google Doc          | 📅 Upcoming    |
+| **Jan 12-16, 2026**  | Submit activities to Karma GAP          | 📅 Upcoming    |
+| **Jan 19, 2026**     | Final closeout workshop (Barcelona, 10:00 AM) | 📅 Upcoming    |
+| **Late Jan 2026**    | Completion check & Phase 1 disbursement | 📅 Upcoming    |
+| **Jan 2026**        | Workshop #4 — Phase 2 sense-making & needs | 📅 Planned     |
 | **Jan/Feb 2026**    | Workshop #5 — BioFi and beyond          | 📅 Planned     |
 | **End Feb 2026**    | Networks activate collective governance | 📅 Planned     |
 | **Mar 2026**        | Final report published                  | 📅 Planned     |
@@ -254,10 +263,10 @@ Across both networks, the **shared requirement** is that each project prepares a
 graph LR
     A[Project Onboarding<br/>Nov 2025] --> B[Phase 1: Baseline<br/>Nov-Dec 2025]
     B --> C[Karma Reports<br/>+ Simplified Impact Evaluation]
-    C --> D[Disbursement<br/>Min €1,000, up to €1,500/project]
+    C --> D[Disbursement<br/>Equal allocation ~€1,000/project]
     D --> E[Phase 2: Network Governance<br/>Jan-Feb 2026]
     E --> F[Network-Level Tools<br/>Gardens, Safe, Sarafu, Cycles]
-    F --> G[Collective Pool Activation<br/>Miceli ~€6k, La Fundició ~€5k]
+    F --> G[Collective Pool Activation<br/>€10k additional for networks]
     G --> H[Final Reporting<br/>Feb-Mar 2026]
 
     style B fill:#90EE90
@@ -271,19 +280,21 @@ graph LR
 
 ### Must-Attend Events
 
-- **November 19, 2025:** Workshop #1 (required for minimum participation) ✅ Completed
-- **December 8-14, 2025:** Workshop #2 (required for minimum participation)
-- **December 4-19, 2025:** Office hours (recommended for Karma support)
+- **November 19, 2025:** Workshop #1 (program kickoff) ✅ Completed
+- **December 3, 11, or 19, 2025:** Documentation workshops (by network) ✅ Completed
+- **January 19, 2026:** Final closeout workshop (required for Phase 1 completion)
+
+### Important Deadlines
+
+- **January 12, 2026:** Complete Google Doc activities report
+- **January 12-16, 2026:** Submit activities to Karma GAP
+- **Late January 2026:** Phase 1 disbursement (conditional on completing requirements)
 
 ### Optional but Recommended
 
+- **January 5-9, 2026:** Office hours for Karma GAP support
 - **January 2026:** Workshop #4 (for network governance)
 - **January/February 2026:** Workshop #5 (for long-term vision)
-
-### Deadlines
-
-- **End of December 2025:** Submit Karma activities (3 past + 3 future) to qualify for Phase 1 funding
-- **End of February 2026:** Networks activate Phase 2 governance
 
 ---
 
@@ -300,16 +311,14 @@ gantt
     Workshop 2: Impact Docs      :w2, 2025-12-08, 7d
     section Support
     Wallet Setup Support         :ws, 2025-11-20, 14d
-    Office Hours                 :oh, 2025-12-04, 16d
-    Optional Support Sessions    :support, 2025-12-15, 17d
+    Office Hours                 :oh, 2026-01-05, 5d
     section Deliverables
-    Wallet Opened                :wallet, 2025-12-07, 1d
-    Project Page Prepared        :prep, 2025-12-14, 1d
-    Karma Account Created        :karma-acc, 2025-12-14, 1d
-    Activities Submitted         :karma-sub, 2025-12-31, 1d
+    Google Docs Complete         :docs, 2026-01-12, 1d
+    Karma GAP Submissions        :karma-sub, 2026-01-12, 5d
     section Outcomes
-    Evaluation Process           :eval, 2025-12-20, 11d
-    Phase 1 Disbursement         :disburse, 2025-12-31, 1d
+    Final Closeout Workshop       :workshop3, 2026-01-19, 1d
+    Completion Check             :check, 2026-01-16, 3d
+    Phase 1 Disbursement         :disburse, 2026-01-20, 1d
 ```
 
 ---

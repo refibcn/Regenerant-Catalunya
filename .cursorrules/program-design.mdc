@@ -45,12 +45,12 @@ globs: **/Program Design.md,**/Master Document.md
 
 ## Funding Architecture
 
-**Total:** ~€30,000 (€11k local + ~$20k global)
+**Total:** €26,000 (€11k local + €15k from global matching)
 
-**Two-Phase Distribution (under development):**
-- **Phase 1:** ~50% based on impact evaluation
-- **Phase 2:** ~50% based on continued engagement + Web3 adoption
-- **Minimum:** €1,000 per project guaranteed
+**Two-Phase Distribution:**
+- **Phase 1:** Equal allocation (~€1,000 per project), conditional on completing reporting requirements
+- **Phase 2:** €10,000 additional for network-level governance (sense-making approach)
+- **Evaluation:** Lightweight internal review for learning only; does not affect funding amounts
 
 ## Technology Stack
 
@@ -59,8 +59,11 @@ globs: **/Program Design.md,**/Master Document.md
 - Celo Wallets - Fund management
 - Safe Multisig - Treasury
 
-**Optional Innovation:**
-- Silvi, Hypercerts, Gainforest, Sarafu Network, Kokonut Network
+**Phase 2 Tools:**
+- **Safe multisig** — network-level treasury management (key stakeholders as signers)
+- **Home Community** — mobile app for La Fundición (hides crypto complexity)
+- **Institutional Development Kit** — framework for identifying web3 integration opportunities
+- **Optional:** Gardens, Sarafu Network, Cycles (based on network needs identified through sense-making)
 
 **Program Management:**
 - WhatsApp (primary coordination)
@@ -77,10 +80,10 @@ globs: **/Program Design.md,**/Master Document.md
 - Network Effects: 15%
 - Web3 Integration: 15%
 
-**Three-Tier Process:**
+**Evaluation Process:**
 1. Structured Reporting (Projects via Karma GAP)
-2. Council Evaluation (Advisors review)
-3. Allocation Determination (Program team)
+2. Lightweight Internal Review (Team review for learning and funder communication)
+3. Equal Allocation (All projects completing requirements receive same amount)
 
 ## Capacity Building
 

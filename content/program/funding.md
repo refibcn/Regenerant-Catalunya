@@ -12,11 +12,11 @@ description: "Funding architecture, budget breakdown, and treasury management fo
 - **Miceli Social:** **€6,000** (≈ **$6,600**) — commitment letter signed; funds secured on-chain ✅
 - **La Fundició / Keras Buti:** **€5,000** (≈ **$5,500**) — commitment letter signed; funds secured on-chain ✅
 
-### Global Matching: **Estimated Disbursement $18,000** (≈ **€16,380**)
+### Global Matching: **$18,100 USD** (≈ **€16,380**)
 
 Secured through the [**Localism Fund**](https://www.localism.fund/) — a grants program supporting credible local networks building practical models of political, economic, cultural, and ecological localism using Ethereum infrastructure.
 
-### Total Funding Target: **~€27,380** (≈ **$30,120**)
+### Total Funding Confirmed: **€26,000** (€11,000 local + €15,000 from global matching)
 
 ### Timeline for Funds Availability
 
@@ -29,25 +29,26 @@ Secured through the [**Localism Fund**](https://www.localism.fund/) — a grants
 
 ## Program Budget Breakdown
 
-### Target Program Budget: €27,380 (includes Localism Fund matching)
+### Confirmed Program Budget: €26,000 (includes Localism Fund matching)
 
 ### ALLOCATION
 
-1. **DIRECT GRANTS TO PROJECTS — 80% (€21,904)**
+1. **DIRECT GRANTS TO PROJECTS — ~85% (€22,000)**
    - **11 projects** participating in the round
-   - **Phase 1: Baseline Allocation (Nov–Dec 2025):**
-     - **Minimum €1,000 per project** (tied to minimum participation requirements)
-     - **Up to €1,500 per project** based on simplified impact evaluation
-     - **Minimum participation requirements** (required for €1k minimum):
+   - **Phase 1: Baseline Allocation (Nov 2025–Jan 2026):**
+     - **Equal distribution: ~€1,000 per project** (conditional on completing basic reporting requirements)
+     - **Minimum participation requirements** (required for funding):
        - Participate in at least 2 workshops
        - Open web3 wallet
-       - Submit at least 3 past activities and 3 future plans to Karma
-     - **Impact evaluation:** Simplified evaluation continues but won't dictate distribution much since the 50% split with €1k minimum leaves limited variance
-     - Projects can receive less than €1k if they don't meet minimum participation requirements
-   - **Phase 2: Network-Level Collective Governance (Jan–Feb 2026):** €1,000 per project allocated to network-level pools
-     - **Miceli Social network:** ~€6,000 collective pool
-     - **La Fundició / Keras Buti network:** ~€5,000 collective pool
-2. **PROGRAM OPERATIONS & COORDINATION — 20% (€5,476)**
+       - Complete Google Doc activities report by January 12, 2026
+       - Submit activities to Karma GAP (January 12–16, 2026)
+       - Attend final closeout workshop (January 19, 2026)
+     - **Evaluation:** Lightweight internal review for learning and funder communication only; **does not affect funding amounts**
+     - All projects completing requirements receive equal allocation
+   - **Phase 2: Network-Level Collective Governance (Jan–Feb 2026):** €10,000 additional for network-level pools
+     - Networks collectively govern funds using selected Web3 tools
+     - Distribution method to be determined collaboratively with networks
+2. **PROGRAM OPERATIONS & COORDINATION — ~15% (€4,000)**
    - **Round coordination & project support** — ReFi BCN team time: Workshops planning & execution • Ongoing project mentorship and technical support • Partner coordination • Communications and community engagement • Karma onboarding and training for all projects • Production of documentation & reports
    - **Impact evaluation process** — ReFi BCN team + advisors' review time (simplified evaluation)
    - Plus additional expenses
@@ -65,33 +66,37 @@ Secured through the [**Localism Fund**](https://www.localism.fund/) — a grants
 
 Projects receive funding through a **two-phase distribution** tied to completion of requirements and impact evaluation:
 
-### Phase 1 — Baseline Allocation (Nov–Dec 2025)
+### Phase 1 — Baseline Allocation (Nov 2025–Jan 2026)
 
-- **Minimum €1,000 per project** (tied to minimum participation requirements)
-- **Up to €1,500 per project** based on simplified impact evaluation
-- **Minimum participation requirements** (required for €1k minimum):
+- **Equal distribution: ~€1,000 per project** (conditional on completing basic reporting requirements)
+- **Minimum participation requirements** (required for funding):
   - Participate in at least 2 workshops
   - Open web3 wallet
-  - Submit at least 3 past activities and 3 future plans to **Karma**
-- **Impact evaluation:** Simplified evaluation continues but won't dictate distribution much since the 50% split with €1k minimum leaves limited variance for allocation differences
-- Projects can receive less than €1k if they don't meet minimum participation requirements
+  - Complete Google Doc activities report by January 12, 2026
+  - Submit activities to Karma GAP (January 12–16, 2026)
+  - Attend final closeout workshop (January 19, 2026)
+- **Evaluation:** Lightweight internal review for learning and funder communication only; **does not affect funding amounts**
+- All projects completing requirements receive equal allocation
 
 ### Phase 2 — Network-Level Collective Governance (Jan–Feb 2026)
 
-**€1,000 per project** allocated to network-level pools:
+**€10,000 additional** allocated for network-level governance:
 
-- **Miceli Social network:** ~€6,000 collective pool
-- **La Fundició / Keras Buti network:** ~€5,000 collective pool
-- Networks collectively govern funds using Web3 governance tools (Gardens, multistakeholder contracts, Safe multisigs, Sarafu, Cycles)
+- Networks collectively govern funds using selected Web3 tools
+- **Primary tools:**
+  - **Safe multisig** — network-level treasury management (key stakeholders as signers)
+  - **Home Community** — mobile app for La Fundición (hides crypto complexity)
+  - **Institutional Development Kit** — framework for identifying web3 integration opportunities
+- Distribution method to be determined collaboratively with networks through sense-making workshops
 
 ```mermaid
 graph LR
     A[Project Onboarding<br/>Nov 2025] --> B[Phase 1: Baseline<br/>Nov-Dec 2025]
     B --> C[Karma Reports<br/>+ Simplified Impact Evaluation]
-    C --> D[Disbursement<br/>Min €1,000, up to €1,500/project]
+    C --> D[Disbursement<br/>Equal allocation ~€1,000/project]
     D --> E[Phase 2: Network Governance<br/>Jan-Feb 2026]
     E --> F[Network-Level Tools<br/>Gardens, Safe, Sarafu, Cycles]
-    F --> G[Collective Pool Activation<br/>Miceli ~€6k, La Fundició ~€5k]
+    F --> G[Collective Pool Activation<br/>€10k additional for networks]
     G --> H[Final Reporting<br/>Feb-Mar 2026]
 
     style B fill:#90EE90
@@ -101,8 +106,9 @@ graph LR
 
 This phased approach:
 
-- **Rewards completion of minimum participation requirements** (Phase 1 minimum €1k) while allowing **simplified impact evaluation** to determine allocation up to €1,500
-- Empowers networks to collectively govern Phase 2 funds using Web3 tools
+- **Rewards completion of minimum participation requirements** with equal Phase 1 allocation (~€1k per project)
+- **Evaluation for learning only** — does not affect funding amounts
+- Empowers networks to collectively govern Phase 2 funds using Web3 tools selected through sense-making process
 - Creates natural checkpoints for learning and adjustment
 - Reduces risk for both projects and funders
 

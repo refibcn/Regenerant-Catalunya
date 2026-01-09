@@ -15,12 +15,11 @@ En la Fase 2 (enero–febrero 2026), las redes gobiernan colectivamente los fond
 
 ### Estructura de Financiación
 
-**€1.000 por proyecto** se asigna a fondos a nivel de red:
+**€10.000 adicionales** se asignan para gobernanza a nivel de red:
 
-- **Red Miceli Social:** ~€6.000 fondo colectivo
-- **Red La Fundició / Keras Buti:** ~€5.000 fondo colectivo
-
-**Financiación Total de la Fase 2:** ~€11.000 (distribuido entre las dos redes)
+- El método de distribución se determinará colaborativamente con las redes a través de talleres de creación de sentido
+- Las redes gobernarán colectivamente los fondos utilizando herramientas Web3 seleccionadas
+- La gobernanza es gestionada por stakeholders clave de la red, no necesariamente todos los participantes del proyecto
 
 ### ¿Por qué Gobernanza a Nivel de Red?
 
@@ -32,40 +31,53 @@ En la Fase 2 (enero–febrero 2026), las redes gobiernan colectivamente los fond
 
 ---
 
+## Enfoque de la Fase 2: Creación de Sentido Primero
+
+**Principio Clave:** Identificar necesidades concretas de la red antes de proponer herramientas.
+
+El primer taller de la Fase 2 se enfoca en la **creación de sentido** — entender los desafíos actuales de gobernanza, prioridades de la red y procesos de toma de decisiones antes de seleccionar herramientas. Esto asegura que las herramientas sirvan necesidades reales en lugar de imponer soluciones.
+
 ## Herramientas de Gobernanza Web3
 
-### Herramientas de Gobernanza
-
-#### Gardens
-
-- **Qué es:** Votación por convicción para financiación y gobernanza comunitaria
-- **Casos de uso:**
-  - Plantilla para proyectos y voluntarios
-  - Distribución de recompensas y premios
-  - Decisiones de financiación comunitaria
-- **Sitio web:** [gardens.1hive.org](https://gardens.1hive.org/)
-- **Formación:** Cubierto en el Taller #4 (enero 2026)
-
-#### Contratos Multistakeholder
-
-- **Qué es:** Contratos inteligentes que permiten que múltiples partes interesadas participen en la gobernanza
-- **Casos de uso:**
-  - Formalizar acuerdos de red
-  - Definir roles y responsabilidades
-  - Crear estructuras de toma de decisiones transparentes
-
-### Herramientas Financieras
+### Herramientas Principales (Seleccionadas Basadas en Necesidades de la Red)
 
 #### Safe (Multisigs)
 
 - **Qué es:** Cartera multi-firma para gestión de fondos segura y transparente
 - **Casos de uso:**
-  - Gestión de tesorería de red
+  - Gestión de tesorería a nivel de red (stakeholders clave como firmantes)
   - Requerir múltiples aprobaciones para desembolsos de fondos
   - Registro transparente en cadena de todas las transacciones
 - **Sitio web:** [safe.global](https://safe.global/)
 - **Tesorería del Programa:** 0x91889ea97FeD05180fb5A70cB9570630f3C0Be77 (en Celo)
 - **Formación:** Cubierto en el Taller #4 (enero 2026)
+- **Nota:** Los firmantes son stakeholders clave de la red, no necesariamente todos los participantes del proyecto
+
+#### Home Community
+
+- **Qué es:** Aplicación móvil para gobernanza comunitaria diseñada para comunidades locales
+- **Casos de uso:**
+  - Toma de decisiones comunitarias (propuestas con pulgar arriba/abajo)
+  - Presupuesto participativo
+  - Gestión de fondos sin complejidad cripto visible
+- **Característica clave:** Oculta la complejidad cripto — los usuarios ven números, no terminología blockchain
+- **Opción principal para:** Red La Fundición
+- **Formación:** Cubierto en el Taller #4 (enero 2026)
+
+#### Institutional Development Kit (Regen Foundation)
+
+- **Qué es:** Marco para identificar oportunidades de integración web3
+- **Casos de uso:**
+  - Mapear estructuras y protocolos de gobernanza actuales
+  - Identificar dónde las herramientas web3 pueden agregar valor
+  - Diseñar protocolos para desarrollo futuro
+  - Enfoque en micropúblicos y círculos sociocráticos
+- **Libro disponible:** Febrero 2026 (tarjetas ya disponibles)
+- **Formación:** Cubierto en el Taller #4 (enero 2026)
+
+### Herramientas Opcionales (Basadas en Necesidades de la Red)
+
+#### Gardens
 
 #### Sarafu Network
 
@@ -91,22 +103,24 @@ En la Fase 2 (enero–febrero 2026), las redes gobiernan colectivamente los fond
 
 ## Proceso de Toma de Decisiones Colectiva
 
-### Paso 1: Reunión de Coordinación de Red
+### Paso 1: Taller de Creación de Sentido
 
-**Cuándo:** Enero 2026 (después del Taller #4)
+**Cuándo:** Enero de 2026 (Taller #4)
 
 **Propósito:**
 
-- Revisar la estructura de financiación de la Fase 2
-- Discutir prioridades y necesidades de la red
+- **Enfoque principal:** Identificar necesidades concretas de la red antes de proponer herramientas
+- Entender los desafíos actuales de gobernanza y procesos de toma de decisiones
+- Discutir prioridades de la red y cómo las herramientas podrían abordarlas
 - Explorar qué herramientas se ajustan mejor al contexto de vuestra red
 - Comenzar a planificar la estructura de gobernanza colectiva
 
 **Participantes:**
 
-- Todos los proyectos de vuestra red (Miceli Social o La Fundició / Keras Buti)
+- Stakeholders clave de la red (Miceli Social o La Fundició / Keras Buti)
 - Coordinadores de red
 - Equipo de apoyo de ReFi Barcelona
+- **Nota:** Puede incluir participantes del proyecto, pero los firmantes de gobernanza serán stakeholders clave
 
 ### Paso 2: Selección y Configuración de Herramientas
 

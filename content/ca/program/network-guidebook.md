@@ -15,12 +15,11 @@ A la Fase 2 (gener–febrer 2026), les xarxes governen col·lectivament els fons
 
 ### Estructura de Finançament
 
-**€1.000 per projecte** s'assigna a fons a nivell de xarxa:
+**€10.000 addicionals** s'assignen per a governança a nivell de xarxa:
 
-- **Xarxa Miceli Social:** ~€6.000 fons col·lectiu
-- **Xarxa La Fundició / Keras Buti:** ~€5.000 fons col·lectiu
-
-**Finançament Total de la Fase 2:** ~€11.000 (distribuït entre les dues xarxes)
+- El mètode de distribució es determinarà col·laborativament amb les xarxes a través de tallers de creació de sentit
+- Les xarxes governaran col·lectivament els fons utilitzant eines Web3 seleccionades
+- La governança és gestionada per stakeholders clau de la xarxa, no necessàriament tots els participants del projecte
 
 ### Per què Governança a Nivell de Xarxa?
 
@@ -32,40 +31,53 @@ A la Fase 2 (gener–febrer 2026), les xarxes governen col·lectivament els fons
 
 ---
 
+## Enfocament de la Fase 2: Creació de Sentit Primer
+
+**Principi Clau:** Identificar necessitats concretes de la xarxa abans de proposar eines.
+
+El primer taller de la Fase 2 s'enfoca en la **creació de sentit** — entendre els desafiaments actuals de governança, prioritats de la xarxa i processos de presa de decisions abans de seleccionar eines. Això assegura que les eines serveixin necessitats reals en lloc d'imposar solucions.
+
 ## Eines de Governança Web3
 
-### Eines de Governança
-
-#### Gardens
-
-- **Què és:** Votació per convicció per a finançament i governança comunitària
-- **Casos d'ús:**
-  - Plantilla per a projectes i voluntaris
-  - Distribució de recompenses i premis
-  - Decisions de finançament comunitari
-- **Lloc web:** [gardens.1hive.org](https://gardens.1hive.org/)
-- **Formació:** Cobrit al Taller #4 (gener 2026)
-
-#### Contractes Multistakeholder
-
-- **Què és:** Contractes intel·ligents que permeten que múltiples parts interessades participin en la governança
-- **Casos d'ús:**
-  - Formalitzar acords de xarxa
-  - Definir rols i responsabilitats
-  - Crear estructures de presa de decisions transparents
-
-### Eines Financeres
+### Eines Principals (Seleccionades Basades en Necessitats de la Xarxa)
 
 #### Safe (Multisigs)
 
 - **Què és:** Cartera multi-signatura per a gestió de fons segura i transparent
 - **Casos d'ús:**
-  - Gestió de tresoreria de xarxa
+  - Gestió de tresoreria a nivell de xarxa (stakeholders clau com a signants)
   - Requerir múltiples aprovacions per a desemborsaments de fons
   - Registre transparent en cadena de totes les transaccions
 - **Lloc web:** [safe.global](https://safe.global/)
 - **Tresoreria del Programa:** 0x91889ea97FeD05180fb5A70cB9570630f3C0Be77 (a Celo)
 - **Formació:** Cobrit al Taller #4 (gener 2026)
+- **Nota:** Els signants són stakeholders clau de la xarxa, no necessàriament tots els participants del projecte
+
+#### Home Community
+
+- **Què és:** Aplicació mòbil per a governança comunitària dissenyada per a comunitats locals
+- **Casos d'ús:**
+  - Presa de decisions comunitàries (propostes amb polze amunt/avall)
+  - Pressupost participatiu
+  - Gestió de fons sense complexitat cripto visible
+- **Característica clau:** Oculta la complexitat cripto — els usuaris veuen nombres, no terminologia blockchain
+- **Opció principal per a:** Xarxa La Fundició
+- **Formació:** Cobrit al Taller #4 (gener 2026)
+
+#### Institutional Development Kit (Regen Foundation)
+
+- **Què és:** Marc per identificar oportunitats d'integració web3
+- **Casos d'ús:**
+  - Mapejar estructures i protocols de governança actuals
+  - Identificar on les eines web3 poden afegir valor
+  - Dissenyar protocols per a desenvolupament futur
+  - Enfocament en micropúblics i cercles sociocràtics
+- **Llibre disponible:** Febrer 2026 (targetes ja disponibles)
+- **Formació:** Cobrit al Taller #4 (gener 2026)
+
+### Eines Opcionals (Basades en Necessitats de la Xarxa)
+
+#### Gardens
 
 #### Sarafu Network
 

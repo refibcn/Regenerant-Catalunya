@@ -9,13 +9,13 @@ description: Regenerant Catalunya GG24 regenerative finance program overview
 **Regenerant Catalunya** is a pioneering participatory funding round launching October 14-28, 2025 during Gitcoin Grants Round 24. It demonstrates how local knowledge integrates with global Web3 infrastructure for bioregional regeneration.
 
 ## Key Facts
-- **Total Funding Pool:** ~€30,000 (€11k local + ~$20k global matching)
-- **Projects Funded:** 12 carefully curated regenerative projects across Catalonia
+- **Total Funding Pool:** €26,000 (€11k local + €15k from global matching)
+- **Projects Funded:** 11 carefully curated regenerative projects across Catalonia
 - **Local Partners:** Miceli Social (€6k), La Fundició/Keras Buti (€5k)
 - **Global Partners:** Gitcoin, Celo Public Goods, Ethereum Foundation, Regen Coordination
-- **Launch Date:** October 14, 2025
-- **Current Phase:** Phase 2 - Program Design (75% complete, 6 days to launch)
-- **TODAY:** October 8, 2025 - Critical Week in Progress ⚠️
+- **Launch Date:** October 14, 2025 ✅ Completed
+- **Current Phase:** Phase 4 - Program Execution (Nov 2025-Mar 2026)
+- **TODAY:** December 2025 - Phase 1 reporting in progress
 
 ## Core Team (ReFi Barcelona)
 - **Luiz Fernando Segala Gomes:** Strategy Lead (20h/week) - Finance, global partnerships, treasury
@@ -45,38 +45,38 @@ description: Regenerant Catalunya GG24 regenerative finance program overview
 - [CSV Database](content/database/Regenerant%20Catalunya%20GG24%20-%20Database.csv) - All 53 tasks (use selectively per Oct 7 decision)
 - [CSV Import Guide](content/database/CSV%20Database%20-%20Import%20Guide.md) - How to use the database
 
-## Key Decisions (Oct 7, 2025) - CURRENT APPROACH
-- **Communication:** WhatsApp groups (2 minimum) + minimal Notion one-pagers (NOT complex databases)
-- **Entity Name:** La Fundació preferred (pending Mariló confirmation)
-- **Financial Deadline:** Local funds must be on-chain by end of October for global matching
-- **Meetings:** Weekly internal Thursdays (start Oct 20), biweekly with partners
-- **€10k Application:** HIGH PRIORITY due Oct 10 (Giulio)
+## Key Decisions (December 2025) - CURRENT APPROACH
+- **Funding:** €26,000 total confirmed (multiplication factor 1.5x)
+- **Phase 1 Distribution:** Equal allocation (~€1,000 per project), conditional on completing reporting
+- **Evaluation:** Lightweight internal review for learning only; does not affect funding amounts
+- **Phase 2 Focus:** Network-level governance with sense-making approach before tool selection
+- **Phase 2 Tools:** Safe multisig (both networks), Home Community app (La Fundición), Institutional Development Kit
+- **Timeline:** Google Docs deadline Jan 12, Karma GAP submissions Jan 12-16, closeout workshop Jan 19 (Barcelona, 10:00 AM)
 
-## Critical Priorities This Week (Oct 8-13) ⚠️ IN PROGRESS
-**TOMORROW (Oct 9) - DAY 1:**
-1. Safe Multisig setup (Luiz) 🔴 BLOCKS EVERYTHING
-2. Project #12 finalization (Giulio) 🔴 CRITICAL  
+## Critical Priorities (January 2026)
+**January 5-9:**
+- Office hours for Karma GAP support
 
-**Oct 10 - DAY 2:**
-3. €10k application submission (Giulio) 🔴 HIGH PRIORITY
-4. Entity naming confirmation with Mariló (Giulio) 🔴 CRITICAL
-5. Funds allocation methodology decision (All + partners) 🔴 CRITICAL
+**January 12:**
+- Deadline: Complete Google Doc activities reports
 
-**Oct 11-12 - DAY 3-4:**
-6. Gitcoin registration - all 12 projects (Giulio) 🔴 CRITICAL
+**January 12-16:**
+- Submit activities to Karma GAP
 
-**Oct 13 - DAY 5:**
-7. €5k on-ramped to multisig (Giulio) 🔴 CRITICAL
-8. Marketing materials ready (Andrea) 🔴 CRITICAL
+**January 19:**
+- Final Phase 1 closeout workshop (Barcelona, 10:00 AM, in-person)
 
-**Oct 14 - LAUNCH DAY 🚀**
+**Late January:**
+- Completion check & Phase 1 disbursement (equal allocation)
 
 ## Program Phases
 - **Phase 1:** Stakeholder Alignment ✅ (July-Aug 2025) - COMPLETED
-- **Phase 2:** Program Design 🔄 (Sep-Oct 14) - IN PROGRESS (75% complete)
-- **Phase 3:** Round Launch & Donations 🚀 (Oct 14-28) - UPCOMING (6 days away)
-- **Phase 4:** Program Execution 📋 (Nov 2025-Mar 2026) - PLANNED
-- **Phase 5:** Evaluation & Synthesis 📊 (Dec 2025-Jan 2026) - PLANNED
+- **Phase 2:** Program Design ✅ (Sep-Oct 14) - COMPLETED
+- **Phase 3:** Round Launch & Donations ✅ (Oct 14-28) - COMPLETED
+- **Phase 4:** Program Execution 🔄 (Nov 2025-Mar 2026) - IN PROGRESS
+  - Phase 1 reporting: Jan 12 deadline, Jan 19 closeout workshop
+  - Phase 2 sense-making: January 2026
+- **Phase 5:** Evaluation & Synthesis 📊 (Feb-Mar 2026) - PLANNED
 
 ## When Working in This Repository
 
@@ -103,8 +103,8 @@ description: Regenerant Catalunya GG24 regenerative finance program overview
 - **Workflow:** Update Notion → Sync to website when ready to publish
 
 **Critical Deadlines:**
-- Oct 9: Safe Multisig (blocks everything) 🔴
-- Oct 10: €10k application + entity naming 🔴
-- Oct 13: €5k on-chain 🔴
-- Oct 14: LAUNCH DAY 🚀
-- End Oct: All local funds on-chain (for global matching) 🔴
+- Jan 12, 2026: Complete Google Doc activities reports
+- Jan 12-16, 2026: Submit activities to Karma GAP
+- Jan 19, 2026: Final Phase 1 closeout workshop (Barcelona, 10:00 AM)
+- Late Jan 2026: Phase 1 disbursement (equal allocation)
+- Jan 2026: Phase 2 sense-making workshops
