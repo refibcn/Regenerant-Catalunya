@@ -11,51 +11,14 @@ Centre central per a tots els recursos, documentació i materials de suport per 
 
 ## Guies Essencials
 
-### [Guia per a l'informe d'activitats](/ca/resources/guia-informe-actividades)
+**Comença amb aquestes guies clau:**
 
-Guia completa per documentar activitats, lliurables i mètriques:
-
-- Com preparar l'informe d'activitats a Google Docs
-- Conceptes clau: activitats, lliurables, mètriques
-- La Cadena de Valor de l'Impacte
-- Exemples pràctics de reportatge
-- Propers passos cap a Karma GAP
-- Per al Taller #2 (8-14 desembre 2025)
-
-### [Guia de Projectes](project-guidebook/)
-
-Guia completa per a projectes participants que cobreix:
-
-- Requisits de la Fase 1 i participació mínima
-- Guia de configuració i ús de Karma GAP
-- Configuració de cartera Web3 (Celo: Valora, Minipay, etc.)
-- Cronograma i expectatives de tallers
-- Hores d'oficina i recursos de suport
-- Visió general de la Fase 2
-- FAQ per a projectes
-
-### [Guia de Xarxa](network-guidebook/)
-
-Guia per a la governança a nivell de xarxa que cobreix:
-
-- Estructura de finançament de la Fase 2
-- Introducció a eines de governança Web3 (Gardens, Safe, Sarafu, Cycles)
-- Processos de presa de decisions col·lectives
-- Millors pràctiques de coordinació de xarxa
-- Recursos i suport
-
-### [Cronograma del Programa](timeline/)
-
-Cronograma complet amb:
-
-- Fites clau
-- Cronograma de tallers
-- Terminis importants
-- Visualització del flux de finançament en dues fases
+- **[Guia per a l'informe d'activitats](/es/resources/guia-informe-actividades)** — Guia completa per documentar activitats, lliurables i mètriques utilitzant la plantilla de Google Docs
+- **[Guia de Karma GAP](/es/resources/guia-karma-gap)** — Guia pas a pas per publicar activitats a la plataforma Karma GAP
 
 ---
 
-## Documentació d'Eines
+## Materials de Tallers
 
 ### Eines Requerides (Fase 1)
 
@@ -64,8 +27,9 @@ Cronograma complet amb:
 - **Què és:** Plataforma de seguiment d'activitats i impacte en cadena
 - **Lloc web:** [Documentació de Karma GAP](https://discuss.octant.app/t/karma-gap-grantee-accountability-and-reputation-protocol/232)
 - **Propòsit:** Crear un "currículum de projecte" viu i públic que fa visible i verificable l'impacte
-- **Formació:** Proporcionada al Taller #2 (8-14 de desembre de 2025)
-- **Suport:** Hores d'oficina 4-19 de desembre de 2025
+- **Formació:** Tallers de documentació completats; presentació a Karma GAP 12-16 de gener de 2026
+- **Suport:** Hores d'oficina 5-9 de gener de 2026
+- **Guia:** [Guia completa de Karma GAP](/es/resources/guia-karma-gap)
 
 #### Carteres Web3 a Celo
 
@@ -125,30 +89,6 @@ Els projectes poden optar per provar aquestes eines per a capacitats millorades:
 
 ---
 
-## Documentació del Programa
-
-### [Programa](/ca/program)
-
-Documentació completa del programa que inclou:
-
-- Visió general completa del programa
-- Detalls del mecanisme de finançament en dues fases
-- Informació de la pila tecnològica
-- Marc de mesura d'impacte
-- Cronograma del programa
-- Detalls de la cohort de projectes
-
-
-### [Criteris d'Avaluació](/ca/program/evaluation-criteria)
-
-Marc i criteris d'avaluació:
-
-- Enfocament d'avaluació d'impacte simplificat
-- Estructura d'assignació
-- Procés d'avaluació
-
----
-
 ## Canals de Suport
 
 ### Informació de Contacte
@@ -165,30 +105,37 @@ Marc i criteris d'avaluació:
 
 ### Hores d'Oficina
 
-**4-19 de desembre de 2025**
+**5-9 de gener de 2026**
 
-- Suport segons calgui per a projectes que treballen en presentacions de Karma
+- Suport per a projectes que treballen en presentacions de Karma GAP
 - Assistència tècnica i resolució de problemes
 - Horari: Contacta hola@ReFiBCN.cat per a cites
 
 ---
-
-## Materials de Tallers
 
 ### Taller #1: Introducció a Regenerant Catalunya
 
 **Quan:** 17-21 de novembre de 2025  
 **Materials:** Proporcionats durant el taller
 
-### Taller #2: Documentar l'Impacte
+### Tallers de Documentació
 
-**Quan:** 8-14 de desembre de 2025  
+**Quan:** 3, 11, 19 de desembre de 2025 ✅ Completats  
 **Materials:**
 
-- **[Guia per a l'informe d'activitats](/ca/resources/guia-informe-actividades)** — Guia completa per al taller
-- Plantilles de Karma alineades amb marcs de Common Approach
+- **[Guia per a l'informe d'activitats](/es/resources/guia-informe-actividades)** — Guia completa per documentar activitats
+- Plantilla de Google Docs per organitzar la informació
 - Exemples de documentació d'impacte efectiva
 - Orientació de mètriques per a la regeneració
+
+### Suport per a Presentació a Karma GAP
+
+**Quan:** 12-16 de gener de 2026  
+**Materials:**
+
+- **[Guia de Karma GAP](/es/resources/guia-karma-gap)** — Guia pas a pas per publicar activitats
+- Suport d'hores d'oficina (5-9 de gener de 2026)
+- Transferir informació de Google Docs a Karma GAP
 
 ### Taller #4: Eines Web3 Avançades
 

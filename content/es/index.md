@@ -444,8 +444,7 @@ description: "Una ronda de financiación participativa que une iniciativas catal
         <p style="color: var(--darkgray); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem; flex-grow: 1;">
           Guías esenciales para configurar y usar herramientas Web3, incluyendo configuración de cartera, configuración de Karma GAP y conexión a dApps.
         </p>
-        <p style="margin-bottom: 0.5rem;"><a href="/es/resources/guia-informe-actividades" style="font-weight: 600; font-size: 0.9rem;">→ Guía para el informe de actividades</a></p>
-        <p style="margin-bottom: 0;"><a href="/es/resources/valora-guide" style="font-weight: 600; font-size: 0.9rem;">→ Guía de Configuración de Valora</a></p>
+        <p style="margin-bottom: 0;"><a href="/es/resources/guia-informe-actividades" style="font-weight: 600; font-size: 0.9rem;">→ Guía para el informe de actividades</a></p>
       </div>
       <div class="grid-item" style="display: flex; flex-direction: column;">
         <h4 style="margin-top: 0; margin-bottom: 1rem; min-height: 3.5rem; color: var(--darkgray); font-size: 1.125rem;">Todos los Recursos</h4>

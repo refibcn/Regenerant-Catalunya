@@ -16,7 +16,7 @@ description: "A collaborative funding round uniting Catalan initiatives with mat
       A participatory funding round connecting local regenerative projects with global Web3 infrastructure.
     </p>
     <div class="hero-cta">
-      <a href="/program/project-guidebook" class="cta-button" style="font-size: 1rem; padding: 0.75rem 1.5rem; display: inline-block; margin-right: 1rem;">For Projects</a>
+      <a href="/es/program/project-guidebook" class="cta-button" style="font-size: 1rem; padding: 0.75rem 1.5rem; display: inline-block; margin-right: 1rem;">For Projects</a>
       <a href="#get-involved" class="cta-button" style="font-size: 1rem; padding: 0.75rem 1.5rem; display: inline-block;">Get Involved</a>
     </div>
   </div>
@@ -444,8 +444,7 @@ description: "A collaborative funding round uniting Catalan initiatives with mat
         <p style="color: var(--darkgray); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem; flex-grow: 1;">
           Essential guides for setting up and using Web3 tools, including wallet setup, Karma GAP configuration, and connecting to dApps.
         </p>
-        <p style="margin-bottom: 0.5rem;"><a href="/resources/activity-report-guide" style="font-weight: 600; font-size: 0.9rem;">→ Activity Report Guide</a></p>
-        <p style="margin-bottom: 0;"><a href="/es/resources/valora-guide" style="font-weight: 600; font-size: 0.9rem;">→ Valora Wallet Setup Guide</a></p>
+        <p style="margin-bottom: 0;"><a href="/es/resources/guia-informe-actividades" style="font-weight: 600; font-size: 0.9rem;">→ Guía para el informe de actividades</a></p>
       </div>
       <div class="grid-item" style="display: flex; flex-direction: column;">
         <h4 style="margin-top: 0; margin-bottom: 1rem; min-height: 3.5rem; color: var(--darkgray); font-size: 1.125rem;">All Resources</h4>

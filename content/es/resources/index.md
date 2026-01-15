@@ -10,7 +10,7 @@ Central hub for all resources, documentation, and support materials for Regenera
 
 ---
 
-## Essential Guidebooks
+## Guía Esencial
 
 ### [Guía para el informe de actividades](/es/resources/guia-informe-actividades)
 
@@ -23,40 +23,9 @@ Guía completa para documentar actividades, entregables y métricas:
 - Próximos pasos hacia Karma GAP
 - Para Workshop #2 (8-14 diciembre 2025)
 
-### [Project Guidebook](/es/program/project-guidebook)
-
-Comprehensive guide for participating projects covering:
-
-- Phase 1 requirements and minimum participation
-- Karma GAP setup and usage guide
-- Web3 wallet setup (Celo: Valora, Minipay, etc.)
-- Workshop schedule and expectations
-- Office hours and support resources
-- Phase 2 overview
-- FAQ for projects
-
-### [Network Guidebook](/es/program/network-guidebook)
-
-Guide for network-level governance covering:
-
-- Phase 2 funding structure
-- Web3 governance tools introduction (Gardens, Safe, Sarafu, Cycles)
-- Collective decision-making processes
-- Network coordination best practices
-- Resources and support
-
-### [Program Timeline](/es/program/timeline)
-
-Complete timeline with:
-
-- Key milestones
-- Workshop schedule
-- Important deadlines
-- Two-phase funding flow visualization
-
 ---
 
-## Tool Documentation
+## Materials de Tallers
 
 ### Required Tools (Phase 1)
 
@@ -67,87 +36,6 @@ Complete timeline with:
 - **Purpose:** Create a living, public "project resume" making impact visible and verifiable
 - **Training:** Provided in Workshop #2 (December 8-14, 2025)
 - **Support:** Office hours December 4-19, 2025
-
-#### Web3 Wallets on Celo
-
-**Recommended (Social Recovery):**
-
-- **Valora** — [valoraapp.com](https://valoraapp.com/)
-  - **[Guía Completa de Onboarding a Valora](/es/resources/valora-guide)** — Guía paso a paso para configurar Valora, activar la recuperación social y conectar con Karma GAP usando WalletConnect
-- **Minipay** — Stablecoin-focused wallet with social recovery
-
-**Also Supported:**
-
-- **Prosperity Pass** — Social recovery option
-- **MetaMask** — [metamask.io](https://metamask.io/)
-- **Zerion** — [zerion.io](https://zerion.io/)
-- **Rainbow** — [rainbow.me](https://rainbow.me/)
-
-**Training:** Provided in Workshop #1 (November 17-21, 2025)
-
-### Network-Level Tools (Phase 2)
-
-#### Gardens
-
-- **What it is:** Conviction voting for community funding and governance
-- **Website:** [gardens.1hive.org](https://gardens.1hive.org/)
-- **Use cases:** Template for projects and volunteers, bounties and rewards
-- **Training:** Covered in Workshop #4 (January 2026)
-
-#### Safe (Multisigs)
-
-- **What it is:** Multi-signature wallet for secure, transparent fund management
-- **Website:** [safe.global](https://safe.global/)
-- **Program Treasury:** 0x91889ea97FeD05180fb5A70cB9570630f3C0Be77 (on Celo)
-- **Use cases:** Network treasury management, transparent fund disbursements
-- **Training:** Covered in Workshop #4 (January 2026)
-
-#### Sarafu Network
-
-- **What it is:** Local currency and commitment pooling platform
-- **Website:** [sarafu.network](https://sarafu.network/)
-- **Use cases:** Local currency systems, commitment pooling for collective projects
-- **Training:** Covered in Workshop #4 (January 2026)
-
-#### Cycles
-
-- **What it is:** Open clearing protocol for mutual credit and circular economy
-- **Website:** [cycles.so](https://www.cycles.so/)
-- **Use cases:** Circular economy flows, mutual credit systems
-- **Training:** Covered in Workshop #4 (January 2026)
-
-### Optional Tools
-
-Projects can opt-in to pilot these tools for enhanced capabilities:
-
-- **Silvi** — Tree planting & stewardship dMRV
-- **Hypercerts/Ecocerts** — Impact credentials
-- **Gainforest** — Forest MRV
-- **Kokonut Network** — Syntropic agroforestry design
-
----
-
-## Program Documentation
-
-### [Programa](/es/program)
-
-Comprehensive program documentation including:
-
-- Complete program overview
-- Two-phase funding mechanism details
-- Technology stack information
-- Impact measurement framework
-- Program timeline
-- Project cohort details
-
-
-### [Evaluation Criteria](/es/program/evaluation-criteria)
-
-Evaluation framework and criteria:
-
-- Simplified impact evaluation approach
-- Allocation structure
-- Evaluation process
 
 ---
 

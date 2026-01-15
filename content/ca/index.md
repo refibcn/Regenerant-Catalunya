@@ -16,7 +16,7 @@ description: "Una ronda de finançament participatiu que uneix iniciatives catal
       Una ronda de finançament participatiu que connecta projectes regeneratius locals amb infraestructura Web3 global.
     </p>
     <div class="hero-cta">
-      <a href="/ca/program/project-guidebook" class="cta-button" style="font-size: 1rem; padding: 0.75rem 1.5rem; display: inline-block; margin-right: 1rem;">Per a Projectes</a>
+      <a href="/es/program/project-guidebook" class="cta-button" style="font-size: 1rem; padding: 0.75rem 1.5rem; display: inline-block; margin-right: 1rem;">Per a Projectes</a>
       <a href="#get-involved" class="cta-button" style="font-size: 1rem; padding: 0.75rem 1.5rem; display: inline-block;">Implica't</a>
     </div>
   </div>
@@ -444,8 +444,7 @@ description: "Una ronda de finançament participatiu que uneix iniciatives catal
         <p style="color: var(--darkgray); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem; flex-grow: 1;">
           Guies essencials per configurar i utilitzar eines Web3, incloent configuració de cartera, configuració de Karma GAP i connexió a dApps.
         </p>
-        <p style="margin-bottom: 0.5rem;"><a href="/ca/resources/guia-informe-actividades" style="font-weight: 600; font-size: 0.9rem;">→ Guia per a l'informe d'activitats</a></p>
-        <p style="margin-bottom: 0;"><a href="/es/resources/valora-guide" style="font-weight: 600; font-size: 0.9rem;">→ Guia de Configuració de Valora</a></p>
+        <p style="margin-bottom: 0;"><a href="/es/resources/guia-informe-actividades" style="font-weight: 600; font-size: 0.9rem;">→ Guía para el informe de actividades</a></p>
       </div>
       <div class="grid-item" style="display: flex; flex-direction: column;">
         <h4 style="margin-top: 0; margin-bottom: 1rem; min-height: 3.5rem; color: var(--darkgray); font-size: 1.125rem;">Tots els Recursos</h4>

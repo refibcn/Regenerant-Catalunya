@@ -13,40 +13,12 @@ Central hub for all resources, documentation, and support materials for Regenera
 
 **Get started with these key guides:**
 
-- **[Activity Report Guide](/resources/activity-report-guide)** — Complete guide for documenting activities, deliverables, and metrics using Google Docs template
-- **[Project Page Preparation](/resources/project-page-prep)** — Complete guide to preparing your project page and documentation
-- **[Guía Completa de Onboarding a Valora](/es/resources/valora-guide)** — Step-by-step wallet setup with screenshots
-- **[Evaluation Criteria](/program/evaluation-criteria)** — Complete evaluation framework and understanding criteria
-
-**Need more detail?** See the [Essential Guidebooks](#essential-guidebooks) section below.
+- **[Guía para el informe de actividades](/es/resources/guia-informe-actividades)** — Complete guide for documenting activities, deliverables, and metrics using Google Docs template
+- **[Guía de Karma GAP](/es/resources/guia-karma-gap)** — Step-by-step guide for publishing activities on Karma GAP platform
 
 ---
 
-## Essential Guidebooks
-
-### [Project Guidebook](/program/project-guidebook)
-
-Comprehensive guide for participating projects covering:
-
-- Phase 1 requirements and minimum participation
-- **Visual journey flow** — Complete Phase 1 journey from kickoff to disbursement
-- **Step-by-step guide** — Each step with links to detailed pages
-- **Workshop schedule** — All workshops and key activities
-- **Support resources** — Office hours, contact information, FAQ
-- Links to detailed guides for each step
-
-### [Program Timeline](/program/timeline)
-
-Complete timeline with:
-
-- Key milestones
-- Workshop schedule
-- Important deadlines
-- Two-phase funding flow visualization
-
----
-
-## Tool Documentation
+## Workshop Materials
 
 ### Required Tools (Phase 1)
 
@@ -55,15 +27,15 @@ Complete timeline with:
 - **What it is:** On-chain activity and impact reporting platform
 - **Website:** [Karma GAP Documentation](https://discuss.octant.app/t/karma-gap-grantee-accountability-and-reputation-protocol/232)
 - **Purpose:** Create a living, public "project resume" making impact visible and verifiable
-- **Training:** Provided in Workshop #2 (December 8-14, 2025)
-- **Support:** Office hours December 4-19, 2025
+- **Training:** Documentation workshops completed; Karma GAP submission January 12-16, 2026
+- **Support:** Office hours January 5-9, 2026
+- **Guide:** [Complete Karma GAP Guide](/es/resources/guia-karma-gap)
 
 #### Web3 Wallets on Celo
 
 **Recommended (Social Recovery):**
 
 - **[[Valora]]** — [valoraapp.com](https://valoraapp.com/)
-  - **[Complete Valora Setup Guide](/es/resources/valora-guide)** — Step-by-step walkthrough with screenshots
 - **[[Minipay]]** — Stablecoin-focused wallet with social recovery
 
 **Also Supported:**
@@ -117,32 +89,6 @@ Projects can opt-in to pilot these tools for enhanced capabilities:
 
 ---
 
-## Program Documentation
-
-### [Program Overview](/program)
-
-Comprehensive program documentation including:
-
-- Complete program overview
-- Two-phase funding mechanism details
-- Technology stack information
-- Impact measurement framework
-- Program timeline
-- Project cohort details
-
-
-### [Evaluation Criteria](/program/evaluation-criteria)
-
-Evaluation framework and criteria:
-
-- Simplified impact evaluation approach
-- Allocation structure
-- Evaluation process
-
-**For Projects:** The evaluation criteria page includes visual breakdown, how to align your reporting, and self-assessment guidance.
-
----
-
 ## Support Channels
 
 ### Contact Information
@@ -159,9 +105,9 @@ Evaluation framework and criteria:
 
 ### Office Hours
 
-**December 4-19, 2025**
+**January 5-9, 2026**
 
-- Support as needed for projects working on Karma submissions
+- Support for projects working on Karma GAP submissions
 - Technical assistance and troubleshooting
 - Schedule: Contact hola@ReFiBCN.cat for appointments
 
@@ -176,15 +122,24 @@ Evaluation framework and criteria:
 - [Workshop Documentation](/resources/workshops/workshop-1-kickoff) — Complete notes, recording, and resources
 - Workshop recording and slides (shared separately)
 
-### Workshop #2: Documenting Impact
+### Documentation Workshops
 
-**When:** December 8-14, 2025  
+**When:** December 3, 11, 19, 2025 ✅ Completed  
 **Materials:**
 
-- **[Activity Report Guide](/resources/activity-report-guide)** — Complete guide for the workshop
-- Karma templates aligned with Common Approach frameworks
+- **[Guía para el informe de actividades](/es/resources/guia-informe-actividades)** — Complete guide for documenting activities
+- Google Docs template for organizing information
 - Examples of effective impact documentation
 - Metrics guidance for regeneration
+
+### Karma GAP Submission Support
+
+**When:** January 12-16, 2026  
+**Materials:**
+
+- **[Guía de Karma GAP](/es/resources/guia-karma-gap)** — Step-by-step guide for publishing activities
+- Office hours support (January 5-9, 2026)
+- Transfer information from Google Docs to Karma GAP
 
 ### Workshop #4: Advanced Web3 Tools
 
