@@ -28,20 +28,21 @@ When projects upload files to Google Drive (photos, PDFs, documents, presentatio
 └─────────────────────────────────────────────────────────────┘
                           ↓
 ┌─────────────────────────────────────────────────────────────┐
-│ Step 3: Verify Proofs (Human)                              │
+│ Step 4: Evaluate Report (Thaura)                           │
 │                                                             │
-│ Input: Generated report draft                               │
-│ Process: Verify file paths, check proofs match             │
-│          descriptions, ensure proofs support deliverables   │
-│ Output: Verified report draft                               │
+│ Input: Report draft + File analysis                         │
+│ Process: Evaluate quality, verify proofs, identify issues,  │
+│          append evaluation section to report               │
+│ Output: Report with evaluation section appended             │
 └─────────────────────────────────────────────────────────────┘
                           ↓
 ┌─────────────────────────────────────────────────────────────┐
-│ Step 4: Review & Refine (Human)                            │
+│ Step 5: Iterate on Report (Human + AI)                     │
 │                                                             │
-│ Input: Verified report draft                                │
-│ Process: Review accuracy, completeness, format              │
-│ Output: Final report ready for Google Docs                  │
+│ Input: Report with evaluation section                       │
+│ Process: Use evaluation feedback to improve report,         │
+│          re-run evaluation if needed                         │
+│ Output: Improved report ready for Google Docs                │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -118,87 +119,94 @@ docs/project-reports/
 
 **Output Format:**
 - Title: `# Informe de Actividades – [PROJECT_NAME]`
-- Project information section: `## 1. Información básica del proyecto` (required before activities)
+- Project information section: `## Información básica del proyecto` (required before activities, NO numbering)
+  - Required fields: Nombre del proyecto, Red, Personas de contacto, Descripción del proyecto, Web/redes sociales, Carpeta de documentación en Google Drive
+  - Optional fields: Lugar/territorio, Problema a ser solucionado, Solución traída, Resúmen de la misión, Modelo de negócio, Estágio de desarrollo, ¿Han recibido fondos significativos?
+  - Additional fields: Any fields from Google Doc not in template are included under "Informaciones adicionales"
 - Activities: Each as `## Actividad [NUMBER] – [ACTIVITY_NAME]` (no subactivities)
 - Proper indentation: 2 spaces for nested items (deliverables and metrics)
 - Consistent structure across all reports
 
-**Output:** A structured activity report draft ready for verification.
+**Output:** A structured activity report draft ready for evaluation.
 
-### Step 4: Verify Proofs
+### Step 4: Evaluate Report
+
+**Location:** [`prompts/03-evaluate-report.md`](./prompts/03-evaluate-report.md)
 
 **Process:**
-1. Review the generated report draft
-2. For each activity, verify all proofs systematically:
+1. Open the activity report draft from Step 3
+2. Copy the entire contents
+3. Open the file analysis markdown from Step 2
+4. Copy the entire contents
+5. Open Prompt 3 and copy it
+6. In Thaura, paste:
+   - The activity report draft
+   - The file analysis markdown
+   - The prompt
+7. Thaura will evaluate the report and append an evaluation section to it
+8. Save the updated report (it overwrites `[project-name]-report-draft.md`)
 
-**Deliverables Verification:**
-- [ ] File/folder exists: Check that the referenced file or folder path is correct
-- [ ] File matches description: Verify the file content matches what's described
-- [ ] Proof is appropriate: Confirm the proof actually demonstrates the deliverable exists
-- [ ] Accessibility: Ensure files are accessible in Google Drive (if using Drive links)
+**What it does:**
+- **Evaluates report quality**: Completeness, format compliance, clarity
+- **Verifies proofs**: Checks all file paths against file analysis, verifies files exist and match descriptions
+- **Assesses content quality**: Reviews activity descriptions, deliverables, and metrics
+- **Identifies issues**: Missing information, incorrect references, format problems
+- **Provides recommendations**: Specific, actionable improvements for each activity
+- **Creates iteration checklist**: Prioritized list of fixes needed
 
-**Metrics Verification:**
-- [ ] Proof exists: Check that the referenced proof file/folder exists
-- [ ] Proof supports metric: Verify the proof actually demonstrates the metric value
-- [ ] Value is reasonable: Check if the metric value makes sense given the proof
-- [ ] Multiple proofs if needed: If metric is high, ensure there are sufficient proofs
+**Output Format:**
+The evaluation section is appended to the end of the report, separated by a horizontal rule (`---`), containing:
+- Executive summary with overall assessment
+- Per-activity evaluation with proof verification
+- Summary of proof verification results
+- Format issues (if any)
+- General recommendations (prioritized: Alta, Media, Baja)
+- Iteration checklist with specific actions
 
-**Additional Proofs Verification:**
-- [ ] Files exist: Verify all referenced files/folders exist
-- [ ] Not redundant: Check these aren't already linked to deliverables/metrics
-- [ ] Should be linked: Consider if these proofs should be linked to specific deliverables/metrics instead
+**Output:** Activity report with evaluation section appended for iterative improvement.
 
-**File Path Verification:**
-- [ ] Paths are correct: Verify all file paths match actual file locations
-- [ ] Relative paths work: If using relative paths, ensure they're correct from report location
-- [ ] Google Drive links: If using Drive links, verify they're accessible and correct
+### Step 5: Iterate on Report
 
-3. Document any issues found:
-   - Missing files: Files referenced but not found
-   - Incorrect paths: Wrong file paths
-   - Mismatched content: Files that don't match their descriptions
-   - Weak proofs: Proofs that don't adequately support deliverables/metrics
-   - Missing proofs: Deliverables/metrics without adequate proof
+**Process:**
+1. Review the evaluation section appended to your report
+2. Use the recommendations and checklist to improve the report:
+   - Fix critical issues (Prioridad Alta) first
+   - Address important improvements (Prioridad Media)
+   - Consider optional improvements (Prioridad Baja)
+3. Make improvements to the report based on evaluation feedback
+4. **Re-run Step 4** if significant changes were made (the evaluation section will be updated/replaced)
+5. Repeat until the evaluation shows the report is ready
 
-4. Fix issues:
-   - Fix file paths if incorrect
-   - Remove invalid references if files don't exist
-   - Add missing proofs if files exist but aren't referenced
-   - Strengthen weak proofs by adding additional file references
+**How to use evaluation feedback:**
+- **Prioridad Alta items**: Must be fixed before report is ready for Google Docs
+- **Prioridad Media items**: Important improvements that enhance report quality
+- **Prioridad Baja items**: Optional enhancements
+- **Checklist items**: Specific, actionable tasks - work through them systematically
 
-**Output:** Verified report draft with corrected references
+**When to re-run evaluation:**
+- After making significant changes to activities
+- After fixing proof references
+- After adding missing information
+- When you want to verify improvements were effective
 
-### Step 5: Review & Refine
-
-**Critical**: AI-generated drafts are starting points, not final reports. Always review:
-
-**Quality Review Checklist:**
-- [ ] **Accuracy**: Verify activities match actual work done
-- [ ] **Completeness**: Ensure all major activities are included
-- [ ] **Evidence**: Check that file references are correct
-- [ ] **Metrics**: Verify numbers are reasonable and supported
-- [ ] **Language**: Ensure Spanish/Catalan usage is appropriate
-- [ ] **Format**: Confirm structure matches Google Docs template
-- [ ] **Clarity**: Check descriptions are clear and specific
-
-**Common Issues to Fix:**
-- Remove activities that don't match uploaded files
-- Add missing activities if files suggest more work
-- Correct dates extracted from file names
-- Refine descriptions to be more specific
-- Add or correct file paths/links
-- Verify metric calculations
+**When report is ready:**
+- All Prioridad Alta items are resolved
+- Proofs are verified and correct
+- Format matches Google Docs template
+- Content is accurate and complete
+- **Remove the evaluation section** before transferring to Google Docs (it's for internal iteration only)
 
 ### Step 6: Transfer to Google Docs
 
 Copy the structured content to the project's Google Docs report:
 
-1. Open the project's Google Docs template
-2. Copy each activity block from the draft
-3. Paste into the appropriate section
-4. Format according to Google Docs template structure
-5. Add any additional details or corrections
-6. Verify all file links work correctly
+1. **Remove the evaluation section** from the report (it's for internal iteration only)
+2. Open the project's Google Docs template
+3. Copy each activity block from the draft
+4. Paste into the appropriate section
+5. Format according to Google Docs template structure
+6. Add any additional details or corrections
+7. Verify all file links work correctly
 
 ## Why Two Steps?
 
@@ -218,6 +226,47 @@ This system uses a **linear workflow** with two prompts:
 - **Tool-optimized**: Each prompt designed for its specific tool
 - **Evidence-based**: File analysis ensures accurate reporting
 
+## Evaluation Process
+
+The evaluation step (Step 4) replaces manual verification and review checklists with an AI-assisted evaluation that appends an evaluation section to your report. This provides structured, actionable feedback for iterative improvement.
+
+### Purpose of Evaluation
+
+The evaluation section helps you:
+- **Verify proofs systematically**: All file references are checked against the file analysis
+- **Identify issues early**: Problems are caught before transferring to Google Docs
+- **Get actionable feedback**: Specific recommendations for each activity
+- **Track improvements**: Clear checklist of what needs to be fixed
+
+### What Gets Evaluated
+
+- **Report Quality**: Completeness, format compliance, clarity
+- **Proof Verification**: File paths, file existence, content matching
+- **Content Quality**: Activity descriptions, deliverables, metrics
+- **Format Compliance**: Structure matches Google Docs template
+
+### How Evaluation Helps
+
+- **Quick scanning**: Status table shows activity health at a glance
+- **Focused feedback**: Only activities with issues are detailed, reducing noise
+- **Prioritized actions**: Problems grouped by priority (Alta, Media) with clear actions
+- **Concise format**: ~50% shorter than detailed evaluation while preserving critical information
+- **Action-oriented**: Every item leads to a specific, actionable fix
+- **Iterative improvement**: Re-run evaluation after making changes to verify improvements
+
+### Evaluation Section Format
+
+The evaluation section is appended to the end of your report and includes:
+- **Resumen Ejecutivo**: Concise summary with status, activity count, and proof verification stats
+- **Tabla de Estado Rápido**: Quick reference table showing status of each activity at a glance
+- **Problemas y Acciones Requeridas**: Prioritized list of problems with required actions (Alta/Media priority)
+- **Recomendaciones por Actividad**: Detailed recommendations for activities with issues only (activities without problems are skipped)
+- **Checklist de Iteración**: Focused checklist of specific actions needed
+
+The streamlined format focuses on problems and actions, reducing length by ~50% compared to detailed per-activity evaluation.
+
+**Important**: The evaluation section is for internal iteration only. Remove it before transferring the report to Google Docs.
+
 ## File Organization
 
 ### Project Folder Structure
@@ -227,7 +276,8 @@ docs/project-reports/
 ├── README.md (this file)
 ├── prompts/
 │   ├── 01-prepare-file-analysis.md  ← Step 2: Run in Cursor
-│   └── 02-generate-report.md         ← Step 3: Run in Thaura
+│   ├── 02-generate-report.md         ← Step 3: Run in Thaura
+│   └── 03-evaluate-report.md         ← Step 4: Run in Thaura
 ├── examples/
 │   ├── workflow-example.md
 │   └── sample-output.md
@@ -259,12 +309,12 @@ docs/project-reports/
 - ✅ Specify output format requirements
 - ✅ Request conservative, evidence-based analysis
 
-### For Verification
-- ✅ Verify systematically: Go through each activity methodically
-- ✅ Document issues: Keep track of all problems found
-- ✅ Fix immediately: Correct issues as you find them
-- ✅ Double-check: Verify fixes were applied correctly
-- ✅ Note uncertainties: Mark items that need project verification
+### For Evaluation
+- ✅ Run evaluation after generating report: Use Prompt 3 to get structured feedback
+- ✅ Review evaluation section carefully: Understand all recommendations
+- ✅ Prioritize fixes: Address Prioridad Alta items first
+- ✅ Re-run evaluation after changes: Verify improvements were effective
+- ✅ Remove evaluation section: Before transferring to Google Docs
 
 ### For Review
 - ✅ Always verify AI-generated content
@@ -305,6 +355,7 @@ docs/project-reports/
 
 - **Prompt 1 (Cursor)**: [`prompts/01-prepare-file-analysis.md`](./prompts/01-prepare-file-analysis.md) - File analysis prompt
 - **Prompt 2 (Thaura)**: [`prompts/02-generate-report.md`](./prompts/02-generate-report.md) - Report generation prompt
+- **Prompt 3 (Thaura)**: [`prompts/03-evaluate-report.md`](./prompts/03-evaluate-report.md) - Report evaluation prompt
 - **Example Workflow**: [`examples/workflow-example.md`](./examples/workflow-example.md) - Step-by-step example
 - **Sample Output**: [`examples/sample-output.md`](./examples/sample-output.md) - Example generated report
 - **Project Guide**: [`../../content/es/resources/guia-informe-actividades.md`](../../content/es/resources/guia-informe-actividades.md) - Google Docs template guide

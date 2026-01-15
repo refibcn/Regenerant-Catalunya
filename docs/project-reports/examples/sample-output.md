@@ -10,13 +10,20 @@ This document shows an example of what a generated activity report draft looks l
 
 # Informe de Actividades – La Suculenta
 
-## 1. Información básica del proyecto
+## Información básica del proyecto
 
 - **Nombre del proyecto:** La Suculenta
 - **Red:** Keras Buti
-- **Territorio:** Barcelona / L'Hospitalet de Llobregat
-- **Idioma:** Español/Catalán (principalmente español)
-- **Fecha de generación:** 2025-01-27
+- **Personas de contacto:** [Nombre], [teléfono/WhatsApp], [correo electrónico]
+- **Descripción del proyecto:** Proyecto de cocina cooperativa y comunitaria que promueve la soberanía alimentaria y la agroecología en Barcelona y L'Hospitalet de Llobregat. Desarrolla talleres educativos, intercooperación con proveedores agroecológicos, y servicios de cocina comunitaria.
+- **Web / redes sociales:**
+  [URL de sitio web si existe]
+  [URL de Instagram/Facebook]
+  [Otras redes sociales]
+- **Carpeta de documentación en Google Drive:** [URL de la carpeta]
+
+**Informaciones adicionales (opcionales):**
+- **Lugar / territorio:** Barcelona / L'Hospitalet de Llobregat
 
 ---
 
@@ -296,6 +303,68 @@ This document shows an example of what a generated activity report draft looks l
   - **Descripción:** Número de proveedores o relaciones de intercooperación documentadas
   - **Valor:** Requiere verificación del proyecto (múltiples proveedores documentados en fotografías)
   - **Prueba (si existe):** 10 fotografías y 2 documentos en carpeta `INTERCOOPERACIÓN PROVEEDORES AGROECO/` que documentan las relaciones establecidas
+
+---
+
+## Evaluación del Informe
+
+### Resumen Ejecutivo
+
+- **Estado:** ⚠️ Requiere correcciones
+- **Actividades evaluadas:** 5
+- **Actividades con problemas:** 2 (críticos: 1, mejoras: 1)
+- **Pruebas verificadas:** 10 válidas / 2 con problemas / 0 faltantes
+
+### Tabla de Estado Rápido
+
+| Actividad | Estado | Problemas | Prioridad |
+|-----------|--------|-----------|-----------|
+| Actividad 1 – Talleres de soberanía alimentaria y agroecología | ⚠️ | 2 | Alta |
+| Actividad 2 – Participación en Fira Migrant | ⚠️ | 1 | Alta |
+| Actividad 3 – Participación en Fira de la Diversidad 2025 | ✅ | 0 | - |
+| Actividad 4 – Punto de difusión en Mercado Municipal de Bellvitge | ✅ | 0 | - |
+| Actividad 5 – Participación en Jornada del Día del Pueblo Gitano | ✅ | 0 | - |
+
+### Problemas y Acciones Requeridas
+
+#### Prioridad Alta
+
+- [ ] **Actividad 1 - Talleres realizados:** Métrica es estimación ("Aproximadamente 8-10 talleres") → Verificar número exacto con el proyecto
+- [ ] **Actividad 1 - Fechas:** Rango de fechas muy amplio → Obtener fechas específicas desde archivos PDF
+- [ ] **Actividad 2 - Personas informadas:** Métrica sin prueba directa → Agregar dato específico o cambiar/eliminar métrica
+
+#### Prioridad Media
+
+- [ ] **Actividad 1 - Descripción:** Agregar más detalles sobre metodología y contenidos de los talleres
+
+### Recomendaciones por Actividad
+
+#### Actividad 1 – Talleres de soberanía alimentaria y agroecología
+
+**Problemas encontrados:**
+- Métrica "Talleres realizados": Valor es estimación basada en conteo de archivos, no en datos directos - Verificar número exacto con el proyecto
+- Fechas: Rango muy amplio ("Desde septiembre de 2024 hasta diciembre de 2024") - Obtener fechas específicas desde archivos PDF o notas del proyecto
+- Descripción: Podría incluir más detalles sobre metodología y contenidos
+
+**Acciones:**
+- [ ] Obtener fechas específicas de los talleres desde los archivos PDF o notas del proyecto
+- [ ] Verificar número exacto de talleres realizados con el proyecto
+- [ ] Considerar agregar detalles sobre metodología y contenidos de los talleres
+
+#### Actividad 2 – Participación en Fira Migrant
+
+**Problemas encontrados:**
+- Métrica "Personas informadas": No tiene prueba directa que respalde un número específico - Las fotografías mencionadas no son específicas para esta métrica
+
+**Acciones:**
+- [ ] Si hay datos sobre número de personas informadas, agregarlos con prueba específica
+- [ ] Si no hay datos, considerar eliminar esta métrica o cambiar a métrica más verificable (ej: "Fotografías del evento documentando participación")
+
+### Checklist de Iteración
+
+- [ ] Actividad 1: Verificar número exacto de talleres realizados con el proyecto
+- [ ] Actividad 1: Obtener fechas específicas de talleres desde archivos PDF o proyecto
+- [ ] Actividad 2: Resolver métrica "Personas informadas" - agregar dato específico o cambiar métrica
 
 ---
 
