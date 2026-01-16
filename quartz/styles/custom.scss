@@ -25450,3 +25450,14 @@ article img {
   }
 }
 
+
+// Hide page header (breadcrumbs, title, metadata) on index pages
+body[data-slug="index"] .page-header .popover-hint,
+body[data-slug="es/index"] .page-header .popover-hint,
+body[data-slug="ca/index"] .page-header .popover-hint {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}

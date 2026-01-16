@@ -1,23 +1,32 @@
 ---
-title: "Guía de Karma GAP"
-description: "Guía paso a paso para publicar actividades, entregables y métricas en Karma GAP"
+title: "Guía para usar la plataforma Karma"
+description: "Guía paso a paso para publicar actividades, entregables y métricas en Karma"
 ---
 
 <div style="font-size: 0.95rem; line-height: 1.6;">
 
-# Guía de Karma GAP
+Esta guía te ayuda a publicar tus actividades en **Karma**, la plataforma de reporte de impacto on-chain que utilizamos en Regenerant Catalunya. Karma crea un "currículum público" de tu proyecto que hace visible y verificable tu impacto.
 
-Esta guía te ayuda a publicar tus actividades en **Karma GAP**, la plataforma de reporte de impacto on-chain que utilizamos en Regenerant Catalunya. Karma GAP crea un "currículum público" de tu proyecto que hace visible y verificable tu impacto.
+**Antes de empezar:** Asegúrate de haber completado tu **[informe de actividades en Google Docs](/es/resources/guia-informe-actividades)**. Esta guía te ayudará a transferir esa información a Karma.
 
-**Antes de empezar:** Asegúrate de haber completado tu **[informe de actividades en Google Docs](/es/resources/guia-informe-actividades)**. Esta guía te ayudará a transferir esa información a Karma GAP.
+### Antes de empezar (idioma)
+
+> La plataforma Karma [https://www.karmahq.xyz/](https://www.karmahq.xyz/) está principalmente en inglés.
+> 
+> Si te resulta difícil, puedes usar **el traductor automático de tu navegador** para ver la página en español:
+> 
+> - En **Chrome / Edge**: haz clic derecho en la página y selecciona *"Traducir al español"*.
+> - En **Firefox**: usa la opción de traducción del navegador o una extensión.
+> 
+> La traducción automática es suficiente para seguir todos los pasos de esta guía sin problema.
 
 ---
 
 ## 1. Introducción
 
-### ¿Qué es Karma GAP y por qué lo usamos?
+### ¿Qué es Karma y por qué lo usamos?
 
-**Karma GAP** (Grantee Accountability and Reputation Protocol) es una plataforma que permite a los proyectos construir una reputación verificable mediante la documentación transparente de su trabajo y resultados.
+**Karma** es una plataforma que permite a los proyectos construir una reputación verificable mediante la documentación transparente de su trabajo y resultados.
 
 **Beneficios para tu proyecto:**
 
@@ -25,51 +34,115 @@ Esta guía te ayuda a publicar tus actividades en **Karma GAP**, la plataforma d
 
 ✅ **Transparencia** — Muestra tu impacto de forma clara a financiadores y aliadas
 
-✅ **Base para futuras rondas** — Tu historial en Karma GAP puede influir en futuras asignaciones de fondos
+✅ **Base para futuras rondas** — Tu historial en Karma puede influir en futuras asignaciones de fondos
 
 ✅ **Descubribilidad** — Otros proyectos y financiadores pueden encontrar tu trabajo
 
 **Conexión con el informe de actividades:**
 
 - Tu **Google Doc** es la preparación y organización de la información
-- **Karma GAP** es donde publicas esa información de forma pública y on-chain
+- **Karma** es donde publicas esa información de forma pública y on-chain
 - La información debe ser la misma, solo cambia el formato y la plataforma
 
 ---
 
-## 2. Empezar con Karma GAP
+## 2. Empezar con Karma
 
 ### Paso 1: Crear cuenta
 
+> Para empezar, entra en la plataforma Karma.
+> 
+> Puedes registrarte **con tu email o con Google** (es la opción más sencilla y la que recomendamos).
+> 
+> 👉 **No es necesario crear una wallet ahora**.
+
 **Opción recomendada: Inicio de sesión con Google/Email**
 
-1. Visita [https://gap.karmahq.xyz/](https://gap.karmahq.xyz/)
+1. Visita [https://www.karmahq.xyz/](https://www.karmahq.xyz/)
 2. Haz clic en "Sign in" o "Iniciar sesión"
 3. Selecciona **"Sign in with Google"** o usa tu email
 4. **No necesitas cartera Web3** para crear la cuenta inicialmente
+
+<img src="/es/resources/karma-screenshots/image.png" alt="Login page" style="width: 90% !important; max-width: 900px !important; min-width: 500px !important; display: block !important; margin: 1.5rem auto !important; height: auto !important;" />
 
 > **Nota:** Puedes conectar tu cartera Web3 más adelante si lo deseas, pero no es necesario para empezar a publicar actividades.
 
 ### Paso 2: Encontrar o crear tu perfil de proyecto
 
-1. Una vez dentro de Karma GAP, busca tu proyecto usando el buscador
+> Una vez dentro, haz clic en el icono de tu perfil (arriba a la derecha) y selecciona "My projects".
+> 
+> Si ves una pantalla sin proyectos, **es totalmente normal**.
+> 
+> Simplemente haz clic en **"Create project"** para empezar.
+
+1. Una vez dentro de Karma, haz clic en el icono de tu perfil (arriba a la derecha) y selecciona **"My projects"**
 2. Si tu proyecto ya existe, selecciónalo
-3. Si no existe, haz clic en **"Add Project"** o **"Añadir Proyecto"**
-4. Completa la información básica del proyecto:
-   - Nombre del proyecto
-   - Descripción breve
-   - Enlaces (web, redes sociales, etc.)
+3. Si no existe, verás una pantalla vacía — esto es normal
+
+<img src="/es/resources/karma-screenshots/image%201.png" alt="My projects empty state" style="width: 90% !important; max-width: 900px !important; min-width: 500px !important; display: block !important; margin: 1.5rem auto !important; height: auto !important;" />
+
+> En esta pantalla, Karma te indica que todavía no hay ningún proyecto asociado a tu cuenta.
+> 
+> Haz clic en **"Create project"** (o "Add project") para crear el perfil de tu proyecto en la plataforma.
+
+<img src="/es/resources/karma-screenshots/image%202.png" alt="My Projects screen" style="width: 100% !important; max-width: 100% !important; display: block !important; margin: 1.5rem 0 !important; height: auto !important;" />
+
+4. Haz clic en **"Create project"** o **"Add Project"**
+
+### Paso 3: Completar el formulario del proyecto
+
+> Aquí es donde tienes que copiar y pegar la información que ya preparaste en el documento de Google.
+> 
+> Rellena todos los campos que puedas:
+> 
+> nombre del proyecto, descripción, problema, misión, redes sociales, etc.
+> 
+> **Cuanta más información, mejor.**
+> 
+> No olvides añadir **al menos un contacto** en la sección de contacto.
+
+Completa la información básica del proyecto:
+
+- Nombre del proyecto
+- Descripción breve
+- Problema que aborda
+- Misión
+- Enlaces (web, redes sociales, etc.)
+- **Al menos un contacto** en la sección de contacto
+
+<img src="/es/resources/karma-screenshots/image%203.png" alt="Create project form" style="width: 90% !important; max-width: 900px !important; min-width: 500px !important; display: block !important; margin: 1.5rem auto !important; height: auto !important;" />
+
+**Cuando termines:**
+
+1. Haz clic en **Save**
+2. Selecciona **"Optimism"** entre las opciones
+3. Haz clic en **"Sign message"** para confirmar
+
+<img src="/es/resources/karma-screenshots/image%204.png" alt="Sign message step" style="width: 100% !important; max-width: 100% !important; display: block !important; margin: 1.5rem 0 !important; height: auto !important;" />
 
 ---
 
 ## 3. Publicar una Actividad de Proyecto
 
-### Paso 3: Crear una nueva actividad
+### Paso 4: Crear una nueva actividad
 
-1. En la página de tu proyecto, haz clic en **"Post an update"** o **"Publicar actualización"**
-2. Selecciona **"Project Activity"** o **"Actividad de Proyecto"**
+> ¡Listo! Tu proyecto ya está creado.
+> 
+> Ahora haz clic en la pestaña **"Updates"**.
+> 
+> Desde aquí podrás **crear actividades** (updates o milestones) y rellenarlas **de la misma forma que ya lo hiciste en el documento de Google**:
+> 
+> descripción de la actividad, entregables, enlaces y métricas.
+> 
+> Cada actividad que subas aquí sirve para **documentar y mostrar el impacto de tu proyecto**.
 
-### Paso 4: Completar la información de la actividad
+1. En la página de tu proyecto, haz clic en la pestaña **"Updates"**
+2. Haz clic en **"Post an update"** o **"Publicar actualización"**
+3. Selecciona **"Project Activity"** o **"Actividad de Proyecto"**
+
+<img src="/es/resources/karma-screenshots/image%205.png" alt="Updates tab" style="width: 100% !important; max-width: 100% !important; display: block !important; margin: 1.5rem 0 !important; height: auto !important;" />
+
+### Paso 5: Completar la información de la actividad
 
 **Información básica:**
 
@@ -85,13 +158,11 @@ Esta guía te ayuda a publicar tus actividades en **Karma GAP**, la plataforma d
 - Menciona cualquier colaboración o alianza relevante
 - Usa la información que ya preparaste en tu Google Doc
 
----
-
-## 4. Añadir Entregables (Output Deliverables)
+### Añadir Entregables (Output Deliverables)
 
 Los **entregables** son las cosas concretas que produjisteis como resultado de la actividad.
 
-### Cómo añadir entregables:
+**Cómo añadir entregables:**
 
 1. En el formulario de actividad, busca la sección **"Output Deliverables"** o **"Entregables"**
 2. Haz clic en **"Add Deliverable"** o **"Añadir Entregable"**
@@ -114,13 +185,11 @@ Los **entregables** son las cosas concretas que produjisteis como resultado de l
 - Incluye enlaces siempre que sea posible
 - Usa nombres claros y descriptivos
 
----
-
-## 5. Añadir Métricas (Output Metrics)
+### Añadir Métricas (Output Metrics)
 
 Las **métricas** son números que ayudan a entender la escala o alcance de vuestro trabajo.
 
-### Cómo añadir métricas:
+**Cómo añadir métricas:**
 
 1. En el formulario de actividad, busca la sección **"Output Metrics"** o **"Métricas"**
 2. Haz clic en **"Add Metric"** o **"Añadir Métrica"**
@@ -145,19 +214,19 @@ Las **métricas** son números que ayudan a entender la escala o alcance de vues
 - Sé consistente — si reportaste una métrica antes, usa la misma definición
 - Usa estimaciones razonables cuando no tengas datos exactos, pero sé transparente
 
----
+### Publicar la actividad
 
-## 6. Publicar y Mantener
-
-### Paso 5: Publicar la actividad
+**Para publicar la actividad:**
 
 1. Revisa toda la información que has añadido
 2. Verifica que los enlaces funcionan
 3. Haz clic en **"Post"** o **"Publicar"**
 
+<div style="background: var(--green-highlight); border-left: 4px solid var(--green-dark); padding: 1.25rem; margin: 1.5rem 0;">
+
 ### Mantener tu perfil actualizado
 
-**Añadir actualizaciones a actividades existentes:**
+**Actualizar actividades existentes:**
 
 - Puedes volver a cualquier actividad y añadir nuevos entregables o métricas
 - Esto te permite mostrar el progreso a lo largo del tiempo
@@ -165,13 +234,14 @@ Las **métricas** son números que ayudan a entender la escala o alcance de vues
 
 **Construir tu reputación:**
 
-- Publica actividades regularmente
-- Mantén la información actualizada
-- Asegúrate de que los enlaces sigan funcionando
+- Publica actividades regularmente para mantener un historial activo
+- Verifica periódicamente que los enlaces sigan funcionando
+
+</div>
 
 ---
 
-## 7. Ejemplo Completo
+## 4. Ejemplo Completo
 
 **Actividad:** Taller comunitario sobre alimentación agroecológica en Pomezia
 
@@ -200,49 +270,26 @@ Las **métricas** son números que ayudan a entender la escala o alcance de vues
 
 ---
 
-## 8. Solución de Problemas y Soporte
+## 5. Soporte y Recursos
 
-### Problemas comunes
+### ¿Necesitas ayuda?
 
-**No encuentro mi proyecto:**
-- Busca con diferentes términos o variaciones del nombre
-- Si no existe, créalo usando "Add Project"
+Si tienes problemas o dudas al usar Karma, **no dudes en contactarnos:**
 
-**No puedo añadir entregables/métricas:**
-- Asegúrate de estar en el formulario de "Project Activity"
-- Verifica que has completado los campos obligatorios primero
-
-**Los enlaces no funcionan:**
-- Verifica que los enlaces sean públicos o compartidos correctamente
-- Prueba los enlaces en una ventana de incógnito antes de publicar
-
-### Soporte disponible
-
-**Horas de oficina (5-9 enero):**
-- Sesiones de soporte técnico para ayudaros con Karma GAP
-- Podemos hacer sesiones individuales o en grupo pequeño
-
-**Contacto:**
 - **Email:** hola@ReFiBCN.cat
 - **Grupo de WhatsApp:** https://chat.whatsapp.com/LB9pK2swHYN6oTdX1erjbB
 
----
+### Recursos Relacionados
 
-## 9. Recursos Relacionados
+- **[Guía para el informe de actividades](/es/resources/guia-informe-actividades)** — Preparar la información antes de publicar en Karma
+- **[Plataforma Karma](https://www.karmahq.xyz/)** — Acceso directo a la plataforma
 
-- **[Guía para el informe de actividades](/es/resources/guia-informe-actividades)** — Preparar la información antes de publicar en Karma GAP
-- **[Guía del Proyecto](/es/program/project-guidebook)** — Guía completa del programa Regenerant Catalunya
-- **[Criterios de Evaluación](/es/program/evaluation-criteria)** — Cómo se evalúan los proyectos
-- **[Plataforma Karma GAP](https://gap.karmahq.xyz/)** — Acceso directo a la plataforma
-
----
-
-## 📅 Fechas Importantes
+### 📅 Fechas Importantes
 
 - **12 de enero de 2026:** Fecha límite para completar el informe en Google Docs
-- **12-16 de enero de 2026:** Ventana para transferir y publicar actividades en Karma GAP
+- **12-16 de enero de 2026:** Ventana para transferir y publicar actividades en Karma
 - **19 de enero de 2026:** Taller final de cierre (requerido)
 
-**Recuerda:** Puedes crear tu cuenta en Karma GAP con Google/email sin necesidad de cartera Web3 inicialmente. La configuración de carteras puede hacerse hasta finales de enero.
+**Recuerda:** Puedes crear tu cuenta en Karma con Google/email sin necesidad de cartera Web3 inicialmente. La configuración de carteras puede hacerse hasta finales de enero.
 
 </div>

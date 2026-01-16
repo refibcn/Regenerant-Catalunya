@@ -444,7 +444,10 @@ description: "Una ronda de finançament participatiu que uneix iniciatives catal
         <p style="color: var(--darkgray); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem; flex-grow: 1;">
           Guies essencials per configurar i utilitzar eines Web3, incloent configuració de cartera, configuració de Karma GAP i connexió a dApps.
         </p>
-        <p style="margin-bottom: 0;"><a href="/es/resources/guia-informe-actividades" style="font-weight: 600; font-size: 0.9rem;">→ Guía para el informe de actividades</a></p>
+        <div style="margin-bottom: 0;">
+          <p style="margin-bottom: 0.5rem;"><a href="/es/resources/guia-informe-actividades" style="font-weight: 600; font-size: 0.9rem;">→ Guía para el informe de actividades</a></p>
+          <p style="margin-bottom: 0;"><a href="/es/resources/guia-karma-gap" style="font-weight: 600; font-size: 0.9rem;">→ Guía para usar la plataforma Karma</a></p>
+        </div>
       </div>
       <div class="grid-item" style="display: flex; flex-direction: column;">
         <h4 style="margin-top: 0; margin-bottom: 1rem; min-height: 3.5rem; color: var(--darkgray); font-size: 1.125rem;">Tots els Recursos</h4>
