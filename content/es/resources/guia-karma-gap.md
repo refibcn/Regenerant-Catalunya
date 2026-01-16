@@ -79,13 +79,13 @@ Esta guía te ayuda a publicar tus actividades en **Karma**, la plataforma de re
 2. Si tu proyecto ya existe, selecciónalo
 3. Si no existe, verás una pantalla vacía — esto es normal
 
-<img src="/es/resources/karma-screenshots/image%201.png" alt="My projects empty state" style="width: 90% !important; max-width: 900px !important; min-width: 500px !important; display: block !important; margin: 1.5rem auto !important; height: auto !important;" />
+<img src="/es/resources/karma-screenshots/image-1.png" alt="My projects empty state" style="width: 90% !important; max-width: 900px !important; min-width: 500px !important; display: block !important; margin: 1.5rem auto !important; height: auto !important;" />
 
 > En esta pantalla, Karma te indica que todavía no hay ningún proyecto asociado a tu cuenta.
 > 
 > Haz clic en **"Create project"** (o "Add project") para crear el perfil de tu proyecto en la plataforma.
 
-<img src="/es/resources/karma-screenshots/image%202.png" alt="My Projects screen" style="width: 100% !important; max-width: 100% !important; display: block !important; margin: 1.5rem 0 !important; height: auto !important;" />
+<img src="/es/resources/karma-screenshots/image-2.png" alt="My Projects screen" style="width: 100% !important; max-width: 100% !important; display: block !important; margin: 1.5rem 0 !important; height: auto !important;" />
 
 4. Haz clic en **"Create project"** o **"Add Project"**
 
@@ -110,7 +110,7 @@ Completa la información básica del proyecto:
 - Enlaces (web, redes sociales, etc.)
 - **Al menos un contacto** en la sección de contacto
 
-<img src="/es/resources/karma-screenshots/image%203.png" alt="Create project form" style="width: 90% !important; max-width: 900px !important; min-width: 500px !important; display: block !important; margin: 1.5rem auto !important; height: auto !important;" />
+<img src="/es/resources/karma-screenshots/image-3.png" alt="Create project form" style="width: 90% !important; max-width: 900px !important; min-width: 500px !important; display: block !important; margin: 1.5rem auto !important; height: auto !important;" />
 
 **Cuando termines:**
 
@@ -118,7 +118,7 @@ Completa la información básica del proyecto:
 2. Selecciona **"Optimism"** entre las opciones
 3. Haz clic en **"Sign message"** para confirmar
 
-<img src="/es/resources/karma-screenshots/image%204.png" alt="Sign message step" style="width: 100% !important; max-width: 100% !important; display: block !important; margin: 1.5rem 0 !important; height: auto !important;" />
+<img src="/es/resources/karma-screenshots/image-4.png" alt="Sign message step" style="width: 100% !important; max-width: 100% !important; display: block !important; margin: 1.5rem 0 !important; height: auto !important;" />
 
 ---
 
@@ -140,7 +140,7 @@ Completa la información básica del proyecto:
 2. Haz clic en **"Post an update"** o **"Publicar actualización"**
 3. Selecciona **"Project Activity"** o **"Actividad de Proyecto"**
 
-<img src="/es/resources/karma-screenshots/image%205.png" alt="Updates tab" style="width: 100% !important; max-width: 100% !important; display: block !important; margin: 1.5rem 0 !important; height: auto !important;" />
+<img src="/es/resources/karma-screenshots/image-5.png" alt="Updates tab" style="width: 100% !important; max-width: 100% !important; display: block !important; margin: 1.5rem 0 !important; height: auto !important;" />
 
 ### Paso 5: Completar la información de la actividad
 
