@@ -1,6 +1,7 @@
 ---
 title: "Project Page Preparation"
 description: "Complete guide to preparing your project page in Google Doc and gathering documentation for Workshop #2"
+showSidebars: false
 ---
 
 # Project Page Preparation Guide
@@ -13,7 +14,7 @@ description: "Complete guide to preparing your project page in Google Doc and ga
 
 Preparing your activities report in the shared Google Doc is a crucial step before the first documentation workshops. This preparation ensures you have everything organized and ready for impact documentation training and, later, Karma GAP submission.
 
-**Timeline:** Start as soon as you receive the Google Doc template and continue working on it through the documentation workshops (e.g. Dec 3 for Keras Buti at Pomezia; Dec 11 + 19 for Miceli).
+**Timeline:** Start as soon as you receive the Google Doc template and complete it by **January 12, 2026**. Documentation workshops completed (Dec 3, 11, 19, 2025).
 
 ---
 
@@ -136,53 +137,54 @@ You can review the evaluation criteria at any point:
 
 ---
 
-## What to Expect in Workshop #2
+## Next Steps After Completing Google Doc
 
-**Workshop #2: Documenting Impact** (December 8-14, 2025)
+**Once your Google Doc is complete (by January 12, 2026):**
 
-**Workshop Structure (2 hours):**
+1. **Transfer to Karma GAP** (January 12-16, 2026)
+   - Create Karma GAP account (can use Google/email, no wallet needed)
+   - Find or create your project profile
+   - Publish activities with deliverables and metrics
+   - See the **[Complete Karma GAP Guide](/es/resources/guia-karma-gap)** for step-by-step instructions
 
-1. **Why Document Impact?** — Importance beyond crypto
-2. **Understanding Evaluation Criteria** — What evaluators are looking for
-3. **Introduction to Karma GAP** — Platform overview
-4. **Hands-On Karma Setup** — Create account, connect wallet
-5. **Documenting Activities** — How to log past activities and future plans
-6. **Using the Data Collection Document** — Organizing information
-7. **Q&A and Next Steps** — Office hours, support, deadlines
+2. **Support Available:**
+   - Office hours: January 5-9, 2026 (technical support for Karma GAP)
+   - Individual check-ins can be scheduled
+   - Contact hola@ReFiBCN.cat for assistance
 
-**After the Workshop:**
-
-- Recording and slides will be shared
-- Office hours available for support (December 4-19, 2025)
-- Individual check-ins can be scheduled
-- Final deadline: Submit activities to Karma by end of December
+3. **Final Closing Workshop:**
+   - January 19, 2026 (10:00-11:30, online) — **Required for Phase 1 completion**
 
 ---
 
-## Using Your Google Doc During Workshop #2
+## Using Your Google Doc for Karma GAP Submission
 
-**During the workshop:**
+**When transferring to Karma GAP (January 12-16, 2026):**
 
-- Use your Google Doc as a reference while learning Karma GAP
+- Use your Google Doc as a reference while publishing on Karma GAP
 - Transfer organized information from Google Doc to Karma GAP
+- Each activity in your Google Doc becomes a "Project Activity" in Karma GAP
+- Copy deliverables and metrics for each activity
 - Update your Google Doc status as you complete submissions
-- Note any questions or areas needing clarification
 
-**After the workshop:**
+**Tips:**
 
-- Continue using Google Doc to organize before final submission
-- Transfer all information to Karma GAP
-- Update status in Google Doc as you submit activities
+- Keep your Google Doc open while working in Karma GAP
+- Verify that all information transferred correctly
+- Make sure links to evidence (Drive folders, etc.) are accessible
 
 ---
 
 ## Need Help?
 
-**Before Workshop #2:**
+**Support Available:**
 
 - **Contact:** hola@ReFiBCN.cat
-- **Office hours:** December 4-19, 2025
-- **Resources:** [[Program Resources]] page for guides and templates
+- **Office hours:** January 5-9, 2026 (for Karma GAP support)
+- **Resources:** 
+  - **[Activity Report Guide](/es/resources/guia-informe-actividades)** — Complete guide for Google Docs
+  - **[Karma GAP Guide](/es/resources/guia-karma-gap)** — Step-by-step guide for Karma GAP
+  - **[Program Resources](/resources)** — All guides and templates
 
 **Common Questions:**
 
@@ -199,23 +201,25 @@ You can review the evaluation criteria at any point:
 
 ## Next Steps
 
-1. **Complete your project page** in the Google Doc
+1. **Complete your project page** in the Google Doc by **January 12, 2026**
 2. **Gather all documentation** you have
 3. **Review evaluation criteria** to understand what evaluators look for
-4. **Attend Workshop #2** (December 8-14, 2025)
-5. **Transfer information** from Google Doc to Karma GAP
-6. **Submit activities** to Karma GAP by end of December
+4. **Transfer information** from Google Doc to Karma GAP (January 12-16, 2026)
+5. **Submit activities** to Karma GAP during the submission window
+6. **Attend final closing workshop** (January 19, 2026) — **Required**
 
 ---
 
 **Related Guides:**
 
-- [[Project Guidebook]] — Complete project guide
-- [[Guía Completa de Onboarding a Valora]] — Wallet setup guide
-- [[Evaluation Criteria]] — Understanding evaluation
-- [[Program Timeline]] — Key dates and deadlines
+- **[Project Guidebook](/es/program/project-guidebook)** — Complete project guide
+  - **[Activity Report Guide](/es/resources/guia-informe-actividades)** — Complete guide for Google Docs
+  - **[Karma GAP Guide](/es/resources/guia-karma-gap)** — Step-by-step guide for Karma GAP
+  - **[Valora Setup Guide](/es/resources/valora-guide)** — Wallet setup guide
+- **[Evaluation Criteria](/program/evaluation-criteria)** — Understanding evaluation
+- **[Program Timeline](/program/timeline)** — Key dates and deadlines
 
 ---
 
-**Questions?** Contact hola@ReFiBCN.cat or attend office hours (December 4-19, 2025)
+**Questions?** Contact hola@ReFiBCN.cat or attend office hours (January 5-9, 2026)
 

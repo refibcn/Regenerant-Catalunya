@@ -1,6 +1,7 @@
 ---
 title: "Activity Report Guide"
 description: "How to document activities, deliverables, and metrics for Regenerant Catalunya using the Google Docs template"
+showSidebars: false
 ---
 
 <div style="font-size: 0.95rem; line-height: 1.6;">
@@ -317,32 +318,60 @@ To add a new activity:
 
 ---
 
-### C. Next Steps
+### C. Next Steps: From Google Docs to Karma GAP
 
-#### Later: taking this to Karma GAP
+**The process has two clear phases:**
 
-**In the first workshops we will NOT ask you to:**
+#### Phase 1: Documentation in Google Docs (until January 12)
+
+**In the documentation workshops we will NOT ask you to:**
 
 - Open Web3 wallets
 - Create Karma GAP accounts
 - Do anything "on-chain"
 
-**The goal of this first round of workshops is:**
+**The goal of this phase is:**
 
 - That you have a **clear activity report in Google Docs**
 - That you better understand your own work: activities, deliverables, metrics
+- That you have all information organized and ready to transfer
 
-**In a second round of workshops (after December):**
+#### Phase 2: Transfer to Karma GAP (January 12-16)
 
-- We'll open or review Web3 wallets (Celo)
-- We'll create or review Karma GAP accounts
-- We'll copy, step by step, the information from the Google Doc to activities in Karma
+**Once the Google Doc is completed, you'll transfer the information to Karma GAP:**
+
+- **Create Karma GAP account** (you can use Google/email, no wallet needed initially)
+- **Find or create your project profile** on Karma GAP
+- **Publish activities** copying information from the Google Doc
+- **Add deliverables and metrics** for each activity
+
+**Support available:**
+
+- **Office hours (January 5-9):** Technical support sessions to help with Karma GAP
+- We can do individual or small group sessions if needed
+
+**For a detailed step-by-step guide:** See the **[Complete Karma GAP Guide](/es/resources/guia-karma-gap)**
+
+**Note about Web3 wallets:**
+
+- Wallet setup is **decoupled** from documentation workshops
+- You can set up your wallet until **end of January**
+- You don't need a wallet to create a Karma GAP account (you can use Google/email)
+- See the **[Valora Setup Guide](/es/resources/valora-guide)** when you're ready (available in Spanish and Catalan)
 
 All of this will be **accompanied**, you don't have to do it alone.
 
 ---
 
 ## Related Resources
+
+### Essential Guides
+
+- **[Karma GAP Guide](/es/resources/guia-karma-gap)** — Step-by-step guide for publishing activities on Karma GAP
+- **[Project Guidebook](/es/program/project-guidebook)** — Complete guide to the Regenerant Catalunya program
+- **[Evaluation Criteria](/program/evaluation-criteria)** — How projects are evaluated
+
+### Templates and Links
 
 <div style="background: var(--green-highlight); border-left: 4px solid var(--green-dark); padding: 1.25rem; margin: 1.5rem 0;">
 
@@ -352,6 +381,20 @@ https://docs.google.com/document/d/1L00lVFHoB0WD5lxF7YU1KnhJDiU0InoiHkU-6rV_kHw/
 
 </div>
 
-If you have questions about how to fill out the report or what activities to choose, you can ask in the **WhatsApp group:** https://chat.whatsapp.com/LB9pK2swHYN6oTdX1erjbB
+If you have questions about how to fill out the report or what activities to choose, you can contact us by **email:** hola@ReFiBCN.cat
+
+**WhatsApp group (optional):** https://chat.whatsapp.com/LB9pK2swHYN6oTdX1erjbB  
+*Optional group for informal progress sharing. Email is the main communication channel.*
+
+---
+
+## Important Dates - Phase 1 Closing
+
+- **January 12, 2026:** ⏰ **Deadline** — Complete activity report in Google Docs
+- **January 12-16, 2026:** Window to transfer and submit activities to Karma GAP
+- **January 19, 2026:** 🎯 **Final closing workshop** (10:00-11:30, online) — **Required to complete Phase 1**
+- **End of January 2026:** Wallet setup deadline (extended) and Phase 1 disbursement
+
+**Important:** Phase 1 funding is conditional on completing these basic reporting requirements. All projects that complete the requirements will receive the same base allocation.
 
 </div>

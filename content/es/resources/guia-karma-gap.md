@@ -1,6 +1,7 @@
 ---
 title: "Guía para usar la plataforma Karma"
 description: "Guía paso a paso para publicar actividades, entregables y métricas en Karma"
+showSidebars: false
 ---
 
 <div style="font-size: 0.95rem; line-height: 1.6;">

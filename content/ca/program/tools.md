@@ -1,6 +1,7 @@
 ---
 title: "Eines"
 description: "Eines i plataformes Web3 utilitzades a Regenerant Catalunya"
+showSidebars: false
 ---
 
 # Eines
@@ -450,6 +451,6 @@ Aquestes eines van ser escollides perquè:
 ### Més Informació
 
 - [Recursos](/ca/resources) - Documentació completa d'eines i guies
-- [Guia de Projectes](/ca/program/project-guidebook) - Instruccions detallades de configuració
+- [Guia de Projectes](/es/program/project-guidebook) - Instruccions detallades de configuració
 - [Guia de Xarxa](/ca/program/network-guidebook) - Ús d'eines a nivell de xarxa
 - [Cronograma del Programa](/ca/program/timeline) - Calendari de tallers

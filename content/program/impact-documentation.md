@@ -1,6 +1,7 @@
 ---
 title: "Impact Documentation & Activities Reporting"
 description: "Background guide on activities, outputs, metrics, and why they matter in Regenerant Catalunya"
+showSidebars: false
 ---
 
 ## Why Impact Documentation?
@@ -163,6 +164,19 @@ If you can do this for a handful of your most important activities, you will alr
   - Answer questions about deliverables, metrics and evidence
 
 For more advanced background on impact and the full Impact Value Chain, see the original **Regen Coordination Impact Reporting guidance** (EN), which inspired this simplified version for Regenerant Catalunya.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

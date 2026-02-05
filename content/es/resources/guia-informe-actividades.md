@@ -1,9 +1,8 @@
 ---
 title: "Guía para el informe de actividades"
 description: "Cómo documentar actividades, entregables y métricas para Regenerant Catalunya usando la plantilla en Google Docs"
+showSidebars: false
 ---
-
-<div style="font-size: 0.95rem; line-height: 1.6;">
 
 # Guía para el informe de actividades
 
@@ -317,32 +316,67 @@ Para añadir una nueva actividad:
 
 ---
 
-### C. Próximos Pasos
+### C. Próximos Pasos: De Google Docs a Karma GAP
 
-#### Más adelante: llevar esto a Karma GAP
+**El proceso tiene dos fases claras:**
 
-**En los primeros talleres NO vamos a pediros:**
+#### Fase 1: Documentación en Google Docs (hasta el 12 de enero)
+
+**En los talleres de documentación NO vamos a pediros:**
 
 - Abrir carteras Web3
 - Crear cuentas en Karma GAP
 - Hacer nada "en la cadena" (on‑chain)
 
-**El objetivo de esta primera ronda de talleres es:**
+**El objetivo de esta fase es:**
 
 - Que tengáis un **informe de actividades claro en Google Docs**
 - Que entendáis mejor vuestro propio trabajo: actividades, entregables, métricas
+- Que tengáis toda la información organizada y lista para transferir
 
-**En una segunda ronda de talleres (después de diciembre):**
+#### Fase 2: Transferir a Karma GAP (12-16 de enero)
 
-- Abriremos o revisaremos las carteras Web3 (Celo)
-- Crearemos o revisaremos las cuentas de Karma GAP
-- Copiaremos, paso a paso, la información del Google Doc a actividades en Karma
+**Una vez completado el Google Doc, transferiréis la información a Karma GAP:**
+
+- **Crear cuenta en Karma GAP** (puedes usar Google/email, no necesitas cartera Web3 inicialmente)
+- **Encontrar o crear el perfil de tu proyecto** en Karma GAP
+- **Publicar actividades** copiando la información del Google Doc
+- **Añadir entregables y métricas** para cada actividad
+
+**Apoyo disponible:**
+
+- **Horas de oficina (5-9 enero):** Sesiones de soporte técnico para ayudaros con Karma GAP
+- Podemos hacer sesiones individuales o en grupo pequeño si lo necesitáis
+
+**Para una guía detallada paso a paso:** Consulta la **[Guía completa de Karma GAP](/es/resources/guia-karma-gap)**
+
+**Nota sobre carteras Web3:**
+
+- La configuración de carteras Web3 está **desacoplada** de los talleres de documentación
+- Puedes configurar tu cartera hasta **finales de enero**
+- No es necesario tener cartera para crear cuenta en Karma GAP (puedes usar Google/email)
+- Consulta la **[Guía de configuración de Valora](/es/resources/valora-guide)** cuando estés listo/a
 
 Todo esto será **acompañado**, no tenéis que hacerlo solos/as.
 
 ---
 
-## Recursos relacionados
+## 3. Guías Relacionadas y Recursos
+
+### Guías Esenciales
+
+- **[Guía completa de Karma GAP](/es/resources/guia-karma-gap)** — Guía paso a paso para publicar actividades en Karma GAP
+- **[Guía del Proyecto](/es/program/project-guidebook)** — Guía completa del programa Regenerant Catalunya con todos los pasos
+- **[Criterios de Evaluación](/es/program/evaluation-criteria)** — Cómo se evalúan los proyectos
+
+### Recursos Técnicos
+
+- **[Guía de configuración de Valora](/es/resources/valora-guide)** — Cómo abrir una cartera Web3 en Celo
+- **[Recursos del Programa](/es/resources)** — Todas las guías y documentación
+
+---
+
+## Recursos y Contacto
 
 <div style="background: var(--green-highlight); border-left: 4px solid var(--green-dark); padding: 1.25rem; margin: 1.5rem 0;">
 
@@ -352,6 +386,18 @@ https://docs.google.com/document/d/1L00lVFHoB0WD5lxF7YU1KnhJDiU0InoiHkU-6rV_kHw/
 
 </div>
 
-Si tienes dudas sobre cómo rellenar el informe o qué actividades elegir, puedes preguntarlo en el **grupo de WhatsApp:** https://chat.whatsapp.com/LB9pK2swHYN6oTdX1erjbB
+Si tienes dudas sobre cómo rellenar el informe o qué actividades elegir, puedes contactarnos por **email:** hola@ReFiBCN.cat
 
-</div>
+**Grupo de WhatsApp (opcional):** https://chat.whatsapp.com/LB9pK2swHYN6oTdX1erjbB  
+*Grupo opcional para compartir progreso de forma informal. El email es el canal principal de comunicación.*
+
+---
+
+## 📅 Fechas Importantes - Cierre de la Fase 1
+
+- **12 de enero de 2026:** ⏰ **FECHA LÍMITE** — Completar el informe de actividades en Google Docs
+- **12-16 de enero de 2026:** Semana para transferir y enviar actividades a Karma GAP
+- **19 de enero de 2026:** 🎯 **Taller final de cierre** (10:00-11:30, online) — **requerido para completar la Fase 1**
+- **Finales de enero de 2026:** Configuración de carteras Web3 (plazo extendido) y desembolso de la Fase 1
+
+**Importante:** La financiación de la Fase 1 es condicional a completar estos requisitos básicos de reporte. Todos los proyectos que completen los requisitos recibirán la misma asignación base.

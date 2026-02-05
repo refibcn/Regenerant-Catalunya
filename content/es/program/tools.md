@@ -1,6 +1,7 @@
 ---
 title: "Herramientas"
 description: "Herramientas y plataformas Web3 utilizadas en Regenerant Catalunya"
+showSidebars: false
 ---
 
 # Herramientas

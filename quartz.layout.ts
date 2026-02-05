@@ -24,27 +24,59 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
       component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
+      condition: (page) => {
+        const slug = page.fileData.slug
+        return slug !== "index" && slug !== "es/index" && slug !== "ca/index"
+      },
     }),
     Component.ConditionalRender({
       component: Component.ArticleTitle(),
-      condition: (page) => page.fileData.slug !== "index",
+      condition: (page) => {
+        const slug = page.fileData.slug
+        return slug !== "index" && slug !== "es/index" && slug !== "ca/index"
+      },
     }),
     Component.TagList(),
   ],
   afterBody: [
     Component.ConditionalRender({
       component: Component.ContentMeta(),
-      condition: (page) => page.fileData.slug !== "index",
+      condition: (page) => {
+        const slug = page.fileData.slug
+        return slug !== "index" && slug !== "es/index" && slug !== "ca/index"
+      },
     }),
   ],
-  left: [], // Empty - sidebars hidden by default via CSS
-  right: [], // Empty - sidebars hidden by default via CSS
+  left: [
+    Component.ConditionalRender({
+      component: Component.DesktopOnly(Component.Explorer()),
+      condition: (page) => !!page.fileData.frontmatter?.showSidebars,
+    }),
+  ],
+  right: [
+    Component.ConditionalRender({
+      component: Component.DesktopOnly(Component.TableOfContents()),
+      condition: (page) => !!page.fileData.frontmatter?.showSidebars,
+    }),
+    Component.ConditionalRender({
+      component: Component.Graph(),
+      condition: (page) => !!page.fileData.frontmatter?.showSidebars,
+    }),
+    Component.ConditionalRender({
+      component: Component.Backlinks(),
+      condition: (page) => !!page.fileData.frontmatter?.showSidebars,
+    }),
+  ],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
-  left: [], // Empty - sidebars hidden by default via CSS
-  right: [], // Empty - sidebars hidden by default via CSS
+  left: [
+    Component.ConditionalRender({
+      component: Component.DesktopOnly(Component.Explorer()),
+      condition: (page) => !!page.fileData.frontmatter?.showSidebars,
+    }),
+  ],
+  right: [],
 }

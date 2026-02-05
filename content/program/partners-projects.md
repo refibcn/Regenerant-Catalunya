@@ -1,6 +1,7 @@
 ---
 title: "Partners & Projects"
 description: "The collaborative network and participating projects behind Regenerant Catalunya"
+showSidebars: false
 ---
 
 # Partners & Projects

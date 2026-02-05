@@ -2,6 +2,7 @@
 title: "Network Guidebook"
 description: "Guide for network-level governance in Phase 2 of Regenerant Catalunya"
 draft: true
+showSidebars: false
 ---
 
 # Regenerant Catalunya - Network Guidebook
@@ -273,7 +274,7 @@ The first Phase 2 workshop focuses on **sense-making** — understanding current
 
 ### Documentation
 
-- [Project Guidebook](/program/project-guidebook) — For individual project requirements
+- [Project Guidebook](/es/program/project-guidebook) — For individual project requirements
 - [Program Timeline](/program/timeline) — Complete timeline with all milestones
 - [Resources](/resources) — Links to all tool documentation
 - [Program Overview](/program) — Complete program information

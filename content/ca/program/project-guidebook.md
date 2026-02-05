@@ -1,6 +1,7 @@
 ---
 title: "Guia de Projectes"
 description: "Guia completa per a projectes participants de Regenerant Catalunya"
+showSidebars: false
 ---
 
 # Regenerant Catalunya - Guia de Projectes
@@ -208,6 +209,8 @@ A la Fase 2, la vostra xarxa ([[Miceli Social]] o [[La Fundició]] / [[Keras But
 - [Guia de Xarxa](/ca/program/network-guidebook) — Guia per a la governança de xarxa de la Fase 2
 - [Recursos](/ca/resources) — Enllaços a tota la documentació d'eines i materials de suport
 - [Programa](/ca/program) — Informació completa del programa
+- [Guia per a l'informe d'activitats](/es/resources/guia-informe-actividades) — Guia pas a pas per omplir l'informe d'activitats a Google Docs
+- [Guia de Karma GAP](/es/resources/guia-karma-gap) — Guia pas a pas per publicar activitats a Karma GAP
 
 ---
 

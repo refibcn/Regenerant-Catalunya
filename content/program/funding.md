@@ -1,6 +1,7 @@
 ---
 title: "Program Funding"
 description: "Funding architecture, budget breakdown, and treasury management for Regenerant Catalunya"
+showSidebars: false
 ---
 
 # Program Funding & Distribution
@@ -135,7 +136,7 @@ This phased approach:
 
 - [Program Overview](/program) - Complete program information
 - [Program Timeline](/program/timeline) - Detailed timeline and milestones
-- [Project Guidebook](/program/project-guidebook) - Guide for participating projects
+- [Project Guidebook](/es/program/project-guidebook) - Guide for participating projects
 - [Network Guidebook](/program/network-guidebook) - Network-level governance guide
 
 ---

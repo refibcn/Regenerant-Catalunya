@@ -25461,3 +25461,7 @@ body[data-slug="ca/index"] .page-header .popover-hint {
   margin: 0 !important;
   padding: 0 !important;
 }
+
+// Documentation layout (focused reading experience)
+// Imported after all other styles to ensure proper cascade
+@import "./documentation-layout.scss";

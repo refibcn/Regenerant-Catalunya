@@ -1,6 +1,7 @@
 ---
 title: "Cronograma del Programa"
 description: "Cronograma complet amb fites clau i horari de tallers per a Regenerant Catalunya"
+showSidebars: false
 ---
 
 # Regenerant Catalunya - Cronograma del Programa
@@ -267,7 +268,7 @@ Durant tot el programa, els projectes tenen accés a:
 
 ## Recursos
 
-- [Guia de Projectes](/ca/program/project-guidebook) — Guia detallada per a projectes participants
+- [Guia de Projectes](/es/program/project-guidebook) — Guia detallada per a projectes participants
 - [Guia de Xarxa](/ca/program/network-guidebook) — Guia per a la governança de xarxa de la Fase 2
 - [Recursos](/ca/resources) — Enllaços a tota la documentació d'eines i materials de suport
 - [Programa](/ca/program) — Informació completa del programa

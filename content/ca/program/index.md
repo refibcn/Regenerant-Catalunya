@@ -64,7 +64,7 @@ Cronograma complet amb fites clau i horari de tallers.
 
 Cronograma complet amb fites clau, horari de tallers i suport continu.
 
-### [Guia de Projectes](project-guidebook/)
+### [Guia de Projectes](/es/program/project-guidebook)
 
 Guia completa per a projectes participants que cobreix els requisits de la Fase 1, configuració de Karma, guia de cartera i horari de tallers.
 

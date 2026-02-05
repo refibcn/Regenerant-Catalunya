@@ -4,6 +4,7 @@ description: "Evaluation framework for project assessment, adapted for Catalan b
 version: 2.0
 date: 2025-10-16
 status: Active
+showSidebars: false
 ---
 
 # Evaluation Criteria | Regenerant Catalunya

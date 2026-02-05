@@ -1,6 +1,7 @@
 ---
 title: "Guía de Red"
 description: "Guía para la gobernanza a nivel de red en la Fase 2 de Regenerant Catalunya"
+showSidebars: false
 ---
 
 # Regenerant Catalunya - Guía de Red

@@ -1,6 +1,7 @@
 ---
 title: "Guia de Karma GAP"
 description: "Guia pas a pas per publicar activitats, lliurables i mètriques a Karma GAP"
+showSidebars: false
 ---
 
 <div style="font-size: 0.95rem; line-height: 1.6;">

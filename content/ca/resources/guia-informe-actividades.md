@@ -1,6 +1,7 @@
 ---
 title: "Guia per a l'informe d'activitats"
 description: "Com documentar activitats, lliurables i mètriques per a Regenerant Catalunya utilitzant la plantilla de Google Docs"
+showSidebars: false
 ---
 
 <div style="font-size: 0.95rem; line-height: 1.6;">
@@ -317,32 +318,67 @@ Per afegir una nova activitat:
 
 ---
 
-### C. Propers Passos
+### C. Propers Passos: De Google Docs a Karma GAP
 
-#### Més endavant: portar això a Karma GAP
+**El procés té dues fases clares:**
 
-**Als primers tallers NO us demanarem:**
+#### Fase 1: Documentació a Google Docs (fins al 12 de gener)
+
+**Als tallers de documentació NO us demanarem:**
 
 - Obrir carteres Web3
 - Crear comtes a Karma GAP
 - Fer res "a la cadena" (on-chain)
 
-**L'objectiu d'aquesta primera ronda de tallers és:**
+**L'objectiu d'aquesta fase és:**
 
 - Que tingueu un **informe d'activitats clar a Google Docs**
 - Que entengueu millor el vostre propi treball: activitats, lliurables, mètriques
+- Que tingueu tota la informació organitzada i llesta per transferir
 
-**En una segona ronda de tallers (després de desembre):**
+#### Fase 2: Transferir a Karma GAP (12-16 de gener)
 
-- Obrirem o revisarem les carteres Web3 (Celo)
-- Crearem o revisarem els comptes de Karma GAP
-- Copiarem, pas a pas, la informació del Google Doc a activitats a Karma
+**Un cop completat el Google Doc, transferireu la informació a Karma GAP:**
+
+- **Crear compte a Karma GAP** (podeu usar Google/email, no necessiteu cartera Web3 inicialment)
+- **Trobar o crear el perfil del vostre projecte** a Karma GAP
+- **Publicar activitats** copiant la informació del Google Doc
+- **Afegir lliurables i mètriques** per a cada activitat
+
+**Suport disponible:**
+
+- **Hores d'oficina (5-9 gener):** Sessions de suport tècnic per ajudar-vos amb Karma GAP
+- Podem fer sessions individuals o en grup petit si ho necessiteu
+
+**Per a una guia detallada pas a pas:** Consulta la **[Guia completa de Karma GAP](/es/resources/guia-karma-gap)**
+
+**Nota sobre carteres Web3:**
+
+- La configuració de carteres Web3 està **desacoblada** dels tallers de documentació
+- Podeu configurar la vostra cartera fins a **final de gener**
+- No cal tenir cartera per crear compte a Karma GAP (podeu usar Google/email)
+- Consulta la **[Guia de configuració de Valora](/es/resources/valora-guide)** quan estigueu llestos
 
 Tot això serà **acompanyat**, no heu de fer-ho sols/soles.
 
 ---
 
-## Recursos relacionats
+## 3. Guies Relacionades i Recursos
+
+### Guies Essencials
+
+- **[Guia completa de Karma GAP](/es/resources/guia-karma-gap)** — Guia pas a pas per publicar activitats a Karma GAP
+- **[Guia del Projecte](/es/program/project-guidebook)** — Guia completa del programa Regenerant Catalunya amb tots els passos
+- **[Criteris d'Avaluació](/es/program/evaluation-criteria)** — Com s'avaluen els projectes
+
+### Recursos Tècnics
+
+- **[Guia de configuració de Valora](/es/resources/valora-guide)** — Com obrir una cartera Web3 a Celo
+- **[Recursos del Programa](/es/resources)** — Totes les guies i documentació
+
+---
+
+## Recursos i Contacte
 
 <div style="background: var(--green-highlight); border-left: 4px solid var(--green-dark); padding: 1.25rem; margin: 1.5rem 0;">
 
@@ -352,6 +388,20 @@ https://docs.google.com/document/d/1L00lVFHoB0WD5lxF7YU1KnhJDiU0InoiHkU-6rV_kHw/
 
 </div>
 
-Si tens dubtes sobre com omplir l'informe o quines activitats escollir, pots preguntar-ho al **grup de WhatsApp:** https://chat.whatsapp.com/LB9pK2swHYN6oTdX1erjbB
+Si tens dubtes sobre com omplir l'informe o quines activitats escollir, pots contactar-nos per **email:** hola@ReFiBCN.cat
+
+**Grup de WhatsApp (opcional):** https://chat.whatsapp.com/LB9pK2swHYN6oTdX1erjbB  
+*Grup opcional per compartir progrés de forma informal. L'email és el canal principal de comunicació.*
+
+---
+
+## 📅 Dates Importants - Tancament de la Fase 1
+
+- **12 de gener de 2026:** ⏰ **DATA LÍMIT** — Completar l'informe d'activitats a Google Docs
+- **12-16 de gener de 2026:** Setmana per transferir i enviar activitats a Karma GAP
+- **19 de gener de 2026:** 🎯 **Taller final de tancament** (10:00-11:30, online) — **requerit per completar la Fase 1**
+- **Final de gener de 2026:** Configuració de carteres Web3 (termini ampliat) i desemborsament de la Fase 1
+
+**Important:** El finançament de la Fase 1 és condicional a completar aquests requisits bàsics de reporte. Tots els projectes que completin els requisits rebran la mateixa assignació base.
 
 </div>

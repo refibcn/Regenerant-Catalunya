@@ -4,6 +4,7 @@ description: "Transparent, rigorous evaluation standards adapted for Catalan bio
 version: 1.0
 date: 2025-10-16
 status: Draft - Collaborative Definition with Local Partners
+showSidebars: false
 ---
 
 # Evaluation Criteria | Regenerant Catalunya

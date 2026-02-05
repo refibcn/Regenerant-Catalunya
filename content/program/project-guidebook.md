@@ -1,6 +1,7 @@
 ---
 title: "Project Guidebook"
 description: "Comprehensive guide for participating projects in Regenerant Catalunya"
+showSidebars: false
 ---
 
 <style>
@@ -381,11 +382,11 @@ Welcome to **Regenerant Catalunya**! This guidebook provides everything you need
     <span class="status-label" data-status="active">CAN START NOW</span>
   </div>
   <blockquote class="step-timeline">
-    <strong>Timeline:</strong> Later in Phase 1 (after documentation workshops)
+    <strong>Timeline:</strong> Can be done independently until end of January 2026 (decoupled from documentation workshops)
   </blockquote>
   <hr class="step-header-divider">
   <div class="step-content">
-    <p>Set up a Web3 wallet to receive funds securely on the Celo blockchain. [[Valora]] is recommended for its social recovery feature. This will be supported in a **later hands-on session**, after your activities report in Google Docs is ready.</p>
+    <p>Set up a Web3 wallet to receive funds securely on the Celo blockchain. [[Valora]] is recommended for its social recovery feature. **Wallet setup is decoupled from documentation workshops** — you can complete it independently until the end of January 2026. You don't need a wallet to create a Karma GAP account (you can use Google/email login).</p>
     <a href="/es/resources/valora-guide" class="button">View Wallet Setup Guide →</a>
   </div>
 </div>
@@ -398,24 +399,24 @@ Welcome to **Regenerant Catalunya**! This guidebook provides everything you need
       <div class="step-number-line" data-status="coming-soon"></div>
     </div>
     <h3 style="margin: 0; flex-grow: 1; font-size: 1.5rem;">
-      <a href="/resources/project-page-prep">→ Prepare Activities Report (Google Doc)</a>
+      <a href="/es/resources/guia-informe-actividades">→ Prepare Activities Report (Google Doc)</a>
     </h3>
-    <span class="status-label" data-status="coming-soon">COMING SOON</span>
+    <span class="status-label" data-status="coming-soon">ACTIVE NOW</span>
   </div>
   <blockquote class="step-timeline">
-    <strong>Timeline:</strong> From now through the documentation workshops for your network (Keras Buti and Miceli)
+    <strong>Timeline:</strong> Complete by January 12, 2026 — Main focus of documentation workshops
   </blockquote>
   <hr class="step-header-divider">
   <div class="step-content">
-    <p>Organize your project information and documentation in the shared Google Doc before the hands-on Web3 & [[Karma GAP]] session. This is the main focus of the first round of network-specific workshops.</p>
+    <p>Organize your project information and documentation in the shared Google Doc. This is the main focus of the documentation workshops and must be completed before transferring to Karma GAP.</p>
     <ul>
-      <li>Access your project’s Google Doc template (or section) when shared</li>
+      <li>Access your project's Google Doc template (or section) when shared</li>
       <li>Fill in project information (name, description, contact, network affiliation)</li>
       <li>Gather documentation (reports, photos, metrics)</li>
       <li>Identify and describe your key activities, deliverables and metrics</li>
       <li>Makes future Karma GAP submission easier and enables self-assessment</li>
     </ul>
-    <a href="/resources/project-page-prep" class="button">View Preparation Guide →</a>
+    <a href="/es/resources/guia-informe-actividades" class="button">View Activity Report Guide →</a>
   </div>
 </div>
 <div class="step-arrow"></div>
@@ -457,26 +458,26 @@ Welcome to **Regenerant Catalunya**! This guidebook provides everything you need
       <div class="step-number-line" data-status="future"></div>
     </div>
     <h3 style="margin: 0; flex-grow: 1; font-size: 1.5rem;">
-      <a href="https://gap.karmahq.xyz">→ Submit Activities to Karma GAP</a>
+      <a href="/es/resources/guia-karma-gap">→ Submit Activities to Karma GAP</a>
     </h3>
-    <span class="status-label" data-status="future">FUTURE</span>
+    <span class="status-label" data-status="future">UPCOMING</span>
   </div>
   <blockquote class="step-timeline">
-    <strong>Timeline:</strong> December 8-31, 2025 (with support available)
+    <strong>Timeline:</strong> January 12-16, 2026 (with support available January 5-9)
   </blockquote>
   <hr class="step-header-divider">
   <div class="step-content">
-    <p>Submit at least 3 past activities and 3 future plans to [[Karma GAP]] for transparent, on-chain impact reporting.</p>
+    <p>Transfer your Google Doc activities report to [[Karma GAP]] for transparent, on-chain impact reporting. You can create a Karma GAP account with Google/email — no wallet needed initially.</p>
     <ul>
-      <li>Create [[Karma GAP]] account (if not done in Workshop #2)</li>
-      <li>Log at least 3 past activities and 3 future plans</li>
-      <li>Follow Common Approach framework (Activities → Outputs → Outcomes → Impact)</li>
+      <li>Create [[Karma GAP]] account using Google/email login (no wallet required)</li>
+      <li>Find or create your project profile on Karma GAP</li>
       <li>Transfer information from Google Doc to [[Karma GAP]]</li>
+      <li>Publish activities with deliverables and metrics</li>
       <li>[[Karma GAP]] creates a public, on-chain "project resume"</li>
       <li>Builds your on-chain reputation and discoverability</li>
-      <li>Support available: Office hours December 4-19, 2025; optional support sessions December 15-31</li>
+      <li>Support available: Office hours January 5-9, 2026</li>
     </ul>
-    <a href="https://gap.karmahq.xyz" class="button">Open Karma GAP Platform →</a>
+    <a href="/es/resources/guia-karma-gap" class="button">View Karma GAP Guide →</a>
   </div>
 </div>
 <div class="step-arrow"></div>
@@ -605,23 +606,38 @@ Welcome to **Regenerant Catalunya**! This guidebook provides everything you need
           </td>
         </tr>
         <tr>
-          <td><strong>Nov 17-21, 2025</strong></td>
+          <td><strong>Nov 19, 2025</strong></td>
           <td>Workshop #1 — Program kickoff</td>
+          <td style="color: var(--green-dark); font-weight: 600;">✅ Completed</td>
+        </tr>
+        <tr>
+          <td><strong>Dec 3, 11, 19, 2025</strong></td>
+          <td>Documentation workshops (by network)</td>
+          <td style="color: var(--green-dark); font-weight: 600;">✅ Completed</td>
+        </tr>
+        <tr>
+          <td><strong>Jan 5-9, 2026</strong></td>
+          <td>Office hours for Karma GAP support</td>
           <td>📅 Upcoming</td>
         </tr>
         <tr>
-          <td><strong>Dec 4-19, 2025</strong></td>
-          <td>Office hours for project support</td>
+          <td><strong>Jan 12, 2026</strong></td>
+          <td>Deadline: Complete Google Doc activities report</td>
           <td>📅 Upcoming</td>
         </tr>
         <tr>
-          <td><strong>Dec 8-14, 2025</strong></td>
-          <td>Workshop #2 — Impact documentation</td>
+          <td><strong>Jan 12-16, 2026</strong></td>
+          <td>Submit activities to Karma GAP</td>
           <td>📅 Upcoming</td>
         </tr>
         <tr>
-          <td><strong>End Dec 2025</strong></td>
-          <td>Phase 1 disbursement</td>
+          <td><strong>Jan 19, 2026</strong></td>
+          <td>Final closeout workshop (Barcelona, 10:00 AM)</td>
+          <td>📅 Upcoming</td>
+        </tr>
+        <tr>
+          <td><strong>Late Jan 2026</strong></td>
+          <td>Completion check & Phase 1 disbursement</td>
           <td>📅 Upcoming</td>
         </tr>
         <tr style="background: var(--green-highlight);">
@@ -673,6 +689,10 @@ In Phase 2, your network ([[Miceli Social]] or [[La Fundició]] / [[Keras Buti]]
 
 - **Program Website:** [regenerant.refibcn.cat](https://regenerant.refibcn.cat/)
 
+**Essential Guides:**
+
+- **[Activity Report Guide](/es/resources/guia-informe-actividades)** — Complete guide for documenting activities in Google Docs
+- **[Karma GAP Guide](/es/resources/guia-karma-gap)** — Step-by-step guide for publishing activities on Karma GAP
 - **[[Program Overview]]** — Complete program overview
 - **[[Program Resources]]** — All tool documentation and guides
 

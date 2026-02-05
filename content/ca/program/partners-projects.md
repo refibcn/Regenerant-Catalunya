@@ -1,6 +1,7 @@
 ---
 title: "Socis i Projectes"
 description: "La xarxa col·laborativa i projectes participants darrere de Regenerant Catalunya"
+showSidebars: false
 ---
 
 # Socis i Projectes

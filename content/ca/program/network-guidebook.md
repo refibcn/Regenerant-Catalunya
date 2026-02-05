@@ -1,6 +1,7 @@
 ---
 title: "Guia de Xarxa"
 description: "Guia per a la governança a nivell de xarxa a la Fase 2 de Regenerant Catalunya"
+showSidebars: false
 ---
 
 # Regenerant Catalunya - Guia de Xarxa
@@ -274,7 +275,7 @@ El primer taller de la Fase 2 s'enfoca en la **creació de sentit** — entendre
 
 ### Documentació
 
-- [Guia de Projectes](/ca/program/project-guidebook) — Per a requisits de projectes individuals
+- [Guia de Projectes](/es/program/project-guidebook) — Per a requisits de projectes individuals
 - [Cronograma del Programa](/ca/program/timeline) — Cronograma complet amb totes les fites
 - [Recursos](/ca/resources) — Enllaços a tota la documentació d'eines
 - [Programa](/ca/program) — Informació completa del programa

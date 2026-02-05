@@ -1,6 +1,7 @@
 ---
 title: "Cronograma del Programa"
 description: "Cronograma completo con hitos clave y horario de talleres para Regenerant Catalunya"
+showSidebars: false
 ---
 
 # Regenerant Catalunya - Cronograma del Programa

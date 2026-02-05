@@ -39,6 +39,38 @@ This site uses a custom "Toolkit Style" design inspired by the [Local ReFi Toolk
 - Purple & orange accent colors with forest green
 - Straight edges throughout (no rounded corners)
 
+### Documentation Layout
+
+Documentation pages (resources, guides, program pages) use a **focused reading layout** optimized for long-form markdown content:
+
+- **750px max-width** for optimal reading experience
+- **Centered content** without sidebars by default
+- **Clean typography**: 16px font size, normal line-height
+- **Hidden sidebars** by default (Explorer, TOC, Graph, Backlinks)
+
+#### Sidebar Control
+
+You can enable sidebars on specific pages by adding `showSidebars: true` to the frontmatter:
+
+```yaml
+---
+title: "Comprehensive Guide"
+showSidebars: true  # Shows Explorer, TOC, Graph, and Backlinks
+---
+```
+
+**When to use sidebars:**
+- Long guides with complex navigation needs
+- Pages that benefit from a table of contents
+- Documentation that references many other pages
+
+**When to keep focused layout (default):**
+- Most documentation pages
+- Step-by-step guides
+- Single-topic resources
+
+**Note:** Landing pages (`index.md`, `ca/index.md`, `es/index.md`) are excluded from the focused layout and maintain full-width design with custom hero sections.
+
 See [BRAND-DESIGN.md](BRAND-DESIGN.md) for full design specifications.
 
 ## 🔗 Related Projects

@@ -2,6 +2,7 @@
 title: "Guía Completa de Onboarding a Valora"
 description: "Guía paso a paso para configurar Valora, activar la recuperación social y conectar con Karma GAP usando WalletConnect"
 draft: true
+showSidebars: false
 ---
 
 # Guía Completa de Onboarding a Valora
@@ -123,6 +124,65 @@ flowchart TD
 - Nunca la guardes en tu dispositivo móvil o en la nube
 - No la compartas con nadie, ni siquiera con el soporte de Valora
 
+### Compartir Información con el Equipo de Regenerant Catalunya
+
+> [!important] Para participantes del programa
+> 
+> **Distinción Importante de Seguridad:**
+> 
+> - ✅ **Dirección de Billetera (Dirección Pública):** Segura de compartir - es como tu número de cuenta
+> - ❌ **Frase de Recuperación (Seed Phrase):** NUNCA compartir - es tu contraseña maestra
+> 
+> **Lo que Necesitamos para el Desembolso de Fase 1:**
+> 
+> Solo necesitamos tu **dirección de billetera** (dirección pública) para enviarte los fondos. Esta dirección es segura de compartir y es información pública en la blockchain.
+> 
+> **Cómo Compartir tu Dirección de Billetera:**
+> 
+> 1. Abre la aplicación Valora
+> 2. Toca en tu saldo o perfil
+> 3. Tu dirección de billetera se muestra allí (comienza con `0x...`)
+> 4. Comparte esta dirección con el equipo:
+>    - Por email a: hola@ReFiBCN.cat
+>    - Durante el taller presencial (si asistes)
+>    - Por WhatsApp del grupo (es seguro compartir)
+> 
+> **NUNCA Compartas:**
+> 
+> - ❌ Tu frase de recuperación (12 palabras) - NUNCA compartir con nadie
+> - ❌ Tu código PIN - mantener privado
+> - ❌ Cualquier clave privada
+> 
+> **Si Necesitas Ayuda para Configurar tu Billetera:**
+> 
+> **Opción 1: Taller Presencial (Recomendado)**
+> - Asiste al taller presencial organizado con La Fundició
+> - El equipo te ayuda a crear la billetera juntos
+> - Escribes tu frase de recuperación de forma privada
+> - El equipo solo recoge tu dirección de billetera
+> - Tu frase de recuperación nunca sale de tu control
+> 
+> **Opción 2: Sesión de Soporte Remoto**
+> - Programa una sesión remota con el equipo
+> - El equipo te guía a través de la creación de la billetera por pantalla compartida
+> - Escribes tu frase de recuperación de forma privada (el equipo no la ve)
+> - Compartes tu dirección de billetera con el equipo
+> 
+> **Opción 3: Instrucciones Detalladas + Soporte por Email**
+> - Sigue la guía detallada de Valora
+> - Crea tu billetera de forma independiente
+> - Envía tu dirección de billetera por email
+> - El equipo verifica y proporciona soporte según sea necesario
+> 
+> **Recursos de Soporte:**
+> 
+> - **Email:** hola@ReFiBCN.cat
+> - **Talleres Presenciales:** Programados con la red La Fundició
+> - **Sesiones de Soporte Remoto:** Disponibles para la red Miceli
+> - **Soporte por Email:** Soporte continuo disponible
+> 
+> **Recuerda:** Tu dirección de billetera es segura de compartir. Tu frase de recuperación NUNCA debe compartirse con nadie, ni siquiera con el equipo de ReFi Barcelona.
+
 ### Paso 5: Conectar un Número de Teléfono (Opcional)
 
 > [!tip] Configuración opcional de teléfono
@@ -136,6 +196,66 @@ flowchart TD
 ![Pantalla de recuperación social](/static/valora-onboarding/Screenshot_20251117-194017.png)
 
 ![Última pantalla antes de conectar con Karma GAP](/static/valora-onboarding/this-is-the-last-before-karma-screenshots.jpg)
+
+---
+
+## Mejores Prácticas de Seguridad
+
+### Protección de tu Frase de Recuperación
+
+**Reglas Críticas:**
+
+1. **NUNCA compartas tu frase de recuperación** - ni con el equipo de ReFi Barcelona, ni con nadie
+2. **Escríbela en papel** - no la guardes digitalmente (no en tu teléfono, no en la nube)
+3. **Guárdala de forma segura** - en un lugar privado y seguro
+4. **No tomes fotos de ella** - las fotos pueden ser hackeadas
+5. **Si la pierdes, pierdes acceso** - no hay forma de recuperarla sin la frase
+
+### Qué Hacer Si Pierdes Acceso a tu Billetera
+
+**Opción 1: Usar Métodos de Recuperación**
+1. Abre la aplicación Valora
+2. Toca "Recuperar Billetera"
+3. Usa tu número de teléfono o email para recuperar
+4. Sigue el proceso de recuperación
+
+**Opción 2: Usar tu Frase de Recuperación**
+1. Abre la aplicación Valora
+2. Toca "Recuperar Billetera"
+3. Ingresa tu frase de recuperación (12 palabras)
+4. Sigue el proceso de recuperación
+
+**Opción 3: Contactar al Equipo para Soporte**
+1. Envía un email a hola@ReFiBCN.cat
+2. Explica tu situación
+3. El equipo puede guiarte a través de la recuperación
+4. Puede ser necesario crear una nueva billetera si la recuperación falla
+
+### Seguridad en Contexto Cooperativo
+
+**Si Múltiples Personas Necesitan Acceso:**
+- Cada persona crea su propia billetera individual
+- Comparten direcciones de billetera (no frases de recuperación)
+- Usan billetera multisig (Safe) para fondos colectivos (Fase 2)
+- No comparten frases de recuperación individuales
+
+**Si Necesitas Ayuda del Equipo:**
+- Usa taller presencial (más seguro)
+- El equipo te guía, pero tú controlas tu frase de recuperación
+- El equipo solo recoge tu dirección de billetera
+- Tu frase de recuperación permanece privada
+
+### Información Segura vs. Privada
+
+**✅ Seguro de Compartir:**
+- Dirección de billetera (dirección pública)
+- Número de teléfono (para recuperación social)
+- Email (para recuperación de cuenta)
+
+**❌ NUNCA Compartir:**
+- Frase de recuperación (seed phrase)
+- Código PIN
+- Cualquier clave privada
 
 ---
 
