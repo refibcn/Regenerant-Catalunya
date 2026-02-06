@@ -1,7 +1,6 @@
 ---
 title: "Guía Completa de Onboarding a Valora"
 description: "Guía paso a paso para configurar Valora, activar la recuperación social y conectar con Karma GAP usando WalletConnect"
-draft: true
 showSidebars: false
 ---
 
