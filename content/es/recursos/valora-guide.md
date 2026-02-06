@@ -53,29 +53,6 @@ Valora es una billetera móvil diseñada específicamente para la red Celo. Es u
 
 ## Configuración Básica
 
-**Visual Process:** Step-by-step wallet setup flow:
-
-```mermaid
-flowchart TD
-    A[Download Valora] --> B[Create Account]
-    B --> C[Set PIN]
-    C --> D[Save Recovery Phrase]
-    D --> E{Set up Social Recovery?}
-    E -->|Yes| F[Choose Guardians]
-    E -->|No| G[Wallet Ready]
-    F --> G
-    G --> H[Share Address]
-    
-    style A fill:#e8f5e9
-    style B fill:#e8f5e9
-    style C fill:#e8f5e9
-    style D fill:#fff9c4
-    style E fill:#fff9c4
-    style F fill:#e8f5e9
-    style G fill:#c8e6c9
-    style H fill:#c8e6c9
-```
-
 ### Paso 1: Crear una Nueva Billetera
 
 > [!info] Pasos para crear tu billetera
