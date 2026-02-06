@@ -81,7 +81,7 @@ content/
   - Program overview
   - Key information and CTAs
 
-- **Program** (`/program`, `/ca/program`, `/es/program`)
+- **Program** (`/program`, `/ca/programa`, `/es/programa`)
   - Program overview and details
   - Links to all program subpages
 
@@ -146,8 +146,8 @@ Each language maintains the same folder structure for consistency.
 All navigation links are language-aware:
 
 - English: `/program`, `/resources`, etc.
-- Catalan: `/ca/program`, `/ca/resources`, etc.
-- Spanish: `/es/program`, `/es/resources`, etc.
+- Catalan: `/ca/programa`, `/ca/recursos`, etc.
+- Spanish: `/es/programa`, `/es/recursos`, etc.
 
 The navigation script automatically adds language prefixes based on current page context.
 
@@ -211,11 +211,11 @@ The navigation script (`quartz/components/scripts/navigation.inline.ts`) handles
 | Page                | English                      | Catalan                         | Spanish                         |
 | ------------------- | ---------------------------- | ------------------------------- | ------------------------------- |
 | Homepage            | `/`                          | `/ca/`                          | `/es/`                          |
-| Program             | `/program`                   | `/ca/program`                   | `/es/program`                   |
-| Partners & Projects | `/program/partners-projects` | `/ca/program/partners-projects` | `/es/program/partners-projects` |
-| Tools               | `/program/tools`             | `/ca/program/tools`             | `/es/program/tools`             |
-| Resources           | `/resources`                 | `/ca/resources`                 | `/es/resources`                 |
-| Contact             | `/program/contact`           | `/ca/program/contact`           | `/es/program/contact`           |
+| Program             | `/program`                   | `/ca/programa`                   | `/es/programa`                   |
+| Partners & Projects | `/program/partners-projects` | `/ca/programa/partners-projects` | `/es/programa/partners-projects` |
+| Tools               | `/program/tools`             | `/ca/programa/tools`             | `/es/programa/tools`             |
+| Resources           | `/resources`                 | `/ca/recursos`                 | `/es/recursos`                 |
+| Contact             | `/program/contact`           | `/ca/programa/contact`           | `/es/programa/contact`           |
 
 ---
 

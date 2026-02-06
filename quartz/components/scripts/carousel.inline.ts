@@ -147,13 +147,10 @@ function setupCarousel() {
             ? "var(--fundicio-purple)"
             : "var(--green-dark)"
 
-      // #region agent log
-      fetch('http://127.0.0.1:7243/ingest/fcdae118-8a36-4bd9-b33e-53502f57b9b2',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'carousel.inline.ts:150',message:'Creating carousel slide',data:{projectName:project.name,imageSlug:imageSlug},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'C'})}).catch(()=>{});
-      // #endregion
       slide.innerHTML = `
         <div class="carousel-card" style="border: 2px solid var(--green-dark); background: var(--light); height: 100%; transition: all .2s; display: flex; flex-direction: column; overflow: visible; position: relative; box-sizing: border-box;">
           <div style="position: relative; width: 100%; height: 180px; background: var(--green-highlight); overflow: hidden; flex-shrink: 0; margin: 0; padding: 0;">
-            <img src="${imageSlug}" alt="${project.name}" style="width: 100%; height: 100%; object-fit: cover; display: block; margin: 0; padding: 0;" onerror="this.style.display='none'; this.parentElement.style.background='var(--green-highlight)';" onload="fetch('http://127.0.0.1:7243/ingest/fcdae118-8a36-4bd9-b33e-53502f57b9b2',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'carousel.inline.ts:153',message:'Carousel image loaded',data:{computedWidth:this.offsetWidth,computedHeight:this.offsetHeight,computedMaxWidth:getComputedStyle(this).maxWidth,computedWidthStyle:getComputedStyle(this).width},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'C'})}).catch(()=>{});">
+            <img src="${imageSlug}" alt="${project.name}" style="width: 100%; height: 100%; object-fit: cover; display: block; margin: 0; padding: 0;" onerror="this.style.display='none'; this.parentElement.style.background='var(--green-highlight)';">
             <div style="position: absolute; top: 0.5rem; left: 0.5rem;">
               <span style="background: ${networkColor}; color: var(--light); padding: 0.2rem 0.4rem; font-size: 0.65rem; font-weight: 600; display: inline-block;">${project.network}</span>
             </div>

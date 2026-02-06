@@ -16,7 +16,7 @@ description: "Una ronda de finançament participatiu que uneix iniciatives catal
       Una ronda de finançament participatiu que connecta projectes regeneratius locals amb infraestructura Web3 global.
     </p>
     <div class="hero-cta">
-      <a href="/es/program/project-guidebook" class="cta-button" style="font-size: 1rem; padding: 0.75rem 1.5rem; display: inline-block; margin-right: 1rem;">Per a Projectes</a>
+      <a href="/ca/programa/project-guidebook" class="cta-button" style="font-size: 1rem; padding: 0.75rem 1.5rem; display: inline-block; margin-right: 1rem;">Per a Projectes</a>
       <a href="#get-involved" class="cta-button" style="font-size: 1rem; padding: 0.75rem 1.5rem; display: inline-block;">Implica't</a>
     </div>
   </div>
@@ -188,7 +188,7 @@ description: "Una ronda de finançament participatiu que uneix iniciatives catal
           <!-- Indicators will be inserted here by JavaScript -->
       </div>
       <p style="text-align: center; margin-top: 2rem;">
-        <a href="/ca/program/partners-projects" style="font-weight: 600; font-size: 1.125rem;">Veure tots els projectes i detalls →</a>
+        <a href="/ca/programa/partners-projects" style="font-weight: 600; font-size: 1.125rem;">Veure tots els projectes i detalls →</a>
       </p>
     </div>
   </div>
@@ -359,7 +359,7 @@ description: "Una ronda de finançament participatiu que uneix iniciatives catal
             <br>
             Carteres autodepositades segures per a la gestió de fons. Recomanat: <strong>Valora</strong> o <strong>Minipay</strong> amb recuperació social per evitar la pèrdua de claus.
           </p>
-          <p style="margin-bottom: 0;"><a href="/ca/program/tools#web3-wallets" style="font-weight: 600; font-size: 0.9rem;">Més informació →</a></p>
+          <p style="margin-bottom: 0;"><a href="/ca/programa/tools#web3-wallets" style="font-weight: 600; font-size: 0.9rem;">Més informació →</a></p>
         </div>
         <div class="grid-item">
           <h4>Karma GAP</h4>
@@ -368,7 +368,7 @@ description: "Una ronda de finançament participatiu que uneix iniciatives catal
             <br>
             Plataforma d'activitat en cadena i informes d'impacte que crea un "currículum de projecte" viu i públic que fa visible i verificable l'impacte.
           </p>
-          <p style="margin-bottom: 0;"><a href="/ca/program/tools#karma-gap" style="font-weight: 600; font-size: 0.9rem;">Més informació →</a></p>
+          <p style="margin-bottom: 0;"><a href="/ca/programa/tools#karma-gap" style="font-weight: 600; font-size: 0.9rem;">Més informació →</a></p>
         </div>
         <div class="grid-item" style="background: var(--green-highlight); border: 2px solid var(--green-dark);">
           <h4>Eines Piloto Opcionals</h4>
@@ -381,7 +381,7 @@ description: "Una ronda de finançament participatiu que uneix iniciatives catal
             <li><strong>Gainforest</strong> (MRV forestal)</li>
             <li><strong>Kokonut Network</strong> (agroforestria sintròpica)</li>
     </ul>
-          <p style="margin-bottom: 0;"><a href="/ca/program/tools" style="font-weight: 600; font-size: 0.9rem;">Veure documentació completa d'eines →</a></p>
+          <p style="margin-bottom: 0;"><a href="/ca/programa/tools" style="font-weight: 600; font-size: 0.9rem;">Veure documentació completa d'eines →</a></p>
         </div>
       </div>
     </div>
@@ -394,28 +394,28 @@ description: "Una ronda de finançament participatiu que uneix iniciatives catal
           <p style="font-size: 0.95rem; line-height: 1.5;">
             Plataforma de votació per convicció per al finançament i governança comunitària utilitzant votació ponderada per temps.
           </p>
-          <p style="margin-bottom: 0;"><a href="/ca/program/tools#gardens" style="font-weight: 600; font-size: 0.9rem;">Més informació →</a></p>
+          <p style="margin-bottom: 0;"><a href="/ca/programa/tools#gardens" style="font-weight: 600; font-size: 0.9rem;">Més informació →</a></p>
         </div>
         <div class="grid-item">
           <h4>Safe (Multisig)</h4>
           <p style="font-size: 0.95rem; line-height: 1.5;">
             Cartera multi-signatura per a la gestió segura i transparent del tresor que requereix múltiples aprovacions.
           </p>
-          <p style="margin-bottom: 0;"><a href="/ca/program/tools#safe" style="font-weight: 600; font-size: 0.9rem;">Més informació →</a></p>
+          <p style="margin-bottom: 0;"><a href="/ca/programa/tools#safe" style="font-weight: 600; font-size: 0.9rem;">Més informació →</a></p>
         </div>
         <div class="grid-item">
           <h4>Sarafu Network</h4>
           <p style="font-size: 0.95rem; line-height: 1.5;">
             Plataforma de moneda local i agrupació de compromisos per a monedes digitals comunitàries i projectes col·lectius.
           </p>
-          <p style="margin-bottom: 0;"><a href="/ca/program/tools#sarafu" style="font-weight: 600; font-size: 0.9rem;">Més informació →</a></p>
+          <p style="margin-bottom: 0;"><a href="/ca/programa/tools#sarafu" style="font-weight: 600; font-size: 0.9rem;">Més informació →</a></p>
         </div>
         <div class="grid-item">
           <h4>Cycles</h4>
           <p style="font-size: 0.95rem; line-height: 1.5;">
             Protocol obert de compensació per a crèdit mutu i economia circular, optimitzant l'intercanvi de valor sense moneda externa.
           </p>
-          <p style="margin-bottom: 0;"><a href="/ca/program/tools#cycles" style="font-weight: 600; font-size: 0.9rem;">Més informació →</a></p>
+          <p style="margin-bottom: 0;"><a href="/ca/programa/tools#cycles" style="font-weight: 600; font-size: 0.9rem;">Més informació →</a></p>
         </div>
       </div>
     </div>
@@ -437,7 +437,7 @@ description: "Una ronda de finançament participatiu que uneix iniciatives catal
         <p style="color: var(--darkgray); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem; flex-grow: 1;">
           Documentació completa del programa que inclou: cronograma, disseny, plans d'execució i detalls clau del programa.
         </p>
-        <p style="margin-bottom: 0;"><a href="/ca/program" style="font-weight: 600; font-size: 0.9rem;">Veure Programa →</a></p>
+        <p style="margin-bottom: 0;"><a href="/ca/programa" style="font-weight: 600; font-size: 0.9rem;">Veure Programa →</a></p>
       </div>
       <div class="grid-item" style="display: flex; flex-direction: column;">
         <h4 style="margin-top: 0; margin-bottom: 1rem; min-height: 3.5rem; color: var(--darkgray); font-size: 1.125rem;">Eines i Guies</h4>
@@ -445,8 +445,9 @@ description: "Una ronda de finançament participatiu que uneix iniciatives catal
           Guies essencials per configurar i utilitzar eines Web3, incloent configuració de cartera, configuració de Karma GAP i connexió a dApps.
         </p>
         <div style="margin-bottom: 0;">
-          <p style="margin-bottom: 0.5rem;"><a href="/es/resources/guia-informe-actividades" style="font-weight: 600; font-size: 0.9rem;">→ Guía para el informe de actividades</a></p>
-          <p style="margin-bottom: 0;"><a href="/es/resources/guia-karma-gap" style="font-weight: 600; font-size: 0.9rem;">→ Guía para usar la plataforma Karma</a></p>
+          <p style="margin-bottom: 0.5rem;"><a href="/ca/recursos/guia-informe-actividades" style="font-weight: 600; font-size: 0.9rem;">→ Guia per a l'informe d'activitats</a></p>
+          <p style="margin-bottom: 0.5rem;"><a href="/ca/recursos/guia-karma-gap" style="font-weight: 600; font-size: 0.9rem;">→ Guia per usar la plataforma Karma</a></p>
+          <p style="margin-bottom: 0;"><a href="/es/recursos/valora-guide" style="font-weight: 600; font-size: 0.9rem;">→ Guia de configuració de Valora</a></p>
         </div>
       </div>
       <div class="grid-item" style="display: flex; flex-direction: column;">
@@ -455,7 +456,7 @@ description: "Una ronda de finançament participatiu que uneix iniciatives catal
           Centre central per a tots els recursos, documentació, guies d'eines, materials de tallers i canals de suport per als participants de Regenerant Catalunya.
         </p>
         <p style="margin-bottom: 0; text-align: center;">
-          <a href="/ca/resources" class="cta-button" style="font-size: 1rem; padding: 0.75rem 1.5rem; display: inline-block;">Veure Tots els Recursos</a>
+          <a href="/ca/recursos" class="cta-button" style="font-size: 1rem; padding: 0.75rem 1.5rem; display: inline-block;">Veure Tots els Recursos</a>
         </p>
       </div>
     </div>
@@ -529,7 +530,7 @@ description: "Una ronda de finançament participatiu que uneix iniciatives catal
       </table>
     </div>
     <div style="text-align: center; margin-top: 2rem;">
-      <a href="/ca/program/timeline" class="cta-button" style="font-size: 1rem; padding: 0.75rem 1.5rem; display: inline-block;">Veure Cronograma Complet</a>
+      <a href="/ca/programa/timeline" class="cta-button" style="font-size: 1rem; padding: 0.75rem 1.5rem; display: inline-block;">Veure Cronograma Complet</a>
     </div>
   </div>
 </div>

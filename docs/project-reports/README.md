@@ -240,30 +240,40 @@ The evaluation section helps you:
 
 ### What Gets Evaluated
 
-- **Report Quality**: Completeness, format compliance, clarity
-- **Proof Verification**: File paths, file existence, content matching
-- **Content Quality**: Activity descriptions, deliverables, metrics
-- **Format Compliance**: Structure matches Google Docs template
+The evaluation focuses on **reporting quality** across five structured dimensions:
+
+1. **Estructura y Organización**: Format compliance, logical flow, section completeness
+2. **Completitud de Información**: Missing fields, incomplete activities, gaps in documentation
+3. **Calidad de Evidencia**: Proof accessibility, link validity, evidence quality
+4. **Claridad y Precisión**: Description clarity, metric precision, date accuracy
+5. **Fidelidad de la Información**: **CRITICAL** - Cross-reference against file analysis to detect AI hallucinations, invented facts, misinterpreted data, or information not present in source files
 
 ### How Evaluation Helps
 
-- **Quick scanning**: Status table shows activity health at a glance
-- **Focused feedback**: Only activities with issues are detailed, reducing noise
-- **Prioritized actions**: Problems grouped by priority (Alta, Media) with clear actions
-- **Concise format**: ~50% shorter than detailed evaluation while preserving critical information
-- **Action-oriented**: Every item leads to a specific, actionable fix
-- **Iterative improvement**: Re-run evaluation after making changes to verify improvements
+- **Structured assessment**: Provides organized evaluation across specific reporting quality dimensions
+- **Information fidelity verification**: Systematically checks all claims against file analysis to catch AI hallucinations
+- **Scannable format**: Uses tables, bullet points, and structured sections for easy review
+- **Clear actionables**: Provides specific, concrete actions (what to do exactly) rather than just strategic guidance
+- **Overview analysis**: Strategic insights presented in structured format, not long narrative paragraphs
+- **Quality-focused**: Assesses how well the report is structured and documented, focusing on reporting quality
+- **Iterative improvement**: Re-run evaluation after making changes to verify improvements and track progress
 
 ### Evaluation Section Format
 
-The evaluation section is appended to the end of your report and includes:
-- **Resumen Ejecutivo**: Concise summary with status, activity count, and proof verification stats
-- **Tabla de Estado Rápido**: Quick reference table showing status of each activity at a glance
-- **Problemas y Acciones Requeridas**: Prioritized list of problems with required actions (Alta/Media priority)
-- **Recomendaciones por Actividad**: Detailed recommendations for activities with issues only (activities without problems are skipped)
-- **Checklist de Iteración**: Focused checklist of specific actions needed
+The evaluation section is appended to the end of your report and provides a **structured reporting quality assessment** with specific, actionable items. It includes:
 
-The streamlined format focuses on problems and actions, reducing length by ~50% compared to detailed per-activity evaluation.
+- **Resumen Ejecutivo**: Concise summary with status, report quality assessment, activity count, and key improvement areas
+- **Calidad del Reporte - Evaluación Estructurada**: Structured assessment across five quality dimensions:
+  - **Estructura y Organización**: Format compliance, logical flow, section completeness
+  - **Completitud de Información**: Missing fields, incomplete activities, gaps
+  - **Calidad de Evidencia**: Proof accessibility, link validity, evidence quality
+  - **Claridad y Precisión**: Description clarity, metric precision, date accuracy
+  - **Fidelidad de la Información**: **CRITICAL** - Systematic verification against file analysis to detect AI hallucinations
+- **Análisis por Actividad**: Structured table showing status, key aspects, and required actions for each activity
+- **Acciones Prioritarias**: Prioritized checklist of specific, concrete actions (what to do exactly)
+- **Recomendaciones para Mejorar el Reporte**: Structured recommendations with "Qué mejorar", "Por qué", and "Cómo" sections
+
+The format emphasizes **structured assessment and specific actionables** while ensuring **information fidelity** through systematic cross-referencing against source files.
 
 **Important**: The evaluation section is for internal iteration only. Remove it before transferring the report to Google Docs.
 

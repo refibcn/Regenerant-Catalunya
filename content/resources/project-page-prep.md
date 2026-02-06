@@ -145,7 +145,7 @@ You can review the evaluation criteria at any point:
    - Create Karma GAP account (can use Google/email, no wallet needed)
    - Find or create your project profile
    - Publish activities with deliverables and metrics
-   - See the **[Complete Karma GAP Guide](/es/resources/guia-karma-gap)** for step-by-step instructions
+   - See the **[Complete Karma GAP Guide](/es/recursos/guia-karma-gap)** for step-by-step instructions
 
 2. **Support Available:**
    - Office hours: January 5-9, 2026 (technical support for Karma GAP)
@@ -182,8 +182,8 @@ You can review the evaluation criteria at any point:
 - **Contact:** hola@ReFiBCN.cat
 - **Office hours:** January 5-9, 2026 (for Karma GAP support)
 - **Resources:** 
-  - **[Activity Report Guide](/es/resources/guia-informe-actividades)** — Complete guide for Google Docs
-  - **[Karma GAP Guide](/es/resources/guia-karma-gap)** — Step-by-step guide for Karma GAP
+  - **[Activity Report Guide](/es/recursos/guia-informe-actividades)** — Complete guide for Google Docs
+  - **[Karma GAP Guide](/es/recursos/guia-karma-gap)** — Step-by-step guide for Karma GAP
   - **[Program Resources](/resources)** — All guides and templates
 
 **Common Questions:**
@@ -212,10 +212,10 @@ You can review the evaluation criteria at any point:
 
 **Related Guides:**
 
-- **[Project Guidebook](/es/program/project-guidebook)** — Complete project guide
-  - **[Activity Report Guide](/es/resources/guia-informe-actividades)** — Complete guide for Google Docs
-  - **[Karma GAP Guide](/es/resources/guia-karma-gap)** — Step-by-step guide for Karma GAP
-  - **[Valora Setup Guide](/es/resources/valora-guide)** — Wallet setup guide
+- **[Project Guidebook](/program/project-guidebook)** — Complete project guide
+  - **[Activity Report Guide](/es/recursos/guia-informe-actividades)** — Complete guide for Google Docs
+  - **[Karma GAP Guide](/es/recursos/guia-karma-gap)** — Step-by-step guide for Karma GAP
+  - **[Valora Setup Guide](/es/recursos/valora-guide)** — Wallet setup guide
 - **[Evaluation Criteria](/program/evaluation-criteria)** — Understanding evaluation
 - **[Program Timeline](/program/timeline)** — Key dates and deadlines
 

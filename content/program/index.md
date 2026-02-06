@@ -351,7 +351,7 @@ _If you are a funder or technical partner interested in supporting the regenerat
 
 ### Guidebooks
 
-- [Project Guidebook](/es/program/project-guidebook) - Comprehensive guide for participating projects covering Phase 1 requirements, Karma setup, wallet guide, and workshop schedule
+- [Project Guidebook](/program/project-guidebook) - Comprehensive guide for participating projects covering Phase 1 requirements, Karma setup, wallet guide, and workshop schedule
 - [Network Guidebook](/program/network-guidebook) - Guide for network-level governance covering Phase 2 funding structure, Web3 governance tools, and collective decision-making processes
 
 ### Resources

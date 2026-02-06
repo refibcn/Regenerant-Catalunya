@@ -13,8 +13,8 @@ Central hub for all resources, documentation, and support materials for Regenera
 
 **Get started with these key guides:**
 
-- **[Guía para el informe de actividades](/es/resources/guia-informe-actividades)** — Complete guide for documenting activities, deliverables, and metrics using Google Docs template
-- **[Guía de Karma GAP](/es/resources/guia-karma-gap)** — Step-by-step guide for publishing activities on Karma GAP platform
+- **[Guía para el informe de actividades](/es/recursos/guia-informe-actividades)** — Complete guide for documenting activities, deliverables, and metrics using Google Docs template
+- **[Guía de Karma GAP](/es/recursos/guia-karma-gap)** — Step-by-step guide for publishing activities on Karma GAP platform
 
 ---
 
@@ -29,7 +29,7 @@ Central hub for all resources, documentation, and support materials for Regenera
 - **Purpose:** Create a living, public "project resume" making impact visible and verifiable
 - **Training:** Documentation workshops completed; Karma GAP submission January 12-16, 2026
 - **Support:** Office hours January 5-9, 2026
-- **Guide:** [Complete Karma GAP Guide](/es/resources/guia-karma-gap)
+- **Guide:** [Complete Karma GAP Guide](/es/recursos/guia-karma-gap)
 
 #### Web3 Wallets on Celo
 
@@ -127,7 +127,7 @@ Projects can opt-in to pilot these tools for enhanced capabilities:
 **When:** December 3, 11, 19, 2025 ✅ Completed  
 **Materials:**
 
-- **[Guía para el informe de actividades](/es/resources/guia-informe-actividades)** — Complete guide for documenting activities
+- **[Guía para el informe de actividades](/es/recursos/guia-informe-actividades)** — Complete guide for documenting activities
 - Google Docs template for organizing information
 - Examples of effective impact documentation
 - Metrics guidance for regeneration
@@ -137,7 +137,7 @@ Projects can opt-in to pilot these tools for enhanced capabilities:
 **When:** January 12-16, 2026  
 **Materials:**
 
-- **[Guía de Karma GAP](/es/resources/guia-karma-gap)** — Step-by-step guide for publishing activities
+- **[Guía de Karma GAP](/es/recursos/guia-karma-gap)** — Step-by-step guide for publishing activities
 - Office hours support (January 5-9, 2026)
 - Transfer information from Google Docs to Karma GAP
 

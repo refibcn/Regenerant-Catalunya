@@ -30,10 +30,10 @@ I have two sources of information:
 2. **File Analysis**: The original file analysis used to generate the report (for cross-referencing proofs)
 
 Your task is to:
-- Evaluate the quality of the activity report
-- Verify that all proofs (file references) are correct and accessible
-- Identify any issues, missing information, or areas for improvement
-- Provide actionable recommendations for each activity
+- Assess the **reporting quality** of the activity report (structure, completeness, clarity, evidence, information fidelity)
+- Systematically verify all information against the file analysis to detect AI hallucinations
+- Identify specific, actionable improvements for the report
+- Provide structured, scannable evaluation with clear actionables
 - Append an evaluation section to the END of the report (after all activities)
 
 ---
@@ -52,7 +52,9 @@ Your task is to:
 
 **Task:**
 
-Evaluate the activity report draft above and append an evaluation section to the end of the report. The evaluation section should follow this exact format:
+Evaluate the activity report draft above and append an evaluation section to the end of the report. The evaluation should focus on **reporting quality** assessment with structured dimensions and specific, actionable items. **CRITICAL**: Systematically cross-reference ALL claims in the report against the file analysis to detect any AI hallucinations or invented information.
+
+The evaluation section should follow this exact format:
 
 ---
 
@@ -61,84 +63,122 @@ Evaluate the activity report draft above and append an evaluation section to the
 ### Resumen Ejecutivo
 
 - **Estado:** [✅ Listo / ⚠️ Requiere correcciones / ❌ Requiere revisión mayor]
+- **Calidad de reporte:** [Breve descripción: "Excelente", "Buena con áreas de mejora", "Requiere trabajo significativo"]
 - **Actividades evaluadas:** [N]
-- **Actividades con problemas:** [N] (críticos: [N], mejoras: [N])
-- **Pruebas verificadas:** [N válidas] / [N con problemas] / [N faltantes]
+- **Aspectos a mejorar:** [Lista breve de temas principales: ej. "Fechas específicas, precisión de métricas, fidelidad de información"]
 
-### Tabla de Estado Rápido
+### Calidad del Reporte - Evaluación Estructurada
 
-| Actividad | Estado | Problemas | Prioridad |
-|-----------|--------|-----------|-----------|
-| Actividad 1 - [Nombre] | ✅ | 0 | - |
-| Actividad 2 - [Nombre] | ⚠️ | 2 | Alta |
-| Actividad 3 - [Nombre] | ❌ | 1 | Alta |
+#### Estructura y Organización
+- **Estado:** [✅ / ⚠️ / ❌]
+- **Observaciones:** [Breve descripción: ¿Cumple con formato? ¿Flujo lógico? ¿Secciones completas?]
+- **Acciones:** 
+  - [ ] [Acción específica y concreta - ej. "Agregar sección faltante de información básica"]
+  - [ ] [Acción específica y concreta]
 
-[Only include activities with problems in the table. Use ✅ for activities with no issues, ⚠️ for activities with non-critical issues, ❌ for activities with critical issues.]
+#### Completitud de Información
+- **Estado:** [✅ / ⚠️ / ❌]
+- **Observaciones:** [Qué falta, qué está completo - campos vacíos, actividades incompletas, información pendiente]
+- **Acciones:**
+  - [ ] [Acción específica - ej. "Completar campo 'Carpeta de documentación en Google Drive' en información básica"]
+  - [ ] [Acción específica]
 
-### Problemas y Acciones Requeridas
+#### Calidad de Evidencia
+- **Estado:** [✅ / ⚠️ / ❌]
+- **Observaciones:** [Estado de pruebas/enlaces - ¿accesibles? ¿válidos? ¿apropiados?]
+- **Acciones:**
+  - [ ] [Acción específica - ej. "Corregir enlace roto en Actividad 2: [enlace específico]"]
+  - [ ] [Acción específica]
+
+#### Claridad y Precisión
+- **Estado:** [✅ / ⚠️ / ❌]
+- **Observaciones:** [Aspectos de claridad - descripciones claras, métricas precisas, fechas exactas]
+- **Acciones:**
+  - [ ] [Acción específica - ej. "Especificar fecha exacta para Actividad 1 (actualmente dice 'septiembre-diciembre 2024')"]
+  - [ ] [Acción específica]
+
+#### Fidelidad de la Información
+- **Estado:** [✅ / ⚠️ / ❌]
+- **Observaciones:** [Verificación contra análisis de archivos - ¿hay información inventada o mal interpretada? ¿Todas las afirmaciones son verificables?]
+- **Verificaciones realizadas:**
+  - ✅/⚠️/❌ Actividades: [¿Cada actividad mencionada existe en análisis de archivos?]
+  - ✅/⚠️/❌ Fechas: [¿Las fechas coinciden con nombres de archivos/metadatos o son inferencias razonables?]
+  - ✅/⚠️/❌ Métricas: [¿Los números provienen de conteos reales de archivos o fuentes documentadas?]
+  - ✅/⚠️/❌ Entregables: [¿Los entregables mencionados existen en estructura de archivos?]
+  - ✅/⚠️/❌ Descripciones: [¿Las descripciones coinciden con lo que sugieren los archivos vs. inferencia de IA?]
+- **Acciones:**
+  - [ ] [Acción específica para verificar/corregir información sospechosa - ej. "Verificar: Métrica '12 participantes' en Actividad 1 - No encontrado en análisis de archivos"]
+  - [ ] [Acción específica - ej. "Posible alucinación: Descripción detallada de metodología en Actividad 2 - Requiere confirmación con proyecto"]
+
+### Análisis por Actividad
+
+| Actividad | Estado | Aspectos Clave | Acciones Requeridas |
+|-----------|--------|----------------|---------------------|
+| Actividad 1 - [Nombre] | ✅/⚠️/❌ | [Breve observación sobre calidad de reporte] | [Acción específica y concreta] |
+| Actividad 2 - [Nombre] | ✅/⚠️/❌ | [Breve observación] | [Acción específica] |
+
+[Use ✅ for well-documented activities, ⚠️ for activities needing improvement, ❌ for activities with significant gaps. Keep observations brief and focused on reporting quality.]
+
+### Acciones Prioritarias
 
 #### Prioridad Alta
-
-[Critical issues that MUST be fixed before the report is ready. Format: Problem → Action]
-
-- [ ] **Actividad [N] - [Nombre]:** [Problema específico] → [Acción requerida]
-- [ ] **Actividad [N] - [Nombre]:** [Problema específico] → [Acción requerida]
+- [ ] [Acción específica y concreta - qué hacer exactamente - ej. "Verificar número exacto de talleres con el proyecto (actualmente estimado como 8-10 basado en conteo de archivos)"]
+- [ ] [Acción específica y concreta]
 
 #### Prioridad Media
+- [ ] [Acción específica y concreta]
 
-[Important improvements but not critical]
+### Recomendaciones para Mejorar el Reporte
 
-- [ ] **Actividad [N] - [Nombre]:** [Problema específico] → [Acción requerida]
+[3-5 recomendaciones estructuradas, cada una con:]
 
-[Only include Prioridad Baja if there are optional improvements worth noting]
+**Recomendación 1: [Título breve]**
+- **Qué mejorar:** [Aspecto específico del reporte]
+- **Por qué:** [Razón breve - impacto en calidad del reporte]
+- **Cómo:** [Pasos concretos o ejemplos específicos]
 
-### Recomendaciones por Actividad
-
-[ONLY show activities with issues. Skip activities that are correct.]
-
-#### Actividad [N] – [Nombre]
-
-**Problemas encontrados:**
-- Entregable "[Nombre]": [Problema específico] - [Solución sugerida]
-- Métrica "[Nombre]": [Problema específico] - [Solución sugerida]
-- Fechas: [Problema] - [Solución sugerida]
-- Lugar: [Problema] - [Solución sugerida]
-
-**Acciones:**
-- [ ] [Acción específica 1]
-- [ ] [Acción específica 2]
-
-### Checklist de Iteración
-
-[Create a prioritized checklist of specific actions needed. Focus on actionable items only.]
-
-- [ ] [Acción prioritaria 1]
-- [ ] [Acción prioritaria 2]
-- [ ] [Acción prioritaria 3]
+**Recomendación 2: [Título breve]**
+- **Qué mejorar:** [Aspecto específico]
+- **Por qué:** [Razón breve]
+- **Cómo:** [Pasos concretos]
 
 **Guidance for Evaluation:**
 
-- **Be concise**: Only detail activities with issues. Skip activities that are correct.
-- **Be specific**: Provide concrete, actionable recommendations with clear solutions
-- **Be focused**: Prioritize critical issues. Don't list minor formatting issues unless they affect readability
-- **Verify systematically**: Check every proof reference against the file analysis
-- **Cross-reference**: Use file analysis to verify file paths and existence
-- **Use status indicators**: ✅ for valid, ⚠️ for issues, ❌ for critical problems
+- **CRITICAL: Information Fidelity Check**: Systematically cross-reference EVERY claim in the report against the file analysis. Flag any information that cannot be traced to source files as potential AI hallucination. Verify:
+  - Each activity mentioned exists in file analysis
+  - Dates match file names/metadata or are reasonable inferences
+  - Metrics come from actual file counts or documented sources (not invented)
+  - Deliverables mentioned actually exist in file structure
+  - Descriptions match what files suggest vs. AI inference
+- **Structured assessment**: Use structured sections and tables, not long narrative paragraphs
+- **Focus on reporting quality**: Assess how well the report is structured and documented, not just project quality
+- **Specific actionables**: Provide concrete, implementable actions (what to do exactly, not just why)
+- **Scannable format**: Use bullet points, tables, and brief summaries (2-3 sentences max per section)
 - **Language**: Write evaluation in Spanish (matching the report language)
-- **Don't repeat**: If an issue is listed in "Problemas y Acciones Requeridas", don't repeat it verbatim in "Recomendaciones por Actividad" - provide context instead
+
+**What to flag as potential hallucinations:**
+
+- Specific numbers/metrics not derivable from file analysis
+- Detailed descriptions of activities not supported by file evidence
+- Dates that don't match file names or metadata
+- Deliverables mentioned but not found in file structure
+- Claims about impact/outcomes not supported by evidence
+- Specific participant counts or details not in source files
+
+**Action format for fidelity issues:**
+
+- "Verificar: [Claim] - No encontrado en análisis de archivos"
+- "Posible alucinación: [Claim] - Requiere confirmación con proyecto"
+- "Corregir: [Claim] - No coincide con evidencia en archivos"
 
 **Important Notes:**
 
 - Append the evaluation section AFTER all activities in the report
 - Separate the evaluation section with a horizontal rule (`---`) before starting it
-- Focus on problems and actions - don't waste space describing what's correct
-- Only include activities with issues in "Recomendaciones por Actividad"
-- Use the quick reference table to show status at a glance
-- Group similar issues together in "Problemas y Acciones Requeridas"
-- Be concise - aim for 50% reduction in length compared to detailed per-activity evaluation
-- If a proof doesn't exist in file analysis, note it as "Prueba faltante" or "Archivo no encontrado en análisis"
-- If a file path seems incorrect, suggest the correct path based on file analysis
-- Don't include "Ningún problema" messages - silence indicates correctness
+- Focus on reporting quality assessment with structured dimensions
+- Use structured format (tables, bullet points) rather than long paragraphs
+- Make actionables specific and concrete - what to do exactly, not just strategic guidance
+- The evaluation should be scannable and actionable - easy to review and implement improvements
 
 **Generate the complete report with the evaluation section appended at the end now.**
 ```

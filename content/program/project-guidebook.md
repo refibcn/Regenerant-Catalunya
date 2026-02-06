@@ -377,7 +377,7 @@ Welcome to **Regenerant Catalunya**! This guidebook provides everything you need
       <div class="step-number-line" data-status="active"></div>
     </div>
     <h3 style="margin: 0; flex-grow: 1; font-size: 1.5rem;">
-      <a href="/es/resources/valora-guide">→ Open Web3 Wallet on Celo</a>
+      <a href="/es/recursos/valora-guide">→ Open Web3 Wallet on Celo</a>
     </h3>
     <span class="status-label" data-status="active">CAN START NOW</span>
   </div>
@@ -387,7 +387,7 @@ Welcome to **Regenerant Catalunya**! This guidebook provides everything you need
   <hr class="step-header-divider">
   <div class="step-content">
     <p>Set up a Web3 wallet to receive funds securely on the Celo blockchain. [[Valora]] is recommended for its social recovery feature. **Wallet setup is decoupled from documentation workshops** — you can complete it independently until the end of January 2026. You don't need a wallet to create a Karma GAP account (you can use Google/email login).</p>
-    <a href="/es/resources/valora-guide" class="button">View Wallet Setup Guide →</a>
+    <a href="/es/recursos/valora-guide" class="button">View Wallet Setup Guide →</a>
   </div>
 </div>
 <div class="step-arrow"></div>
@@ -399,7 +399,7 @@ Welcome to **Regenerant Catalunya**! This guidebook provides everything you need
       <div class="step-number-line" data-status="coming-soon"></div>
     </div>
     <h3 style="margin: 0; flex-grow: 1; font-size: 1.5rem;">
-      <a href="/es/resources/guia-informe-actividades">→ Prepare Activities Report (Google Doc)</a>
+      <a href="/es/recursos/guia-informe-actividades">→ Prepare Activities Report (Google Doc)</a>
     </h3>
     <span class="status-label" data-status="coming-soon">ACTIVE NOW</span>
   </div>
@@ -416,7 +416,7 @@ Welcome to **Regenerant Catalunya**! This guidebook provides everything you need
       <li>Identify and describe your key activities, deliverables and metrics</li>
       <li>Makes future Karma GAP submission easier and enables self-assessment</li>
     </ul>
-    <a href="/es/resources/guia-informe-actividades" class="button">View Activity Report Guide →</a>
+    <a href="/es/recursos/guia-informe-actividades" class="button">View Activity Report Guide →</a>
   </div>
 </div>
 <div class="step-arrow"></div>
@@ -458,7 +458,7 @@ Welcome to **Regenerant Catalunya**! This guidebook provides everything you need
       <div class="step-number-line" data-status="future"></div>
     </div>
     <h3 style="margin: 0; flex-grow: 1; font-size: 1.5rem;">
-      <a href="/es/resources/guia-karma-gap">→ Submit Activities to Karma GAP</a>
+      <a href="/es/recursos/guia-karma-gap">→ Submit Activities to Karma GAP</a>
     </h3>
     <span class="status-label" data-status="future">UPCOMING</span>
   </div>
@@ -477,7 +477,7 @@ Welcome to **Regenerant Catalunya**! This guidebook provides everything you need
       <li>Builds your on-chain reputation and discoverability</li>
       <li>Support available: Office hours January 5-9, 2026</li>
     </ul>
-    <a href="/es/resources/guia-karma-gap" class="button">View Karma GAP Guide →</a>
+    <a href="/es/recursos/guia-karma-gap" class="button">View Karma GAP Guide →</a>
   </div>
 </div>
 <div class="step-arrow"></div>
@@ -691,8 +691,8 @@ In Phase 2, your network ([[Miceli Social]] or [[La Fundició]] / [[Keras Buti]]
 
 **Essential Guides:**
 
-- **[Activity Report Guide](/es/resources/guia-informe-actividades)** — Complete guide for documenting activities in Google Docs
-- **[Karma GAP Guide](/es/resources/guia-karma-gap)** — Step-by-step guide for publishing activities on Karma GAP
+- **[Activity Report Guide](/es/recursos/guia-informe-actividades)** — Complete guide for documenting activities in Google Docs
+- **[Karma GAP Guide](/es/recursos/guia-karma-gap)** — Step-by-step guide for publishing activities on Karma GAP
 - **[[Program Overview]]** — Complete program overview
 - **[[Program Resources]]** — All tool documentation and guides
 

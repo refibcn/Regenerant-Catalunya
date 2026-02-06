@@ -136,7 +136,7 @@ This phased approach:
 
 - [Program Overview](/program) - Complete program information
 - [Program Timeline](/program/timeline) - Detailed timeline and milestones
-- [Project Guidebook](/es/program/project-guidebook) - Guide for participating projects
+- [Project Guidebook](/program/project-guidebook) - Guide for participating projects
 - [Network Guidebook](/program/network-guidebook) - Network-level governance guide
 
 ---

@@ -36,8 +36,13 @@ const defaultOptions: BreadcrumbOptions = {
 }
 
 function formatCrumb(displayName: string, baseSlug: FullSlug, currentSlug: SimpleSlug): CrumbData {
+  // Replace hyphens with spaces and capitalize first letter of each word
+  const formatted = displayName.replaceAll("-", " ")
+    .split(" ")
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join(" ")
   return {
-    displayName: displayName.replaceAll("-", " "),
+    displayName: formatted,
     path: resolveRelative(baseSlug, currentSlug),
   }
 }

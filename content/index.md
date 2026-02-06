@@ -16,7 +16,7 @@ description: "A collaborative funding round uniting Catalan initiatives with mat
       A participatory funding round connecting local regenerative projects with global Web3 infrastructure.
     </p>
     <div class="hero-cta">
-      <a href="/es/program/project-guidebook" class="cta-button" style="font-size: 1rem; padding: 0.75rem 1.5rem; display: inline-block; margin-right: 1rem;">For Projects</a>
+      <a href="/program/project-guidebook" class="cta-button" style="font-size: 1rem; padding: 0.75rem 1.5rem; display: inline-block; margin-right: 1rem;">For Projects</a>
       <a href="#get-involved" class="cta-button" style="font-size: 1rem; padding: 0.75rem 1.5rem; display: inline-block;">Get Involved</a>
     </div>
   </div>
@@ -445,8 +445,9 @@ description: "A collaborative funding round uniting Catalan initiatives with mat
           Essential guides for setting up and using Web3 tools, including wallet setup, Karma GAP configuration, and connecting to dApps.
         </p>
         <div style="margin-bottom: 0;">
-          <p style="margin-bottom: 0.5rem;"><a href="/es/resources/guia-informe-actividades" style="font-weight: 600; font-size: 0.9rem;">→ Guía para el informe de actividades</a></p>
-          <p style="margin-bottom: 0;"><a href="/es/resources/guia-karma-gap" style="font-weight: 600; font-size: 0.9rem;">→ Guía para usar la plataforma Karma</a></p>
+          <p style="margin-bottom: 0.5rem;"><a href="/resources/activity-report-guide" style="font-weight: 600; font-size: 0.9rem;">→ Activity Report Guide</a></p>
+          <p style="margin-bottom: 0.5rem;"><a href="/resources/project-page-prep" style="font-weight: 600; font-size: 0.9rem;">→ Project Page Preparation</a></p>
+          <p style="margin-bottom: 0;"><a href="/es/recursos/valora-guide" style="font-weight: 600; font-size: 0.9rem;">→ Valora Wallet Setup Guide</a></p>
         </div>
       </div>
       <div class="grid-item" style="display: flex; flex-direction: column;">

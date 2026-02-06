@@ -350,14 +350,14 @@ To add a new activity:
 - **Office hours (January 5-9):** Technical support sessions to help with Karma GAP
 - We can do individual or small group sessions if needed
 
-**For a detailed step-by-step guide:** See the **[Complete Karma GAP Guide](/es/resources/guia-karma-gap)**
+**For a detailed step-by-step guide:** See the **[Complete Karma GAP Guide](/es/recursos/guia-karma-gap)**
 
 **Note about Web3 wallets:**
 
 - Wallet setup is **decoupled** from documentation workshops
 - You can set up your wallet until **end of January**
 - You don't need a wallet to create a Karma GAP account (you can use Google/email)
-- See the **[Valora Setup Guide](/es/resources/valora-guide)** when you're ready (available in Spanish and Catalan)
+- See the **[Valora Setup Guide](/es/recursos/valora-guide)** when you're ready (available in Spanish and Catalan)
 
 All of this will be **accompanied**, you don't have to do it alone.
 
@@ -367,8 +367,8 @@ All of this will be **accompanied**, you don't have to do it alone.
 
 ### Essential Guides
 
-- **[Karma GAP Guide](/es/resources/guia-karma-gap)** — Step-by-step guide for publishing activities on Karma GAP
-- **[Project Guidebook](/es/program/project-guidebook)** — Complete guide to the Regenerant Catalunya program
+- **[Karma GAP Guide](/es/recursos/guia-karma-gap)** — Step-by-step guide for publishing activities on Karma GAP
+- **[Project Guidebook](/program/project-guidebook)** — Complete guide to the Regenerant Catalunya program
 - **[Evaluation Criteria](/program/evaluation-criteria)** — How projects are evaluated
 
 ### Templates and Links

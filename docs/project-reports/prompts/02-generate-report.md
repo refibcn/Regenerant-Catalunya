@@ -65,13 +65,27 @@ The report must follow this EXACT structure. Start with project information, the
 
 # Informe de Actividades – [PROJECT_NAME]
 
-## 1. Información básica del proyecto
+## Información básica del proyecto
 
 - **Nombre del proyecto:** [PROJECT_NAME]
-- **Red:** [NETWORK: Miceli / Keras Buti / La Fundició]
-- **Territorio:** [TERRITORY/LOCATION]
-- **Idioma:** [Spanish / Catalan / Mixed]
-- **Fecha de generación:** [DATE in format YYYY-MM-DD]
+- **Red:** [NETWORK: Miceli Social • La Fundició / Keras Buti]
+- **Personas de contacto:** [Nombre, teléfono/WhatsApp, correo]
+- **Descripción del proyecto:** [Description]
+- **Web / redes sociales:**
+  [URL 1]
+  [URL 2]
+  [URL 3]
+- **Carpeta de documentación en Google Drive:** [URL]
+
+**Informaciones adicionales (opcionales):**
+- **Lugar / territorio:** [TERRITORY/LOCATION]
+- **Problema a ser solucionado:** [Description]
+- **Solución traída:** [Description]
+- **Resúmen de la misión:** [Description]
+- **Modelo de negócio:** [Description]
+- **Estágio de desarrollo:** [Description]
+- **¿Han recibido fondos significativos?:** [Yes/No/Description]
+- **[Cualquier otra información adicional que el proyecto haya proporcionado]:** [Value]
 
 ---
 
@@ -116,11 +130,18 @@ The report must follow this EXACT structure. Start with project information, the
 **Guidance for AI:**
 
 - **Prioritize Google Doc content**: If Google Doc content exists, use it as the primary source. It represents what the project has already documented.
+- **Extract project information**: When extracting "Información básica del proyecto" from Google Doc:
+  - Extract ALL required fields (Nombre, Red, Personas de contacto, Descripción, Web/redes sociales, Carpeta Google Drive)
+  - Extract optional fields only if they are present in Google Doc
+  - If Google Doc has fields not in the template, include them under "Informaciones adicionales" with their original field names
+  - Ensure NO information is lost - capture everything from Google Doc, even if it's not in the standard template
+  - If information is missing, mark as "Por confirmar" or "No disponible" rather than omitting the field
 - **Enhance with file analysis**: Use file analysis to:
   - Add missing activities not yet in Google Doc
   - Add deliverables and metrics from uploaded files
   - Verify and cross-reference information
   - Fill in gaps where Google Doc is incomplete
+  - Supplement project information if Google Doc is incomplete
 - **Merge sources intelligently**: 
   - If Google Doc has an activity description, use it and add file references from analysis
   - If file analysis identifies activities not in Google Doc, include them
@@ -136,10 +157,27 @@ The report must follow this EXACT structure. Start with project information, the
 - **Proper indentation**: Use 2 spaces for indentation in nested lists (deliverables and metrics should be indented under their sections)
 - **Language**: Use Spanish or Catalan terminology appropriate to the project's language (as indicated in the file analysis or Google Doc)
 - **Format**: Match the Google Docs template structure exactly
-  - **REQUIRED**: Start with "## 1. Información básica del proyecto" section before any activities
-  - **REQUIRED**: Include project name, network, territory, language, and generation date
+  - **REQUIRED**: Start with "## Información básica del proyecto" section before any activities (NO numbering)
+  - **REQUIRED**: Include ALL required fields from Google Doc template:
+    - Nombre del proyecto
+    - Red (format: "Miceli Social • La Fundició / Keras Buti")
+    - Personas de contacto (Nombre, teléfono/WhatsApp, correo)
+    - Descripción del proyecto
+    - Web / redes sociales (list all URLs provided)
+    - Carpeta de documentación en Google Drive (URL)
+  - **OPTIONAL**: Include optional fields only if present in Google Doc or file analysis:
+    - Lugar / territorio
+    - Problema a ser solucionado
+    - Solución traída
+    - Resúmen de la misión
+    - Modelo de negócio
+    - Estágio de desarrollo
+    - ¿Han recibido fondos significativos?
+  - **ADDITIONAL INFO**: If Google Doc contains fields not in the template, include them under "Informaciones adicionales" with their original field names
+  - **NO INFORMATION LOST**: Ensure all information from Google Doc is captured - if a field exists in Google Doc but not in template, add it to "Informaciones adicionales"
   - **REQUIRED**: Use horizontal rule (`---`) to separate project info from activities
   - **REQUIRED**: Title format: `# Informe de Actividades – [PROJECT_NAME]`
+  - If required fields are missing, mark as "Por confirmar" or "No disponible" rather than omitting them
 - **Activity identification**: 
   - Start with activities from Google Doc (if available)
   - Add activities from file analysis that aren't in Google Doc
@@ -173,7 +211,7 @@ The report must follow this EXACT structure. Start with project information, the
 **Output Structure Summary:**
 
 1. **Title**: `# Informe de Actividades – [PROJECT_NAME]`
-2. **Project Information Section**: `## 1. Información básica del proyecto` (with all required fields)
+2. **Project Information Section**: `## Información básica del proyecto` (NO numbering, with all required fields)
 3. **Separator**: `---` (horizontal rule)
 4. **Activities**: Each activity as `## Actividad [NUMBER] – [ACTIVITY_NAME]` (no subactivities, split them)
 5. **Consistent formatting**: Use exact indentation (2 spaces) and structure shown above

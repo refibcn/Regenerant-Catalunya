@@ -348,7 +348,7 @@ Throughout the program, projects have access to:
 
 ## Resources
 
-- [Project Guidebook](/es/program/project-guidebook) — Detailed guide for participating projects
+- [Project Guidebook](/program/project-guidebook) — Detailed guide for participating projects
 - [Network Guidebook](/program/network-guidebook) — Guide for Phase 2 network governance
 - [Resources](/resources) — Links to all tool documentation and support materials
 - [Program Overview](/program) — Complete program information

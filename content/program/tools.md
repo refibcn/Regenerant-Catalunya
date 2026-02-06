@@ -431,6 +431,6 @@ Projects can opt-in to pilot these tools for enhanced capabilities. These tools 
 ### Learn More
 
 - [Resources](/resources) - Complete tool documentation and guides
-- [Project Guidebook](/es/program/project-guidebook) - Detailed setup instructions
+- [Project Guidebook](/program/project-guidebook) - Detailed setup instructions
 - [Network Guidebook](/program/network-guidebook) - Network-level tool usage
 - [Program Timeline](/program/timeline) - Workshop schedule
