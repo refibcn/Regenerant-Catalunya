@@ -37,7 +37,7 @@ Valora es una billetera móvil diseñada específicamente para la red Celo. Es u
 
 ## Instalación de la Aplicación
 
-![Valora QR Code](/static/valora-onboarding/valora-qr-code.png)
+<img src="/static/valora-onboarding/valora-qr-code.png" alt="Valora QR Code" style="max-width: 300px;" />
 
 [-> [Descargar Valora](https://www.valora.xyz/) <-]
 
@@ -47,7 +47,7 @@ Valora es una billetera móvil diseñada específicamente para la red Celo. Es u
 - **iOS**: [App Store](https://apps.apple.com/app/valora-mobile-wallet/id1520414263)
 - **Sitio Web**: [valoraapp.com](https://www.valora.xyz/)
 
-![Pantalla de bienvenida de Valora](/static/valora-onboarding/Screenshot_20251117-193709.png)
+<img src="/static/valora-onboarding/Screenshot_20251117-193709.png" alt="Pantalla de bienvenida de Valora" style="max-width: 400px;" />
 
 ---
 
@@ -83,7 +83,7 @@ flowchart TD
 > 2. En la pantalla de bienvenida (como se muestra en la captura de pantalla a continuación), toca el botón **"Comenzar"** o **"Crear una nueva cuenta"**
 > 3. Lee y acepta los términos de servicio y la política de privacidad
 
-![Confirmación del PIN](/static/valora-onboarding/Screenshot_20251117-193746.png)
+<img src="/static/valora-onboarding/Screenshot_20251117-193746.png" alt="Confirmación del PIN" style="max-width: 400px;" />
 
 ### Paso 2: Configurar un PIN de Seguridad
 
@@ -92,7 +92,7 @@ flowchart TD
 > 2. Confirma tu PIN ingresándolo nuevamente en la siguiente pantalla
 > 3. **Importante**: Elige un PIN que sea memorable pero no fácil de adivinar. Este PIN será necesario para cada transacción
 
-![Pantalla de advertencia sobre la frase de recuperación](/static/valora-onboarding/Screenshot_20251117-193806.png)
+<img src="/static/valora-onboarding/Screenshot_20251117-193806.png" alt="Pantalla de advertencia sobre la frase de recuperación" style="max-width: 400px;" />
 
 ### Paso 3: Iniciar sesión con el email
 
@@ -100,7 +100,7 @@ flowchart TD
 > 1. Inicia sesión con tu correo electrónico para configurarlo como copia de seguridad de tu billetera. Se te pedirá que inicies sesión de nuevo si pierdes tu wallet.
 > 2. Activa esta función para mayor seguridad y comodidad
 
-![Visualización de la frase de recuperación](/static/valora-onboarding/Screenshot_20251117-193821.png)
+<img src="/static/valora-onboarding/Screenshot_20251117-193821.png" alt="Visualización de la frase de recuperación" style="max-width: 400px;" />
 
 ### Paso 4: Guardar tu Frase de Recuperación
 
@@ -112,9 +112,9 @@ flowchart TD
 > 5. Deberás verificar que has guardado la frase correctamente seleccionando las palabras en el orden correcto (tercera captura)
 > 6. Finalmente, confirma que has completado el proceso (cuarta captura)
 
-![Verificación de la frase de recuperación](/static/valora-onboarding/Screenshot_20251117-193838.png)
+<img src="/static/valora-onboarding/Screenshot_20251117-193838.png" alt="Verificación de la frase de recuperación" style="max-width: 400px;" />
 
-![Pantalla principal de Valora con menú](/static/valora-onboarding/Screenshot_20251117-193927.png)
+<img src="/static/valora-onboarding/Screenshot_20251117-193927.png" alt="Pantalla principal de Valora con menú" style="max-width: 400px;" />
 
 **Consejos para guardar tu frase de recuperación:**
 
@@ -190,11 +190,11 @@ flowchart TD
 > 3. Una vez verificado, recibirás una confirmación (tercera captura)
 > 4. Conectar tu número de teléfono permite enviar y recibir fondos directamente a números de teléfono de amigos y familiares en Valora
 
-![Pantalla de configuración y seguridad](/static/valora-onboarding/Screenshot_20251117-194009.png)
+<img src="/static/valora-onboarding/Screenshot_20251117-194009.png" alt="Pantalla de configuración y seguridad" style="max-width: 400px;" />
 
-![Pantalla de recuperación social](/static/valora-onboarding/Screenshot_20251117-194017.png)
+<img src="/static/valora-onboarding/Screenshot_20251117-194017.png" alt="Pantalla de recuperación social" style="max-width: 400px;" />
 
-![Última pantalla antes de conectar con Karma GAP](/static/valora-onboarding/this-is-the-last-before-karma-screenshots.jpg)
+<img src="/static/valora-onboarding/this-is-the-last-before-karma-screenshots.jpg" alt="Última pantalla antes de conectar con Karma GAP" style="max-width: 400px;" />
 
 ---
 
