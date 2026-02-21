@@ -16,6 +16,7 @@ description: "Una ronda de financiación participativa que une iniciativas catal
       Una ronda de financiación participativa que conecta proyectos regenerativos locales con infraestructura Web3 global.
     </p>
     <div class="hero-cta">
+      <a href="/es/intro-regenerant-catalunya" class="cta-button" style="font-size: 1rem; padding: 0.75rem 1.5rem; display: inline-block; margin-right: 1rem;">Lee el Artículo</a>
       <a href="/es/programa/project-guidebook" class="cta-button" style="font-size: 1rem; padding: 0.75rem 1.5rem; display: inline-block; margin-right: 1rem;">Para Proyectos</a>
       <a href="#get-involved" class="cta-button" style="font-size: 1rem; padding: 0.75rem 1.5rem; display: inline-block;">Participa</a>
     </div>
