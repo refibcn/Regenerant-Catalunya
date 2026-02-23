@@ -25,6 +25,14 @@ Guía completa para documentar actividades, entregables y métricas:
 
 ---
 
+## Feedback de actividades (publico)
+
+### [Feedback de actividades en Karma GAP](/es/recursos/feedback-karma)
+
+Informes publicos de retroalimentacion sobre actividades reportadas en Karma GAP (Fase 1).
+
+---
+
 ## Materials de Tallers
 
 ### Required Tools (Phase 1)
