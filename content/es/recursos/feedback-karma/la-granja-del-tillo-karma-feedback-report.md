@@ -2,79 +2,86 @@
 ## La Granja del Tillo
 
 **Fecha de revision:** 2026-02-23  \
-**Fuente:** Actividades reportadas en Karma GAP  \
+**Fuente:** Actividades reportadas en Karma GAP + documentacion interna  \
+**Validacion de actividades:** Karma GAP API v2 (extraccion 2026-02-05)  \
 **Karma URL:** https://www.karmahq.xyz/project/la-granja-del-tillo  \
+**Carpeta de evidencia:** https://drive.google.com/drive/folders/18lH_QtpFAjABAq8y04EBOFJhv2Y658rz?usp=drive_link  \
 **Total actividades revisadas:** 3
-
-**Nota:** Los valores numericos pueden no visualizarse en Karma por un bug; si no aparecen, duplicarlos en descripcion o evidencia.
 
 ---
 
 ## 0. Contexto rapido 🧭
 
-- Proyecto agroecologico con foco en tierra, infraestructura y comunidad gitana.
-- Actividades reportadas: recuperacion de tierra, cooperativa e iniciativas de sensibilizacion.
+- Proyecto agroecologico vinculado a comunidad gitana en L'Hospitalet.
+- Actividades: acceso a tierra, cooperativa, sensibilizacion comunitaria.
 
 ---
 
-## 1. Lo que ya esta fuerte ✅
+## 1. Logros y evidencias clave ✅
 
-- Las actividades muestran un hilo claro: acceso a tierra, infraestructura piloto y sensibilizacion.
-- Hay pruebas y documentos para cada actividad.
-- Se ve el enfoque comunitario y la dimension territorial.
-- La narrativa es coherente y facil de seguir.
-
----
-
-## 2. Mejoras concretas 📌
-
-**Prioridad alta**
-- Verificar visibilidad de indicadores en Karma (bug actual); duplicar valores en descripcion o evidencia mientras no aparezcan.
-- Añadir datos de participacion en acciones de sensibilizacion (personas, sesiones).
-
-**Prioridad media**
-- Aclarar el estado real de la actividad 2 (inicio, avance, hitos).
-- Asociar cada entregable con una fecha o hito.
+- Existencia de **plan de viabilidad** y documentacion tecnica del proyecto.
+- Evidencia de avance en modelo cooperativo y enfoque territorial.
+- Base documental para sostenibilidad y operacion (planificacion y proyecciones).
 
 ---
 
-## 3. Revision por actividad 🔍
+## 2. Resumen para compartir 📣
+
+La Granja del Tillo consolida su modelo agroecologico con plan tecnico y base cooperativa vinculada al Gornal. Proyecto de huevos ecologicos con enfoque territorial y comunitario.
+
+---
+
+## 3. Lectura del relato 🧩
+
+El relato conecta tierra, organizacion cooperativa y accion comunitaria. El punto fuerte es la base tecnica, pero el reporte puede ganar fuerza si los hitos se convierten en una linea de tiempo simple con fechas y evidencias directas.
+
+---
+
+## 4. Mejoras concretas 📌
+
+- **Diferenciar planificacion vs ejecucion** en cada actividad.
+- **Anclar cada actividad con un hito verificable** (fecha, evidencia, decision).
+- **Un enlace principal** para el plan y otro para evidencia de terreno.
+
+---
+
+## 5. Revision por actividad 🔍
 
 ### 1) Recuperacion de 1ha en el Parc Agrari
-- ✅ **Lo que comunica bien:** Se entiende el objetivo y el avance territorial.
-- ⚠️ **Por que importa mejorar:** Sin valor numerico claro no se ve la escala real.
-- 🛠️ **Mejora sugerida:** Indicar el numero exacto (1 ha) y el estado de habilitacion.
+- ✅ **Que aporta:** avance hacia acceso a tierra.
+- 🔗 **Evidencia:** plan de viabilidad y documentacion tecnica.
+- 🛠️ **Mejora sugerida:** incluir fecha de hito clave (acuerdo, visita, gestion).
 
-### 2) Creacion de una cooperativa de trabajo impulsada por la comunidad gitana
-- ✅ **Lo que comunica bien:** Se ve el proceso organizativo y la infraestructura piloto.
-- ⚠️ **Por que importa mejorar:** Faltan conteos y fechas para entender avance.
-- 🛠️ **Mejora sugerida:** Añadir valor numerico para infraestructuras y asociar cada entregable a un hito.
+### 2) Creacion de una cooperativa de trabajo
+- ✅ **Que aporta:** estructura organizativa para sostenibilidad.
+- 🔗 **Evidencia:** documentacion de cooperativa.
+- 🛠️ **Mejora sugerida:** indicar el estado actual (en constitucion, en marcha, etc.).
 
-### 3) Sensibilizacion sobre agricultura ecologica con la comunidad gitana
-- ✅ **Lo que comunica bien:** Se describe la accion de divulgacion y el objetivo comunitario.
-- ⚠️ **Por que importa mejorar:** Sin datos de participacion no se ve el alcance.
-- 🛠️ **Mejora sugerida:** Añadir numero de sesiones y participantes, aunque sea estimado.
-
----
-
-## 4. Mini-ejemplo de mejora 🧪
-
-**Actividad 3 (formato sugerido):**
-- Acciones realizadas: [numero] sesiones (fecha/s)
-- Participantes: [numero] personas
-- Pruebas: fotos + enlace a publicacion
+### 3) Sensibilizacion sobre agricultura ecologica
+- ✅ **Que aporta:** enfoque comunitario y divulgacion.
+- 🔗 **Evidencia:** materiales o reportes de actividades.
+- 🛠️ **Mejora sugerida:** resumir 1-2 acciones publicas con fecha y publico objetivo.
 
 ---
 
-## 5. Checklist para futuros reportes 🧰
+## 6. Mini-ejemplo de mejora 🧪
 
-- Indicadores con valor numerico.
-- Fechas y hitos por entregable.
-- Conteos de participantes en actividades comunitarias.
-- Nota breve de avance cuando una actividad esta en curso.
-- Evidencias con enlace directo.
+**Actividad 2 (formato sugerido):**
+- **Estado:** cooperativa en proceso (mes/ano)
+- **Hito:** documento de constitucion o decision de asamblea
+- **Evidencia:** enlace al archivo principal
+
+---
+
+## 7. Checklist para futuros reportes 🧰
+
+- Diferenciar plan vs ejecucion.
+- Fechas y estado de cada hito.
+- Un enlace principal por evidencia.
+- 1 resultado concreto por actividad.
+- Coherencia entre narrativa y documentos.
 
 ---
 
 **Preparado por:** ReFi Barcelona Team  \
-**Version:** 2.1
+**Version:** 3.0

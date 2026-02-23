@@ -1,74 +1,82 @@
 # Feedback de actividades en Karma GAP
-## Anigami
+## Anigami (Turismo Regenerativo)
 
 **Fecha de revision:** 2026-02-23  \
-**Fuente:** Actividades reportadas en Karma GAP  \
+**Fuente:** Actividades reportadas en Karma GAP + informes internos  \
+**Validacion de actividades:** Karma GAP API v2 (extraccion 2026-02-23)  \
 **Karma URL:** https://www.karmahq.xyz/project/anigami  \
+**Carpeta de evidencia:** https://drive.google.com/drive/folders/18lH_QtpFAjABAq8y04EBOFJhv2Y658rz?usp=drive_link  \
 **Total actividades revisadas:** 2
-
-**Nota:** Los valores numericos pueden no visualizarse en Karma por un bug; si no aparecen, duplicarlos en descripcion o evidencia.
 
 ---
 
 ## 0. Contexto rapido 🧭
 
-- Turismo regenerativo en ruralidades con enfoque de dialogo territorial y marco conceptual.
-- Actividades reportadas: dialogos y marco de pensamiento.
+- Turismo regenerativo en ruralidades con enfoque de dialogo territorial.
+- Actividades: dialogos y marco conceptual.
 
 ---
 
-## 1. Lo que ya esta fuerte ✅
+## 1. Logros y evidencias clave ✅
 
-- Buena combinacion de dialogo publico y produccion de marco conceptual.
-- Evidencia audiovisual disponible para los dialogos.
-- Descripciones claras y orientadas a impacto territorial.
-
----
-
-## 2. Mejoras concretas 📌
-
-**Prioridad alta**
-- Verificar visibilidad de indicadores en Karma (bug actual); duplicar valores en descripcion o evidencia mientras no aparezcan.
-- Reemplazar "Carpeta interna" por enlaces verificables.
-
-**Prioridad media**
-- Indicar numero de participantes y territorios en los dialogos.
-- Añadir fecha o periodo de ejecucion por actividad.
+- **3 sesiones de dialogo** y **200 participantes** documentados.
+- **1 marco conceptual** desarrollado para turismo regenerativo.
+- Evidencia publica en YouTube y referencias de proceso.
 
 ---
 
-## 3. Revision por actividad 🔍
+## 2. Resumen para compartir 📣
+
+Anigami activo **3 dialogos** con **200 participantes** y creo un **marco conceptual** para turismo regenerativo. Transferencia de conocimiento a territorio.
+
+---
+
+## 3. Lectura del relato 🧩
+
+El relato combina escucha (dialogos) y sistematizacion (marco). La cadena es clara y valiosa para financiadores: conocimiento aplicado que se convierte en capacidades locales. La mejora principal es presentar los numeros y la evidencia en un mismo bloque para mayor trazabilidad.
+
+---
+
+## 4. Mejoras concretas 📌
+
+- **Visibilizar numeros al inicio** de cada actividad (3 sesiones, 200 personas).
+- **Reemplazar referencias internas** con enlaces directos cuando sea posible.
+- **Aclarar el estado del marco** (borrador, version piloto o publicado).
+
+---
+
+## 5. Revision por actividad 🔍
 
 ### 1) Dialogos sobre el turismo en las ruralidades
-- ✅ **Lo que comunica bien:** Se entiende el objetivo y el rol de los dialogos.
-- ⚠️ **Por que importa mejorar:** Sin numeros no se dimensiona alcance ni continuidad.
-- 🛠️ **Mejora sugerida:** Añadir numero de sesiones, participantes y territorios implicados.
+- ✅ **Que aporta:** **3 sesiones** con **200 participantes**.
+- 🔗 **Evidencia:** videos de YouTube.
+- 🛠️ **Mejora sugerida:** añadir una linea con territorios o perfiles participantes.
 
 ### 2) Marco de pensamiento regenerativo aplicado al turismo
-- ✅ **Lo que comunica bien:** Se entiende el esfuerzo de sistematizacion conceptual.
-- ⚠️ **Por que importa mejorar:** Falta evidencia accesible del documento.
-- 🛠️ **Mejora sugerida:** Añadir enlace a la version actual y numero de paginas o secciones.
+- ✅ **Que aporta:** **1 documento** conceptual como base de trabajo.
+- 🔗 **Evidencia:** referencia interna del marco.
+- 🛠️ **Mejora sugerida:** enlazar version publica o resumen ejecutivo.
 
 ---
 
-## 4. Mini-ejemplo de mejora 🧪
+## 6. Mini-ejemplo de mejora 🧪
 
 **Actividad 1 (formato sugerido):**
-- Dialogos realizados: [numero]
-- Participantes: [numero] (territorios: [lista breve])
-- Pruebas: enlaces a videos + resumen
+- **Sesiones:** 3 dialogos 
+- **Participacion:** 200 personas (perfiles y territorios)
+- **Evidencia:** enlace a lista de videos + resumen
 
 ---
 
-## 5. Checklist para futuros reportes 🧰
+## 7. Checklist para futuros reportes 🧰
 
-- Indicadores con valores numericos concretos.
-- Evidencias con enlace directo.
-- Fechas o periodos de ejecucion claros.
-- Numero de participantes y territorios.
-- Una linea de resultado inmediato por actividad.
+- Numeros en la primera linea de cada actividad.
+- Enlace directo a evidencia principal.
+- Estado de los entregables (borrador, piloto, publicado).
+- Territorios o perfiles clave mencionados.
+- 1 aprendizaje sintetizado por actividad.
 
 ---
 
 **Preparado por:** ReFi Barcelona Team  \
-**Version:** 2.1
+**Version:** 3.0

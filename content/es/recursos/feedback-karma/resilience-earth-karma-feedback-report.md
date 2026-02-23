@@ -2,74 +2,82 @@
 ## Resilience Earth
 
 **Fecha de revision:** 2026-02-23  \
-**Fuente:** Actividades reportadas en Karma GAP  \
+**Fuente:** Actividades reportadas en Karma GAP + informes internos  \
+**Validacion de actividades:** Karma GAP API v2 (extraccion 2026-02-23)  \
 **Karma URL:** https://www.karmahq.xyz/project/resilience-earth  \
+**Carpeta de evidencia:** https://drive.google.com/drive/folders/18lH_QtpFAjABAq8y04EBOFJhv2Y658rz?usp=drive_link  \
 **Total actividades revisadas:** 2
-
-**Nota:** Los valores numericos pueden no visualizarse en Karma por un bug; si no aparecen, duplicarlos en descripcion o evidencia.
 
 ---
 
 ## 0. Contexto rapido 🧭
 
 - Gobernanza bioregional y participacion comunitaria con enfoque municipal.
-- Actividades reportadas: estrategias locales y Aplec Iltir.
+- Actividades: estrategias locales + Aplec Iltir.
 
 ---
 
-## 1. Lo que ya esta fuerte ✅
+## 1. Logros y evidencias clave ✅
 
-- Se entiende la relacion entre procesos municipales y el Aplec Iltir.
-- Entregables con descripcion clara del proposito.
-- Enfoque territorial bien explicado.
-
----
-
-## 2. Mejoras concretas 📌
-
-**Prioridad alta**
-- Verificar visibilidad de indicadores en Karma (bug actual); duplicar valores en descripcion o evidencia mientras no aparezcan.
-- Reemplazar "Carpeta interna" por un enlace verificable.
-
-**Prioridad media**
-- Añadir fechas exactas o periodos de los procesos.
-- Indicar numero de municipios y participantes por actividad.
+- **5/5 municipios** acompanados con estrategias locales.
+- **30 sesiones participativas** realizadas en el proceso de definicion.
+- **Aplec Iltir** con **9/9 sesiones de dialogo grabadas** y evidencia audiovisual publica.
+- Evidencia en web y videos (Balkar / YouTube).
 
 ---
 
-## 3. Revision por actividad 🔍
+## 2. Resumen para compartir 📣
+
+Resilience Earth acompano **5 municipios** con **30 sesiones participativas** y activo el Aplec Iltir con **9 dialogos grabados**. Gobernanza bioregional con evidencia publica y continuidad territorial.
+
+---
+
+## 3. Lectura del relato 🧩
+
+El relato combina bien trabajo institucional (estrategias municipales) con un espacio cultural de encuentro (Aplec). El impacto queda claro cuando se pone en primer plano la escala territorial (municipios) y el volumen de sesiones. La mejora principal es convertir los recursos internos en enlaces directos publicos donde sea posible.
+
+---
+
+## 4. Mejoras concretas 📌
+
+- **Abrir enlaces directos** a documentos clave (estrategias locales) en lugar de referencias internas.
+- **Sintetizar cada actividad en 1 linea** con su escala (municipios, sesiones, dias).
+- **Vincular cada numero** con la evidencia exacta (programa, acta o video).
+
+---
+
+## 5. Revision por actividad 🔍
 
 ### 1) Proceso de definicion de estrategias locales
-- ✅ **Lo que comunica bien:** Se entiende el objetivo de co-diseno de estrategias.
-- ⚠️ **Por que importa mejorar:** Sin valores numericos y sin enlace externo no se puede verificar el alcance.
-- 🛠️ **Mejora sugerida:** Añadir numero de asambleas, municipios y un enlace al documento.
+- ✅ **Que aporta:** acompanamiento a **5 municipios** con **30 sesiones** participativas.
+- 🔗 **Evidencia:** video/documentacion de proceso.
+- 🛠️ **Mejora sugerida:** enlazar el documento final de estrategia por municipio o un resumen publico.
 
 ### 2) Aplec Iltir: festival para la democracia
-- ✅ **Lo que comunica bien:** Se ve el rol del encuentro como espacio de dialogo.
-- ⚠️ **Por que importa mejorar:** Falta numero de actividades, asistentes y fechas.
-- 🛠️ **Mejora sugerida:** Añadir conteos de actividades y asistentes; enlazar evidencia especifica (video o programa).
+- ✅ **Que aporta:** **9/9 sesiones grabadas** y espacio de encuentro bioregional.
+- 🔗 **Evidencia:** canal de videos + web del Aplec.
+- 🛠️ **Mejora sugerida:** agregar un link directo al programa y una linea de resultados (participacion o acuerdos).
 
 ---
 
-## 4. Mini-ejemplo de mejora 🧪
+## 6. Mini-ejemplo de mejora 🧪
 
-**Actividad 2 (formato sugerido):**
-- Fecha: [fecha o rango]
-- Actividades comunitarias: [numero]
-- Asistentes: [numero]
-- Pruebas: video o programa del Aplec
+**Actividad 1 (formato sugerido):**
+- **Escala:** 5 municipios, 30 sesiones
+- **Resultado:** estrategias locales definidas
+- **Evidencia:** enlace directo al resumen publico
 
 ---
 
-## 5. Checklist para futuros reportes 🧰
+## 7. Checklist para futuros reportes 🧰
 
-- Indicadores con valores numericos concretos.
-- Evidencias con enlace directo.
-- Fechas o periodos de ejecucion claros.
-- Numero de municipios/participantes por actividad.
-- Una linea de resultado inmediato por actividad.
+- Numeros visibles en la primera linea de cada actividad.
+- Evidencias publicas directas (documento, programa, video).
+- Resumen en una frase del resultado principal.
+- Coherencia entre actividad institucional y evento publico.
+- Fechas claras para cada hito.
 
 ---
 
 **Preparado por:** ReFi Barcelona Team  \
-**Version:** 2.1
+**Version:** 3.0

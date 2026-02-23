@@ -5,7 +5,7 @@ description: "Informes publicos de retroalimentacion sobre actividades reportada
 
 # Feedback de actividades en Karma GAP
 
-Resumen publico de retroalimentacion para mejorar la calidad del reporte de actividades (claridad, evidencias y metricas). La revision se hace **solo** sobre las actividades efectivamente reportadas en Karma GAP.
+Resumen publico de retroalimentacion para mejorar la calidad del reporte de actividades (claridad, evidencias y metricas). La revision se hace **solo** sobre las actividades efectivamente reportadas en Karma GAP y se apoya en la carpeta de documentacion.
 
 ---
 
@@ -17,21 +17,29 @@ Resumen publico de retroalimentacion para mejorar la calidad del reporte de acti
 
 ---
 
+## Resumen para compartir
+
+### [Resumen publico para compartir](./resumen-publico.md)
+
+Memo corto con cifras clave y destacados por proyecto para difusion rapida.
+
+---
+
 ## Enfoque
 
 - Sin scoring ni exigencia de actualizacion inmediata.
 - Enfocado en mejoras practicas de reportes futuros.
-- Nota: los valores numericos pueden no visualizarse por un bug de Karma; se recomienda duplicarlos en descripcion o evidencia.
+- Evidencia y archivos en: https://drive.google.com/drive/folders/18lH_QtpFAjABAq8y04EBOFJhv2Y658rz?usp=drive_link (descargado en `03 Libraries/Regenerant-Catalunya/docs/Documentación proyectos`).
 
 ---
 
 ## Hallazgos comunes
 
-- Indicadores definidos sin valores numericos visibles (bug de Karma).
-- Actividades continuas sin periodicidad clara (mensual, semanal, etc.).
-- Eventos agrupados sin lista de hitos y fechas.
-- Entregables con nombres demasiado genericos o repetidos.
-- Enlaces internos o no verificables ("Carpeta interna", "En desarrollo").
+- Numeros y resultados existen, pero no siempre aparecen en la primera linea del texto.
+- Actividades continuas necesitan periodicidad explicita.
+- Eventos agrupados se entienden mejor con lista corta de fechas.
+- Entregables repetidos o sin enlace directo reducen trazabilidad.
+- Evidencia interna deberia resumirse con un enlace principal publico cuando sea posible.
 
 ---
 
@@ -63,16 +71,18 @@ Resumen publico de retroalimentacion para mejorar la calidad del reporte de acti
 ## Estructura de cada informe
 
 1. Contexto rapido
-2. Lo que ya esta fuerte
-3. Mejoras concretas (prioridad alta / media)
-4. Revision por actividad
-5. Mini-ejemplo de mejora
-6. Checklist para futuros reportes
+2. Logros y evidencias clave
+3. Resumen para compartir
+4. Lectura del relato
+5. Mejoras concretas
+6. Revision por actividad
+7. Mini-ejemplo de mejora
+8. Checklist para futuros reportes
 
 ---
 
 ## Siguientes pasos sugeridos
 
 1. Compartir el feedback con cada proyecto.
-2. Alinear visibilidad de indicadores en Karma y duplicar valores en descripcion o evidencia mientras persista el bug.
+2. Incorporar numeros en la primera linea de cada actividad.
 3. Mantener el formato estandar en siguientes ciclos.

@@ -2,84 +2,94 @@
 ## La Suculenta LH
 
 **Fecha de revision:** 2026-02-23  \
-**Fuente:** Actividades reportadas en Karma GAP  \
+**Fuente:** Actividades reportadas en Karma GAP + informes internos  \
+**Validacion de actividades:** Karma GAP API v2 (extraccion 2026-02-05)  \
 **Karma URL:** https://www.karmahq.xyz/project/la-suculenta-lh  \
+**Carpeta de evidencia:** https://drive.google.com/drive/folders/18lH_QtpFAjABAq8y04EBOFJhv2Y658rz?usp=drive_link  \
 **Total actividades revisadas:** 4
-
-**Nota:** Los valores numericos pueden no visualizarse en Karma por un bug; si no aparecen, duplicarlos en descripcion o evidencia.
 
 ---
 
 ## 0. Contexto rapido 🧭
 
-- Iniciativa de alimentacion comunitaria con foco en acceso y proximidad.
-- Actividades reportadas: difusion en mercado, branding, piloto de reparto y talleres comunitarios.
+- Cocina comunitaria y proyecto alimentario en Bellvitge.
+- Actividades reportadas: difusion en mercado, branding, reparto a domicilio, catalogo de talleres.
 
 ---
 
-## 1. Lo que ya esta fuerte ✅
+## 1. Logros y evidencias clave ✅
 
-- Buen equilibrio entre comunicacion, piloto de servicio y diversificacion.
-- Entregables bien documentados (flyers, rollup, estudios y pilotos).
-- Las descripciones son concretas y faciles de entender.
-- Se ve una linea clara de aprendizaje y testeo.
-
----
-
-## 2. Mejoras concretas 📌
-
-**Prioridad alta**
-- Verificar visibilidad de indicadores en Karma (bug actual); duplicar valores en descripcion o evidencia mientras no aparezcan.
-- Completar entregables faltantes o truncados en la actividad de talleres.
-
-**Prioridad media**
-- Asegurar que la fecha de actividades puntuales refleje el dia real del evento.
-- Indicar donde se usaron los materiales de branding y con que resultado.
+- **Difusion en mercado:** mas de **100 flyers** repartidos (actividad de proximidad).
+- **Branding:** **3 materiales** clave (rollup, lona, flyer) listos para uso publico.
+- **Reparto a domicilio:** media **300 pedidos/mes**, pico **430 pedidos** en junio, **1.800 pedidos** en el periodo.
+- **Crecimiento de clientes:** del **2% al 22%** de nuevos clientes en el periodo piloto.
+- Evidencias en documentos, fotos y materiales descargables del proyecto.
 
 ---
 
-## 3. Revision por actividad 🔍
+## 2. Resumen para compartir 📣
+
+La Suculenta impulso el reparto a domicilio con **1.800 pedidos** (pico **430**) y crecimiento de clientes del **2% al 22%**, junto a una estrategia de visibilidad en barrio. Cocina comunitaria con impacto tangible.
+
+---
+
+## 3. Lectura del relato 🧩
+
+El relato muestra una estrategia clara: visibilidad en territorio, identidad de marca, servicio de reparto y apertura de talleres comunitarios. La parte mas potente esta en el piloto de reparto, donde ya hay cifras y aprendizaje operativo. Para mejorar, conviene concentrar el impacto en 2-3 frases resumen por actividad y enlazar siempre la evidencia principal.
+
+---
+
+## 4. Mejoras concretas 📌
+
+- **Sintetizar cada actividad** con 1 frase de impacto + numero principal.
+- **Un enlace principal por actividad** (evita multiples referencias dispersas).
+- **En talleres**, destacar 2-3 talleres piloto con fecha y numero de participantes (si ya estan en evidencia interna).
+- **En reparto**, ligar los numeros (300/mes, 430, 1.800) al documento de prueba.
+
+---
+
+## 5. Revision por actividad 🔍
 
 ### 1) Punto de difusion en el Mercado Municipal de Bellvitge
-- ✅ **Lo que comunica bien:** Se entiende el objetivo y el resultado inmediato (difusion y contactos).
-- ⚠️ **Por que importa mejorar:** Sin cifras no se ve el alcance real.
-- 🛠️ **Mejora sugerida:** Añadir valores numericos de flyers y contactos y confirmar si fue evento puntual.
+- ✅ **Que aporta:** **+100 flyers** y contacto directo con vecindario.
+- 🔗 **Evidencia:** flyers + fotos de la parada.
+- 🛠️ **Mejora sugerida:** incluir fecha exacta y resumen en 1 linea con el numero principal.
 
 ### 2) Diseno y creacion de materiales de comunicacion y branding
-- ✅ **Lo que comunica bien:** Se ve el salto a materiales fisicos de marca.
-- ⚠️ **Por que importa mejorar:** Faltan conteos y uso de cada material.
-- 🛠️ **Mejora sugerida:** Añadir conteo (ej. 1 rollup, 1 lona, X flyers) y uso principal.
+- ✅ **Que aporta:** **3 materiales** listos (rollup, lona, flyer).
+- 🔗 **Evidencia:** PDFs de diseño.
+- 🛠️ **Mejora sugerida:** indicar donde se usaron y que resultado inmediato generaron.
 
-### 3) Estudio y fase de prueba de servicio de reparto de menus a domicilio
-- ✅ **Lo que comunica bien:** Se explica el piloto y la validacion de viabilidad.
-- ⚠️ **Por que importa mejorar:** Sin numeros no se puede mostrar impacto social y economico.
-- 🛠️ **Mejora sugerida:** Completar indicadores con numeros y promedio mensual.
+### 3) Estudio y fase de prueba del reparto de menus a domicilio
+- ✅ **Que aporta:** **300 pedidos/mes**, **430 en junio**, **1.800 pedidos** totales y crecimiento de clientes.
+- 🔗 **Evidencia:** estudio de viabilidad + informe de prueba.
+- 🛠️ **Mejora sugerida:** resumir en una frase el aprendizaje clave (viabilidad social y economica).
 
-### 4) Diseno y testeo de catalogo de talleres comunitarios
-- ✅ **Lo que comunica bien:** Se entiende la estrategia de diversificacion y testeo.
-- ⚠️ **Por que importa mejorar:** Faltan pruebas completas y numero de talleres.
-- 🛠️ **Mejora sugerida:** Añadir evidencias de talleres piloto y el numero de talleres testados.
-
----
-
-## 4. Mini-ejemplo de mejora 🧪
-
-**Actividad 1 (formato sugerido):**
-- Fecha: 2026-01-16 (evento puntual)
-- Indicadores: Flyers distribuidos [numero], contactos recogidos [numero]
-- Pruebas: flyer + fotos del punto de difusion
+### 4) Diseno y testeo del catalogo de talleres comunitarios
+- ✅ **Que aporta:** catalogo y materiales listos para oferta formativa.
+- 🔗 **Evidencia:** dossiers, fotos y videos de talleres.
+- 🛠️ **Mejora sugerida:** destacar 2-3 talleres piloto con fecha y asistentes.
 
 ---
 
-## 5. Checklist para futuros reportes 🧰
+## 6. Mini-ejemplo de mejora 🧪
 
-- Indicadores con valor numerico.
-- Entregables completos con enlace directo.
-- Fechas reales de eventos puntuales.
-- Nota breve sobre resultados inmediatos (contactos, pedidos, ingresos).
-- Evidencias con enlace directo.
+**Actividad 3 (formato sugerido):**
+- **Resultados:** 300 pedidos/mes (pico 430), 1.800 pedidos totales
+- **Crecimiento:** nuevos clientes del 2% al 22%
+- **Evidencia:** informe de prueba + estudio de viabilidad
+
+---
+
+## 7. Checklist para futuros reportes 🧰
+
+- Numeros visibles en la primera linea.
+- Un enlace principal por actividad.
+- Fechas exactas en actividades puntuales.
+- 1 aprendizaje clave por actividad.
+- Sintesis de talleres piloto con asistentes.
 
 ---
 
 **Preparado por:** ReFi Barcelona Team  \
-**Version:** 2.1
+**Version:** 3.0

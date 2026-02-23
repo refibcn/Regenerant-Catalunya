@@ -2,88 +2,93 @@
 ## La Marmita
 
 **Fecha de revision:** 2026-02-23  \
-**Fuente:** Actividades reportadas en Karma GAP  \
+**Fuente:** Actividades reportadas en Karma GAP + informes internos  \
+**Validacion de actividades:** Karma GAP API v2 (extraccion 2026-02-05)  \
 **Karma URL:** https://www.karmahq.xyz/project/la-marmita  \
+**Carpeta de evidencia:** https://drive.google.com/drive/folders/18lH_QtpFAjABAq8y04EBOFJhv2Y658rz?usp=drive_link  \
 **Total actividades revisadas:** 4
-
-**Nota:** Los valores numericos pueden no visualizarse en Karma por un bug; si no aparecen, duplicarlos en descripcion o evidencia.
 
 ---
 
 ## 0. Contexto rapido 🧭
 
 - Cocina comunitaria en Laurel 31 con enfoque de soberania alimentaria.
-- Actividades reportadas: habilitacion, trabajo en red, fiestas de barrio y testeo de sostenibilidad.
+- Actividades: formaciones termopol, puesta en marcha de la cocina, activacion comunitaria.
 
 ---
 
-## 1. Lo que ya esta fuerte ✅
+## 1. Logros y evidencias clave ✅
 
-- Cobertura completa de fases (infraestructura, comunidad, sostenibilidad).
-- Pruebas visuales claras (Drive e Instagram) y bien asociadas.
-- Descripciones con contexto territorial y social.
-- Entregables variados que muestran proceso y resultados.
-
----
-
-## 2. Mejoras concretas 📌
-
-**Prioridad alta**
-- Verificar visibilidad de indicadores en Karma (bug actual); duplicar valores en descripcion o evidencia mientras no aparezcan.
-- Corregir fecha real de inicio en Actividad 4 (evitar fecha de carga).
-- Eliminar indicador duplicado en Actividad 3.
-- Diferenciar nombres de entregables repetidos en Actividad 2.
-
-**Prioridad media**
-- Listar eventos y asistentes por evento en Actividad 3.
-- Aclarar si Actividad 2 sigue en curso o tiene hitos cerrados.
-- Asociar cada indicador con evidencia puntual.
+- **2 sesiones de formacion** para uso de la olla termopol.
+- **Visitas de intercambio** a cocinas comunitarias (Valencia, Zaragoza, El Prat).
+- **Puesta en funcionamiento** de la cocina desde septiembre 2025.
+- **Activacion comunitaria** en Castanyada y Dia contra la Violencia Machista.
+- Evidencia fotografica y archivos en la carpeta de documentacion.
 
 ---
 
-## 3. Revision por actividad 🔍
+## 2. Resumen para compartir 📣
 
-### 1) Habilitacion del espacio de cocina comunitaria La Marmita
-- ✅ **Lo que comunica bien:** Se entiende el proceso de habilitacion y puesta en funcionamiento.
-- ⚠️ **Por que importa mejorar:** Sin valor del indicador no se puede medir alcance ni escala del logro.
-- 🛠️ **Mejora sugerida:** Añadir un valor claro (ej. 1 espacio habilitado, dias de apertura inicial) y vincularlo a la prueba fotografica.
-
-### 2) Trabajo en red con otras iniciativas y comunidades afines
-- ✅ **Lo que comunica bien:** Se ve el intercambio con otras cocinas y las formaciones termopol.
-- ⚠️ **Por que importa mejorar:** Faltan conteos para dimensionar el aprendizaje y la participacion.
-- 🛠️ **Mejora sugerida:** Incluir numero de jornadas, personas formadas y diferenciar nombres de entregables repetidos.
-
-### 3) Participacion en fiestas populares, comida en la calle
-- ✅ **Lo que comunica bien:** Se identifica la activacion comunitaria en fechas claves del barrio.
-- ⚠️ **Por que importa mejorar:** No queda claro el numero de eventos ni la asistencia.
-- 🛠️ **Mejora sugerida:** Listar eventos con fecha + asistentes y eliminar el indicador duplicado.
-
-### 4) Lanzamiento de La Marmita y testeo de sostenibilidad
-- ✅ **Lo que comunica bien:** Se entiende la fase de testeo del modelo y la base social.
-- ⚠️ **Por que importa mejorar:** La fecha parece de carga y falta el numero de socies.
-- 🛠️ **Mejora sugerida:** Ajustar fecha real de inicio y agregar valor numerico de socies.
+La Marmita puso en marcha su cocina comunitaria desde septiembre 2025, con formaciones termopol, intercambios y activacion en fiestas del barrio. Soberania alimentaria en practica comunitaria.
 
 ---
 
-## 4. Mini-ejemplo de mejora 🧪
+## 3. Lectura del relato 🧩
 
-**Actividad 3 (formato sugerido):**
-- Eventos: Castanyada (31/10/2025) - Asistentes: [numero]; Comida contra violencia de genero (28/11/2025) - Asistentes: [numero]
-- Indicador: Asistentes por evento (total + por evento)
-- Pruebas: enlaces a publicaciones o carpeta de fotos
+El relato muestra una progresion clara: formacion tecnica -> intercambios de aprendizaje -> puesta en marcha -> activacion comunitaria. Para hacerlo mas util, conviene explicitar en cada actividad el volumen ya registrado en documentos internos (socixs, eventos, talleres) y enlazar la evidencia principal.
 
 ---
 
-## 5. Checklist para futuros reportes 🧰
+## 4. Mejoras concretas 📌
 
-- Fechas reales de inicio y fin (no fechas de creacion del registro).
-- Indicadores con valores numericos concretos.
-- Entregables con nombres unicos y enlaces verificables.
-- Lista de eventos cuando una actividad agrupa varios hitos.
-- Evidencias con enlace directo.
-- Una linea de resultado inmediato (que cambio concreto).
+- **Visibilizar cantidades ya registradas** (socixs, participantes o eventos) en la primera linea de cada actividad.
+- **Unificar evidencia** con un enlace principal por hito (album o carpeta especifica).
+- **Aclarar periodos** de cada actividad (fecha de inicio y fecha clave).
+
+---
+
+## 5. Revision por actividad 🔍
+
+### 1) Formaciones para el uso de la olla termopol
+- ✅ **Que aporta:** 2 sesiones de formacion + intercambio de aprendizajes.
+- 🔗 **Evidencia:** fotos de formacion en carpeta.
+- 🛠️ **Mejora sugerida:** añadir fechas y participantes en una sola frase.
+
+### 2) Puesta en funcionamiento de la cocina comunitaria
+- ✅ **Que aporta:** inicio de funcionamiento habitual desde septiembre 2025.
+- 🔗 **Evidencia:** fotos de habilitacion y registros internos.
+- 🛠️ **Mejora sugerida:** añadir el numero de socixs ya registrado en documentos internos.
+
+### 3) Participacion en celebraciones populares
+- ✅ **Que aporta:** activacion comunitaria en eventos clave del barrio.
+- 🔗 **Evidencia:** fotos de Castanyada y Dia contra la Violencia Machista.
+- 🛠️ **Mejora sugerida:** listar eventos con fecha y una foto principal por evento.
+
+### 4) Intercambios con otras cocinas comunitarias
+- ✅ **Que aporta:** visitas de aprendizaje a Valencia, Zaragoza y El Prat.
+- 🔗 **Evidencia:** fotos de visitas en carpeta.
+- 🛠️ **Mejora sugerida:** resumir aprendizajes clave en 2-3 lineas.
+
+---
+
+## 6. Mini-ejemplo de mejora 🧪
+
+**Actividad 2 (formato sugerido):**
+- **Inicio:** septiembre 2025
+- **Base social:** incluir numero de socixs (segun registro interno)
+- **Evidencia:** carpeta de habilitacion + registro de socixs
+
+---
+
+## 7. Checklist para futuros reportes 🧰
+
+- Numeros visibles en la primera linea.
+- Fechas claras por actividad.
+- Un enlace principal por evidencia.
+- Lista de eventos con fecha.
+- 1 aprendizaje sintetizado por actividad.
 
 ---
 
 **Preparado por:** ReFi Barcelona Team  \
-**Version:** 2.1
+**Version:** 3.0

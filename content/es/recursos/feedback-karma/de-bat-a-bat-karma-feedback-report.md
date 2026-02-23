@@ -2,73 +2,81 @@
 ## De Bat a Bat
 
 **Fecha de revision:** 2026-02-23  \
-**Fuente:** Actividades reportadas en Karma GAP  \
+**Fuente:** Actividades reportadas en Karma GAP + informes internos  \
+**Validacion de actividades:** Karma GAP API v2 (extraccion 2026-02-23)  \
 **Karma URL:** https://www.karmahq.xyz/project/de-bat-a-bat  \
+**Carpeta de evidencia:** https://drive.google.com/drive/folders/18lH_QtpFAjABAq8y04EBOFJhv2Y658rz?usp=drive_link  \
 **Total actividades revisadas:** 2
-
-**Nota:** Los valores numericos pueden no visualizarse en Karma por un bug; si no aparecen, duplicarlos en descripcion o evidencia.
 
 ---
 
 ## 0. Contexto rapido 🧭
 
-- Salud comunitaria con enfoque en arte, naturaleza y participacion.
-- Actividades reportadas: teatro con Parkinson y coral comunitaria.
+- Salud comunitaria con enfoque en arte, naturaleza y cuidado.
+- Actividades: Parkinson para el teatro y coral comunitaria.
 
 ---
 
-## 1. Lo que ya esta fuerte ✅
+## 1. Logros y evidencias clave ✅
 
-- Se entiende el enfoque terapeutico y comunitario.
-- Entregables con enlaces publicos.
-- Actividades bien diferenciadas por tipo de practica.
-
----
-
-## 2. Mejoras concretas 📌
-
-**Prioridad alta**
-- Verificar visibilidad de indicadores en Karma (bug actual); duplicar valores en descripcion o evidencia mientras no aparezcan.
-- Indicar frecuencia o numero de sesiones.
-
-**Prioridad media**
-- Añadir fechas o periodos de ejecucion.
-- Especificar lugar y alcance territorial.
+- **Parkinson para el teatro:** **12 personas** y **20 sesiones**.
+- **Coral comunitaria:** **22 personas** participantes.
+- Evidencias en enlaces publicos (Instagram, web, notas de proyecto).
 
 ---
 
-## 3. Revision por actividad 🔍
+## 2. Resumen para compartir 📣
+
+De Bat a Bat activo salud comunitaria con **12 personas** en teatro (**20 sesiones**) y **22** en coral. Cuidado y vinculo territorial en accion.
+
+---
+
+## 3. Lectura del relato 🧩
+
+El relato muestra un enfoque coherente de cuidado: teatro y coral como dos puertas de entrada complementarias. La mejora principal es hacer visible el volumen (personas y sesiones) en la primera linea para reforzar la escala real del trabajo.
+
+---
+
+## 4. Mejoras concretas 📌
+
+- **Visibilizar numeros en la primera linea** de cada actividad.
+- **Agregar fechas o periodos** (por ejemplo: ene-dic 2025) para situar el esfuerzo.
+- **Unificar evidencia** en un enlace principal por actividad.
+
+---
+
+## 5. Revision por actividad 🔍
 
 ### 1) Parkinson para el teatro
-- ✅ **Lo que comunica bien:** Se entiende el proceso comunitario y el objetivo terapeutico.
-- ⚠️ **Por que importa mejorar:** Sin asistentes ni sesiones no se ve escala.
-- 🛠️ **Mejora sugerida:** Añadir numero de sesiones y participantes; incluir fecha o periodo.
+- ✅ **Que aporta:** **12 participantes** y **20 sesiones**.
+- 🔗 **Evidencia:** Instagram del proyecto.
+- 🛠️ **Mejora sugerida:** indicar periodo exacto de sesiones.
 
 ### 2) Coral comunitaria
-- ✅ **Lo que comunica bien:** Se entiende la continuidad del espacio de cuidado.
-- ⚠️ **Por que importa mejorar:** Falta el numero de asistentes y frecuencia.
-- 🛠️ **Mejora sugerida:** Añadir asistentes promedio y numero de ensayos o encuentros.
+- ✅ **Que aporta:** **22 participantes** en espacio de cuidado.
+- 🔗 **Evidencia:** web/publicacion del proyecto.
+- 🛠️ **Mejora sugerida:** añadir frecuencia (semanal, mensual) en una linea.
 
 ---
 
-## 4. Mini-ejemplo de mejora 🧪
+## 6. Mini-ejemplo de mejora 🧪
 
-**Actividad 2 (formato sugerido):**
-- Encuentros realizados: [numero]
-- Participantes promedio: [numero]
-- Pruebas: enlace a actividad + fotos
+**Actividad 1 (formato sugerido):**
+- **Participacion:** 12 personas 
+- **Sesiones:** 20 (ene-dic 2025)
+- **Evidencia:** enlace directo a album o publicacion
 
 ---
 
-## 5. Checklist para futuros reportes 🧰
+## 7. Checklist para futuros reportes 🧰
 
-- Indicadores con valores numericos concretos.
-- Frecuencia o numero de sesiones.
-- Fechas o periodos de ejecucion claros.
-- Evidencias con enlace directo.
-- Una linea de resultado inmediato.
+- Numeros visibles en la primera linea.
+- Periodos claros de ejecucion.
+- Un enlace principal por actividad.
+- 1 frase de resultado por actividad.
+- Consistencia de lenguaje en las dos lineas de trabajo.
 
 ---
 
 **Preparado por:** ReFi Barcelona Team  \
-**Version:** 2.1
+**Version:** 3.0

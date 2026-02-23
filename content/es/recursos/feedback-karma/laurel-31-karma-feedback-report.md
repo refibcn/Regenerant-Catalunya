@@ -3,78 +3,85 @@
 
 **Fecha de revision:** 2026-02-23  \
 **Fuente:** Actividades reportadas en Karma GAP  \
+**Validacion de actividades:** Karma GAP API v2 (extraccion 2026-02-05)  \
 **Karma URL:** https://www.karmahq.xyz/project/laurel-31-economas-silvestres  \
+**Carpeta de evidencia:** https://drive.google.com/drive/folders/18lH_QtpFAjABAq8y04EBOFJhv2Y658rz?usp=drive_link  \
 **Total actividades revisadas:** 3
-
-**Nota:** Los valores numericos pueden no visualizarse en Karma por un bug; si no aparecen, duplicarlos en descripcion o evidencia.
 
 ---
 
 ## 0. Contexto rapido 🧭
 
 - Espacio textil comunitario con enfoque de sostenimiento cotidiano y cultura.
-- Actividades reportadas: celebraciones, sostenimiento diario y laboratorio de materialidades.
+- Actividades: celebraciones comunitarias, sostenimiento diario, laboratorio de materialidades.
 
 ---
 
-## 1. Lo que ya esta fuerte ✅
+## 1. Logros y evidencias clave ✅
 
-- Las actividades reflejan bien la vida del espacio y la dimension comunitaria.
-- Hay evidencias visuales claras para cada actividad.
-- Se entiende la continuidad del trabajo cotidiano.
-- La narrativa es clara y coherente.
-
----
-
-## 2. Mejoras concretas 📌
-
-**Prioridad alta**
-- Añadir indicadores basicos para todas las actividades (actualmente no hay).
-- Asegurar que los valores numericos queden visibles en Karma (bug actual); duplicarlos en descripcion o evidencia mientras no aparezcan.
-
-**Prioridad media**
-- Especificar periodicidad en actividades continuas (semanal, mensual).
-- Vincular entregables con un resultado inmediato (que se logro).
+- Relato claro de vida comunitaria y trabajo cotidiano.
+- Evidencias visuales y materiales de proceso presentes.
+- Coherencia entre celebracion, sostenimiento y experimentacion.
 
 ---
 
-## 3. Revision por actividad 🔍
+## 2. Resumen para compartir 📣
 
-### 1) Celebraciones y momentos de socializacion del proyecto
-- ✅ **Lo que comunica bien:** Se entiende el caracter comunitario y la celebracion del aniversario.
-- ⚠️ **Por que importa mejorar:** Sin indicadores no se puede ver la escala del evento.
-- 🛠️ **Mejora sugerida:** Añadir numero de asistentes y organizaciones participantes.
+Laurel 31 sostiene un espacio textil comunitario con celebraciones, cuidados diarios y laboratorio de materialidades. Cultura y economia comunitaria en continuidad.
+
+---
+
+## 3. Lectura del relato 🧩
+
+El relato transmite continuidad y arraigo. Para ganar fuerza en el reporte publico, conviene hacer visibles en el texto los numeros ya reportados en Karma (participacion, sesiones, dias de apertura) y vincularlos a la evidencia principal.
+
+---
+
+## 4. Mejoras concretas 📌
+
+- **Hacer visibles los numeros ya reportados** en la primera linea de cada actividad.
+- **Anclar periodicidad** (semanal/mensual) en actividades continuas.
+- **Unificar evidencia** en un enlace principal por actividad.
+
+---
+
+## 5. Revision por actividad 🔍
+
+### 1) Celebraciones y momentos de socializacion
+- ✅ **Que aporta:** activacion comunitaria y celebracion colectiva.
+- 🔗 **Evidencia:** material visual y registros de actividad.
+- 🛠️ **Mejora sugerida:** incluir fecha y numero de participantes ya reportados.
 
 ### 2) Sostenimiento cotidiano del espacio textil
-- ✅ **Lo que comunica bien:** Se percibe la actividad diaria y los servicios del espacio.
-- ⚠️ **Por que importa mejorar:** Falta frecuencia de apertura y volumen de servicios.
-- 🛠️ **Mejora sugerida:** Incluir dias de apertura al mes y numero de arreglos o intercambios.
+- ✅ **Que aporta:** continuidad del servicio comunitario.
+- 🔗 **Evidencia:** registros y fotos del espacio.
+- 🛠️ **Mejora sugerida:** explicitar dias de apertura y volumen de actividad ya reportado.
 
 ### 3) Laboratorio de materialidades
-- ✅ **Lo que comunica bien:** Se entiende la experimentacion y el enfoque colectivo.
-- ⚠️ **Por que importa mejorar:** Sin datos de sesiones no se ve continuidad.
-- 🛠️ **Mejora sugerida:** Añadir numero de sesiones y participantes.
+- ✅ **Que aporta:** experimentacion colectiva y aprendizaje.
+- 🔗 **Evidencia:** materiales y resultados del laboratorio.
+- 🛠️ **Mejora sugerida:** indicar numero de sesiones o participantes.
 
 ---
 
-## 4. Mini-ejemplo de mejora 🧪
+## 6. Mini-ejemplo de mejora 🧪
 
 **Actividad 2 (formato sugerido):**
-- Frecuencia: [numero] dias de apertura por mes
-- Servicios: [numero] arreglos / [numero] intercambios en ropero
-- Pruebas: fotos + video
+- **Frecuencia:** [numero] dias al mes
+- **Participacion:** [numero] personas
+- **Evidencia:** enlace directo a album o resumen
 
 ---
 
-## 5. Checklist para futuros reportes 🧰
+## 7. Checklist para futuros reportes 🧰
 
-- Definir 1 a 2 indicadores por actividad.
-- Incluir valores numericos (asistentes, sesiones, dias abiertos).
-- Aclarar periodicidad en actividades continuas.
-- Evidencias con enlace directo.
-- Una linea de resultado inmediato.
+- Numeros visibles en la primera linea.
+- Periodicidad clara en actividades continuas.
+- Un enlace principal por evidencia.
+- 1 resultado concreto por actividad.
+- Lenguaje consistente en todo el reporte.
 
 ---
 
 **Preparado por:** ReFi Barcelona Team  \
-**Version:** 2.1
+**Version:** 3.0
