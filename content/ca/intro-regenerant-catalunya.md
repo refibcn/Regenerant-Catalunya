@@ -5,6 +5,8 @@ description: "Versió en català (placeholder) de l'article publicat a Paragraph
 
 # Introduint Regenerant Catalunya / Presentant Regenerant Catalunya | Article
 
+![alt text](<../../assets/article/Introducing Regenerant Catalunya Article.png>)
+
 ## **1. Una Ronda de Finançament Participatiu per a la Regeneració a Catalunya**
 
 **_Programa de Finançament Participatiu Bioregional a Catalunya_**
@@ -28,6 +30,8 @@ Arreu del món, estan sorgint nous enfocaments de finançament que combinen tran
 Un focus principal de Web3 i ReFi ha estat el **finançament de béns públics** —desenvolupar recursos d'accés obert que beneficien a tothom mentre s'assegura que el desenvolupament de l'ecosistema sigui finançat adequadament. [**Gitcoin Grants**](https://grants.gitcoin.co/) és un dels exemples més visibles, havent distribuït més de $60 milions usant mecanismes com el [**finançament quadràtic**](https://ca.wikipedia.org/wiki/Votaci%C3%B3_quadr%C3%A0tica#Finan%C3%A7ament_quadr%C3%A0tic) (QF) per amplificar les preferències comunitàries i democratitzar l'assignació de recursos.
 
 ### **Regen Coordination: Un Moviment Global Que Connecta Escales**
+
+![alt text](<../../assets/article/Regen Coordination Flows Ethereum (1) (2).png>)
 
 Des de l'ecosistema Web3, [**Regen Coordination**](https://www.regencoordination.xyz/) va sorgir com una aliança global dedicada a teixir junts experiments locals en un moviment coherent. Fundada per **ReFi DAO** i **Greenpill Network** amb el suport de Gitcoin i Celo Public Goods, Regen Coordination abasta una constel·lació de comunitats —incloent ReFi DAO Local Nodes, Greenpill Chapters, **Bloom Network**, **The BioFi Project**, **Ma Earth**, **AgroforestDAO**, i moltes altres— unides per una missió d'impulsar la regeneració ecològica, social i econòmica a través de la col·laboració oberta.
 
@@ -62,6 +66,8 @@ Al incrustar mecanismes de finançament Web3 en l'ecosistema existent de Catalun
 ## **3. Presentant Regenerant Catalunya**: Un Laboratori Viu per a la Finança Bioregional
 
 Regenerant Catalunya està dissenyat com més que una ronda de finançament única —és un **procés de capacitació** i un **laboratori viu** per provar com les eines Web3 poden enfortir el treball regeneratiu basat en el lloc.
+
+![alt text](<../../assets/article/Regenerant Catalunya Article Nov 16 2025 (1).png>)
 
 ### **Com Funciona: Finançament Local + Global**
 

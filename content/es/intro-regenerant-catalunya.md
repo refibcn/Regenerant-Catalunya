@@ -3,11 +3,13 @@ title: "Introduciendo Regenerant Catalunya"
 description: "Artículo completo que presenta Regenerant Catalunya — programa de financiación participativa bioregional"
 ---
 
-# Introduciendo Regenerant Catalunya / Presentando Regenerant Catalunya | Artículo
+# Introduciendo Regenerant Catalunya | Artículo
 
 ## **1. Una Ronda de Financiación Participativa para la Regeneración en Cataluña**
 
 **_Programa de Finançament Participatiu Bioregional a Catalunya_**
+
+![alt text](<../../assets/article/Introducing Regenerant Catalunya Article.png>)
 
 **Regenerant Catalunya** es una ronda de financiación participativa dedicada a canalizar recursos hacia proyectos que están regenerando la vida en la bioregión catalana. Desde la conservación y restauración de ecosistemas naturales como la cuenca del río Fluvià hasta el desarrollo de infraestructuras comunitarias en L'Hospitalet de Llobregat —el segundo municipio más poblado de Cataluña y uno de los más densamente poblados de Europa—, esta iniciativa apoya **el trabajo regenerativo sobre el terreno** en todo el territorio.
 
@@ -28,6 +30,8 @@ En todo el mundo, están surgiendo nuevos enfoques de financiación que combinan
 Un foco principal de Web3 y ReFi ha sido el **financiamiento de bienes públicos** —desarrollar recursos de acceso abierto que benefician a todos mientras se asegura que el desarrollo del ecosistema sea financiado adecuadamente. [**Gitcoin Grants**](https://grants.gitcoin.co/) es uno de los ejemplos más visibles, habiendo distribuido más de $60 millones usando mecanismos como el [**financiamiento cuadrático**](https://es.wikipedia.org/wiki/Voto_cuadr%C3%A1tico#Financiaci%C3%B3n_cuadr%C3%A1tica) (QF) para amplificar las preferencias comunitarias y democratizar la asignación de recursos.
 
 ### **Regen Coordination: Un Movimiento Global Que Conecta Escalas**
+
+![alt text](<../../assets/article/Regen Coordination Flows Ethereum (1) (2).png>)
 
 Desde el ecosistema Web3, [**Regen Coordination**](https://www.regencoordination.xyz/) surgió como una alianza global dedicada a tejer juntos experimentos locales en un movimiento coherente. Fundada por **ReFi DAO** y **Greenpill Network** con el apoyo de Gitcoin y Celo Public Goods, Regen Coordination abarca una constelación de comunidades —incluyendo ReFi DAO Local Nodes, Greenpill Chapters, **Bloom Network**, **The BioFi Project**, **Ma Earth**, **AgroforestDAO**, y muchas otras— unidas por una misión de impulsar la regeneración ecológica, social y económica a través de la colaboración abierta.
 
@@ -62,6 +66,8 @@ Al incrustar mecanismos de financiación Web3 en el ecosistema existente de Cata
 ## **3. Presentando Regenerant Catalunya**: Un Laboratorio Vivo para la Finanza Bioregional
 
 Regenerant Catalunya está diseñado como más que una ronda de financiación única —es un **proceso de capacitación** y un **laboratorio vivo** para probar cómo las herramientas Web3 pueden fortalecer el trabajo regenerativo basado en el lugar.
+
+![alt text](<../../assets/article/Regenerant Catalunya Article Nov 16 2025 (1).png>)
 
 ### **Cómo Funciona: Financiación Local + Global**
 
