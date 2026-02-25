@@ -9,13 +9,13 @@ description: "Artículo completo que presenta Regenerant Catalunya — programa 
 
 **_Programa de Finançament Participatiu Bioregional a Catalunya_**
 
-![alt text](<../../assets/article/Introducing Regenerant Catalunya Article.png>)
+![alt text](<../../assets/article/Regenerant Catalunya Article Nov 16 2025 (1).png>)
 
 **Regenerant Catalunya** es una ronda de financiación participativa dedicada a canalizar recursos hacia proyectos que están regenerando la vida en la bioregión catalana. Desde la conservación y restauración de ecosistemas naturales como la cuenca del río Fluvià hasta el desarrollo de infraestructuras comunitarias en L'Hospitalet de Llobregat —el segundo municipio más poblado de Cataluña y uno de los más densamente poblados de Europa—, esta iniciativa apoya **el trabajo regenerativo sobre el terreno** en todo el territorio.
 
 Lanzado en la **última semana de octubre de 2025**, el programa está liderado por **ReFi Barcelona** como puente entre las necesidades locales y el apoyo global. Proporcionamos a una cohorte curada de **10-12 proyectos locales** financiación, talleres de capacitación y mentoría práctica para experimentar con **tecnologías Web3 y herramientas financieras** (seguimiento de impacto basado en blockchain, gestión transparente de tesorería).
 
-Tanto el fondo de financiación _como_ las actividades de Regenerant Catalunya surgieron a través de una mediación de intereses locales y globales. Redes catalanas de regeneración establecidas como **Miceli Social** y **La Fundició** han comprometido juntas unos **€11.000**, que se están emparejando con `hasta **$20.000**` **por patrocinadores globales a través del Localism Fund** —llevando el fondo total a casi **`€30.000`** para apoyar directamente 10-12 proyectos regenerativos en Cataluña.
+Tanto el fondo de financiación _como_ las actividades de Regenerant Catalunya surgieron a través de una mediación de intereses locales y globales. Redes catalanas de regeneración establecidas como **Miceli Social** y **La Fundició** han comprometido juntas unos **€11.000**, que se están emparejando con **€15.000** **por patrocinadores globales a través del Localism Fund** —llevando el fondo total a casi **€26.000** para apoyar directamente 10-12 proyectos regenerativos en Cataluña.
 
 ---
 
@@ -67,7 +67,7 @@ Al incrustar mecanismos de financiación Web3 en el ecosistema existente de Cata
 
 Regenerant Catalunya está diseñado como más que una ronda de financiación única —es un **proceso de capacitación** y un **laboratorio vivo** para probar cómo las herramientas Web3 pueden fortalecer el trabajo regenerativo basado en el lugar.
 
-![alt text](<../../assets/article/Regenerant Catalunya Article Nov 16 2025 (1).png>)
+![alt text](<../../assets/article/Introducing Regenerant Catalunya Article.png>)
 
 ### **Cómo Funciona: Financiación Local + Global**
 

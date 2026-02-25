@@ -5,7 +5,7 @@ description: "Versió en català (placeholder) de l'article publicat a Paragraph
 
 # Introduint Regenerant Catalunya / Presentant Regenerant Catalunya | Article
 
-![alt text](<../../assets/article/Introducing Regenerant Catalunya Article.png>)
+![alt text](<../../assets/article/Regenerant Catalunya Article Nov 16 2025 (1).png>)
 
 ## **1. Una Ronda de Finançament Participatiu per a la Regeneració a Catalunya**
 
@@ -15,7 +15,7 @@ description: "Versió en català (placeholder) de l'article publicat a Paragraph
 
 Llançat la **última setmana d'octubre de 2025**, el programa està liderat per **ReFi Barcelona** com a pont entre les necessitats locals i el suport global. Oferim a una cohort curada de **10-12 projectes locals** finançament, tallers de capacitació i mentoría pràctica per experimentar amb **tecnologies Web3 i eines financeres** (seguiment d'impacte basat en blockchain, gestió transparent de tresoreria).
 
-Tant el fons de finançament _com_ les activitats de Regenerant Catalunya van sorgir a través d'una mediació d'interessos locals i globals. Xarxes catalanes de regeneració establertes com **Miceli Social** i **La Fundició** han compromès juntes uns **€11.000**, que s'estan aparellant amb `fins a **$20.000**` **per patrocinadors globals a través del Localism Fund** —portant el fons total a gairebé **`€30.000`** per donar suport directe a 10-12 projectes regeneratius a Catalunya.
+Tant el fons de finançament _com_ les activitats de Regenerant Catalunya van sorgir a través d'una mediació d'interessos locals i globals. Xarxes catalanes de regeneració establertes com **Miceli Social** i **La Fundició** han compromès juntes uns **€11.000**, que s'estan aparellant amb **€15.000** **per patrocinadors globals a través del Localism Fund** —portant el fons total a gairebé **€26.000** per donar suport directe a 10-12 projectes regeneratius a Catalunya.
 
 ---
 
@@ -67,7 +67,7 @@ Al incrustar mecanismes de finançament Web3 en l'ecosistema existent de Catalun
 
 Regenerant Catalunya està dissenyat com més que una ronda de finançament única —és un **procés de capacitació** i un **laboratori viu** per provar com les eines Web3 poden enfortir el treball regeneratiu basat en el lloc.
 
-![alt text](<../../assets/article/Regenerant Catalunya Article Nov 16 2025 (1).png>)
+![alt text](<../../assets/article/Introducing Regenerant Catalunya Article.png>)
 
 ### **Com Funciona: Finançament Local + Global**
 
