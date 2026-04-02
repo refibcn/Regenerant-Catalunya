@@ -28,6 +28,73 @@
 - **Blue Sky:** Once per week - Mirrors Twitter content (same posts, cross-posted)
 - **Newsletter:** Monthly deep-dive (Dominico volunteering for template per Jan 27 meeting)
 
+### Editorial Update (Feb 10, 2026)
+
+This update integrates:
+- the latest article structure in Notion (`Introducing Regenerant Catalunya | Article`),
+- user feedback on emphasizing Phase 1 delivery evidence,
+- ReFi BCN / Regenerant Catalunya meeting guidance in `[[260101 Meetings.base]]` context (especially Jan 9, Jan 13, Feb 3 sync outcomes).
+
+#### Narrative Rebalance (applies to all channels)
+
+1. **Section #3 = Program design and mechanism clarity**
+   - Keep governance/funding/tool architecture concise.
+2. **Section #4 = Program in practice (proof layer)**
+   - Prioritize what has already happened in Phase 1.
+   - Include photos and concrete outputs as primary credibility signals.
+3. **Participating projects visibility is mandatory**
+   - Add a short project exposure block in article/socials/newsletter.
+   - Name participating projects explicitly (not generic “cohort” references only).
+
+#### Message Priorities (immediate)
+
+- Move from “announcement tone” to **retrospective + evidence + next steps**.
+- Show real implementation artifacts:
+  - workshop moments,
+  - wallet onboarding in practice,
+  - activities reporting process,
+  - examples from participating projects.
+- Keep Phase 2 positioning as active execution, but anchored in Phase 1 evidence.
+
+#### Project Names to Surface Across Content
+
+Use this roster as the baseline list for recurring mentions (adapt if final participant status changes):
+- Regeneració.XYZ
+- Resilience Earth / Simbiosi Fluvial
+- De Bat a Bat
+- Chapter#2
+- Anigami
+- Mixité
+- Laurel 31
+- La Marmita
+- Les Juntes
+- La Suculenta
+- La Granja del Tilo
+
+#### Required Visual Assets (for revised calendar execution)
+
+- **Phase 1 proof pack** (minimum):
+  - 1-2 photos per workshop moment,
+  - 1 image per highlighted project (where available),
+  - 1 simple process visual (Phase 1 → Phase 2 transition).
+- Favor real photos over abstract graphics whenever possible.
+- Include consent checks and lightweight captions (who/what/where).
+
+#### Revised Publishing Queue (from Feb 10 onward)
+
+> This queue refines the entries below and should be treated as the active priority sequence.
+
+1. **Article publish + framing post**
+   - Angle: “What we built in Phase 1, what changed, what comes next in Phase 2.”
+2. **Program in practice post (new Section #4 companion)**
+   - Carousel/thread with photos + concrete actions delivered.
+3. **Participating projects post (all names visible)**
+   - Short expo of the cohort + why each contributes to regeneration.
+4. **Project spotlight mini-series (weekly)**
+   - 2-3 projects per week, with one concrete accomplishment or learning each.
+5. **Workshop evidence post**
+   - Focus on process in action (wallet onboarding, facilitation, feedback loops).
+
 ---
 
 ## February 2026 Content Plan
@@ -69,7 +136,7 @@
 - Network guidebook
 
 **Engagement:**
-- Tag: Localism Fund, Gitcoin, Celo, Miceli Social, La Fundición
+- Tag: Localism Fund, Gitcoin, Celo, Miceli Social, La Fundició
 - Encourage comments and questions
 - Respond to all engagement
 
@@ -131,7 +198,7 @@
 **Tweet 2:**
 > Phase 1 (Nov-Jan): Individual projects got €1k each, learned tools, documented impact on @karmahq
 > 
-> Phase 2 (Feb-Mar): Networks collectively govern €6k/€5k using @safe multisig and @home_xyz
+> Phase 2 (Feb-Mar): Networks collectively govern €6k/€5k using @safe multisig and Hum Community
 > 
 > From individual → collective governance
 
@@ -140,7 +207,7 @@
 > 
 > Miceli Social: Tech-forward, using Safe for treasury management
 > 
-> La Fundición: Cooperative-traditional, exploring Home Community
+> La Fundició: Cooperative-traditional, exploring Hum Community
 > 
 > Same framework, different implementations = network-specific adaptation
 
@@ -250,13 +317,13 @@
 
 **3. This Month:**
 - Workshop #4: Sense-making and tools
-- Tool deployment (Safe, Home Community)
+- Tool deployment (Safe, Hum Community)
 - IDK mini-program launch
 - Workshop #5: BioFi and Beyond
 
 **4. Tools Spotlight:**
 - What is Safe multisig? (100 words + visual)
-- What is Home Community? (100 words + visual)
+- What is Hum Community? (100 words + visual)
 - Why these tools for networks?
 
 **5. Project Highlight:**
@@ -378,7 +445,7 @@
 > Can networks govern collectively using these tools?
 > 
 > Miceli Social → @safe multisig (€6k)
-> La Fundición → @home_xyz app (€5k)
+> La Fundició → Hum Community app (€5k)
 > 
 > We'll share what happens 📊
 
@@ -649,7 +716,7 @@
 
 **2. Phase 2 Progress:**
 - Networks now governing collectively
-- Tools in action (Safe, Home Community)
+- Tools in action (Safe, Hum Community)
 - Early observations
 - Challenges and successes
 
@@ -738,7 +805,7 @@
 > 
 > • Proposals being submitted by projects
 > • Network members voting and discussing
-> • Transparent execution through Safe/Home Community
+> • Transparent execution through Safe/Hum Community
 > • All on-chain, all documented
 > 
 > This is what the future of bioregional finance could look like: Local regenerative projects + Cooperative governance + Web3 infrastructure = Ongoing, sustainable funding flows.
@@ -773,7 +840,7 @@
 
 **Examples might include:**
 - Miceli network approving project grant
-- La Fundición voting on shared expense
+- La Fundició voting on shared expense
 - Transparent transaction on blockchain
 - Community discussion leading to decision
 
@@ -840,7 +907,7 @@
 > • 5 workshops delivered
 > • X Karma GAP reports published
 > • X governance decisions made collectively
-> • 2 Web3 tools deployed (Safe, Home Community)
+> • 2 Web3 tools deployed (Safe, Hum Community)
 > • 100% open-source documentation
 > 
 > But numbers don't tell the whole story. The learnings do.
@@ -945,7 +1012,7 @@
 > 📖 Complete program documentation (design, execution, outcomes)
 > 🔬 Analysis: What worked, what didn't, why
 > 💬 Participant experiences and authentic feedback
-> 🛠️ Tools guides (Safe, Home Community, IDK, Karma GAP)
+> 🛠️ Tools guides (Safe, Hum Community, IDK, Karma GAP)
 > 📋 Governance templates and frameworks
 > 🌍 Replication toolkit for other bioregions
 > 🎯 Recommendations for BioFi ecosystem evolution
@@ -996,7 +1063,7 @@
 > Infinite gratitude to:
 > 
 > 🌱 11 regenerative projects who pioneered with us
-> 🤝 Miceli Social and La Fundición for partnership and trust
+> 🤝 Miceli Social and La Fundició for partnership and trust
 > 💰 Localism Fund, Gitcoin, Celo for believing in this experiment
 > 🌍 ReFi ecosystem for support and inspiration
 > ✊ Team (Luiz, Giulio, Andrea) for dedication and heart
@@ -1276,9 +1343,9 @@
 **To Create for February:**
 - [ ] Phase 2 kickoff graphic
 - [ ] Lessons learned article header
-- [ ] Tool explainer cards (Safe, Home Community, IDK)
+- [ ] Tool explainer cards (Safe, Hum Community, IDK)
 - [ ] Workshop #4 & #5 highlight photos
-- [ ] Network spotlight graphics (Miceli, La Fundición)
+- [ ] Network spotlight graphics (Miceli, La Fundició)
 - [ ] Monthly metrics infographic
 - [ ] BioFi concept diagrams
 
@@ -1632,7 +1699,7 @@ Footer: [Contact, social links, unsubscribe]
 - Provide content they can reshare
 
 **Networks:**
-- Miceli Social and La Fundición
+- Miceli Social and La Fundició
 - Share relevant content
 - Celebrate their participation
 - Respect their preferences (may not be social media active)

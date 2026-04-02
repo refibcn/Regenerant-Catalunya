@@ -515,9 +515,7 @@
 | Actividad 12 - Personas mayores | ✅ | Bien documentada, métricas verificables | Ninguna |
 | Actividad 13 - Intercooperación | ✅ | Bien documentada, métricas verificables | Ninguna |
 
-### Acciones Prioritarias
-
-#### Prioridad Alta
+### Acciones Prioritarias#### Prioridad Alta
 - [ ] Verificar todas las métricas específicas del servicio de reparto (Actividad 7) contra el documento `COCINA-COOPERATIVA-OTROS/A1.3 FASE DE PROVA DEL SERVEI -1-2.pdf`: 1.800 pedidos totales, 300 pedidos mensuales promedio, 430 pedidos en junio, incremento del 2% al 22% de nuevos clientes, 25 usuarios recurrentes diarios
 - [ ] Verificar métricas de redes sociales (Actividad 8) contra el documento `TALLERES/A2.2. Pla de màrqueting - Difusió i publicitat-1.pdf`: 543 reproducciones y 234 nuevas cuentas de usuarios
 - [ ] Verificar detalles metodológicos y organizaciones mencionadas en Actividades 2, 7 y 8 contra documentos fuente correspondientes#### Prioridad Media
@@ -538,9 +536,7 @@
 **Recomendación 3: Clarificación de ubicaciones de eventos**
 - **Qué mejorar:** Las ubicaciones específicas de eventos (Plaza Cataluña, Parque de la Marquesa) deben ser verificadas o marcadas como inferencias razonables
 - **Por qué:** Las ubicaciones específicas no aparecen en nombres de archivos y podrían ser inferencias basadas en conocimiento general del territorio
-- **Cómo:** Revisar documentos PDF de eventos (`A5.3 FIRA MIGRANT`, `A5.3 FIRA DE LA DIVERSIDAD`) para confirmar ubicaciones exactas
-
-**Recomendación 4: Estandarización de fechas**
+- **Cómo:** Revisar documentos PDF de eventos (`A5.3 FIRA MIGRANT`, `A5.3 FIRA DE LA DIVERSIDAD`) para confirmar ubicaciones exactas**Recomendación 4: Estandarización de fechas**
 - **Qué mejorar:** Cuando sea posible, especificar fechas exactas en lugar de rangos amplios o "por confirmar"
 - **Por qué:** Las fechas específicas mejoran la precisión del informe y facilitan la verificación
 - **Cómo:** Revisar documentos fuente (informes, actas, carteles) para identificar fechas específicas cuando estén disponibles

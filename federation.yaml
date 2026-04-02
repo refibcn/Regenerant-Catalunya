@@ -1,0 +1,68 @@
+# Regenerant Catalunya — Federation Manifest v3.0
+# Bioregional participatory funding program — ReFi BCN
+
+version: "3.0"
+spec: "organizational-os/3.0"
+
+# ── Identity ──────────────────────────────────────────────────────────────────
+identity:
+  name: "Regenerant Catalunya"
+  type: "LocalNode"
+  emoji: "🌱"
+  daoURI: "https://regenerant.cat/.well-known/dao.json"
+  description: "Bioregional participatory funding program — Catalonia"
+
+# ── Federation Network ─────────────────────────────────────────────────────────
+network: "regen-coordination"
+hub: "github.com/regen-coordination/hub"
+
+# ── Upstream ───────────────────────────────────────────────────────────────────
+upstream:
+  - type: "template"
+    repository: "organizational-os/organizational-os-template"
+    url: "https://github.com/organizational-os/organizational-os-template"
+    relationship: "fork"
+    sync_frequency: "manual"
+    remote_name: "org-os"
+  - type: "template"
+    repository: "organizational-os/quartz-refi-template"
+    url: "https://github.com/organizational-os/quartz-refi-template"
+    relationship: "fork"
+    sync_frequency: "manual"
+    remote_name: "quartz"
+
+# ── Peers / Downstream ────────────────────────────────────────────────────────
+peers: []
+downstream: []
+
+# ── Agent Configuration ────────────────────────────────────────────────────────
+agent:
+  runtime: "none"               # planned: openclaw
+  skills:
+    - meeting-processor
+    - funding-scout
+  proactive: false
+
+# ── Packages ─────────────────────────────────────────────────────────────────
+packages:
+  knowledge_base: true
+  meetings: true
+  projects: true
+  finances: false
+  coordination: false
+  webapps: false
+  web3: true
+
+# ── Knowledge Commons ─────────────────────────────────────────────────────────
+knowledge-commons:
+  enabled: false
+  shared-domains:
+    - "regenerative-finance"
+    - "local-governance"
+  sync-protocol: "git"
+
+# ── Metadata ─────────────────────────────────────────────────────────────────
+metadata:
+  created: "2026-02-20"
+  last_updated: "2026-02-20"
+  framework_version: "3.0"

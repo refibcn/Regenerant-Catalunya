@@ -2,7 +2,7 @@
 
 Welcome to the Regenerant Catalunya GG24 documentation. This directory contains all project documentation organized by category.
 
-> **See [README.md](README.md) for a complete overview of the documentation structure.**
+> **See [README.md](03%20Libraries/Regenerant-Catalunya/docs/README.md) for a complete overview of the documentation structure.**
 
 ## 📋 Program Documentation
 

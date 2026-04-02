@@ -180,9 +180,7 @@
 ### Acciones Prioritarias#### Prioridad Alta
 - [ ] **Verificar y corregir fechas en todas las actividades** - Las fechas 2025-2026 parecen ser errores tipográficos. Confirmar con el proyecto si deberían ser 2024-2025
 - [ ] Completar campo "Carpeta de documentación en Google Drive" en información básica del proyecto
-- [ ] Validar métrica "200 personas participantes" en Actividad 1 con documentación específica (listas de asistencia)
-
-#### Prioridad Media
+- [ ] Validar métrica "200 personas participantes" en Actividad 1 con documentación específica (listas de asistencia)#### Prioridad Media
 - [ ] Especificar lugares concretos de las actividades (actualmente "Por confirmar")
 - [ ] Proporcionar enlaces públicos o documentos compartidos para entregables en "Carpeta interna Miceli"
 - [ ] Actualizar Actividad 3 con entregables y métricas concretas cuando estén disponibles### Recomendaciones para Mejorar el Reporte**Recomendación 1: Verificación sistemática de fechas**
@@ -203,9 +201,7 @@
 **Recomendación 4: Especificidad en métricas y pruebas**
 - **Qué mejorar:** Algunas métricas tienen pruebas genéricas ("Listas de asistencia", "Carpeta interna Miceli") sin ubicación específica
 - **Por qué:** Las pruebas específicas y accesibles aumentan la credibilidad y permiten verificación independiente
-- **Cómo:** Para cada métrica, proporcionar enlace directo, nombre de archivo específico, o ubicación exacta donde se puede encontrar la evidencia. Si es información interna, al menos especificar el sistema o carpeta exacta
-
-**Recomendación 5: Actualización de actividad en curso**
+- **Cómo:** Para cada métrica, proporcionar enlace directo, nombre de archivo específico, o ubicación exacta donde se puede encontrar la evidencia. Si es información interna, al menos especificar el sistema o carpeta exacta**Recomendación 5: Actualización de actividad en curso**
 - **Qué mejorar:** Actividad 3 tiene entregables y métricas marcados como "En desarrollo" o "Por confirmar"
 - **Por qué:** Aunque es una actividad en curso, tener información parcial disponible mejora la transparencia del progreso
 - **Cómo:** Solicitar al proyecto que proporcione información parcial disponible (por ejemplo, diseño preliminar, módulos parcialmente diseñados, equipo confirmado). Actualizar el informe periódicamente a medida que la actividad avance

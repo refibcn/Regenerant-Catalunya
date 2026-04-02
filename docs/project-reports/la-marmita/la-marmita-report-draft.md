@@ -178,9 +178,7 @@
 
 - La actividad de habilitación del espacio de cocina (Actividad 1) es un proceso continuo que comenzó el 29 de septiembre de 2025 y sigue en curso.
 
----
-
-## Evaluación del Informe
+---## Evaluación del Informe
 
 ### Resumen Ejecutivo
 
@@ -227,9 +225,7 @@
   - [ ] Verificar: Fecha "21-22 de octubre de 2025" para Actividad 2 (Jesús Pagán) - No encontrada en análisis de archivos, solo mencionada en reporte como proveniente de Google Doc
   - [ ] Verificar: Actividades de networking (Zaragoza 4/12/2025, Cavanal 9/09/2025) - No encontradas en estructura de archivos, solo en Google Doc
   - [ ] Verificar: Comida contra Violencia de Género (28/11/2025) - Mencionada en Google Doc pero sin carpeta dedicada ni fotos en estructura de archivos
-  - [ ] Revisar: ReFi BCN notas.docx puede contener información adicional sobre estas actividades - requiere revisión
-
-### Análisis por Actividad
+  - [ ] Revisar: ReFi BCN notas.docx puede contener información adicional sobre estas actividades - requiere revisión### Análisis por Actividad
 
 | Actividad | Estado | Aspectos Clave | Acciones Requeridas |
 |-----------|--------|----------------|---------------------|

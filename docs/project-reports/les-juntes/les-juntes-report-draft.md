@@ -209,9 +209,7 @@
   - [ ] Verificar: Métrica "Más de 12 asambleas" en Actividad 2 - Solo existen 4 fotografías documentadas (2 con fechas específicas). Confirmar si hay documentación adicional o si esta métrica proviene de información del proyecto.
   - [ ] Verificar: Métrica "10-15 personas promedio" en Actividad 2 - No verificable desde fotografías sin ver su contenido. Confirmar si esta información proviene de conteo real o estimación.
   - [ ] Posible alucinación: Descripción detallada de eventos específicos en Actividad 3 (Carnaval, 8M, Castanyada, Xocolatada) - El análisis de archivos solo muestra 6 fotografías sin identificar eventos específicos. Confirmar con proyecto si estos eventos están correctamente identificados o si son inferencias.
-  - [ ] Verificar: Métrica "2 pisos con reforma integral, 2 con mejoras parciales" en Actividad 4 - Existen 4 fotografías pero no se puede determinar la clasificación sin ver su contenido. Confirmar con proyecto si esta distribución es correcta y si las fotografías documentan esta distinción.
-
-### Análisis por Actividad| Actividad | Estado | Aspectos Clave | Acciones Requeridas |
+  - [ ] Verificar: Métrica "2 pisos con reforma integral, 2 con mejoras parciales" en Actividad 4 - Existen 4 fotografías pero no se puede determinar la clasificación sin ver su contenido. Confirmar con proyecto si esta distribución es correcta y si las fotografías documentan esta distinción.### Análisis por Actividad| Actividad | Estado | Aspectos Clave | Acciones Requeridas |
 |-----------|--------|----------------|---------------------|
 | Actividad 1 - Recuperación de viviendas | ⚠️ | Métricas específicas (4 pisos, 18 personas) no verificables desde análisis de archivos. Referencias a archivos son precisas. | Verificar número exacto de pisos y personas con proyecto. Confirmar si 4 páginas de documentos corresponden a 4 pisos distintos. |
 | Actividad 2 - Asambleas Les Juntes | ⚠️ | Fechas documentadas (agosto, noviembre) son verificables. Métrica "más de 12 asambleas" no verificable desde 4 fotografías. | Verificar número total de asambleas con proyecto. Confirmar si hay documentación adicional no incluida en archivos. |
@@ -236,9 +234,7 @@
 - **Cómo:** Considerar agregar una nota al inicio del informe explicando que algunas métricas están marcadas como "según información del proyecto" cuando no son verificables desde archivos. O crear una sección separada para métricas verificables vs. métricas del proyecto.**Recomendación 2: Verificar métricas específicas con el proyecto antes de finalizar**
 - **Qué mejorar:** Todas las métricas numéricas específicas (4 pisos, 18 personas, más de 12 asambleas, 2 integrales/2 parciales) deben ser confirmadas con el proyecto
 - **Por qué:** Estas métricas no son verificables únicamente desde el análisis de archivos y podrían contener información incorrecta o inferida
-- **Cómo:** Crear una lista de verificación con todas las métricas que requieren confirmación del proyecto y completarla antes de considerar el informe finalizado.
-
-**Recomendación 3: Ajustar fechas basándose en evidencia documentada**
+- **Cómo:** Crear una lista de verificación con todas las métricas que requieren confirmación del proyecto y completarla antes de considerar el informe finalizado.**Recomendación 3: Ajustar fechas basándose en evidencia documentada**
 - **Qué mejorar:** Las fechas de inicio para algunas actividades podrían ajustarse basándose en la primera fecha documentada en archivos
 - **Por qué:** Las fechas verificables desde archivos son más confiables que las fechas inferidas o proporcionadas sin evidencia
 - **Cómo:** Para Actividad 2, considerar cambiar "Desde enero de 2025" a "Desde agosto de 2025" (primera fecha documentada) a menos que el proyecto confirme que las asambleas comenzaron en enero. Para otras actividades, verificar fechas de inicio con el proyecto.**Recomendación 4: Documentar eventos específicos cuando sea posible**

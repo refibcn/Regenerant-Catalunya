@@ -17,7 +17,7 @@
 
 **Phase 2 Onboarding:**
 4. Workshop #4 Invitation
-5. Tool Setup Instructions (Safe/Home Community)
+5. Tool Setup Instructions (Safe/Hum Community)
 6. IDK Session Invitation
 
 **Ongoing Communications:**
@@ -68,7 +68,7 @@ Thank you for your participation in:
 
 ### Transition to Phase 2
 
-Phase 2 focuses on **network-level collective governance** - your network (Miceli Social or La Fundición/Keras Buti) will collectively govern shared funds using Web3 tools.
+Phase 2 focuses on **network-level collective governance** - your network (Miceli Social or La Fundició/Keras Buti) will collectively govern shared funds using Web3 tools.
 
 **Your Network's Phase 2:**
 
@@ -77,9 +77,9 @@ Phase 2 focuses on **network-level collective governance** - your network (Micel
 - Tool: Safe multisig (network decision-makers as signers)
 - Governance: Proposals approved by threshold signatures
 
-**[If La Fundición]:**
+**[If La Fundició]:**
 - Network Treasury: €5,000 managed collectively
-- Tool: Home Community mobile app (participatory budgeting)
+- Tool: Hum Community mobile app (participatory budgeting)
 - Governance: Proposals approved by network voting
 
 **What This Means for You:**
@@ -247,7 +247,7 @@ You're invited to **Workshop #4 of Regenerant Catalunya: Sense-Making & Needs Id
 
 4. **Web3 Tools Introduction** (30 min)
    - Safe (multisigs) for treasury management
-   - Home Community for participatory governance
+   - Hum Community for participatory governance
    - Institutional Development Kit for governance mapping
    - How tools might address YOUR identified needs
 
@@ -332,7 +332,7 @@ Giulio, Andrea, Luiz
 
 **Subject:** Regenerant Catalunya - Safe Multisig Setup: Next Steps 🔐
 
-**To:** Network signers (Miceli Social or La Fundición if using Safe)  
+**To:** Network signers (Miceli Social or La Fundició if using Safe)  
 **From:** hola@ReFiBCN.cat  
 **When:** After Workshop #4 confirms Safe adoption
 
@@ -461,13 +461,13 @@ Adelante,
 
 ---
 
-## TEMPLATE 5: Tool Setup Instructions (Home Community Version)
+## TEMPLATE 5: Tool Setup Instructions (Hum Community Version)
 
-**Subject:** Regenerant Catalunya - Home Community Setup: Join Your Network! 📱
+**Subject:** Regenerant Catalunya - Hum Community Setup: Join Your Network! 📱
 
-**To:** La Fundición/Keras Buti network participants  
+**To:** La Fundició/Keras Buti network participants  
 **From:** hola@ReFiBCN.cat  
-**When:** After Workshop #4 confirms Home Community adoption
+**When:** After Workshop #4 confirms Hum Community adoption
 
 ---
 
@@ -475,9 +475,9 @@ Adelante,
 
 Hola [Network Name] Community,
 
-Following Workshop #4, your network decided to use **Home Community** for Phase 2 participatory governance. Perfect choice!
+Following Workshop #4, your network decided to use **Hum Community** for Phase 2 participatory governance. Perfect choice!
 
-Home Community is a mobile app designed for communities like yours - simple, accessible, and it hides all blockchain complexity. You'll see euros and thumbs up/down voting. No crypto knowledge needed!
+Hum Community is a mobile app designed for communities like yours - simple, accessible, and it hides all blockchain complexity. You'll see euros and thumbs up/down voting. No crypto knowledge needed!
 
 ### Setup Plan
 
@@ -485,7 +485,7 @@ Home Community is a mobile app designed for communities like yours - simple, acc
 
 **Date:** [Day], [Date], 2026  
 **Time:** [Start] - [End] (2 hours)  
-**Location:** [La Fundición or other - must be in-person!]  
+**Location:** [La Fundició or other - must be in-person!]  
 **Who:** All network members invited
 
 **RSVP Required:** Please confirm by [date]: [Email or link]
@@ -510,7 +510,7 @@ Home Community is a mobile app designed for communities like yours - simple, acc
 ### What We'll Do Together
 
 **Part 1: Introduction (20 min)**
-- What is Home Community and why we chose it
+- What is Hum Community and why we chose it
 - Demo of the app
 - What you'll be able to do
 
@@ -538,7 +538,7 @@ Home Community is a mobile app designed for communities like yours - simple, acc
 - Distribute printed guides
 
 **You'll leave with:**
-- Home Community app working on your phone
+- Hum Community app working on your phone
 - Access to network community
 - Confidence in voting and proposing
 - Printed quick reference guide
@@ -566,7 +566,7 @@ Home Community is a mobile app designed for communities like yours - simple, acc
 - Real proposals and decisions
 - Network governance in action!
 
-### Preview: What Home Community Looks Like
+### Preview: What Hum Community Looks Like
 
 **[Include 2-3 screenshots:]**
 - Proposal view
@@ -857,7 +857,7 @@ Hola [Network Name] Community,
 - **Proposals from:** [X] different projects
 
 **Tool Usage:**
-- **[Safe/Home Community]:** [Smooth/Some issues/Learning curve]
+- **[Safe/Hum Community]:** [Smooth/Some issues/Learning curve]
 - **Training sessions:** [X] completed
 - **Support requests:** [X] (all addressed!)
 
@@ -919,7 +919,7 @@ Hola [Network Name] Community,
 
 **Helpful links:**
 - [Network's Safe URL] **[If using Safe]**
-- [Home Community app guide] **[If using Home]**
+- [Hum Community app guide] **[If using Home]**
 - Network Guidebook: [URL]
 - Phase 2 Timeline: [URL]
 
@@ -1001,7 +1001,7 @@ After 5 months supporting 11 regenerative projects in Catalunya to document impa
 **3. Phase 2: Network Governance** (20 pages)
 - Collective governance experiments
 - Safe multisig experience (Miceli Social)
-- Home Community experience (La Fundición)
+- Hum Community experience (La Fundició)
 - IDK governance mapping outcomes
 - Sense-making methodology
 
@@ -1082,7 +1082,7 @@ After 5 months supporting 11 regenerative projects in Catalunya to document impa
 
 **Partners:**
 - Miceli Social
-- La Fundición / Keras Buti
+- La Fundició / Keras Buti
 
 **Funders:**
 - Localism Fund
@@ -1209,7 +1209,7 @@ As Regenerant Catalunya formally closes, we wanted to send a personal thank you 
 
 **Governance Structures:**
 - Safe multisig (if using): Yours to continue using
-- Home Community (if using): Keep governing collectively
+- Hum Community (if using): Keep governing collectively
 - IDK documentation: Reference for future governance
 - Capacity built: Permanent
 

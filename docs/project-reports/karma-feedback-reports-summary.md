@@ -22,7 +22,7 @@ Memo transversal:
 - Revision basada solo en actividades reportadas en Karma GAP.
 - Retroalimentacion util para mejorar reportes futuros.
 - Sin scoring ni exigencia de actualizacion inmediata.
-- Nota: los valores numericos pueden no visualizarse por un bug de Karma; se recomienda duplicarlos en descripcion o evidencia.
+- Evidencia y archivos en carpeta de documentacion del programa.
 
 ---
 
@@ -34,4 +34,4 @@ Memo transversal:
 ---
 
 **Creado por:** ReFi Barcelona Team  \
-**Version:** 2.1
+**Version:** 3.0

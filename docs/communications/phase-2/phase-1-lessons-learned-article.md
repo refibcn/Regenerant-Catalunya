@@ -75,7 +75,7 @@
 - 💡 Projects most engaged were those who saw beyond just funding
 - 💡 In-person support absolutely critical for less technical networks
 - 💡 Karma GAP as "project resume" resonated more than "funder compliance"
-- 💡 Network differences (Miceli vs. La Fundición) more pronounced than expected
+- 💡 Network differences (Miceli vs. La Fundició) more pronounced than expected
 - 💡 Cooperative values and Web3 can align - but requires intentional design
 
 ---
@@ -146,7 +146,7 @@
 
 ---
 
-**La Fundición / Keras Buti Network:**
+**La Fundició / Keras Buti Network:**
 
 **Profile:**
 - Urban/social cooperative projects
@@ -316,7 +316,7 @@
 
 **Miceli Social:** Tech-forward culture meant fast adoption, interest in advanced features, experimental mindset
 
-**La Fundición:** Territorial-presential culture meant need for simplicity, in-person support, skepticism requiring patience
+**La Fundició:** Territorial-presential culture meant need for simplicity, in-person support, skepticism requiring patience
 
 **Implication:**
 > BioFi programs must design for network-specific adaptation from the start. Not just translated materials, but fundamentally different facilitation approaches, support structures, and tool recommendations.
@@ -334,8 +334,8 @@
 **What we learned:**
 > For networks less comfortable with Web3, written guides and video tutorials are helpful but insufficient. In-person, hands-on support makes the difference between adoption and abandonment.
 
-**What made difference for La Fundición:**
-- Being physically present at La Fundición for setup
+**What made difference for La Fundició:**
+- Being physically present at La Fundició for setup
 - Walking through wallet creation computer-by-computer
 - Troubleshooting in real-time, in person
 - Building trust through physical presence
@@ -408,7 +408,7 @@
 > There's natural skepticism from cooperative movements toward crypto/Web3 (often seen as extractive, speculative, antithetical to solidarity values). But with intentional design, alignment is possible.
 
 **What enabled alignment:**
-- Partnership with trusted local networks (Miceli Social, La Fundición)
+- Partnership with trusted local networks (Miceli Social, La Fundició)
 - Emphasis on transparency and collective governance (core cooperative values)
 - Tools that hide complexity and serve real needs
 - ReFi Barcelona as bridge (part of cooperative ecosystem, fluent in Web3)
@@ -455,7 +455,7 @@
 
 **What we're testing in Phase 2:**
 - Can Miceli Social network govern €6k collectively using Safe multisig?
-- Can La Fundición network use Home Community for participatory budgeting?
+- Can La Fundició network use Hum Community for participatory budgeting?
 - Does the Institutional Development Kit help networks understand their governance before tool adoption?
 - What support do networks need for collective governance to work?
 
@@ -473,7 +473,7 @@
 
 **About tools:**
 - Does Safe work for cooperative network treasury management?
-- Can Home Community hide crypto complexity effectively?
+- Can Hum Community hide crypto complexity effectively?
 - Do governance tools actually make decision-making better (or just different)?
 
 **About process:**
@@ -566,7 +566,7 @@
 
 > Thank you to the 11 projects of Regenerant Catalunya for being pioneers. Your willingness to experiment with new tools, document your impact in unfamiliar ways, and trust the process has created invaluable learnings for the bioregional finance movement.
 >
-> Special appreciation to our local partners: Miceli Social and La Fundición/Keras Buti. Your leadership, trust, and collaborative spirit made this program possible.
+> Special appreciation to our local partners: Miceli Social and La Fundició/Keras Buti. Your leadership, trust, and collaborative spirit made this program possible.
 
 **To our funders:**
 
@@ -654,7 +654,7 @@
 
 **Infographics:**
 - Phase 1 by numbers (11 projects, €X allocated, X workshops)
-- Network comparison (Miceli vs. La Fundición)
+- Network comparison (Miceli vs. La Fundició)
 - Tool adoption and usage
 - Key learnings (visual cards)
 
@@ -772,7 +772,7 @@
 
 ### Phase 4: Participant Review (Feb 4-7)
 
-- [ ] Share draft with network coordinators (Miceli, La Fundición)
+- [ ] Share draft with network coordinators (Miceli, La Fundició)
 - [ ] Request feedback and corrections
 - [ ] Verify they feel represented accurately
 - [ ] Incorporate feedback
@@ -854,7 +854,7 @@
 
 **On network governance:**
 - "[Quote from Miceli about collective decision-making]"
-- "[Quote from La Fundición about cooperative values]"
+- "[Quote from La Fundició about cooperative values]"
 
 **On future:**
 - "[Quote about continuing to use tools]"

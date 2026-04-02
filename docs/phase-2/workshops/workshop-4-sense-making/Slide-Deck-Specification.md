@@ -407,21 +407,17 @@ Facilitation framework for mapping governance structures and identifying Web3 op
 
 ### SLIDE 16: Tool Comparison Table
 
-**Layout:** Comprehensive comparison table
+**Layout:** Simple comparison table
 
 **Content:**
 
-| Feature | Safe | Home Community | IDK |
-|---------|------|----------------|-----|
-| **Type** | Software | Mobile App | Methodology |
-| **Interface** | Web | Mobile | Physical |
-| **Technical Level** | Medium-High | Low | N/A |
-| **Purpose** | Treasury | Governance | Mapping |
-| **Best For** | Financial decisions | Participatory budgeting | Understanding |
-| **Miceli Fit** | ★★★ | ★★ | ★★★ |
-| **Fundición Fit** | ★★ | ★★★ | ★★★ |
+| Tool | Main Use | Complexity | Best Fit |
+|------|----------|------------|----------|
+| **Safe** | Shared treasury + approvals | Medium | **Miceli** (primary), Fundició (optional) |
+| **Hum Community** | Participatory decisions + voting | Low | **Fundició** (primary), Miceli (optional) |
+| **IDK** | Governance mapping before tool setup | Low | **Both networks** |
 
-**Key Message:** Tools can be combined! Not either/or.
+**Key Message:** Start simple. Combine tools only when needed.
 
 **Visual:**
 - Clean, scannable table

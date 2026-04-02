@@ -163,9 +163,7 @@
   - [ ] Estandarizar formato de fechas - usar formato consistente (ej: "Septiembre 2025 - [en curso]" o "Desde septiembre de 2025")
   - [ ] Especificar fecha de finalización para Actividad 1 si ya finalizó, o mantener "(en curso)" de forma consistente
   - [ ] Clarificar descripción de métrica "Sesiones comunitarias realizadas" - el valor "2/3" sugiere un objetivo, especificar si es progreso o completado
-  - [ ] Mejorar descripción del entregable "Festa del Petit Pi realizada" - actualmente dice "Evento público-comunitario-cooperativo documentado en redes sociales", agregar enlace específico si existe
-
-#### Fidelidad de la Información
+  - [ ] Mejorar descripción del entregable "Festa del Petit Pi realizada" - actualmente dice "Evento público-comunitario-cooperativo documentado en redes sociales", agregar enlace específico si existe#### Fidelidad de la Información
 - **Estado:** ✅
 - **Observaciones:** La información del informe coincide con el formulario original proporcionado por el proyecto. Todas las actividades mencionadas existen en la fuente. Las fechas coinciden (con variaciones menores de formato). Las métricas y valores numéricos coinciden con el formulario original. Los entregables mencionados están documentados en el formulario original.
 - **Verificaciones realizadas:**
@@ -177,9 +175,7 @@
 - **Acciones:**
   - [ ] Ninguna acción crítica requerida - información verificada contra fuente original
 
-### Análisis por Actividad
-
-| Actividad | Estado | Aspectos Clave | Acciones Requeridas |
+### Análisis por Actividad| Actividad | Estado | Aspectos Clave | Acciones Requeridas |
 |-----------|--------|----------------|---------------------|
 | Actividad 1 - Punto de encuentro de las escuelas | ⚠️ | Buena estructura pero faltan pruebas para métricas. Formato de fecha podría mejorarse. | Agregar pruebas para métricas "Escuelas participantes" y "Sesiones comunitarias realizadas". Estandarizar formato de fecha. |
 | Actividad 2 - Creación de dos bouets infantiles | ✅ | Bien documentada con entregables y métricas completas. Enlaces verificables. | Mejorar enlace de "Proceso creativo documentado" si existe post más específico. |
