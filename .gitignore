@@ -14,3 +14,25 @@ replit.nix
 *.patch
 *.diff
 custom.css
+
+# Heavy media — keep out of git (use Drive/Notion/Backups for these)
+# Originals from 2026-04-27 consolidation preserved in
+# ~/Backups/Regenerant-Catalunya-binaries-2026-04-27/
+*.CR2
+*.CR3
+*.cr2
+*.cr3
+*.NEF
+*.nef
+*.RW2
+*.rw2
+*.ARW
+*.arw
+*.MOV
+*.mov
+*.MP4
+*.mp4
+*.AVI
+*.avi
+*.MKV
+*.mkv
