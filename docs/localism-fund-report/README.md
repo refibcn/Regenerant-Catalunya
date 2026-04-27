@@ -43,11 +43,11 @@ Regenerant-Catalunya/
 
 **Both instances are kept in sync:**
 
-1. **Primary (Standalone):** `/Users/luizfernando/Desktop/Workspaces/Zettelkasten/03_Libraries/Regenerant-Catalunya/`
+1. **Primary (Standalone):** `/Users/luizfernando/Desktop/Workspaces/Zettelkasten/03 Libraries/Regenerant-Catalunya/`
    - Main git repo pointing to: `https://github.com/refibcn/Regenerant-Catalunya.git`
    - This is the source of truth
 
-2. **Mirror (in refi-bcn-os):** `/Users/luizfernando/Desktop/Workspaces/Zettelkasten/03_Libraries/refi-bcn-os/repos/Regenerant-Catalunya/`
+2. **Mirror (in refi-bcn-os):** `/Users/luizfernando/Desktop/Workspaces/Zettelkasten/03 Libraries/refi-bcn-os/repos/Regenerant-Catalunya/`
    - Same remote origin, pulled via `git pull origin main`
    - Synced April 2, 2026
 
